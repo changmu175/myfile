@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin_16"
+    android:paddingRight="@dimen/activity_horizontal_margin_16"
+    >
+    <TextView
+        android:id="@+id/edt_dialog_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/blade_black_65"
+        android:textSize="@dimen/blade_font_14"
+        android:paddingBottom="@dimen/base_16"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/edt_dialog_input_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_40"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:inputType="textPassword"
+        android:labelFor="@id/edt_dialog_input_view"
+        android:singleLine="true"
+        android:textColor="@color/blade_black_95"
+        android:textSize="@dimen/body1_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/base_8"
+        android:background="@color/base_bottom_gold" />
+
+</LinearLayout>

@@ -1,0 +1,140 @@
+<resources>
+
+    <!-- ToolBar菜单样式 -->
+    <style name="ToolbarTheme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="actionMenuTextColor">@color/base_title_gold</item> <!--  敲定颜色-->
+        <item name="android:textSize">@dimen/bigger_text_size_16</item> <!--  搞掂字体大小-->
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AtTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:disabledAlpha">1.0</item>
+        <item name="android:windowBackground">@color/blade_white_100</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+    </style>
+
+    <style name="ActivityAnimation">
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/previous_close</item>
+        <item name="android:activityCloseExitAnimation">@anim/left_out</item>
+    </style>
+
+    <style name="AtTheme.Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="Theme.Shut" parent="AtTheme">
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@mipmap/bg_login</item>
+    </style>
+
+    <style name="normal_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text_size_14</item>
+        <item name="android:textColor">@color/blade_black_95</item>
+    </style>
+
+    <style name="ToolBarPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/base_title_popup_gold</item>
+    </style>
+
+    <style name="gold_big_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/base_40</item>
+        <item name="android:textSize">@dimen/normal_text_size_14</item>
+        <item name="android:textColor">@color/blade_black_95</item>
+        <item name="android:background">@drawable/sel_bg_gold</item>
+    </style>
+
+    <style name="setting_item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/base_48</item>
+    </style>
+
+
+
+    <!--设置界面item的style-->
+    <style name="style_setting_item_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/setting_item_height</item>
+        <item name="android:paddingLeft">@dimen/base_16</item>
+        <item name="android:paddingRight">@dimen/base_16</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/blade_white_100</item>
+    </style>
+
+    <!--设置界面item右边箭头-->
+    <style name="style_setting_arrow">
+        <item name="android:layout_width">@dimen/base_6</item>
+        <item name="android:layout_height">@dimen/base_12</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@mipmap/bg_img_arrow</item>
+    </style>
+
+    <!-- 横线 -->
+    <style name="view_line_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/divider_grey_color</item>
+    </style>
+
+    <!--设置界面item左边label-->
+    <style name="style_setting_item_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/blade_black_95</item>
+        <item name="android:textSize">@dimen/head_16</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginRight">@dimen/base_8</item>
+    </style>
+    <!--设置界面item右边label-->
+    <style name="style_setting_item_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/base_16</item>
+        <item name="android:textColor">@color/blade_black_65</item>
+        <item name="android:textSize">@dimen/body1_14</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="style_dialog_item">
+        <item name="android:textSize">@dimen/bigger_text_size_16</item>
+        <item name="android:textColor">@color/blade_black_95</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin_16</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin_16</item>
+        <item name="android:layout_height">@dimen/base_48</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/blade_white_100</item>
+    </style>
+    <!-- activity半透明style-->
+    <style name="transparent" parent="AppTheme.Base">
+        <item name="android:windowBackground">@color/transparent_background</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+    
+    <!-- 更新对话框activity透明style-->
+    <style name="updateTransparent" parent="AppTheme.Base">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+    <!--add by licong for safeLock-->
+    <!--优化锁屏界面-->
+    <style name="AtTheme.windowIsTranslucent">
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+    
+
+</resources>

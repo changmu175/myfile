@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- toolbar-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:id="@+id/empty_list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/empty_list_image"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/pic_picture_tips"
+            android:scaleType="fitXY"
+            android:contentDescription="@null"/>
+        <TextView
+            android:id="@+id/empty_list_text"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:textColor="#a6000000"
+            android:text="@string/empty_pic_text"
+            android:gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/empty_list_text_detail"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textColor="#73000000"
+            android:text="@string/empty_pic_detail_text"
+            android:gravity="center_horizontal"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/gv_pic_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FF000000"
+        android:paddingTop="7dp">
+        <com.xdja.comm.widget.LazyLoadGridView
+            android:id="@+id/gv_pic_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:numColumns="3"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:stretchMode="columnWidth"
+            android:horizontalSpacing="2dp"
+            android:verticalSpacing="2dp"/>
+        <!-- 图片加载进度动画 -->
+        <ProgressBar
+            android:id="@+id/loadProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateOnly="true"
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <!-- bottom bar-->
+    <RelativeLayout
+        android:id="@+id/bottombar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_bottom_view">
+
+        <Button
+            android:id="@+id/btn_preview"
+            android:layout_width="52dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_common_selector"
+            android:textColor="#77000000"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:text="@string/preview"/>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="52dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/btn_common_selector"
+            android:textColor="#77000000"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:text="@string/send"
+            android:singleLine="true"/>
+    </RelativeLayout>
+</LinearLayout>

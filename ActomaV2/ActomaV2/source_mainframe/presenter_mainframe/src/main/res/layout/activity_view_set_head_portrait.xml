@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/set_head_root">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <com.xdja.comm.widget.LazyLoadGridView
+        android:id="@+id/setheadportrait_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blade_black_95"
+        android:numColumns="3"
+        android:horizontalSpacing="@dimen/base_3"
+        android:verticalSpacing="@dimen/base_3"
+        android:stretchMode="columnWidth" />
+</LinearLayout>

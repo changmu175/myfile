@@ -1,0 +1,15 @@
+<resources>
+    <!-- 滑动接听挂断控件 -->
+    <dimen name="answer_controls_target_padding">17dp</dimen>
+    <dimen name="answer_controls_target_width">85dp</dimen>
+    <dimen name="answer_controls_padding_rl">20dp</dimen>
+    <dimen name="incall_answer_controls_marginbottom">0dp</dimen>
+    <dimen name="left_call_button_marginleft">60dp</dimen>
+    <dimen name="right_call_button_marginright">60dp</dimen>
+
+    <!--2016-12-5-wangzhen-start modify.Adapter Shown phone attrs -->
+    <dimen name="voip_common_txsize_16_19">16sp</dimen>
+    <dimen name="voip_details_common_txsize_16_19">16sp</dimen>
+    <dimen name="incall_endbutton_width">330dp</dimen>
+    <!--2016-12-5-wangzhen-end -->
+</resources>

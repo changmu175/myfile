@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/net_error_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_bg_nogroup"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/net_error_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/web_reload" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/net_error_img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/touch_to_load"
+            android:textColor="@color/base_black_50"
+            android:textSize="@dimen/hint_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/check_url_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_bg_nogroup"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="@dimen/blade_36"
+            android:layout_height="@dimen/blade_36"
+            android:layout_gravity="center_vertical"
+            android:background="@null"
+            android:indeterminateDrawable="@drawable/webview_circle_progressbar" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/web_progress"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/progress_height"
+        android:max="100"
+        android:progressDrawable="@drawable/progressbar_horizontal" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/appStore_swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/web_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="chat_actionpanel_h">210dp</dimen>
+
+    <dimen name="face_layout_imageview_margin">16dp</dimen>
+</resources>

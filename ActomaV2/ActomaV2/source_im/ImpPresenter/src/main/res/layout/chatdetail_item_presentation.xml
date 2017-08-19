@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--时间线-->
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/presentationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/time_line_background"
+            android:lineSpacingExtra="@dimen/group_system_content_line_space"
+            android:padding="@dimen/group_system_padding"
+            android:textColor="@color/common_fifty_percent_black"
+            android:textIsSelectable="false"
+            android:textSize="@dimen/group_system_txt_size"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

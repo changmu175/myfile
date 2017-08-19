@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:paddingTop="@dimen/img_empty_document_top_padding">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pic_phone_tips"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/txt_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/text_empty_document_top_padding"
+        android:text="@string/empty_document"
+        android:textColor="#A6000000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txt_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_header"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="@dimen/text_invite_friend_top_padding"
+        android:text="@string/invite_friend"
+        android:textColor="#73000000"
+        android:textSize="14sp"/>
+</RelativeLayout>

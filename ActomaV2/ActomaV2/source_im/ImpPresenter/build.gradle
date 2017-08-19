@@ -1,0 +1,85 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+	
+	lintOptions {
+        abortOnError false
+        disable("InvalidPackage",  //引用第三方jar都有此警告，忽略
+                "InflateParams",   //填充布局缺少参数，常用手法，忽略
+                "RtlHardcoded",
+                "RtlSymmetry",
+                "DefaultLocale",   //字符串编码指定语言类型，因bug引入，主要在土耳其语言是会出错。常规不出现
+                "IconMissingDensityFolder",  //缺少部分屏幕密度对应文件夹，资源自适应能力
+                "UnusedResources",  //部分资源的引用使用代码控制图像资源名称，不能删除，只能忽略
+                "SimpleDateFormat")
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':ImpData')
+
+    def imDependencies = rootProject.ext.imDependencies
+    def presentationTestDependencies = rootProject.ext.presentationTestDependencies
+
+    compile imDependencies.appcompat
+    compile imDependencies.supportAnnotation
+    compile imDependencies.butterKnife
+    compile imDependencies.dagger
+    apt imDependencies.daggerCompiler
+    provided imDependencies.javaxAnnotation
+
+    //JUNIT TEST DEPENDENCE
+    testCompile presentationTestDependencies.junit
+    testCompile presentationTestDependencies.mockito
+    testCompile presentationTestDependencies.robolectric
+
+    //INSTRUMENTATION TEST DEPENDENCE
+    androidTestCompile presentationTestDependencies.mockito
+    androidTestCompile presentationTestDependencies.junit
+    androidTestCompile presentationTestDependencies.espresso
+    androidTestCompile presentationTestDependencies.testRunner
+    androidTestCompile presentationTestDependencies.testRule
+    compile project(':ActomaCommen')
+    compile project(':SecureVoipCommon')
+    compile project(path: ':ImpDomain')
+    compile project(path: ':ActomaContactProxy')
+    compile project(path: ':comdependence')
+    compile project(path: ':presenter')
+    compile project(path: ':ActomaContact')
+}

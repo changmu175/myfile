@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <!--overdraw-->
+    <!--android:background="@color/listview_bg_nogroup"-->
+    <!--tools:ignore="Overdraw"-->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/receiver_mode"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/open_receiver_mode" />
+
+        <CheckBox
+            android:id="@+id/open_receiver_mode"
+            style="@style/style_item_swich"
+            android:checked="false"/>
+    </RelativeLayout>
+    <View style="@style/view_line_style" />
+    <TextView
+        android:id="@+id/message_call_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/message_call_tip"
+        android:paddingStart="@dimen/base_16"
+        android:gravity="center_vertical"
+        android:background="@color/listview_bg_nogroup"
+        android:textSize="@dimen/body1_14"
+        android:textColor="@color/base_black_65"
+        android:text="@string/message_call_tip"
+        tools:ignore="RtlSymmetry" />
+
+    <View style="@style/view_line_style" />
+
+    <LinearLayout
+        style="@style/style_setting_item_layout"
+        android:id="@+id/drop_all_message"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/base_64"
+        android:background="@drawable/common_item_selector"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tx_drop_message"
+            style="@style/style_setting_item_label"
+            android:text="@string/drop_all_message"
+            android:layout_marginBottom="@dimen/base_6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="@string/drop_all_message_tip"
+            android:textColor="@color/base_black_65"
+            android:textSize="@dimen/body2_12"/>
+    </LinearLayout>
+
+    <View style="@style/view_line_style" />
+
+    <LinearLayout
+        style="@style/style_setting_item_layout"
+        android:id="@+id/clear_call_log"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/base_64"
+        android:background="@drawable/common_item_selector"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/clear_all_callLog"
+            android:layout_marginBottom="@dimen/base_6"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="false"
+            android:text="@string/clear_all_callLog_tip"
+            android:textColor="@color/base_black_65"
+            android:textSize="@dimen/body2_12"/>
+    </LinearLayout>
+
+    <View style="@style/view_line_style" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_bg_nogroup" />
+</LinearLayout>

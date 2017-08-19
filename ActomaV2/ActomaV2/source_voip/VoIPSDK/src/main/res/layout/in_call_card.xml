@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/call_card_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:statusview="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/contact_name_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/incall_card_time_toppadding">
+
+        <TextView
+            android:id="@+id/call_status_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/call_state_calling"
+            android:textColor="@color/white_bg_detail_name"
+            android:textSize="@dimen/voip_common_txsize_16_19" />
+
+        <Chronometer
+            android:id="@+id/elapsedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white_bg_detail_name"
+            android:textSize="@dimen/voip_common_txsize_16_19"
+            android:visibility="visible"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/contactbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact_name_bar"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="@dimen/incall_card_photo_toppadding">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/incall_backgroud_size"
+                android:layout_height="@dimen/incall_backgroud_size"
+                android:src="@drawable/incall_circle"
+                android:contentDescription="@null"/>
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:layout_width="@dimen/incall_photo_size"
+                android:layout_height="@dimen/incall_photo_size"
+                android:id="@+id/contact_photo"
+                android:layout_marginTop="@dimen/incall_photo_toppadding"
+                android:layout_marginLeft="@dimen/incall_photo_leftpadding"
+            />
+        </FrameLayout>
+        <TextView
+            android:id="@+id/contact_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/incall_name_toppadding"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:maxEms="8"
+            android:singleLine="true"
+            android:textColor="@color/white_bg_detail_name"
+            android:textSize="@dimen/common_txsize_20_23"/>
+    </LinearLayout>
+
+    <com.securevoip.widget.StatusView
+        android:id="@+id/extra_status_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/incall_name_toppadding"
+        android:layout_below="@+id/contactbar"
+        android:gravity="center"
+        statusview:progressMarinRight="5dp"
+        statusview:progressBarHeight="18dp"
+        statusview:progressBarWidth="18dp"
+        statusview:textColor="@color/white_bg_detail_name"
+        statusview:textSize="@dimen/voip_common_txsize_16_19"
+        android:visibility="gone"/>
+</RelativeLayout>

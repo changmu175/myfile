@@ -1,0 +1,53 @@
+apply plugin: 'com.android.library'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+//        versionCode 1
+//        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+	
+	lintOptions {
+        abortOnError false
+        disable("UnusedResources")
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+
+    compile project(':comdependence')
+
+    def comDependencies = rootProject.ext.comDependencies
+
+    //rxjava
+    compile comDependencies.rxJava
+    compile comDependencies.javaxInject
+    compile comDependencies.supportAnnotation
+    compile comDependencies.logger
+    compile comDependencies.otto
+
+}

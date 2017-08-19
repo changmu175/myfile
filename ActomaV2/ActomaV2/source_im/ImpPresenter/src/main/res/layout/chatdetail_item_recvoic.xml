@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <!--时间线-->
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@id/layout_timeLine">
+
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/header"
+            style="@style/talkdetail_senderImage" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/header"
+            android:orientation="vertical">
+
+            <!--发送者姓名-->
+            <TextView
+                android:id="@+id/txt_chat_senderName"
+                style="@style/talkdetail_senderName" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <!--接收到的消息内容布局-->
+                <LinearLayout
+                    android:id="@+id/content_layout"
+                    style="@style/talkdetail_recVoiceLayout"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/voice_layout"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical">
+                        <ImageView
+                            android:id="@+id/img_anim_voice_he"
+                            android:layout_width="@dimen/chatlist_item_voic_img_size"
+                            android:layout_height="@dimen/chatlist_item_voic_img_size"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="@dimen/chatlist_item_voic_img_margin_left"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginBottom="9dp"
+                            android:background="@drawable/animlist_voic_he"
+                            android:contentDescription="@null"/>
+
+                        <TextView
+                            android:id="@+id/txt_chat_voiclength"
+                            style="@style/talkdetail_voiceMessage"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"/>
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/chat_destroy"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center|left"
+                        android:maxWidth="207dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginBottom="9dp"
+                        android:textColor="@color/chatlist_item_txt_color"
+                        android:textSize="@dimen/chatlist_item_txt_size" />
+
+                </LinearLayout>
+
+                <ProgressBar
+                    android:id="@+id/recprogress"
+                    android:layout_width="@dimen/chatlist_item_voic_img_size"
+                    android:layout_height="@dimen/chatlist_item_voic_img_size"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/chatlist_item_voiclength_txt_margin_l"
+                    android:indeterminateBehavior="repeat"
+                    android:indeterminateDrawable="@drawable/chat_loading_message_resource"
+                    android:indeterminateOnly="true"
+                    android:visibility="gone" />
+
+                <!--新消息标识-->
+                <ImageView
+                    android:id="@+id/newMessageTag"
+                    style="@style/talkdetail_newMessage"
+                    android:contentDescription="@null"/>
+
+                <!--闪信炸弹动画-->
+                <ImageView
+                    android:id="@+id/bomb_anim"
+                    style="@style/talkdetail_flashMessageBomb"
+                    android:contentDescription="@null"/>
+
+                <!--下载失败-->
+                <ImageView
+                    android:id="@+id/downFailed"
+                    style="@style/talkdetail_downFailed"
+                    android:contentDescription="@null"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

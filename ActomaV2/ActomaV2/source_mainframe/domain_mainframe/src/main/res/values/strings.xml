@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Domain_MainFrame</string>
+    <string name="dawn">Before Dawn&#160;</string>
+    <string name="am">Morning&#160;</string>
+    <string name="noon">Noon&#160;</string>
+    <string name="pm">Afternoon&#160;</string>
+    <string name="night">Night&#160;</string>
+</resources>

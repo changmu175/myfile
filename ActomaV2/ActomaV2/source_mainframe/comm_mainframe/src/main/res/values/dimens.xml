@@ -1,0 +1,68 @@
+<resources>
+    <!--一些基础数值-->
+    <dimen name="base_3">3dp</dimen>
+    <dimen name="base_4">4dp</dimen>
+    <dimen name="base_6">6dp</dimen>
+    <dimen name="base_8">8dp</dimen>
+    <dimen name="base_10">10dp</dimen>
+    <dimen name="base_11">11dp</dimen>
+    <dimen name="base_12">12dp</dimen>
+    <dimen name="base_13">13dp</dimen>
+    <dimen name="base_14">14dp</dimen>
+    <dimen name="base_16">16dp</dimen>
+    <dimen name="base_18">18dp</dimen>
+    <dimen name="base_20">20dp</dimen>
+    <dimen name="base_22">22dp</dimen>
+    <dimen name="base_24">24dp</dimen>
+    <dimen name="base_25">25dp</dimen>
+    <dimen name="base_26">26dp</dimen>
+    <dimen name="base_28">28dp</dimen>
+    <dimen name="base_30">30dp</dimen>
+    <dimen name="base_32">32dp</dimen>
+    <dimen name="base_36">36dp</dimen>
+    <dimen name="base_40">40dp</dimen>
+    <dimen name="base_42">42dp</dimen>
+    <dimen name="base_44">44dp</dimen>
+    <dimen name="base_46">46dp</dimen>
+    <dimen name="base_48">48dp</dimen>
+    <dimen name="base_53">53dp</dimen>
+    <dimen name="base_56">56dp</dimen>
+    <dimen name="base_60">60dp</dimen>
+    <dimen name="base_64">64dp</dimen>
+    <dimen name="base_72">72dp</dimen>
+    <dimen name="base_80">80dp</dimen>
+    <dimen name="base_84">84dp</dimen>
+    <dimen name="base_118">118dp</dimen>
+    <dimen name="base_220">220dp</dimen>
+    <dimen name="base_328">328dp</dimen>
+    <!-- 基础字体大小 -->
+    <dimen name="title_18">18sp</dimen>
+    <dimen name="head_16">16sp</dimen>
+    <dimen name="body1_14">14sp</dimen>
+    <dimen name="body2_12">12sp</dimen>
+    <dimen name="caption_12">12sp</dimen>
+    <dimen name="mini_11">11sp</dimen>
+    <dimen name="menu_14">14sp</dimen>
+    <dimen name="button_14">14sp</dimen>
+    <dimen name="login_txt_20">20sp</dimen>
+    <dimen name="list_divider_height">0.3dp</dimen>
+
+    <!-- 二维码界面相关-->
+    <dimen name="zxing_pop_width">270dp</dimen>
+    <dimen name="zxing_pop_height">286dp</dimen>
+    <dimen name="zxing_width">200dp</dimen>
+    <dimen name="zxing_height">200dp</dimen>
+    <dimen name="zxing_tip_bottom">28dp</dimen>
+    <dimen name="zxing_padding_left_right">36dp</dimen>
+
+
+    <!-- 公用组件相关-->
+    <dimen name="custom_commen_dialog_message_height">56dp</dimen>
+
+    <!-- toast相关-->
+    <dimen name="toast_two_line_height">52dp</dimen>
+
+    <!-- 等待提示框-->
+    <dimen name="progressbar_width">24dp</dimen>
+    <dimen name="progressbar_height">24dp</dimen>
+</resources>

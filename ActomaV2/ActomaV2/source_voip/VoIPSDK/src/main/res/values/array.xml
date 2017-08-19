@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String array -->
+    <string-array name="filters_type">
+        <item>@string/starts_with</item>
+        <item>@string/ends_with</item>
+        <item>@string/contains</item>
+        <item>@string/all</item>
+        <item>@string/has_exactly_n_digits</item>
+        <item>@string/has_more_than_n_digits</item>
+        <item>@string/is_exactly</item>
+        <item>@string/custom_regexp</item>
+        <item>@string/bluetooth</item>
+        <item>@string/call_info_header</item>
+    </string-array>
+    <string-array name="replace_type">
+        <item>@string/prefix_by</item>
+        <item>@string/suffix_with</item>
+        <item>@string/replace_match_by</item>
+        <item>@string/replace_all_by</item>
+        <item>@string/custom_regexp</item>
+    </string-array>
+
+    <array name="lockscreen_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@string/description_direction_up</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </array>
+    <array name="lockscreen_targets_when_incall">
+        <item>@drawable/ic_lockscreen_answer</item>
+        <item>@null</item>
+        <item>@drawable/ic_lockscreen_decline</item>
+        <item>@null</item>
+    </array>
+    <array name="lockscreen_answer_choices">
+        <item>@string/take_call</item>
+        <item>@null</item>
+        <item>@string/ignore_call</item>
+        <item>@null</item>
+    </array>
+    <array name="calllog_action_menu">
+        <item >@string/delete_from_list</item>
+    </array>
+</resources>

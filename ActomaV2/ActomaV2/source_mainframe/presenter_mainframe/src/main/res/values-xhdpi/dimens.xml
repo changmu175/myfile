@@ -1,0 +1,54 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin_8">8dp</dimen>
+    <dimen name="activity_horizontal_margin_16">16dp</dimen>
+    <dimen name="activity_vertical_margin">24dp</dimen>
+
+    <dimen name="input_padding_left">98dp</dimen>
+    <dimen name="input_padding_right">70dp</dimen>
+    <dimen name="divider_dimen">1px</dimen>
+    <dimen name="normal_text_size_14">14sp</dimen>
+    <dimen name="bigger_text_size_16">16sp</dimen>
+    <dimen name="bigger_bigger_text_size_18">18sp</dimen>
+    <dimen name="smaller_text_size_12">12sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+
+    <!--图片-->
+    <dimen name="small_icon_24">24dp</dimen>
+    <dimen name="biggest_img_96">96dp</dimen>
+
+    <!--登录相关-->
+    <dimen name="login_vertical_margin">22dp</dimen>
+    <dimen name="login_input_height">52dp</dimen>
+    <dimen name="login_login_text_size_20">20sp</dimen>
+
+    <dimen name="launcher_button_margin_bottom">90dp</dimen>
+    <dimen name="launcher_button_height">47dp</dimen>
+    <dimen name="launcher_title_margin_top">110dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+
+    <!--设置-->
+    <dimen name="setting_item_height">48dp</dimen>
+    <dimen name="setting_person_item_height">80dp</dimen>
+    <dimen name="tab_text_size">11sp</dimen>
+
+    <!-- 介绍页面-->
+    <dimen name="guide_flip_margin_bottom">60dp</dimen>
+    <dimen name="guide_flip_point_margin">10dp</dimen>
+    <dimen name="guide_flip_point_offsize">8dip</dimen>
+    <dimen name="guide_flip_point_onsize">12dip</dimen>
+
+    <!-- 勿扰模式-->
+    <dimen name="nodistrub_two_line_height">64dp</dimen>
+
+    <!-- 聊天通话-->
+    <dimen name="message_call_tip">36dp</dimen>
+
+    <!--webview progress高度-->
+    <dimen name="progress_height">4dp</dimen>
+    <dimen name="body2_12">12sp</dimen>
+    <dimen name="body1_14">14sp</dimen>
+</resources>

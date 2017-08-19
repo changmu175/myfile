@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+    <!--集成环境-->
+<!--   <ServerIP>11.12.110.133</ServerIP>
+  <ServerPort>2005</ServerPort>-->
+
+    <!--测试环境-->
+<!--  <ServerIP>120.194.4.154</ServerIP>
+  <ServerPort>1307</ServerPort>-->
+
+<!--  <ServerIP>10.10.12.83</ServerIP>
+  <ServerPort>1306</ServerPort>-->
+
+  <!--准生产环境-->
+    <ServerIP>update.test.safecenter.com</ServerIP>
+    <ServerPort>2005</ServerPort>
+
+ <!-- <ServerIP>update.pyis.safecenter.com</ServerIP>
+  <ServerPort>2005</ServerPort>-->
+
+
+  <Factory>信大捷安</Factory>
+  <OS>Android5</OS>
+  <Mod>ACE01</Mod>
+  <Soft>安通V2</Soft>
+  <UserName>admin</UserName>
+  <Ver>
+    <Version>2.1.3.20170304</Version>
+    <Date>2017-03-04</Date>
+    <Note>西安测试升级</Note>
+  </Ver>
+</Root>

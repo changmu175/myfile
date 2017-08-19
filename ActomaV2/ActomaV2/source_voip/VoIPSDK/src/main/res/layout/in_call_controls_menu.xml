@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/speakerButton"
+        style="@style/in_call_menu_item"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/speakerImage"
+            style="@style/in_call_menu_item_img"
+            android:background="@drawable/ic_sound_speakerphone_holo_dark_off"
+            android:title="@string/speaker"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:id="@+id/speakerView"
+            style="@style/in_call_menu_item_tv"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/muteButton"
+        style="@style/in_call_menu_item"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:id="@+id/meteImage"
+            style="@style/in_call_menu_item_img"
+            android:background="@drawable/btn_call_mute_normal"
+            android:title="@string/mute"
+            android:contentDescription="@null"/>
+
+        <TextView
+            style="@style/in_call_menu_item_tv"
+            android:id="@+id/muteView"
+           />
+    </LinearLayout>
+
+
+
+    <!--<LinearLayout
+        android:id="@+id/bluetoothButton"
+        style="@style/in_call_menu_item"
+        android:visibility="gone"
+        >
+
+        <ImageView
+            android:id="@+id/bluetoothImage"
+            style="@style/in_call_menu_item_img"
+            android:background="@drawable/ic_bluetooth_normal"
+            android:title="@string/bluetooth" />
+
+        <TextView
+            android:id="@+id/bluetoothView"
+            style="@style/in_call_menu_item_tv"
+            />
+    </LinearLayout>-->
+
+</LinearLayout>

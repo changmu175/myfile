@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/edtTxt_input"
+        android:inputType="text"
+        android:labelFor="@id/edtTxt_input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingStart="62dp"
+        android:singleLine="true"
+        android:textColor="@color/input_gold_collor"
+        android:textSize="@dimen/bigger_text_size_16"
+        tools:ignore="RtlSymmetry" />
+
+    <View
+        android:id="@+id/first_view"
+        android:layout_width="@dimen/small_icon_24"
+        android:layout_height="@dimen/small_icon_24"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/base_10" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:paddingRight="@dimen/base_18"
+        tools:ignore="RtlHardcoded,RtlSymmetry">
+
+        <Button
+            android:id="@+id/btn_input_clear"
+            android:layout_width="@dimen/base_24"
+            android:layout_height="@dimen/base_24"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_searchbar_clear" />
+
+        <CheckBox
+            android:id="@+id/assist_view"
+            android:layout_width="@dimen/base_24"
+            android:layout_height="@dimen/base_24"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/base_8"
+            android:background="@drawable/sel_login_form_ic_eye"
+            android:button="@null"
+            android:checked="false" />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_dimen"
+        android:layout_gravity="bottom"
+        android:background="@color/divider_gold_color" />
+</FrameLayout>

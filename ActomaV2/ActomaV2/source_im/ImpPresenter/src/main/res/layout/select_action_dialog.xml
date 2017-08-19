@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/selector_talk_list_item"
+    android:layout_height="match_parent">
+    <!--Task 2632, create by ycm for share and forward function-->
+    <!--分享完成动作选择弹框-->
+     <!--20161201微调界面-->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/tips_success"
+            android:contentDescription="@null" />
+    </FrameLayout>
+    <TextView
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_succeed"
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"/>
+    <!--分享完成动作选择按钮 for bug 5617-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:layout_marginEnd="@dimen/base_20"
+        android:layout_marginBottom="@dimen/base_16"
+        >
+        <TextView
+            android:id="@+id/leave"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/base_title_gold"
+            />
+        <TextView
+            android:id="@+id/stay"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_gravity="right"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/base_title_gold"
+            />
+    </LinearLayout>
+
+</LinearLayout>

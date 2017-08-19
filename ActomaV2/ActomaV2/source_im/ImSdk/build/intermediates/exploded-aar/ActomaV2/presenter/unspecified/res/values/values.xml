@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <color name="blade_black_30" ns1:ignore="UnusedResources">#4D000000</color>
+    <color name="blade_black_50" ns1:ignore="UnusedResources">#80000000</color>
+    <color name="blade_black_65">#A6000000</color>
+    <color name="blade_black_95">#F3000000</color>
+    <color name="blade_bottom_gold">#AE9153</color>
+    <color name="blade_dialog_bg">#EEEEEE</color>
+    <color name="blade_gray_ed">#ededed</color>
+    <color name="blade_gray_ee">#eeeeee</color>
+    <color name="blade_gray_f4">#f4f4f4</color>
+    <color name="blade_gray_f7">#f7f7f7</color>
+    <color name="blade_orange">#CF5516</color>
+    <color name="blade_progressbar_bg">#ffcbb381</color>
+    <color name="blade_red">#ED2201</color>
+    <color name="blade_title_gold">#CCB481</color>
+    <color name="blade_white_100">#FFFFFFFF</color>
+    <color name="blade_white_30">#4DFFFFFF</color>
+    <color name="blade_white_50" ns1:ignore="UnusedResources">#80FFFFFF</color>
+    <color name="blade_white_65" ns1:ignore="UnusedResources">#A6FFFFFF</color>
+    <color name="blade_white_95" ns1:ignore="UnusedResources">#F3FFFFFF</color>
+    <dimen name="blade_10">10dp</dimen>
+    <dimen name="blade_11">11dp</dimen>
+    <dimen name="blade_12">12dp</dimen>
+    <dimen name="blade_13">13dp</dimen>
+    <dimen name="blade_14">14dp</dimen>
+    <dimen name="blade_16">16dp</dimen>
+    <dimen name="blade_18">18dp</dimen>
+    <dimen name="blade_20">20dp</dimen>
+    <dimen name="blade_24">24dp</dimen>
+    <dimen name="blade_26">26dp</dimen>
+    <dimen name="blade_28">28dp</dimen>
+    <dimen name="blade_3">3dp</dimen>
+    <dimen name="blade_32">32dp</dimen>
+    <dimen name="blade_328">328dp</dimen>
+    <dimen name="blade_36">36dp</dimen>
+    <dimen name="blade_4">4dp</dimen>
+    <dimen name="blade_40">40dp</dimen>
+    <dimen name="blade_42">42dp</dimen>
+    <dimen name="blade_46">46dp</dimen>
+    <dimen name="blade_48">48dp</dimen>
+    <dimen name="blade_53">53dp</dimen>
+    <dimen name="blade_56">56dp</dimen>
+    <dimen name="blade_6">6dp</dimen>
+    <dimen name="blade_64">64dp</dimen>
+    <dimen name="blade_72">72dp</dimen>
+    <dimen name="blade_8">8dp</dimen>
+    <dimen name="blade_80">80dp</dimen>
+    <dimen name="blade_84">84dp</dimen>
+    <dimen name="blade_dialog_message_height">56dp</dimen>
+    <dimen name="blade_font_11">11sp</dimen>
+    <dimen name="blade_font_12">12sp</dimen>
+    <dimen name="blade_font_14">14sp</dimen>
+    <dimen name="blade_font_16">16sp</dimen>
+    <dimen name="blade_font_18">18sp</dimen>
+    <dimen name="blade_font_20">20sp</dimen>
+    <dimen name="blade_progressbar_height">24dp</dimen>
+    <dimen name="blade_progressbar_width">24dp</dimen>
+    <string name="cancel_text">Cancel</string>
+    <string name="delete_record">Sure to delete this record?</string>
+    <string name="download_app_mobile_net_tip">Tip</string>
+    <string name="download_chip_later">Install later</string>
+    <string name="download_chip_now">Now go to install</string>
+    <string name="download_chip_tip">\tChip Manager provides Actoma+ a service that based on hardware-level encryption and decryption, now go to install it~~</string>
+    <string name="download_chip_tip_login_state">\tChip Manager has been uninstalled, Actoma+ can not be used normally, please install Chip Manager and restart Actoma+</string>
+    <string name="i_know">I got it</string>
+    <string name="net_disable">Network unavailable, check your network setting please </string>
+    <string name="net_time_wrong_ex">Current time is inconsistent with Beijing time,current operation has risk</string>
+    <string name="net_timeout_and_retry">Network request time over, check your network setting and retry please</string>
+    <string name="no_chip">Not detect safe device, check please.</string>
+    <string name="ok_text">OK</string>
+    <string name="update_dialog_title_tip">Tip</string>
+    <string name="url_invalid">invalid address</string>
+    <style name="NoBackgroudDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+</resources>

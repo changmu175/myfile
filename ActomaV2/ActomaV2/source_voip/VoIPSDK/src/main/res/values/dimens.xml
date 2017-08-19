@@ -1,0 +1,119 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--公用-->
+    <dimen name="common_txsize_12_15">12sp</dimen>
+    <dimen name="common_txsize_14_17">14sp</dimen>
+    <dimen name="voip_common_txsize_16_19">16sp</dimen>
+    <dimen name="common_txsize_20_23">20sp</dimen>
+    <dimen name="base_12">12dp</dimen>
+    <dimen name="base_40">40dp</dimen>
+
+    <!--适配第三方手机屏幕Voip详情界面拨号字体大小-->
+    <dimen name="voip_details_common_txsize_16_19">16sp</dimen>
+    <dimen name="incall_photo_size">94.0dip</dimen>
+    <dimen name="incall_photo_toppadding">5dip</dimen>
+    <dimen name="incall_photo_leftpadding">5dip</dimen>
+
+    <dimen name="common_padding_12">12dp</dimen>
+
+    <dimen name="call_type_margin_top">5dp</dimen>
+
+    <dimen name="divider_size">1px</dimen>
+
+    <!--通话Fragment界面 DialerFragment-->
+    <!--没有通话记录图片与上边距-->
+    <dimen name="img_empty_document_top_padding">120dp</dimen>
+    <!--没有通话记录文字上边距-->
+    <dimen name="text_empty_document_top_padding">22dp</dimen>
+    <!--邀请好友上边距-->
+    <dimen name="text_invite_friend_top_padding">8dp</dimen>
+
+    <!--通话详情界面 DialDetailActivity-->
+    <dimen name="call_detail_title_height">64dp</dimen>
+
+    <!-- Call Log -->
+    <dimen name="call_log_item_height">64dip</dimen>
+    <dimen name="call_log_icon_margin">4dip</dimen>
+    <dimen name="call_log_inner_marginLeft">12dp</dimen>
+    <dimen name="call_log_outer_marginLeft">0dip</dimen>
+    <dimen name="call_log_outer_marginRight">0dip</dimen>
+    <dimen name="call_log_make_call_marginTop">20dp</dimen>
+    <dimen name="call_log_make_call_marginBottom">20dp</dimen>
+    <dimen name="call_log_make_call_marginRight">18dp</dimen>
+    <dimen name="call_log_list_contact_photo_size">40dp</dimen>
+
+    <!--Call detail item-->
+    <dimen name="call_detail_item_title_toppadding">10dp</dimen>
+    <dimen name="call_detail_item_title_leftpadding">12dp</dimen>
+    <dimen name="call_detail_item_title_bottompadding">16dp</dimen>
+    <dimen name="call_detail_item_header_fontsize">12sp</dimen>
+
+    <dimen name="call_detail_item_detail_toppadding">10dp</dimen>
+    <dimen name="call_detail_item_detail_leftpadding">6dp</dimen>
+    <dimen name="call_detail_item_detail_bottompadding">10dp</dimen>
+    <dimen name="call_detail_item_detail_rightpadding">12dp</dimen>
+
+    <dimen name="call_detail_actionbar_item_total_height">57dp</dimen>
+    <dimen name="call_detail_actionbar_item_height">48dp</dimen>
+    <dimen name="call_detail_actionbar_item_icon_rightpadding">6dp</dimen>
+    <dimen name="call_detail_actionbar_item_icon_width">0dp</dimen>
+
+    <!-- InCall -->
+    <dimen name="incall_card_time_toppadding">32dip</dimen>
+    <dimen name="incall_card_photo_toppadding">64dip</dimen>
+    <dimen name="incall_backgroud_size">104.0dip</dimen>
+    <dimen name="incall_name_toppadding">20dip</dimen>
+
+    <dimen name="incall_endbutton_width">330dip</dimen>
+    <dimen name="incall_endbutton_height">48dip</dimen>
+    <dimen name="incall_endbutton_marginBottom">50dip</dimen>
+
+    <dimen name="incall_recall_width">114dip</dimen>
+    <dimen name="incall_recall_height">48dip</dimen>
+
+    <dimen name="call_action_menu_height">48dp</dimen>
+    <dimen name="call_detail_horizontal_margin">16dp</dimen>
+
+
+    <dimen name="base_13">13dp</dimen>
+    <dimen name="base_16">16dp</dimen>
+
+    <dimen name="base_8">8dp</dimen>
+
+    <!--一些基础数值-->
+    <dimen name="base_20">20dp</dimen>
+    <dimen name="base_24">24dp</dimen>
+    <dimen name="base_32">32dp</dimen>
+    <!-- 基础字体大小 -->
+    <dimen name="title_18">18sp</dimen>
+    <dimen name="head_16">16sp</dimen>
+    <dimen name="body1_14">14sp</dimen>
+    <dimen name="menu_14">14sp</dimen>
+    <dimen name="button_14">14sp</dimen>
+
+    <!-- 二维码界面相关-->
+    <dimen name="zxing_width">200dp</dimen>
+    <dimen name="zxing_height">200dp</dimen>
+    <dimen name="zxing_tip_bottom">28dp</dimen>
+    <dimen name="zxing_padding_left_right">36dp</dimen>
+
+
+    <!-- 公用组件相关-->
+    <dimen name="custom_commen_dialog_message_height">56dp</dimen>
+
+    <!-- 等待提示框-->
+    <dimen name="progressbar_width">24dp</dimen>
+    <dimen name="progressbar_height">24dp</dimen>
+
+    <!-- 滑动接听挂断控件 -->
+    <dimen name="answer_controls_target_padding">17dp</dimen>
+    <dimen name="answer_controls_target_width">85dp</dimen>
+    <dimen name="answer_controls_padding_rl">20dp</dimen>
+    <dimen name="incall_answer_controls_marginbottom">0dp</dimen>
+    <dimen name="left_call_button_marginleft">60dp</dimen>
+    <dimen name="right_call_button_marginright">60dp</dimen>
+
+</resources>

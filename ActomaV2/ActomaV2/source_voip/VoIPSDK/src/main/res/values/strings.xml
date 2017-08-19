@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Encrypted phone</string>
+
+    <string name="inputPhone">Please enter the app account</string>
+
+    <string name="empty_description" tools:ignore="CheckTagEmptyBody"></string>
+
+    <!-- VOip -->
+    <string name="getUserIdErr">Incoming User Id Error!</string>
+
+
+    <string name="use_pstn">Use the phone</string>
+    <string name="missed_call">Missed call</string>
+    <string name="ok">OK</string>
+    <string name="another_application_use_sip_port">Another program is using SIP port! Can not start!</string>
+    <!-- <string name="voice_mail_number">VM number</string> -->
+    <string name="not_configured_multiple_calls">Multiple calls are not allowed </string>
+    <string name="loading">Loading</string>
+    -->
+
+    <string name="acct_inactive">Offline</string>
+    <string name="acct_unregistered">Offline</string>
+    <string name="acct_registering">Offline</string>
+    <string name="acct_registered">Online</string>
+    <string name="acct_regerror">Offline</string>
+    <string name="acct_regfailed">Offline</string>
+    <!-- End:SUNYUNLEI 修改状态通知 -->
+
+
+    <!-- API 字符串 -->
+    <string name="permlab_useSip">Use sip</string>
+    <string name="permdesc_useSip">Place SIP calls, send SIP messages</string>
+    <string name="permlab_configureSip">Full access to SIP Accounts/Calls/Messages</string>
+    <string name="permdesc_configureSip">Configure SIP accounts and settings, access to SIP contents
+        (call logs, messages…), extends and hook SIP flow
+    </string>
+
+    <!-- 呼叫记录字符串 -->
+    <string name="unknown">Unknown</string>
+    <string name="type_incoming">Incoming</string>
+    <string name="type_outgoing">Outgoing</string>
+    <string name="type_missed">Missed</string>
+
+    <!-- 短信息字符串 -->
+    <string name="done">Done</string>
+    <!-- 配置字符串 -->
+    <string name="all">All</string>
+
+    <!-- Media -->
+    <string name="echo_cancellation">Echo cancellation</string>
+    <!-- xliff_strings -->
+    <!--  <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> 分 <xliff:g id="seconds" example="28">%s</xliff:g> 秒</string> -->
+    <string name="description_call">Call
+        <xliff:g id="name">%1$s</xliff:g>
+    </string>
+
+    <bool name="use_dual_panes">false</bool>
+
+
+    <!-- filters Strings -->
+    <string name="starts_with">Starts with</string>
+    <string name="ends_with">Ends with</string>
+    <string name="contains">Contains</string>
+    <string name="has_exactly_n_digits">There are N digits</string>
+    <string name="has_more_than_n_digits">There are more than N digits</string>
+    <string name="is_exactly">Equal to </string>
+    <string name="custom_regexp">Customize the regular expression</string>
+    <string name="prefix_by">Prefix </string>
+    <string name="suffix_with">Suffix</string>
+    <string name="replace_match_by">Replace</string>
+    <string name="replace_all_by">Replace all</string>
+    <string name="call_info_header">Has Call-Info for immediate answer</string>
+
+
+    <!-- inCall String -->
+    <string name="take_call">Reply</string>
+    <string name="ignore_call">Ignore</string>
+    <string name="clear_call">Termination</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="speaker">Speaker</string>
+    <string name="mute">Mute</string>
+    <string name="call_state_calling">Calling…</string>
+    <!--20150826 挂断改为正在挂断-->
+    <string name="unlock">Unlock</string>
+    <string name="record">Record</string>
+    <string name="slidtoright">Slide to answer</string>
+    <string name="slidtoleft">Slide to hang up</string>
+
+    <string name="description_direction_right">Right</string>
+    <string name="description_direction_left">Left</string>
+    <string name="description_direction_up">Up</string>
+
+    <!-- other -->
+    <string name="sd_card_path">/sdcard/</string>
+    <string name="call_count">99+</string>
+
+    <!--通话界面-->
+    <string name="empty_document">No Call Records</string>
+    <string name="invite_friend">Use a free encrypted call with your friends</string>
+
+    <string name="delete_from_list">Delete call log</string>
+
+    <!--通话记录详情界面-->
+    <string name="call_detail_title">Call Details</string>
+    <string name="call_duration_string_hour">h</string>
+    <string name="call_duration_string_minute">m</string>
+    <string name="call_duration_string_second">s</string>
+
+    <string name="call_detail_make_call">Encrypted Call</string>
+    <string name="call_detail_send_sms">Encrypted Message</string>
+
+    <!-- SipCallSession-->
+    <string name="BAD_REQUEST_COMMENT">Illegal request format</string>
+    <string name="UNAUTHORIZED_COMMENT">The user needs authentication</string>
+    <string name="PAYMENT_REQUIRED_COMMENT">Sessions are charged</string>
+    <string name="FORBIDDEN_COMMENT">Not available service</string>
+    <string name="NOT_FOUND_COMMENT">The other is not online</string>
+    <string name="METHOD_NOT_ALLOWED_COMMENT">The method specified in the request is not available</string>
+    <string name="NOT_ACCEPTABLE_COMMENT">The proxy request is not accepted for authentication</string>
+    <string name="PROXY_AUTHENTICATION_REQUIRED_COMMENT">The proxy requires authentication</string>
+    <string name="REQUEST_TIMEOUT_COMMENT">No One Heard</string>
+    <string name="GONE_COMMENT">The resource is not available</string>
+    <string name="REQUEST_ENTITY_TOO_LARGE_COMMENT">Request processing is too large</string>
+    <string name="REQUEST_URI_TOO_LARGE_COMMENT">The request URI is too long</string>
+    <string name="UNSUPPORTED_MEDIA_TYPE_COMMENT">Unsupported media type</string>
+    <string name="UNSUPPORTED_URI_SCHEME_COMMENT">Unsupported URI subject</string>
+    <string name="BAD_EXTENSION_COMMENT">User does not exist</string>
+    <string name="EXTENSION_REQUIRED_COMMENT">The request needs to be extended</string>
+    <string name="SESSION_TIMER_TOO_SMALL_COMMENT">The session timer is too short</string>
+    <string name="INTERVAL_TOO_BRIEF_COMMENT">The session interval is too short</string>
+    <string name="TEMPORARILY_UNAVAILABLE_COMMENT">Temporary invalid session</string>
+    <string name="CALL_TRANSACTION_DONOT_EXIST_COMMENT">The server ignores the request</string>
+    <string name="LOOP_DETECTED_COMMENT">A request was received that contained its own path</string>
+    <string name="TOO_MANY_HOPS_COMMENT">Hop count is too large</string>
+    <string name="ADDRESS_INCOMPLETED_COMMENT">The service received an incomplete address</string>
+    <string name="AMBIGIOUS_COMMENT">Address is not clear</string>
+    <string name="BUSY_HERE_COMMENT">The call is in progress. Please try again later</string>
+    <string name="REQUEST_TERMINATED_COMMENT">The telephone terminates</string>
+    <string name="NOT_ACCEPTED_HERE_COMMENT">The resource is not available</string>
+    <string name="BAD_EVENT_COMMENT">Event Error</string>
+    <string name="REQUEST_UPDATED_COMMENT">Request updated</string>
+    <string name="REQUEST_PENDDING_COMMENT">Request suspended</string>
+    <string name="UNDECIPHERABLE_COMMENT">Can not be decrypted</string>
+
+    <string name="INTERNAL_SERVER_ERROR_COMMENT">Server Error</string>
+    <string name="NOT_IMPLEMENTED_COMMENT">Not loaded</string>
+    <string name="BAD_GATEWAY_COMMENT">Gateway error</string>
+    <string name="SERVICE_UNAVAILABLE_COMMENT">The other party can not connect. Please try again later</string>
+    <string name="SERVER_TIMEOUT_COMMENT">The service timed out</string>
+    <string name="VERSION_NOT_SUPPORTED_COMMENT">This version is not supported</string>
+    <string name="MESSAGE_TOO_LARGE_COMMENT">Message is too long</string>
+    <string name="PRECONDITION_FAILURE_COMMENT">Prerequisites are too long</string>
+
+    <string name="BUSY_EVERYWHERE_COMMENT">The other party is in a call</string>
+    <string name="DECLINE_COMMENT">not join call</string>
+    <string name="NOT_EXIST_ANYWHERE_COMMENT">The callee is not in the network</string>
+    <string name="NOT_ACCPTED_COMMENT">Some descriptions of the session are not accepted</string>
+
+    <string name="NO_RESPONSE_FROM_SERVER_COMMENT">The destination server is not responding</string>
+    <string name="UNABLE_RESOLVE_SERVER_COMMENT">The destination server can not process</string>
+    <string name="ERROR_SENDING_MSG_SERVER_COMMENT">A message error was sent to the destination server</string>
+
+    <!-- Begin:add by xjq 增加自定义SIP状态描述字符 20140819 -->
+    <string name="NETWORK_DISCONNECT_COMMENT">Network exception</string>
+    <string name="START_RECONNECT_COMMENT">Reconnecting</string>
+    <string name="RECONNECT_SUCCESS_COMMENT"> </string> <!-- Must not empty, use space.Add by xjq, 2015/3/11 -->
+    <string name="NETWORK_DELAY_COMMENT">Network quality is poor</string>
+    <string name="UAC_REMOTE_BUSY_COMMENT">The call is in progress. Please try again later</string>
+    <!--  End:add by xjq 增加自定义SIP状态描述字符 20140819 -->
+
+    <!-- Begin:sunyunlei 添加VOIP 对方密信号不存在或者未开通 错误码 20150302 -->
+    <string name="ACCOUNT_NOT_FOUND_COMMENT">Invalid account, please check the contact information is correct</string>
+    <!-- End:sunyunlei 添加VOIP 对方密信号不存在或者未开通 错误码 20150302 -->
+
+    <!--Send failed comment. Add by xjq, 2015/3/11-->
+    <string name="SEND_FAILED_COMMENT">The other is not online</string><!-- 提示暂时和404统一 -->
+
+    <!--  zjc 20150820 这个由正在挂断改为挂断
+    zjc 20150856 挂断改回正在挂断-->
+    <string name="HANGUP_DOING">Hanging …</string>
+    <string name="HANGUP_END">The call ends</string>
+
+    <!-- UAStateReceiver -->
+    <string name="HEADSET_BROADCAST">Received a headset broadcast</string>
+    <string name="HEADSET_BROADCAST_OUT">Headphones broadcast, headphones pulled out</string>
+    <string name="HEADSET_BROADCAST_IN">Headset broadcast, headset inserted</string>
+
+    <!-- MediaManager-->
+    <string name="MODE_NORMAL">Normal mode</string>
+    <string name="MODE_RINGTONE">Ringtone mode</string>
+    <string name="MODE_IN_CALL">Phone mode</string>
+    <string name="MODE_IN_COMMUNICATION">Voip mode</string>
+    <string name="MODE_OTHER">Several modes are not met, the current mode is</string>
+
+    <string name="ISSPEAKERON">The current speaker is on</string>
+    <string name="ISSPEAKEROFF">The current speaker is off</string>
+
+    <string name="BLUETOOTH_ON">The sound will be played through the Bluetooth</string>
+    <string name="SPEAKER_ON">The sound will be played through the handset</string>
+
+    <!--SipNotifications-->
+    <string name="ON_CALL_COMMING">Incoming calls</string>
+    <string name="CONFIRMED">Calling</string>
+    <string name="MISSED_CALL">Missed call</string>
+
+    <!--CallDetailsAdapter-->
+    <string name="CALLEE_BUSY_OUT">Didn\'t Connected</string>
+    <string name="CALLEE_OFFLINE">Didn\'t Connected</string>
+    <string name="CALLEE_REJECT_OUT">The other declined</string>
+    <string name="CALLEE_TIMEOUT_OUT">No One Heard</string>
+    <string name="CALLER_TIMEOUT_OUT">No One Heard</string>
+    <string name="CALLER_CANCEL_OUT">Cancelled</string>
+    <string name="CALLER_ERROR_INITIAL">Cancelled</string>
+    <string name="CALLER_ERROR_CALLING">Cancelled</string>
+    <string name="CALLEE_BUSY_IN">Cancelled</string>
+    <string name="CALLEE_REJECT_IN">Declined</string>
+    <string name="CALLEE_TIMEOUT_IN">Missed</string>
+    <string name="CALLEE_TIMEOUT_IN_2">Missed</string>
+    <string name="CALLER_TIMEOUT_IN">Missed</string>
+    <string name="CALLER_CANCEL_IN">Missed</string>
+    <string name="CALLER_DEFAULT_CODE">Cancelled</string>
+    <string name="CALLEE_DEFAULT_CODE">Missed</string>
+    <string name="CALL_UNKNOW">Unknown</string>
+
+    <!--InCallCard-->
+    <string name="CONFIRMED_TIME">%s</string>
+    <string name="ON_CALL_COMMING_IN">Incoming calls …</string>
+
+    <!--InCallPresenter-->
+    <string name="STOP_PERMISSION">The microphone is disabled</string>
+    <string name="GET_PERMISSION">Please open the Microphone Permissions in Actom+ Management</string>
+    <string name="HANGUP_PERMISSION">Hung up</string>
+    <string name="SET_PERMISSION">Settings</string>
+    
+    <!--ViewCallDetailActivity-->
+    <string name="IFORNOT_DELETE_CALL_LOG">Are you sure to delete the call log?</string>
+    <string name="YES_DELETE_CALL_LOG">OK</string>
+    <string name="NO_DELETE_CALL_LOG">Cancel</string>
+
+    <!--ChatSourceHelper-->
+    <string name="YESTERDAY">Yesterday</string>
+    <string name="TODAY">Today</string>
+    <string name="DATE_FORMAT_0">yyyy/MM/dd</string>
+    <string name="DATE_FORMAT_2">MM/dd</string>
+    <string name="DATE_FORMAT_3">HH:mm</string>
+    <string name="DATE_FORMAT_4">yyyyMMdd</string>
+
+    <!-- ViewInCall-->
+    <string name="CALLING">Calling..</string>
+    <string name="INCOMING">Invites you to a voice call…</string>
+    <string name="DISCONNECTED">Call cancelled</string>
+    <string name="MISSED">Other user has declined call request</string>
+    <string name="DISCONNECTING">Hanging up…</string>
+    <string name="WAIT_CONFIRMED">Waiting for response…</string>
+    <string name="CONECTTING">Connecting…</string>
+    <string name="NOBODY">No One Heard</string>
+    <!--<string name="DISCONNECTED">The call ends</string>-->
+    <!--<string name="MISSED">The other party did not answer</string>-->
+    <!--<string name="WAIT_CONFIRMED">Wait for the other party to answer</string>-->
+
+    <!--StatusCode-->
+    <string name="CODE_CALLEE_BUSY">The call is in progress. Please try again later</string>
+    <string name="CODE_NETWORK_DISCONNECTED">Network abnormality, reconnecting …</string>
+    <string name="CODE_CALLEE_TIMEOUT">No one heard</string>
+    <string name="CODE_CALLER_ERROR_INITIAL">Initialization call failed</string>
+    <string name="CODE_CALLER_ERROR_CALLING">Failed to send a call request</string>
+    <string name="CODE_ERROR_REJECT">Failed to send a hangup request</string>
+    <string name="CODE_NETWORK_CONNECT">Restore the network connection</string>
+    <string name="CODE_REMOTE_NETWORK_DELAY">The other network is in poor condition</string>
+    <string name="CODE_LOCAL_NETWORK_DELAY">The network is in poor</string>
+    <string name="CODE_CHANGE_LOW_BAND">The network is poor and switching to low quality</string>
+    <string name="CODE_VOIP_SEVER_ERROR">Server exception</string>
+    <!-- 20161230-mengbo-start: 正在挂断界面等待提示语 -->
+    <string name="WAIT_DISCONNECTING_CALLBACK">The network is in poor condition, please waitting…</string>
+    <!-- 20161230-mengbo-end -->
+  
+    <!--VOIPManager-->
+    <string name="DECRYPT_FAILED">Incoming call decryption failed</string>
+    <string name="PLEASE_CALLBACK">To initiate an encrypted call to you, to call back, please end the current phone</string>
+    <string name="IN_CALL_REFUSE_CALL">A call is currently in progress and a new call is rejected</string>
+    <string name="DISCONNECTING_REFUSE_CALL">A call is disconnecting currently and a new call is rejected</string>
+
+    <string name="LOCAL_NAME_CONFLICT">Caller ID is inconsistent!</string>
+    <string name="LOCAL_IN_CALL">Do not allow multiple calls!</string>
+    <string name="NETWORK_ERROR">The network connection is not available.Please check the network settings</string>
+    <string name="PHONE_IN_CALL">You are on the phone, please end the call and try again</string>
+    <string name="NOT_FRIENDS">The other is not your friend, please add</string>
+
+    <string name="NOT_FRIENDS_CANNOT_CALL">Non-friends can not call!</string>
+    <string name="MX_SEVER_ERROR">Unusable server can not make phone calls!</string>
+    <string name="CALL_FAILED">Call failed</string>
+
+    <!-- UAStateReceiver-->
+    <string name="RECORD_DEVICE_INUSE">The recording device is not authorized or occupied. Please authorize or release the recording device</string>
+    <string name="RECEIVE">receive</string>
+    <string name="SEND">send</string>
+
+    <!--PjSipService-->
+    <string name="CANNOT_SEND_TIPS">Can not play voice prompt!</string>
+    <string name="ENCRYPT_CALL_STOP">The encrypted call is stopped</string>
+    <string name="CANNOT_CONNECT_SERVER">Can not connect to server. Please try again later.</string>
+    <string name="DONOT_MORE_CALL">Multiple calls are not allowed</string>
+
+    <!--XML文件中-->
+
+    <string name="clear_notification">Clear the notification</string>
+    <string name="people_count">The number of randomly generated call records</string>
+    <string name="count_per_people">The number of calls generated per person</string>
+    <string name="generate_call_log">Generate a call log</string>
+
+
+    <string name="recall">Call</string>
+    <string name="sendIM">Message</string>
+    <!--<string name="sendIM">Send message</string>-->
+
+    <string name="toast_context">Hello friends</string>
+    <string name="dialog_title">Are you sure to delete this record?</string>
+    <string name="dialog_message">Are you sure to delete this record?</string>
+    <string name="dialog_cancel_normal">Cancel</string>
+    <string name="dialog_ok">OK</string>
+
+
+    <!--menu-->
+    <string name="action_overflow">Delete the Call Log</string>
+    <string name="hung_up">Hang Up</string>
+
+</resources>

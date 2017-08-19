@@ -1,0 +1,692 @@
+<!DOCTYPE html><html><head><title>Android代码规范</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'></head><body><div id='preview-contents' class='note-content'>
+                        <div id="wmd-preview" class="preview-content"></div>
+                    <div id="wmd-preview-section-1" class="wmd-preview-section preview-content">
+
+</div><div id="wmd-preview-section-2" class="wmd-preview-section preview-content">
+
+<h2 id="android代码规范">Android代码规范</h2>
+
+</div><div id="wmd-preview-section-3" class="wmd-preview-section preview-content">
+
+<h4 id="常规规范">常规规范</h4>
+
+</div><div id="wmd-preview-section-4" class="wmd-preview-section preview-content">
+
+<h5 id="包命名规范">包命名规范</h5>
+<p>包（packages）：采用<strong>反域名命名规则</strong>，全部使用小写字母。一级包名为com，二级包名为xxx（可以是公司域名或者个人命名），三级包名根据应用进行命名，四级包名为模块名或层级名。</p>
+
+<table>
+<thead>
+<tr>
+  <th>包名</th>
+  <th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>com.xxx.应用名称缩写.activities</td>
+  <td>页面用到的Activity类（activities层级用户界面）</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.fragment</td>
+  <td>页面用到的Fragment类</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.base</td>
+  <td>页面中每个Activity类共享的可以写成一个BaseActivity类（基础共享的类）</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.adapter</td>
+  <td>页面用到的Adapter类（适配器的类）</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.utils</td>
+  <td>此包中包含：公共工具方法类（包含日期、网络、存储、日志等工具类）</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.bean（model/domain均可，个人喜好）</td>
+  <td>实体类</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.db</td>
+  <td>数据库操作</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.view（或者.ui）</td>
+  <td>自定义的View类等</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.service</td>
+  <td>Service服务</td>
+</tr>
+<tr>
+  <td>com.xxx.应用名称缩写.broadcast</td>
+  <td>Broadcast服务</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-5" class="wmd-preview-section preview-content">
+
+<h5 id="类命名规范">类命名规范</h5>
+
+<p>类（classes）：名词，采用<strong>大驼峰</strong>命名法，尽量避免缩写，除非该缩写是众所周知的，比如HTML，URL,如果类名称包含单词缩写，则单词缩写的每个字母均应大写。</p>
+
+<table>
+<thead>
+<tr>
+  <th>类</th>
+  <th>描述</th>
+  <th>例如</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>Application类</td>
+  <td>Application为后缀标识</td>
+  <td>XXXApplication</td>
+</tr>
+<tr>
+  <td>Activity类</td>
+  <td>Activity为后缀标识</td>
+  <td>闪屏页面类SplashActivity</td>
+</tr>
+<tr>
+  <td>解析类</td>
+  <td>Handler为后缀标识</td>
+  <td></td>
+</tr>
+<tr>
+  <td>公共方法类</td>
+  <td>Utils或Manager为后缀标识</td>
+  <td>线程池管理类：ThreadPoolManager   日志工具类：LogUtils</td>
+</tr>
+<tr>
+  <td>数据库类</td>
+  <td>以DBHelper后缀标识</td>
+  <td>MySQLiteDBHelper</td>
+</tr>
+<tr>
+  <td>Service类</td>
+  <td>以Service为后缀标识</td>
+  <td>播放服务：PlayService</td>
+</tr>
+<tr>
+  <td>BroadcastReceiver类</td>
+  <td>以Broadcast为后缀标识</td>
+  <td>时间通知：TimeBroadcast</td>
+</tr>
+<tr>
+  <td>ContentProvider类</td>
+  <td>以Provider为后缀标识</td>
+  <td>单词内容提供者：DictProvider</td>
+</tr>
+<tr>
+  <td>直接写的共享基础类</td>
+  <td>以Base为前缀</td>
+  <td>BaseActivity,BaseFragment</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-6" class="wmd-preview-section preview-content">
+
+<h5 id="变量命名规范">变量命名规范</h5>
+
+<p>变量（variables）采用<strong>小驼峰</strong>命名法。类中<strong>控件</strong>名称必须与xml布局<strong>id</strong>保持一致。</p>
+
+<ul><li><p>公开的常量：定义为静态final，名称全部大写。eg: public staticfinal String ACTION_MAIN=”android.intent.action.MAIN”;</p></li>
+<li><p>静态变量：名称以s开头 eg：private static long sInstanceCount = 0;</p></li>
+<li><p>非静态的私有变量、protected的变量：以m开头，eg：private Intent mItent;</p></li>
+</ul>
+
+</div><div id="wmd-preview-section-7" class="wmd-preview-section preview-content">
+
+<h5 id="接口命名规范">接口命名规范</h5>
+
+<p>接口（interface）：命名规则与类一样采用<strong>大驼峰</strong>命名法，多以able或ible结尾，eg：interface Runable; interface Accessible;</p>
+
+</div><div id="wmd-preview-section-8" class="wmd-preview-section preview-content">
+
+<h5 id="方法命名规范">方法命名规范</h5>
+
+<p>方法（methods）：动词或动名词，采用小驼峰命名法，eg：onCreate(),run();</p>
+
+<table>
+<thead>
+<tr>
+  <th>方法</th>
+  <th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>initXX()</td>
+  <td>初始化相关方法，使用init为前缀标识，如初始化布局initView()</td>
+</tr>
+<tr>
+  <td>isXX()</td>
+  <td>checkXX()方法返回值为boolean型的请使用is或check为前缀标识</td>
+</tr>
+<tr>
+  <td>getXX()</td>
+  <td>返回某个值的方法，使用get为前缀标识</td>
+</tr>
+<tr>
+  <td>processXX()</td>
+  <td>对数据进行处理的方法，尽量使用process为前缀标识</td>
+</tr>
+<tr>
+  <td>displayXX()</td>
+  <td>弹出提示框和提示信息，使用display为前缀标识</td>
+</tr>
+<tr>
+  <td>saveXX()</td>
+  <td>与保存数据相关的，使用save为前缀标识</td>
+</tr>
+<tr>
+  <td>resetXX()</td>
+  <td>对数据重组的，使用reset前缀标识</td>
+</tr>
+<tr>
+  <td>clearXX()</td>
+  <td>清除数据相关的</td>
+</tr>
+<tr>
+  <td>removeXX()</td>
+  <td>清除数据相关的</td>
+</tr>
+<tr>
+  <td>drawXXX()</td>
+  <td>绘制数据或效果相关的，使用draw前缀标识</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-9" class="wmd-preview-section preview-content">
+
+<h5 id="布局文件命名规范">布局文件命名规范</h5>
+
+<p>全部小写，采用下划线命名法</p>
+
+<ol><li rel="1">contentview命名, Activity默认布局，以去掉后缀的Activity类进行命名。不加后缀：功能模块.xml <br>
+eg：main.xml、more.xml、settings.xml <br>
+或者：activity_功能模块.xml  <br>
+eg：activity_main.xml、activity_more.xml</li>
+<li rel="2"><p>Dialog命名：dialog_描述.xml <br>
+eg：dlg_hint.xml</p></li>
+<li rel="3"><p>PopupWindow命名：ppw_描述.xml <br>
+eg：ppw_info.xml</p></li>
+<li rel="4"><p>列表项命名listitem_描述.xml <br>
+eg：listitem_city.xml</p></li>
+<li rel="5"><p>包含项：include_模块.xml <br>
+eg：include_head.xml、include_bottom.xml</p></li>
+<li rel="6"><p>adapter的子布局：功能模块_item.xml <br>
+eg：main_item.xml、</p></li>
+</ol>
+
+</div><div id="wmd-preview-section-10" class="wmd-preview-section preview-content">
+
+<h5 id="资源id命名规范">资源id命名规范</h5>
+
+<p>命名模式为：view缩写_模块名称_view的逻辑名称</p>
+
+<p>view的缩写详情如下：</p>
+
+<table>
+<thead>
+<tr>
+  <th>控件</th>
+  <th>缩写</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>LineayLayout</td>
+  <td>ll</td>
+</tr>
+<tr>
+  <td>RelativeLayout</td>
+  <td>rl</td>
+</tr>
+<tr>
+  <td>TextView</td>
+  <td>tv</td>
+</tr>
+<tr>
+  <td>Button</td>
+  <td>btn</td>
+</tr>
+<tr>
+  <td>ImageButton</td>
+  <td>imgBtn</td>
+</tr>
+<tr>
+  <td>ImageView</td>
+  <td>iv</td>
+</tr>
+<tr>
+  <td>CheckBox</td>
+  <td>cb</td>
+</tr>
+<tr>
+  <td>RadioButton</td>
+  <td>rb</td>
+</tr>
+<tr>
+  <td>analogClock</td>
+  <td>anaClk</td>
+</tr>
+<tr>
+  <td>DigtalClock</td>
+  <td>dgtClk</td>
+</tr>
+<tr>
+  <td>DatePicker</td>
+  <td>dtPk</td>
+</tr>
+<tr>
+  <td>EditText</td>
+  <td>edtTxt</td>
+</tr>
+<tr>
+  <td>TimePicker</td>
+  <td>tmPk</td>
+</tr>
+<tr>
+  <td>toggleButton</td>
+  <td>tglBtn</td>
+</tr>
+<tr>
+  <td>ProgressBar</td>
+  <td>proBar</td>
+</tr>
+<tr>
+  <td>SeekBar</td>
+  <td>skBar</td>
+</tr>
+<tr>
+  <td>AutoCompleteTextView</td>
+  <td>autoTxt</td>
+</tr>
+<tr>
+  <td>ZoomControls</td>
+  <td>zmCtl</td>
+</tr>
+<tr>
+  <td>VideoView</td>
+  <td>vdoVi</td>
+</tr>
+<tr>
+  <td>WebView</td>
+  <td>webVi</td>
+</tr>
+<tr>
+  <td>RantingBar</td>
+  <td>ratBar</td>
+</tr>
+<tr>
+  <td>Spinner</td>
+  <td>spn</td>
+</tr>
+<tr>
+  <td>Chronometer</td>
+  <td>cmt</td>
+</tr>
+<tr>
+  <td>ScollView</td>
+  <td>sclVi</td>
+</tr>
+<tr>
+  <td>TextSwitch</td>
+  <td>txtSwt</td>
+</tr>
+<tr>
+  <td>ImageSwitch</td>
+  <td>imgSwt</td>
+</tr>
+<tr>
+  <td>ListView</td>
+  <td>lVi 或则lv</td>
+</tr>
+<tr>
+  <td>ExpandableList</td>
+  <td>epdLt</td>
+</tr>
+<tr>
+  <td>MapView</td>
+  <td>mapVi</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-11" class="wmd-preview-section preview-content">
+
+<h5 id="动画文件命名">动画文件命名</h5>
+
+<p>动画文件（anim文件夹下）：全部小写，采用下划线命名法，加前缀区分。</p>
+
+<p><strong>前面为动画的类型，后面为方向</strong></p>
+
+<p>动画命名例子  </p>
+
+<table>
+<thead>
+<tr>
+  <th>规范写法</th>
+  <th>备注</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>fade_in</td>
+  <td>淡入</td>
+</tr>
+<tr>
+  <td>fade_out</td>
+  <td>淡出</td>
+</tr>
+<tr>
+  <td>push_down_in</td>
+  <td>从下方推入</td>
+</tr>
+<tr>
+  <td>push_down_out</td>
+  <td>从下方推出</td>
+</tr>
+<tr>
+  <td>push_left</td>
+  <td>推像左方</td>
+</tr>
+<tr>
+  <td>slide_in_from_top</td>
+  <td>从头部滑动进入</td>
+</tr>
+<tr>
+  <td>zoom_enter</td>
+  <td>变形进入</td>
+</tr>
+<tr>
+  <td>slide_in</td>
+  <td>滑动进入</td>
+</tr>
+<tr>
+  <td>shrink_to_middle</td>
+  <td>中间缩小</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-12" class="wmd-preview-section preview-content">
+
+<h5 id="图片资源文件命名">图片资源文件命名</h5>
+
+<table>
+<thead>
+<tr>
+  <th>命名</th>
+  <th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>bg_xxx</td>
+  <td>这种图片一般那些比较大的图片，比如作为某个Activity的背景等</td>
+</tr>
+<tr>
+  <td>btn_xxx</td>
+  <td>按钮，一般用于按钮，而且这种按钮没有其他状态</td>
+</tr>
+<tr>
+  <td>ic_xxx</td>
+  <td>图标，一般用于单个图标，比如启动图片ic_launcher</td>
+</tr>
+<tr>
+  <td>bg_描述<em>状态1[</em>状态2]</td>
+  <td>用于控件上的不同状态</td>
+</tr>
+<tr>
+  <td>btn_描述<em>状态1[</em>状态2]</td>
+  <td>用于按钮上的不同状态</td>
+</tr>
+<tr>
+  <td>chx_描述<em>状态1[</em>状态2]</td>
+  <td>选择框，一般有2态和4态</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-13" class="wmd-preview-section preview-content">
+
+<h5 id="一些常见的单词缩写">一些常见的单词缩写</h5>
+
+<table>
+<thead>
+<tr>
+  <th>名称</th>
+  <th>缩写</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>icon</td>
+  <td>ic （主要用在app的图标）</td>
+</tr>
+<tr>
+  <td>color</td>
+  <td>cl（主要用于颜色值）</td>
+</tr>
+<tr>
+  <td>divider</td>
+  <td>com.xdja.domain_mainframe.di（主要用于分隔线，不仅包括Listview中的divider，还包括普通布局中的线）</td>
+</tr>
+<tr>
+  <td>selector</td>
+  <td>sl（主要用于某一view多种状态，不仅包括Listview中的selector，还包括按钮的selector）</td>
+</tr>
+<tr>
+  <td>average</td>
+  <td>avg</td>
+</tr>
+<tr>
+  <td>background</td>
+  <td>Bg（主要用于布局和子布局的背景）</td>
+</tr>
+<tr>
+  <td>buffer</td>
+  <td>buf</td>
+</tr>
+<tr>
+  <td>control</td>
+  <td>ctrl</td>
+</tr>
+<tr>
+  <td>delete</td>
+  <td>del</td>
+</tr>
+<tr>
+  <td>document</td>
+  <td>doc</td>
+</tr>
+<tr>
+  <td>error</td>
+  <td>err</td>
+</tr>
+<tr>
+  <td>escape</td>
+  <td>esc</td>
+</tr>
+<tr>
+  <td>increment</td>
+  <td>inc</td>
+</tr>
+<tr>
+  <td>infomation</td>
+  <td>info</td>
+</tr>
+<tr>
+  <td>initial</td>
+  <td>init</td>
+</tr>
+<tr>
+  <td>image</td>
+  <td>img</td>
+</tr>
+<tr>
+  <td>Internationalization</td>
+  <td>I18N</td>
+</tr>
+<tr>
+  <td>length</td>
+  <td>len</td>
+</tr>
+<tr>
+  <td>library</td>
+  <td>lib</td>
+</tr>
+<tr>
+  <td>message</td>
+  <td>msg</td>
+</tr>
+<tr>
+  <td>password</td>
+  <td>pwd</td>
+</tr>
+<tr>
+  <td>position</td>
+  <td>pos</td>
+</tr>
+<tr>
+  <td>server</td>
+  <td>srv</td>
+</tr>
+<tr>
+  <td>string</td>
+  <td>str</td>
+</tr>
+<tr>
+  <td>temp</td>
+  <td>tmp</td>
+</tr>
+<tr>
+  <td>window</td>
+  <td>wnd(win)</td>
+</tr>
+</tbody></table>
+
+
+</div><div id="wmd-preview-section-14" class="wmd-preview-section preview-content">
+
+<h4 id="布局优化">布局优化</h4>
+
+</div><div id="wmd-preview-section-15" class="wmd-preview-section preview-content">
+
+<h5 id="抽象布局标签">抽象布局标签</h5>
+
+<ul><li><p><code>&lt;include&gt;</code>标签</p>
+
+<p>include标签常用于将布局中的公共部分提取出来供其他layout共用，以实现布局模块化，这在布局编写方便提供了大大的便利。</p></li>
+<li><p><code>&lt;viewstub&gt;</code>标签</p>
+
+<p>viewstub标签同include标签一样可以用来引入一个外部布局，不同的是，viewstub引入的布局默认不会扩张，即既不会占用显示也不会占用位置，从而在解析layout时节省cpu和内存。 <br>
+viewstub常用来引入那些默认不会显示，只在特殊情况下显示的布局，如进度布局、网络失败显示的刷新布局、信息出错出现的提示布局等。</p></li>
+<li><p><code>&lt;merge&gt;</code>标签</p>
+
+<ol>
+<li rel="1">布局顶结点是FrameLayout且不需要设置background或padding等属性，可以用merge代替，因为Activity内容试图的parent view就是个FrameLayout，所以可以用merge消除只剩一个。</li>
+<li rel="2">某布局作为子布局被其他布局include时，使用merge当作该布局的顶节点，这样在被引入时顶结点会自动被忽略，而将其子节点全部合并到主布局中。</li></ol></li>
+</ul>
+
+</div><div id="wmd-preview-section-16" class="wmd-preview-section preview-content">
+
+<h5 id="去除不必要的嵌套和view节点">去除不必要的嵌套和View节点</h5>
+
+<ul><li>首次不需要使用的节点设置为GONE或使用viewstub</li>
+<li>使用RelativeLayout代替LinearLayout</li>
+</ul>
+
+</div><div id="wmd-preview-section-17" class="wmd-preview-section preview-content">
+
+<h5 id="减少不必要的infalte">减少不必要的infalte</h5>
+
+<ul><li>对于inflate的布局可以直接缓存，用全部变量代替局部变量，避免下次需再次inflate</li>
+<li>ListView提供了item缓存，adapter getView的标准写法</li>
+</ul>
+
+</div><div id="wmd-preview-section-18" class="wmd-preview-section preview-content">
+
+<pre class="prettyprint hljs-dark"><code class="language-ruby hljs"><span class="hljs-variable">@Override</span><br>public <span class="hljs-constant">View</span> getView(int position, <span class="hljs-constant">View</span> convertView, <span class="hljs-constant">ViewGroup</span> parent) {<br>    <span class="hljs-constant">ViewHolder</span> holder;<br>    <span class="hljs-keyword">if</span> (convertView == null) {<br>        convertView = inflater.inflate(<span class="hljs-constant">R</span>.layout.list_item, null);<br>        holder = new <span class="hljs-constant">ViewHolder</span>();<br>        ……<br>        convertView.setTag(holder);<br>    } <span class="hljs-keyword">else</span> {<br>        holder = (<span class="hljs-constant">ViewHolder</span>)convertView.getTag();<br>    }<br>}<br><br>/**<br> * <span class="hljs-constant">ViewHolder</span><br> * <br> * <span class="hljs-variable">@author</span> trinea<span class="hljs-variable">@trinea</span>.cn <span class="hljs-number">2013</span>-08-<span class="hljs-number">01</span><br> *<span class="hljs-regexp">/<br>private static class ViewHolder {<br><br>    ImageView appIcon;<br>    TextView  appName;<br>    TextView  appInfo;<br>}</span><br></code></pre>
+
+</div><div id="wmd-preview-section-19" class="wmd-preview-section preview-content">
+
+<h4 id="java代码优化">Java代码优化</h4>
+
+</div><div id="wmd-preview-section-20" class="wmd-preview-section preview-content">
+
+<h5 id="降低执行时间">降低执行时间</h5>
+
+<ol><li rel="1">缓存 <br>
+缓存主要包括对象缓存、IO缓存、网络缓存、DB缓存，对象缓存能减少内存的分配，IO缓存减少磁盘的读写次数，网络缓存减少网络传输，DB缓存较少Database的访问次数。 <br>
+在内存、文件、数据库、网络的读写速度中，内存都是最优的，且速度数量级差别，所以尽量将需要频繁访问或访问一次消耗较大的数据存储在缓存中。 <br>
+<ul>
+<li>线程池</li>
+<li>Android图片缓存，Android图片Sdcard缓存，数据预取缓存</li>
+<li>ListView缓存</li>
+<li>网络缓存 <br>
+数据库缓存http response，根据http头信息中的Cache-Control域确定缓存过期时间。</li>
+<li>文件IO缓存 <br>
+使用具有缓存策略的输入流，BufferedInputStream替代InputStream，BufferedReader替代Reader，BufferedReader替代BufferedInputStream.对文件、网络IO皆适用。</li>
+<li>其他需要频繁访问或访问一次消耗较大的数据缓存</li></ul></li>
+<li rel="2">数据存储优化 <br>
+包括数据类型、数据结构的选择。 <br>
+<ul>
+<li>数据类型选择 <br>
+<ul>
+<li>字符串拼接用StringBuilder代替String，在非并发情况下用StringBuilder代替StringBuffer。</li>
+<li>如果你对字符串的长度有大致了解，如100字符左右，可以直接new StringBuilder(128)指定初始大小，减少空间不够时的再次分配。</li>
+<li>64位类型如long double的处理比32位如int慢</li>
+<li>使用SoftReference、WeakReference相对正常的强应用来说更有利于系统垃圾回收</li>
+<li>final类型存储在常量区中读取效率更高</li>
+<li>LocalBroadcastManager代替普通BroadcastReceiver，效率和安全性都更高</li></ul></li>
+<li>数据结构选择 <br>
+ArrayList和LinkedList的选择，ArrayList根据index取值更快，LinkedList更占内存、随机插入删除更快速、扩容效率更高。一般推荐ArrayList。 <br>
+ArrayList、HashMap、LinkedHashMap、HashSet的选择，hash系列数据结构查询速度更优，ArrayList存储有序元素，HashMap为键值对数据结构，LinkedHashMap可以记住加入次序的hashMap，HashSet不允许重复元素。 <br>
+HashMap、WeakHashMap选择，WeakHashMap中元素可在适当时候被系统垃圾回收器自动回收，所以适合在内存紧张型中使用。 <br>
+Collections.synchronizedMap和ConcurrentHashMap的选择，ConcurrentHashMap为细分锁，锁粒度更小，并发性能更优。Collections.synchronizedMap为对象锁，自己添加函数进行锁控制更方便。 <br>
+Android也提供了一些性能更优的数据类型，如SparseArray、SparseBooleanArray、SparseIntArray、Pair。</li></ul></li>
+<li rel="3">算法优化</li>
+<li rel="4">JNI</li>
+<li rel="5">逻辑优化 <br>
+这个不同于算法，主要是理清程序逻辑，减少不必要的操作。</li>
+<li rel="6">需求优化</li>
+</ol>
+
+</div><div id="wmd-preview-section-21" class="wmd-preview-section preview-content">
+
+<h5 id="异步利用多线程提高tps">异步，利用多线程提高TPS</h5>
+
+<p>充分利用多核Cpu优势，利用线程解决密集型计算、IO、网络等操作。 <br>
+在Android应用程序中由于系统ANR的限制，将可能造成主线程超时操作放入另外的工作线程中。在工作线程中可以通过handler和主线程交互。</p>
+
+</div><div id="wmd-preview-section-22" class="wmd-preview-section preview-content">
+
+<h5 id="提前或延迟操作错开时间段提高tpstps为每秒处理的事务数">提前或延迟操作，错开时间段提高TPS（TPS为每秒处理的事务数）</h5>
+
+<ul><li>延迟操作 <br>
+不在Activity、Service、BroadcastReceiver的生命周期等对响应时间敏感函数中执行耗时操作，可适当delay。 <br>
+Java中延迟操作可使用ScheduledExecutorService，不推荐使用Timer.schedule; <br>
+Android中除了支持ScheduledExecutorService之外，还有一些delay操作，如 <br>
+handler.postDelayed，handler.postAtTime，handler.sendMessageDelayed，View.postDelayed，AlarmManager定时等。</li>
+<li>提前操作 <br>
+对于第一次调用较耗时操作，可统一放到初始化中，将耗时提前。如得到壁纸wallpaperManager.getDrawable();</li>
+</ul>
+
+</div><div id="wmd-preview-section-23" class="wmd-preview-section preview-content">
+
+<h5 id="网络优化">网络优化</h5>
+
+<p>以下是网络优化中一些客户端和服务器端需要尽量遵守的准则：</p>
+
+<ol><li rel="1">图片必须缓存，最好根据机型做图片做图片适配</li>
+<li rel="2">所有http请求必须添加httptimeout</li>
+<li rel="3">开启gzip压缩</li>
+<li rel="4">api接口数据以json格式返回，而不是xml或html</li>
+<li rel="5">根据http头信息中的Cache-Control及expires域确定是否缓存请求结果。</li>
+<li rel="6">确定网络请求的connection是否keep-alive</li>
+<li rel="7">减少网络请求次数，服务器端适当做请求合并。</li>
+<li rel="8">减少重定向次数</li>
+<li rel="9">api接口服务器端响应时间不超过100ms</li>
+</ol></div><div id="wmd-preview-section-footnotes" class="preview-content"></div></div></body></html>

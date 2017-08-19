@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--modify by alh@xdja.com to fix bug: 1120 2016-07-22 start(rummager:self)-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <com.xdja.presenter_mainframe.widget.FillInMessage.FillInMessageView
+            android:id="@+id/fmv_fill_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/activity_background_color"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize" />
+    </ScrollView>
+</LinearLayout>
+    <!--modify by alh@xdja.com to fix bug: 1120 2016-07-22 end(rummager:self)-->

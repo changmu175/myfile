@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/talk_list_item_height"
+    android:background="@drawable/selector_talk_list_item"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <!--头像和未读数量-->
+    <include layout="@layout/chatlist_ownerid_header"/>
+
+    <!--姓名和消息内容-->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="@dimen/talk_list_item_title_width"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:paddingBottom="5px"
+            android:text="@string/antong_team_name"
+            android:textColor="@color/common_ninety_five_percent_black"
+            android:textSize="@dimen/common_txsize_16_19"
+            tools:ignore="PxUsage" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="@dimen/talk_list_item_content_width"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:paddingTop="5px"
+            android:singleLine="true"
+            android:textColor="@color/common_sixty_five_percent_black"
+            android:textSize="@dimen/common_txsize_12_15"
+            tools:ignore="PxUsage" />
+    </RelativeLayout>
+
+    <!--时间和是否提醒-->
+    <include layout="@layout/chatlist_time_notify" />
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xdja.contact" >
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application>
+        <activity android:name=".presenter.activity.AcceptFriendApplyPresenter"
+            android:label="@string/detail_info_title"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.FriendRequestHistoryPresenter"
+            android:label="@string/friend_history_title"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="com.xdja.contact.presenter.activity.FriendRequestHistoryPresenter"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".presenter.activity.FriendSearchPresenter"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.FriendRemarkPresenter"
+            android:label="@string/friend_set_remark"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.ChooseContactPresenter"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".presenter.activity.FriendRequestInfoPresenter"
+            android:label="@string/detail_info_title"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.AnTongComeInPresenter"
+            android:label="@string/detail_info_title"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.LocalSearchPresenter"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.LocalSearchMorePresenter"
+            android:screenOrientation="portrait"/>
+        <activity android:label="@string/detail_info_title"
+            android:name=".presenter.activity.CommonDetailPresenter"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".presenter.activity.MultiDelPresenter"
+            android:label="@string/chat_members"
+            android:screenOrientation="portrait"/>
+        <receiver android:name=".receiver.BroadcastLoginOut"
+            android:exported = "false">
+            <intent-filter>
+                <action android:name="com.xdja.application.exit"/>
+            </intent-filter>
+        </receiver>
+        <meta-data
+            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+            android:value="GlideModule" />
+    </application>
+
+</manifest>

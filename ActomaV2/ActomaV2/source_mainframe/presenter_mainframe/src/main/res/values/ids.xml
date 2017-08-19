@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="verify_phone_number_phone" type="id"/>
+    <item name="verify_phone_number_verify_code" type="id"/>
+    <item name="tv_set_account_bottom_text" type="id"/>
+    <item name="password_text" type="id"/>
+    <item name="password_again_text" type="id"/>
+    <item name="inputView_account" type="id"/>
+    <item name="nickname_input" type="id"/>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    android:orientation="vertical"
+    tools:ignore="Overdraw"
+    tools:context="com.xdja.presenter_mainframe.presenter.activity.setting.AuthAccountLoginPresenter">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <TextView
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:id="@+id/tv_auth_account_login_first_text"
+        android:layout_marginTop="@dimen/base_32"
+        style="@style/normal_text"
+        android:textSize="@dimen/bigger_text_size_16"
+        />
+    <TextView
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:id="@+id/tv_auth_account_login_second_text"
+        android:layout_marginTop="@dimen/base_10"
+        style="@style/normal_text"
+        />
+    <Button
+        android:layout_marginTop="@dimen/base_42"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:id="@+id/btn_auth_account_login_certain"
+        style="@style/gold_big_button"
+        android:text="@string/certain"
+        android:textAllCaps="false"/>
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:background="@color/listview_bg_withgroup"-->
+    <!--tools:ignore="Overdraw"-->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <!--安全锁-->
+    <RelativeLayout
+        android:id="@+id/safe_lock"
+        style="@style/style_setting_item_layout"
+        android:layout_height="@dimen/setting_item_height">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+            <TextView
+                style="@style/style_setting_item_label"
+                android:text="@string/safe_lock_setting" />
+
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/safe_lock_checkbox"
+            style="@style/style_item_swich"
+            android:checked="true"
+            android:enabled="true"/>
+    </RelativeLayout>
+
+    <View style="@style/view_line_style" />
+
+    <LinearLayout
+        android:id="@+id/safe_lock_screen_background_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_36"
+        android:background="@color/listview_bg_nogroup"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/safe_please_choice_wap"
+            android:layout_marginStart="@dimen/base_16"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/body1_14"
+            android:textColor="@color/blade_black_65"/>
+    </LinearLayout>
+        <View style="@style/view_line_style" />
+    <!--锁屏锁定-->
+    <RelativeLayout
+        android:id="@+id/lock_screen"
+        style="@style/style_setting_item_layout"
+        android:layout_height="@dimen/setting_lock_screen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_setting_item_label"
+                android:text="@string/safe_lock_screen"
+               />
+
+            <TextView
+                android:id="@+id/text_safe_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/base_3"
+                android:singleLine="false"
+                android:text="@string/safe_phone_lock_actoma"
+                android:textColor="@color/base_black_65"
+                android:textSize="@dimen/body2_12"
+                android:layout_marginTop="@dimen/base_6"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/lock_screen_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_selected_on_safe"
+            style="@style/style_item_swich"
+            android:checked="true"
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_line_style" />
+    <!--后台运行锁定-->
+    <RelativeLayout
+        android:id="@+id/background_lock"
+        style="@style/style_setting_item_layout"
+        android:layout_height="@dimen/setting_lock_screen">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/style_setting_item_label"
+                android:text="@string/safe_lock_background" />
+
+            <TextView
+                android:id="@+id/text_background_lock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="@dimen/base_3"
+                android:singleLine="false"
+                android:text="@string/safe_lock_background_lock_actoma"
+                android:textColor="@color/base_black_65"
+                android:textSize="@dimen/body2_12"
+                android:layout_marginTop="@dimen/base_6"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/background_lock_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_selected_on_safe"
+            android:visibility="gone"
+            style="@style/style_item_swich"
+            />
+    </RelativeLayout>
+
+        <View style="@style/view_line_style" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_8"
+        android:background="@color/listview_bg_nogroup"
+        />
+
+        <View style="@style/view_line_style" />
+
+    <RelativeLayout
+        android:id="@+id/midified_safe_lock"
+        style="@style/style_setting_item_layout"
+        android:clickable="true"
+        android:layout_height="@dimen/base_48">
+
+        <LinearLayout
+            android:id="@+id/modified_gesture"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base_48"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+            <TextView
+                style="@style/style_setting_item_label"
+                android:layout_height="@dimen/base_48"
+                android:text="@string/safe_modified_gesture"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+        <View style="@style/view_line_style" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_bg_nogroup" />
+</LinearLayout>
+
+

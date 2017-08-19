@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_dialog_bg"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/titleView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/blade_dialog_message_height"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/blade_16"
+        android:paddingRight="@dimen/blade_16"
+        >
+        <TextView
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_record"
+            android:textColor="@color/blade_black_95"
+            android:textSize="@dimen/blade_font_16"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/blade_8"
+            android:paddingLeft="@dimen/blade_16"
+            android:paddingRight="@dimen/blade_16">
+
+            <TextView
+                android:id="@+id/dialog_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/delete_record"
+                android:textColor="@color/blade_black_65"
+                android:textSize="@dimen/blade_font_14" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentmiddle_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+    <RelativeLayout
+        android:id="@+id/buttonlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/blade_20"
+        android:paddingTop="@dimen/blade_16"
+        android:paddingLeft="@dimen/blade_16"
+        android:paddingRight="@dimen/blade_16">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dialog_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/blade_32"
+                android:padding="8dp"
+                android:text="@string/cancel_text"
+                android:textColor="@color/blade_bottom_gold"
+                android:textSize="@dimen/blade_font_14" />
+
+            <TextView
+                android:id="@+id/dialog_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/blade_32"
+                android:padding="8dp"
+                android:text="@string/ok_text"
+                android:textColor="@color/blade_bottom_gold"
+                android:textSize="@dimen/blade_font_14" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>  

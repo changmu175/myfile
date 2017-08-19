@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mTools="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"    
+    android:background="@color/base_background"
+    tools:ignore="Overdraw">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+
+    <com.xdja.presenter_mainframe.widget.TabView
+        android:id="@+id/tabview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/af_bg_tab"
+        android:orientation="horizontal"
+        mTools:tab_item_padding="7dip"
+        mTools:tab_text_normal_color="@color/tab_text_normal_color"
+        mTools:tab_text_select_color="@color/tab_text_normal_select"
+        mTools:tab_text_size="@dimen/tab_text_size" />
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/tabview"
+        android:layout_below="@id/toolbar" />
+
+    <include layout="@layout/like_a_path" />
+</RelativeLayout>

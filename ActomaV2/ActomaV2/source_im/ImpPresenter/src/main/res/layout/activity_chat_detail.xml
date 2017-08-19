@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.xdja.simcui.chatDetail.KeyboardLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:splitMotionEvents="false"
+    android:descendantFocusability="afterDescendants"
+    android:windowSoftInputMode="adjustResize|stateHidden">
+
+    <!-- toolbar-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <!-- 整个底部布局 -->
+
+    <LinearLayout
+        android:id="@+id/llayout_chat_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <!-- 操作栏 -->
+        <com.xdja.simcui.view.ChatInputView
+            android:id="@+id/layout_chat_operate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- 动作栏 （更多展示面板） -->
+        <com.xdja.simcui.view.ChatActionView
+            android:id="@+id/layout_chat_action"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/chat_actionpanel_h"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <!-- 聊天列表 -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@id/llayout_chat_bottom">
+
+        <ListView
+            android:id="@+id/chatlist"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="0dp"
+            android:paddingBottom="12dp"
+            android:background="@color/white"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/transparent"
+            android:listSelector="@color/transparent"
+            android:paddingLeft="@dimen/chatlist_padding_l"
+            android:paddingRight="@dimen/chatlist_padding_l"
+            android:scrollbars="none"
+            >
+        </ListView>
+        <!--android:dividerHeight="@dimen/chatlist_divider_h"-->
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:id="@+id/btn_noread_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/llayout_chat_bottom"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/tips_number_bottome"
+        android:layout_marginRight="@dimen/tips_number_right"
+        android:background="@drawable/talk_tips_number"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/chatlist_item_recnew_size"
+        android:visibility="gone" />
+
+    <!-- 听筒模式提示框 -->
+    <com.xdja.simcui.view.TipsTextView
+        android:id="@+id/tv_tips_receiver"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_below="@id/toolbar"
+        android:background="#CC252320"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/ic_tips_receiver"
+        android:drawablePadding="5dp"
+        android:paddingLeft="5dp"
+        android:text="@string/tips_receiver"
+        android:textSize="14sp"
+        android:textColor="#FFFFFFFF"
+        android:visibility="gone"/>
+</com.xdja.simcui.chatDetail.KeyboardLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:background="@color/activity_background_color"-->
+    <!--tools:ignore="Overdraw"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+
+        <Button
+            android:id="@+id/choice_ok"
+            android:layout_width="@dimen/base_46"
+            android:layout_height="@dimen/base_28"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/base_12"
+            android:background="@drawable/sel_bg_gold"
+            android:textAllCaps="false"
+            android:text="@string/text_ok"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/button_14" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listview"
+        android:minHeight="48dp"
+        android:background="@color/white"
+        android:dividerHeight="1px"
+        android:divider="@color/base_horizontal_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        style="@style/view_line_style"/>
+    <!--add by ycm for overdraw-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_bg_nogroup" />
+</LinearLayout>

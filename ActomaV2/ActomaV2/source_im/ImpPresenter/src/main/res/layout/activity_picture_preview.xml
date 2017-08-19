@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- toolbar-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+        <ImageButton
+            android:id="@+id/btn_select"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:button="@drawable/icon_select"
+            android:background="@null"
+            android:clickable="false"
+            android:contentDescription="@null"/>
+    </RelativeLayout>
+
+    <!--start: modified by ycm : add ProgressBar 2016/9/5-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_picture_preview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <!-- 图片加载进度动画 -->
+        <ProgressBar
+            android:id="@+id/loadProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateOnly="true"
+            android:indeterminateDrawable="@drawable/progressbar"
+            android:visibility="gone"/>
+    </RelativeLayout>
+    <!--end: modified by ycm : add ProgressBar 2016/9/5-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_bottom_view">
+
+        <Button
+            android:id="@+id/btn_original_pic_select"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:gravity="center_vertical"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/icon_selected_off"
+            android:background="#00000000"
+            android:paddingLeft="6dp"
+            android:textColor="#F2000000"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:text="@string/original_image"
+            tools:ignore="RelativeOverlap" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="46dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/btn_common_selector"
+            android:textColor="#F3000000"
+            android:textAllCaps="false"
+            android:textSize="14sp"
+            android:text="@string/send"/>
+    </RelativeLayout>
+</LinearLayout>

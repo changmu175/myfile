@@ -1,0 +1,608 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">安通+</string>
+    <string name="process_name">com.xdja.actoma</string>
+
+    <!--********************************************新账号相关*********************************-->
+    <string name="login">登录</string>
+    <string name="load">加载</string>
+    <string name="being">正在</string>
+    <string name="register">注册</string>
+    <string name="next">下一步</string>
+    <string name="verify">验证</string>
+    <string name="complete">完成</string>
+    <string name="certain">确定</string>
+    <string name="skip">跳过</string>
+    <string name="handle">处理</string>
+    <string name="setHeaderAvater">设置头像</string>
+    <string name="modify_password">更改密码</string>
+    <string name="avater">头像</string>
+    <string name="nickName">昵称</string>
+    <string name="qr_card">二维码名片</string>
+    <string name="scan">扫一扫</string>
+    <string name="cancel">取消</string>
+    <string name="more"><u>更多</u></string>
+    <string name="forgetPassword">忘记密码</string>
+    <string name="netNotWork">网络不可用，请检查网络设置</string>
+    <string name="prompt">提示</string>
+    <string name="this_the">就这个了</string>
+    <string name="safe_card_error">安全卡或证书异常</string>
+    <string name="gateway_error">应用内部错误</string>
+    <string name="server_error">服务器内部错误</string>
+    <string name="device_not_activate">设备未激活，请咨询客服激活（错误码：%1$s，卡号：%2$s）</string>
+    <string name="no_detect_secure_chip_1">设备未检测到安全芯片或者未开启芯片管家应用自启动</string>
+    <string name="account_transfer_fail">帐号未迁移成功</string>
+    <string name="safe_card_lock_prompt">本设备安全芯片已被锁死</string>
+    <string name="safe_card_lock">解锁后方可正常使用安通+应用。\n点击下方现在解锁，前往芯片管家应用进行解锁操作。</string>
+    <string name="unlock">现在激活</string>
+    <string name="inner_authCode_invalid">验证码错误</string>
+    <string name="auth_code_error">验证码错误</string>
+    <string name="login_pwd">登录密码</string>
+    <string name="old_account_fix_pwd_prompt">安通+应用已升级，为保证安全口令的安全，请设置登录密码，设置成功后，可使用此密码进行登录。</string>
+    <string name="old_account_prompt">安通+应用已升级，请牢记安通+帐号。</string>
+    <string name="device_removed">该设备已被%1$s从此帐号的受信设备列表中移除，此帐号将退出登录。</string>
+    <string name="account_will_quit">此帐号将退出登录</string>
+    <string name="account_unbind">帐号在此设备被解绑</string>
+    <string name="forced_offline">你的帐号在其他手机设备登录，本设备将退出登录。若非本人操作，请进入设置->帐号与安全->登录设备管理处理。</string>
+    <string name="forced_offline_title">你的帐号已在其他手机设备登录</string>
+    <string name="is_delete_image">确认删除该图片吗?</string>
+    <string name="open_encryption_channel">打开三方加密通道</string>
+    <string name="image_big">请选择30M以下的图片</string>
+    <string name="scan_failed">扫描失败，请重新扫描</string>
+    <string name="register_count">注册账号次数超过当天最大限制:</string>
+    <string name="register_count_month">注册账号次数超过当月最大限制:</string>
+    <string name="register_count_year">注册账号次数超过今年最大限制:</string>
+    <string name="count">次</string>
+    <string name="return_map_not_empty">返回Map不能为空</string>
+    <string name="return_parameter_error">返回参数错误</string>
+    <string name="create">生成</string>
+    <string name="set_succeed">设置成功</string>
+    <string name="submit_failed">提交失败，请重试</string>
+    <string name="phone_or_pwd_error">手机号或密码错误，请重新输入</string>
+    <string name="account_or_pwd_error">安通+帐号或密码错误，请重新输入</string>
+    <string name="phone_or_verifycode_error">手机号或验证码错误，请重新输入</string>
+    <string name="unknow_reason_404">未知原因，操作失败（404）</string>
+    <string name="unknow_reason_406">未知原因，操作失败（406）</string>
+    <string name="login_count_limit_title">登录尝试次数已达上限</string>
+    <string name="login_count_limit_content">登录尝试次数已达到日上限（%1$d次/日），请改日再试，忘记密码请重新设置。</string>
+    <string name="roger">知道了</string>
+    <string name="account_already_bind_mobile">账号手机号已绑定</string>
+    <string name="remaining_selected_opportunities">还有%1$d次选取机会</string>
+    <string name="no_selected_opportunities">10次选取机会已用完，如不喜欢此帐号，可自己设定。</string>
+    <string name="get_account">获取帐号</string>
+    <string name="change_account">更换帐号</string>
+    <string name="verify_code_error">验证码错误，请重新输入</string>
+    <string name="force_bind">强制绑定</string>
+    <string name="bind">绑定</string>
+    <string name="unbind">解绑</string>
+    <string name="submit">提交</string>
+    <string name="account_error">安通+帐号为6~20位以字母开头的字母、数字、下划线和减号组成。</string>
+    <string name="upload">上传</string>
+    <string name="get_verify_code_prompt">请先获取验证码</string>
+    <string name="sure_you_want_to_logout">确定要退出登录吗？</string>
+    <string name="logout_content_prompt">退出后不会删除任何历史数据，下次登录仍然可以查看。</string>
+    <string name="pwd_error">密码错误，请重试</string>
+    <string name="pwd_error_retry_input">密码错误，请重新输入</string>
+    <string name="timeout">网络请求超时</string>
+    <string name="empower">授权</string>
+    <string name="bind_phone_number_succeed">绑定手机号成功</string>
+    <string name="change_phone_number_succeed">更改手机号成功</string>
+    <string name="phone_number_bind_succeed">手机号绑定成功</string>
+
+    <string name="change">更换</string>
+    <string name="local">本机</string>
+    <string name="has_login">已登录</string>
+    <string name="load_device_list">加载设备列表</string>
+    <string name="delete">删除</string>
+    <string name="modify">修改</string>
+    <string name="set_account_succeed">安通+帐号设置成功</string>
+    <string name="set_nickname_succeed">昵称设置成功</string>
+    <string name="apostrophe">&#8230;</string>
+    <string name="parameter_illegality">参数非法</string>
+    <string name="account_cannot_be_empty">账号不能为空</string>
+    <string name="pwd_cannot_be_empty">密码不能为空</string>
+    <string name="request_params_error">请求参数为空</string>
+    <string name="account_format_illegal">帐号格式非法</string>
+    <string name="mobile_format_illegal">手机号格式非法</string>
+    <string name="customize_account_format_illegal">自定义帐号格式非法</string>
+    <string name="old_account_format_illegal">旧帐号格式非法</string>
+    <string name="new_account_format_illegal">新帐号格式非法</string>
+    <string name="friends_mobile_number_illegal">好友手机号个数非法</string>
+    <string name="friends_mobile_format_illegal">好友手机号格式非法</string>
+    <string name="friends_mobile_repeat">好友手机号重复</string>
+    <string name="client_type_illegal">客户端类型不在范围内</string>
+    <string name="login_type_illegal">登录类型不在范围内</string>
+    <string name="os_name_illegal">操作系统名称不在范围内</string>
+    <string name="dst_account_format_illegal">对方帐号格式非法</string>
+    <string name="identify_format_illegal">更新标识格式非法</string>
+    <string name="ticket_invalid">无效的Ticket</string>
+    <string name="request_method_not_match">请求方法与接口要求不符</string>
+    <string name="device_id_no_exist">设备号为空</string>
+    <string name="device_id_no_corresponding">未查到该设备对应的人员信息</string>
+    <string name="service_not_open">集团服务未开通或超出使用期限</string>
+    <string name="get_account_failed">获取账号失败，请稍后重试</string>
+    <string name="client_error">客户端出错</string>
+    <string name="network_connect_failed">网络连接失败，请检查网络是否开启</string>
+    <string name="server_busy">服务器繁忙</string>
+    <string name="account_closure">该帐号已被封停，请先申请解封</string>
+    <string name="account_frozen">该帐号已被冻结，请先解冻</string>
+    <string name="account_cancelled">该帐号已被注销</string>
+    <string name="mobile_phone_number_is_not_registered">该手机号未注册，请先注册</string>
+    <string name="verify_code_max_count">获取验证码次数已达今日上限，请改日再试</string>
+    <string name="mms_send_failed">短信发送失败，请稍后重试</string>
+    <string name="verification_is_not_through">未验证通过，请检查手机号是否正确填写 </string>
+    <string name="device_not_credit">设备未授信</string>
+    <string name="more_than_operation_time_limit">已超出操作时间限制，请重新操作。</string>
+    <string name="set_custom_account_error">该帐号已设置过自定义帐号，只可以设置一次</string>
+    <string name="account_exist">该帐号已存在，请输入其他帐号</string>
+    <string name="initialize_net_failed">初始化失败，请检查网络设置</string>
+    <string name="encryption_initialize_failed">加密模块初始化失败，请稍后重试</string>
+    <string name="authorization_failed">授权失败</string>
+    <string name="version_not_matched">请检查安全芯片和安通+版本是否匹配</string>
+    <string name="error_and_not_prompt">错误但没有提示信息,请提交错误日志！</string>
+    <string name="send_verify_code_mms">发送验证码短信</string>
+    <string name="send">发送</string>
+    <string name="resend">重新发送(%1$d)</string>
+    <string name="resend1">重新发送</string>
+    <string name="authorization_login">你将授权%1$s帐号在%2$s设备登录。</string>
+    <string name="authorization_login_content">%1$s设备登录后该帐号将从本设备自动退出登录。</string>
+    <string name="is_delete_device">确定删除该设备吗？</string>
+    <string name="is_delete_device_content">删除后，再次在该设备上登录本帐号，需要此帐号的受信设备授权。如果删除后，无任何受信设备，本帐号可能无法登录。</string>
+    <string name="modify_device_name">修改设备名称</string>
+    <string name="input_device_name">请输入设备名称</string>
+    <string name="device_name_length_error">设备名称不能大于32字符</string>
+    <string name="confirm_device_loss">确认原设备丢失?</string>
+    <string name="confirm_device_loss_content1">"原设备临时不在身边，请勿执行此操作。</string>
+    <string name="confirm_device_loss_content2">"\n通过验证身份登录后，帐号将绑定到新设备，所有原授权设备将无法登录此帐号。</string>
+    <string name="new_pwd">新  密  码</string>
+    <string name="account_or_pwd_cannot_empty">账户或密码不能为空</string>
+    <string name="bind_phone_number_prompt">该手机已绑定了其它安通+帐号</string>
+    <string name="bind_phone_number_error_content">该手机已绑定了其它安通+帐号,绑定此账号,原账号将解除绑定关系。</string>
+    <string name="bind_account">绑定此账号</string>
+    <string name="authentication_failed">身份验证未通过</string>
+    <string name="your_nick_name">你的昵称</string>
+    <string name="such_as_xiaoming">如：小明</string>
+    <string name="pwd">密　　码</string>
+    <string name="pwd_format">6~20位字符(区分大小写)</string>
+    <string name="start_install_app">安装应用开始</string>
+    <string name="install_app_failed">安装应用失败</string>
+    <string name="oom">内存不足</string>
+    <string name="check_sd_card">请检查SD卡</string>
+    <string name="exe_dowload">执行下载操作</string>
+    <string name="exe_pause_dowload">执行暂停下载操作</string>
+    <string name="exe_install">执行安装</string>
+    <string name="download_and_update">下载更新</string>
+    <string name="unknown_oper">未知操作</string>
+    <string name="unknown_download_oper">执行下载操作</string>
+    <string name="app_exist">包名对应的应用存在</string>
+    <string name="app_no_exist">包名对应的应用不存在</string>
+    <string name="download_stoped">下载已停止</string>
+    <string name="set_tabview_error">在您设置TabView的ViewPager时，请先设置ViewPager的PagerAdapter</string>
+    <string name="fillinmessage_error">不支持连续两个textView</string>
+    <string name="fillinmessage_error1">暂不支持的类型</string>
+
+    <!--progressDialog显示文字-->
+    <string name="submiting">正在提交&#8230;</string>
+    <string name="exiting">正在退出中&#8230;</string>
+    <string name="open_web">打开网页中&#8230;</string>
+
+    <string name="delete_chat_history">正在删除聊天记录&#8230;</string>
+    <string name="delete_call_history">正在删除通话记录&#8230;</string>
+    <string name="delete_call_history_succeed">删除通话记录成功！</string>
+
+
+    <!--title-->
+    <!--modify by alh@xdja.com to fix bug: 2088 2016-08-01 start(rummager:anlihuang)-->
+    <string name="title_setting_about_soft">关于安通</string>
+    <!--modify by alh@xdja.com to fix bug: 2088 2016-08-01 end(rummager:anlihuang)-->
+    <string name="title_message_verify_code_login">短信验证码登录</string>
+    <string name="title_empower_device_login">授权此设备登录</string>
+    <string name="title_verify_login">验证登录</string>
+    <string name="title_verify_phone_number">验证手机号</string>
+    <string name="title_verify_friend_phone">验证好友手机号</string>
+    <string name="title_write_registration_info">填写注册信息</string>
+    <string name="title_choose_account">选取安通+帐号</string>
+    <string name="title_reset_password">重新设置密码</string>
+    <string name="title_input_new_password">输入新密码</string>
+    <string name="title_setting">设置</string>
+    <string name="title_account_safe">帐号与安全</string>
+    <string name="title_device_manager">设备管理</string>
+    <string name="title_user_detail">个人信息</string>
+    <string name="title_bind_phone_number">绑定手机号</string>
+    <string name="title_modify_phone_number">更换手机号</string>
+    <string name="title_auth_device_login">授权其它设备登录</string>
+    <string name="title_set_account">设置安通+帐号</string>
+    <string name="title_set_nickname">设置昵称</string>
+    <string name="title_mainFrame">安通+</string>
+    <string name="title_auth_account_Login">授权帐号在其他设备登录</string>
+    <string name="title_set_login_pwd">设置登录密码</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_message_verify_login"><u>短信验证登录</u></string>
+    <string name="input_get_verify_code">获取验证码</string>
+    <string name="login_past_due">登录已过期，请重新登录</string>
+    <string name="relogin">重新登录</string>
+
+    <string name="verify_friend_phone_write_friend">请填写你的3位安通+好友帐号所绑定的手机号</string>
+    <string name="verify_friend_phone_write_friend_1">2.请填写你的3位安通+好友帐号所绑定的手机号</string>
+
+    <string name="empower_device_login_top_text">你未在该设备登录过，为保证你的帐号安全，请使用原设备 (登录过此帐号的设备) 扫描下面的二维码授权登录。</string>
+    <string name="empower_device_login_auth_code">授权序列号: </string>
+    <string name="empower_device_login_center_text">如果无法扫描，请使用原设备在“设置” - “帐号与安全” - “登录设备管理” - “授权其他设备登录”中输入上面的序列号授权 (序列号10分钟内有效) ，过期请</string>
+    <string name="empower_device_login_bottom_text">原设备丢失，无法授权？</string>
+    <string name="empower_device_login_generate_again">重新生成。</string>
+
+    <string name="verify_login_top_text">你可通过以下方式验证身份后登录。但由于未经受信设备授权，可能无法恢复原设备密钥数据，离线消息将无法解密。</string>
+    <string name="verify_login_binded_phone">账户已绑定手机号</string>
+    <string name="verify_login_no_bind_phone">账户未绑定手机号</string>
+    <string name="verify_login_verify_code">通过手机验证码验证</string>
+    <string name="verify_login_verify_friend_phone">通过好友手机号码验证</string>
+    <string name="verify_login_bottom_text">此种功能仅能在授信设备（登录过该帐号）上完成。</string>
+    <string name="reset_password_top_text">重新设置密码需要验证身份，你可选择以下方式：</string>
+
+    <string name="write_registration_info_terms1">轻触“下一步”按钮，即表示你阅读并同意</string>
+    <string name="write_registration_info_terms2">《安通+服务条款》</string>
+
+    <string name="choose_account_top_text">恭喜，你的安通+帐号是：</string>
+    <string name="choose_account_mid_text1">不喜欢，点击“</string>
+    <string name="choose_account_mid_text2">换一个</string>
+    <string name="choose_account_mid_text3">”，也可以</string>
+    <string name="choose_account_mid_text4">自己设定帐号。</string>
+
+    <string name="register_verify_phone_number_top_text">验证手机号后，你可通过手机短信验证码登录，也有助于你找回密码。</string>
+
+    <string name="certain_password">确认密码</string>
+    <string name="password_format">密码必须为6~20位字符（区分大小写）</string>
+    <string name="password_hint">请输入6~20位字符</string>
+    <string name="certain_password_hint">再次输入新密码</string>
+    <string name="different_two_password">两次密码输入不一致</string>
+    <string name="password_modify_success">密码更改成功</string>
+
+
+    <string name="verify_code">验证码</string>
+    <string name="phone_number">手机号</string>
+    <string name="verify_code_hint">请输入你的验证码</string>
+    <string name="phone_number_hint">请输入你的手机号</string>
+
+    <string name="please_write_at_account">请填写你的安通+帐号</string>
+    <string name="please_write_at_account_1">1.请填写你的安通+帐号</string>
+    <string name="at_account">安通+帐号</string>
+
+    <string name="friend1">好友1</string>
+    <string name="friend2">好友2</string>
+    <string name="friend3">好友3</string>
+    <string name="friend_hint">请输入好友%1$d手机号</string>
+    <string name="friend1_hint">请输入好友1手机号</string>
+    <string name="friend2_hint">请输入好友2手机号</string>
+    <string name="friend3_hint">请输入好友3手机号</string>
+
+    <!--账号与安全界面-->
+    <string name="login_device_manager">登录设备管理</string>
+
+    <!--设备管理界面-->
+    <string name="auth_other_device_login">授权其它设备登录</string>
+    <string name="authorized_device">已授信设备</string>
+
+    <string name="bind_phone_number_top_text">绑定手机号后，下次登录或找回密码可用此手机号。</string>
+    <string name="bind_phone_number_error_title">该手机号已绑定了其它安通+帐号</string>
+    <string name="bind_phone_number_error">该手机号已绑定了其它安通+帐号,绑定此帐号,原帐号将解除绑定关系。</string>
+    <string name="bind_phone_number">绑定此帐号</string>
+    <!--更换手机号部分-->
+    <string name="binded_phone_number">已绑定的手机号：</string>
+    <string name="modify_phone_number">更换手机号</string>
+    <string name="modify_phone_number_result">更换手机号后，下次登录或找回密码可用新手机号，原手机号解绑。</string>
+    <string name="unbind_phone_number">手机号解绑</string>
+    <string name="unbind_phone_tips_title">确定解绑手机号？</string>
+    <string name="unbind_phone_tips_message">解绑手机号后，将无法通过手机验证码登录。</string>
+
+    <!--授权其他设备登录部分-->
+    <string name="auth_device_login_top_text">授权其它设备登录该帐号（用于初次登录）。</string>
+    <string name="auth_device_login_way1">方式一：输入其他设备初次登录时生成的序列号</string>
+    <string name="auth_device_login_way2">方式二：扫描其它设备初次登录时生成的二维码</string>
+    <string name="serial_number">序列号</string>
+    <!--modify by alh@xdja.com to fix bug: 2084 2016-07-28 (rummager:hujun)-->
+    <string name="serial_number_input_hint">请输入登录授权序列号</string>
+    <!--modify by alh@xdja.com to fix bug: 2084 2016-07-28 (rummager:hujun)-->
+    <string name="auth_info_invalid">授权信息无效</string>
+    <string name="account_device_not_relation">帐号设备无对应关系</string>
+    <string name="auth_success">授权成功！</string>
+    <string name="have_trust">设备已授信！</string>
+
+    <string name="unknown_reason_401">未知原因，操作失败（401）</string>
+    <string name="device_format">暂不支持表情输入</string>
+    <string name="invalid_qrcode">无效的二维码</string>
+    <!--设定安通+帐号-->
+    <string name="set_account_top_text">安通+帐号只能设定一次，设定后原安通+帐号将失效。</string>
+    <string name="set_account_bottom_text">安通+帐号为6~20位以字母开头的字母、数字、下划线和减号组成。</string>
+
+    <!--设置昵称-->
+    <string name="nickname_rule">1~16位字符</string>
+    <string name="nickname_format" tools:ignore="TypographyDashes">昵称仅支持1–16位字符</string>
+    <string name="nickname_top_text">取一个代表自己个性的名字吧~</string>
+
+    <string name="exit_login">退出登录</string>
+
+    <!--选择图像部分-->
+    <string name="title_activity_view_set_head_portrait">修改头像</string>
+    <string name="title_activity_view_cut_image">修改图片</string>
+    <string name="title_activity_view_select_upload_images">选择图片</string>
+    <string name="reselect_image">请重新选择图片裁剪</string>
+    <string name="send_the_image_to_cutbox">请将图片拖拽至裁剪框内</string>
+    <string name="image_cut_failed">图片裁剪失败，请稍后重试</string>
+    <string name="image_load_failed">图片加载失败，图片可能已损坏</string>
+
+    <!-- *******************************************设置相关******************************************* -->
+    <string name="setting_account_safe">帐号与安全</string>
+    <string name="setting_thirdpart">第三方应用加密服务</string>
+    <string name="setting_about_soft">关于安通+</string>
+    <string name="setting_about_chip">关于芯片</string>
+    <string name="message_call">聊天通话</string>
+    <string name="setting_news_remind">新消息提醒</string>
+    <string name="nodistrub_top_message">勿扰模式</string>
+    <string name="setting_exit_tip1">退出登录</string>
+    <string name="setting_exit_message1">退出登录不删除历史数据。</string>
+    <string name="setting_exit_tip2">关闭安通+</string>
+    <string name="setting_exit_message2">关闭应用后并未退出当前帐号。</string>
+    <string name="setting_close">关闭</string>
+    <string name="actoma_account">安通+帐号:&#160;</string>
+
+    <!--验证密码-->
+    <string name="check_password_tip">请输入密码</string>
+
+    <!--更改密码-->
+    <string name="setting_check_password_tips_title">请输入原密码</string>
+    <string name="setting_check_password_tips_message">为保护你的数据安全，修改密码前请输入原密码</string>
+
+
+    <!-- *******************************************主界面相关******************************************* -->
+    <string name="lable_tab_msg">消息</string>
+    <string name="lable_tab_phone">通话</string>
+    <string name="lable_tab_contact">联系人</string>
+    <string name="lable_tab_more">更多</string>
+
+    <string name="action_search">搜索</string>
+    <string name="action_start_group_chat">发起群聊</string>
+    <string name="action_add_friend">添加好友</string>
+    <string name="action_scan">扫一扫</string>
+    <string name="action_setting">设置</string>
+
+
+    <string name="permission_tip">特别提示</string>
+    <string name="permission_message">欢迎使用安通+客户端软件，安通+客户端软件由郑州信大捷安信息技术股份有限公司开发、拥有、运营的社交类应用。
+安通+客户端在使用过程中会产生流量费，流量费用请咨询当地运营商；保护用户隐私是安通+的一项基本政策；安通+客户端使用过程中会收集用户的短信、相册等基本信息。\n
+安通+客户端使用过程中会获取如下系统权限：\n 读取手机状态和身份、直接拨打电话号码、读取您的讯息（短信或彩信）、接收讯息（短信）、
+    拍摄照片和视频、录音、读取您的USB存储设备中的内容、修改和删除您的USB存储设备中的内容、停用屏幕锁定、查看网络连接、查看WLAN连接、
+    连接WLAN网络和断开连接、完全的网络访问权限、与蓝牙设备配对、关闭其他应用、检索正在运行的应用、开机启动、在其他应用之上显示内容、防止手机休眠、控制震动、
+    修改您的音频设置、发送持久广播、修改系统设置。</string>
+    <string name="agree">同意</string>
+    <string name="close">关闭</string>
+    <string name="password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!--modify by alh@xdja.com to fix bug: 473 2016-06-23 start (rummager : liuwangle)-->
+    <string name="account_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</string>
+    <!--modify by alh@xdja.com to fix bug: 473 2016-06-23 end (rummager : liuwangle)-->
+
+
+    <string name="title_activity_view_terms_policy">用户使用条款及隐私政策</string>
+
+    <string name="download_app_mobile_net_tip">提示</string>
+    <string name="download_app_mobile_net_message">当前使用的是数据网络，继续下载将消耗2G/3G/4G流量，是否要继续？</string>
+    <string name="download_app_mobile_net_continue">继续下载</string>
+    <string name="download_app_mobile_net_cancel">取消</string>
+
+
+    <!-- 关于安通+ -->
+    <string name="aboutactoma_welcomepage">欢迎页</string>
+    <string name="aboutactoma_functionintroduction">功能介绍</string>
+    <string name="aboutactoma_commonproblems">帮助与反馈</string>
+    <string name="aboutactoma_versionupdate">检查新版本</string>
+    <string name="aboutactoma_termsandpolicy">使用条款及隐私政策</string>
+    <string name="aboutactoma_exit">退出并关闭</string>
+
+    <!--问题反馈-->
+    <string name="feedback_opinion">问题和意见</string>
+    <string name="feedback_opinion_describe">请简要描述你的问题和意见</string>
+    <string name="feedback_screenshot">上传图片</string>
+    <string name="feedback_contact_phone_number">联系电话</string>
+    <string name="feedback_contact_phone_number_describe">选填，便于我们与你联系</string>
+    <string name="feedback_max_size">（必填，最大字符数：800）</string>
+    <string name="feedback_max_upload_images">（选填，最多只能上传3张图片）</string>
+    <string name="feedback_submit">提交</string>
+    <string name="feedback_opinion_toast">问题不能超过800个文字</string>
+    <string name="feedback_phone_number_toast">联系电话不能超过11位</string>
+    <string name="feedback_network_error">网络异常，请检查网络设置</string>
+    <string name="title_activity_view_feed_back">意见反馈</string>
+
+    <!-- 【李晓龙[2016.06.22] - BUG#570】注册页面上传头像成功后无toast提示 -->
+    <string name="upload_user_avatar_success">头像上传成功</string>
+    <string name="upload_user_avatar">上传头像</string>
+
+    <!-- 聊天通话-->
+    <string name="open_receiver_mode">使用听筒播放语音</string>
+    <string name="message_call_tip">聊天和通话记录</string>
+    <string name="drop_all_message">删除聊天记录</string>
+    <string name="drop_all_message_tip">将删除所有联系人和群组的聊天记录</string>
+    <string name="clear_all_callLog">删除通话记录</string>
+    <string name="clear_all_callLog_tip">将删除所有联系人和群组的通话记录</string>
+    <string name="drop_all_message_dialog">确定删除所有聊天记录吗？</string>
+    <string name="clear_all_callLog_dialog">确定删除所有通话记录吗？</string>
+    <string name="title_activity_view_drop_all_message_call">聊天通话</string>
+
+    <!-- 第三方加密 -->
+    <!--通知栏-->
+    <string name="notification_msg1">安通+服务已开启</string>
+    <string name="notification_msg2">轻触此处选择好友开始安全通信</string>
+    <!--开启加密失败提示信息及标题   -->
+    <string name="open_encrypt_sever_error_title">提示</string>
+    <string name="open_encrypt_sever_error_message">第三方加密模块更新，请重启手机后继续使用</string>
+    <string name="open_encrypt_error_message">打开三方加密通道失败，请稍后重试</string>
+
+    <!--2016-11-22-wangzhen-start 新增字符串 -->
+    <string name="open_encrypt_error_message_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;您当前手机里的</string>
+    <string name="open_encrypt_error_message_3">版本暂不支持该功能，请前往“更多”中下载已通过认证的版本。</string>
+    <!-- 2016-11-22-wangzhen-end -->
+
+    <string name="no_encrypt_menu_can_show">未检测到可加密的应用</string>
+    <string name="text_ok">保存</string>
+    <string name="text_ok_2">我知道了</string>
+
+    <!--第三方应用加密-->
+    <string name="other_app_encrypt_msg1">支持的第三方应用</string>
+    <string name="other_app_encrypt_msg8">第三方应用加密服务是安通+的重要功能之一。\n通过该服务，可以对微信、钉钉、陌陌等第三方应用的聊天过程进行加密处理，保护用户的信息安全。</string>
+
+    <!-- [S]add by tangsha@20160630 for ckms-->
+    <string name="ckms_init_fail">加密模块初始化失败</string>
+    <!-- [E]add by tangsha@20160630 for ckms-->
+
+    <!-- 勿扰模式-->
+    <string name="nodistrub_top_tip">开启后，在设定时间段收到新消息时不会响铃和振动</string>
+    <string name="nodistrub_begin_time_message">开始时间</string>
+    <string name="nodistrub_end_time_message">结束时间</string>
+
+    <!-- 升级通知栏-->
+    <string name="update_notification_title">安通+更新</string>
+    <string name="update_notification_msg">安通+有新版本了，点击此处进行升级</string>
+    <!-- 升级-->
+    <string name="update_force_version_diffrent">当前版本过低，暂时无法查看消息，请升级版本</string>
+    <string name="update_force_message">当前安通+版本过低，已无法继续使用，请升级版本</string>
+    <string name="update_already_a_new_version">当前已是最新版本</string>
+    <string name="update_connect_failured">检测版本信息失败，请稍候再试！</string>
+    <string name="update_progress_message">正在检查新版本&#8230;</string>
+    <!-- 升级对话框-->
+    <string name="update_dialog_title">版本更新</string>
+    <string name="update_dialog_msg_start">检测到新版本:</string>
+    <string name="update_dialog_msg_end">, 是否下载更新?</string>
+    <string name="update_dialog_msg_net_type">当前使用的是数据网络，继续升级将消耗2G/3G/4G流量，是否要继续？</string>
+    <string name="update_dialog_btn_update">升级</string>
+    <string name="update_dialog_btn_continue">继续升级</string>
+    <string name="update_dialog_btn_cancel">取消</string>
+    <string name="update_dialog_btn_ok">确定</string>
+    <string name="update_dialog_downloading">正在下载安装包，请耐心等待&#8230;</string>
+    <string name="update_dialog_title_tip">提示</string>
+    <string name="update_dialog_msg_download_fail">文件下载失败，请稍候再试！</string>
+    <string name="update_dialog_msg_init_fail">版本信息初始化失败！</string>
+
+
+    <!--下载进度框-->
+    <string name="none_sdcard_permission_hint">请在手机权限管理中允许安通+访问你的SD卡</string>
+    <string name="none_sdcard_permission">SD卡被禁用</string>
+    <string name="none_camera_permission">照相机被禁用</string>
+    <string name="none_camera_permission_hint">请在手机权限管理中允许安通+访问你的照相机</string>
+
+    <string name="no_setting">未设置</string>
+    <!--[S]add by tangsha@20160825 for 2432&3355, review by self-->
+    <string name="verify_fail_times">请检查手机号是否正确填写，你今天还有%d次验证机会。</string>
+    <string name="verify_fail_over">"今天的验证次数已用完（%d次/日），请改日再试。"</string>
+    <!--[E]add by tangsha@20160825 for 2432&3355, review by self-->
+
+    <string name="ckms_download_prompt">\t\t\t\t芯片管家为安通+应用提供基于硬件级加解密服务，现在就去安装吧~</string>
+    <string name="ckms_install_fail">芯片管家安装失败，请重试 <again/></string>
+    <string name="ckms_install_btn_ok">我知道啦</string>
+
+    <string name="download_chip_tip">\t芯片管家为安通+应用提供基于硬件级加解密服务，现在就去安装吧~</string>
+    <string name="download_chip_tip_login_state">\t芯片管家已被卸载，安通+无法正常使用，请安装芯片管家后重新启动安通+</string>
+    <string name="i_know">我知道啦</string>
+    <string name="download_chip_later">稍后安装</string>
+    <string name="download_chip_now">现在去安装</string>
+    <string name="url_invalid">非法地址</string>
+
+    <string name="version_low_and_quit">当前安通+版本过低，已无法继续使用，5秒后将自动退出</string>
+    <string name="secure_communicating">安全通信中&#8230;</string>
+    <string name="and">与</string>
+    <string name="no_show_app">未显示应用</string>
+    <string name="no_distrub_start_time">晚上11:00</string>
+    <string name="no_distrub_end_time">上午08:00</string>
+    <string name="leave_phone">手机不在身边？</string>
+    <string name="bind_phone_prompt">你绑定的手机号是：</string>
+    <string name="view_use">使用</string>
+    <string name="touch_to_load">轻触屏幕重新加载</string>
+    <string name="send_msg_to_phone">将发送验证码短信到手机号：</string>
+    <string name="note_rev_msg">请注意查收。</string>
+    <string name="rev_msg_call">接收消息通知和通知来电</string>
+    <string name="delete_device">删除授信设备</string>
+    <string name="delete_need_auth">删除后,再次登录需要其它设备授权</string>
+    <string name="to_camera">拍摄照相</string>
+    <string name="my_zxing" tools:ignore="UnusedResources">我的二维码</string>
+    <string name="zxing_add_friend" tools:ignore="UnusedResources">扫一扫上面的二维码，加我好友</string>
+
+    <string name="get_chip_id_failed">获取芯片ID失败</string>
+
+
+
+    <!--关于安全锁-->
+    <string name="title_activity_view_safe_lock">安全锁</string>
+    <string name="title_activity_set_gesture_lock">设置手势密码</string>
+    <string name="safe_no_setting">未设置</string>
+    <string name="safe_open">开</string>
+    <string name="safe_off">关</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接4个点，请重试"</string>
+    <string name="safe_setting_success">设置成功</string>
+    <string name="safe_second_unlock_wrong">两次绘制的图案不一致</string>
+    <string name="safe_hint_message">提示</string>
+    <string name="safe_login_close_gesture">重新登录安通+,同时关闭手势密码</string>
+    <string name="safe_confirm">确定</string>
+    <string name="safe_cancel">取消</string>
+    <string name="safe_input_error_five_re_login">已输错5次，请重新登录安通+</string>
+    <string name="safe_re_login">重新登录</string>
+    <string name="safe_open_safe_other_borrow">你可以开启安全锁，这样他人在借用你的手机</string>
+    <string name="safe_no_way_open">时，将无法打开安通+</string>
+    <string name="safe_login_safe">开启安全锁</string>
+    <string name="safe_lock_setting">安全锁</string>
+    <string name="safe_please_choice_wap">请选择锁定触发方式:</string>
+    <string name="safe_lock_screen">锁屏锁定</string>
+    <string name="safe_phone_lock_actoma">手机锁屏后自动锁定安通+</string>
+    <string name="safe_lock_background">后台运行锁定</string>
+    <string name="safe_lock_background_lock_actoma">当安通+被切换到后台运行时，自动锁定安通+</string>
+    <string name="safe_modified_gesture">修改手势图案</string>
+    <string name="safe_please_input_gesture">请输入手势密码</string>
+    <string name="safe_pwd_error_retry">密码错误，还可以再试X次</string>
+    <string name="safe_input_original_pwd">请输入原密码</string>
+    <string name="safe_five_error_reinput">5次失败后，需要重新登录</string>
+    <string name="safe_forget_pwd">忘记密码</string>
+    <string name="safe_access_pattern">请绘制解锁图案</string>
+    <string name="safe_need_to_confirm">请再次绘制解锁图案</string>
+    <string name="safe_pwd_error">密码错误，还可以再试&#160;</string>
+    <string name="safe_number">&#160;次</string>
+    <string name="safe_lock">安全锁</string>
+    <string name="setting_gesture_password">设置手势密码</string>
+    <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+    <string name="lockscreen_old_clear_reset">旧的安全锁已经清除，是否重新设置？</string>
+    <string name="lockscreen_reset">重新设置</string>
+
+
+    
+    <string name="simple_chinese">简体中文</string>
+    <string name="english">English</string>
+    <string name="with_system">跟随系统</string>
+    <string name="multi_language">多语言</string>
+    <string name="initialize_time_failed">初始化失败，请检查当前时间</string>
+
+    <string name="feedback_success">反馈成功</string>
+    <string name="feedback_success_info">
+        感谢你对安通+的关注和支持,我们会认真处理\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;你的反馈,尽快修复和完善相关功能</string>
+    <string name="authorizeld_invalid">授权信息无效</string>
+    <string name="third_encrypt_version_low">对方版本过低，无法使用第三方加密服务</string>
+    <string name="third_encrypt_push_error">对方账号无授信设备，无法使用第三方加密服务</string>
+
+    <string name="back_inner_verify_is_null">返回的内部验证码为空</string>
+    <string name="no_search_info_about_inner_verify">未查询到内部验证码相关信息</string>
+    <string name="no_detect_chip_drive">未检测到芯片驱动程序</string>
+    <string name="no_detect_secure_chip">设备未检测到安全芯片或者未开启芯片管家应用自启动</string>
+    <string name="secure_chip_active_failed">安全芯片激活失败</string>
+    <string name="get_save_configure_info_failed">获取/保存配置信息失败</string>
+    <string name="plus">+</string>
+    <string name="text_new">NEW</string>
+    <string name="prompt_same_mobile">该手机号与当前绑定的手机号相同</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+
+    <string name="device_no_permission">该安全应用开通后才能使用，请联系所属运营商开通。\n(设备IMEI：%1$s)</string>
+    <string name="no_permission_title">权限受限</string>
+    <string name="none_read_phone_permission">读取手机信息被禁用</string>
+    <string name="none_read_phone_permission_hint">请在手机权限管理中允许安通+和芯片管家读取本机识别码，否则无法使用本应用。</string>
+    <string name="ckms_upload_failed">安全模块初始化失败</string>
+    <string name="ckms_upload_card_exception">安全芯片(或TF卡)不可用，请联系管理员</string>
+    <string name="ckms_upload_time_exception">系统时间与北京时间不一致，当前操作存在风险，请您设置后重试！</string>
+</resources>

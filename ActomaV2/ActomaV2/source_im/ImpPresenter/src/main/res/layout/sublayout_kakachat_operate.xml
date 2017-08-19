@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 聊天界面底部操作栏 -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/chat_action_separate" />
+
+    <RelativeLayout
+        android:id="@+id/keybordmain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/leftpanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignBottom="@+id/center_area">
+            <CheckBox
+                android:id="@+id/btn_chat_action"
+                android:layout_width="@dimen/chat_action_btn_size"
+                android:layout_height="@dimen/chat_action_btn_size"
+                android:layout_marginLeft="@dimen/chat_action_btn_left_margin"
+                android:background="@drawable/btn_chat_action_selector"
+                android:button="@null" />
+            <CheckBox
+                android:id="@+id/btn_chat_toface"
+                android:layout_width="@dimen/chat_action_btn_size"
+                android:layout_height="@dimen/chat_action_btn_size"
+                android:layout_marginLeft="@dimen/chat_action_btn_left_margin"
+                android:background="@drawable/btn_chat_action_selector"
+                android:button="@null"
+                android:visibility="gone" />
+            <!-- 切换是否为闪信 -->
+            <!-- 闪 -->
+            <CheckBox
+                android:id="@+id/checkbox_shantype"
+                android:layout_width="@dimen/chat_action_btn_size"
+                android:layout_height="@dimen/chat_action_btn_size"
+                android:layout_marginLeft="@dimen/chat_action_btn_left_margin"
+                android:background="@drawable/btn_chat_shan_selector"
+                android:button="@null" />
+        </LinearLayout>
+        <!-- 在语音和文字中间切换的选择控件 以及文字发送消息按钮 -->
+        <LinearLayout
+            android:id="@+id/llayout_rightoprate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/center_area"
+            android:orientation="vertical">
+            <!--  右侧录音和键盘的切换 -->
+            <CheckBox
+                android:id="@+id/checkbox_chattype"
+                android:layout_width="@dimen/chat_action_btn_send_h"
+                android:layout_height="@dimen/chat_action_btn_send_h"
+                android:layout_marginLeft="@dimen/chat_action_btn_left_margin"
+                android:layout_marginRight="@dimen/chat_action_btn_right_margin"
+                android:background="@drawable/btn_chat_input_selector"
+                android:button="@null"
+                android:visibility="visible"
+                android:checked="false"/>
+            <!-- 发送按钮  -->
+            <Button
+                android:id="@+id/btn_sendtxtmsg"
+                android:layout_width="@dimen/chat_action_btn_send_w"
+                android:layout_height="@dimen/chat_action_btn_send_h"
+                android:layout_marginLeft="@dimen/chat_action_btn_left_margin"
+                android:layout_marginRight="@dimen/chat_action_btn_right_margin"
+                android:background="@drawable/btn_chat_sendtxtmsg_selector"
+                android:text="@string/send"
+                android:textAllCaps="false"
+                android:textColor="@drawable/bg_chat_send_text_color_selector"
+                android:textSize="@dimen/chat_action_sendtxt_txt_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/center_area"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/chat_action_btn_left_margin"
+            android:layout_marginTop="@dimen/chat_action_editText_paddingTop"
+            android:layout_marginBottom="@dimen/chat_action_editText_paddingBottom"
+            android:layout_toLeftOf="@id/llayout_rightoprate"
+            android:layout_toRightOf="@id/leftpanel"
+            android:orientation="vertical">
+
+            <com.xdja.simcui.view.PastListenerEditText
+                android:id="@+id/edit_chatinput"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@null"
+                android:drawableBottom="@drawable/selector_input_edittext"
+                android:maxLines="5"
+                android:minHeight="@dimen/chat_action_btn_size"
+                android:paddingLeft="@dimen/chat_action_layout_padding_l"
+                android:paddingRight="6dp"
+                android:textColor="@color/chat_actionmenu_item_txt_color"
+                android:textSize="@dimen/chat_inputtxt_txt_size" />
+
+            <com.xdja.simcui.recordingControl.view.AudioRecorderButton
+                android:id="@+id/btn_chatvoic"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/chat_action_btn_size"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_chat_sendtxtmsg_selector"
+                android:text="@string/btn_warning_txt1"
+                android:textAllCaps="false"
+                android:textColor="@color/common_ninety_five_percent_black"
+                android:textSize="@dimen/chat_action_sendtxt_txt_size"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/chat_operate_divider_color_bottom" />
+</LinearLayout>

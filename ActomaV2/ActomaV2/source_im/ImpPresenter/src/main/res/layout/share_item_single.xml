@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/talk_list_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/talk_list_item_height"
+    android:background="@drawable/selector_talk_list_item"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal">
+    <!--Task 2632, create by ycm for share and forward function-->
+    <!--头像和未读数量-->
+    <com.xdja.comm.circleimageview.CircleImageView
+        android:id="@+id/header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/corp_user_40dp" />
+
+    <!--姓名和消息内容-->
+    <RelativeLayout
+        android:id="@+id/talk_list_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="@dimen/talk_list_item_title_width"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/common_ninety_five_percent_black"
+            android:textSize="@dimen/common_txsize_16_19" />
+    </RelativeLayout>
+
+</LinearLayout>

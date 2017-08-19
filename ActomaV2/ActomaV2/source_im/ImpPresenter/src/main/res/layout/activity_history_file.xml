@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/listview_bg_nogroup"
+    android:orientation="vertical"
+    tools:ignore="Overdraw">
+
+    <!-- toolbar-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/history_file_item_bg">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+
+        <TextView
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/history_file_download_btn_height"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="@dimen/base_16"
+            android:layout_marginTop="@dimen/base_14"
+            android:background="@drawable/selector_btn_gold"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/base_8"
+            android:paddingRight="@dimen/base_8"
+            android:text="@string/file_select_btn"
+            android:textAllCaps="false"
+            android:textColor="@color/history_file_toolbar_select_color"
+            android:textSize="@dimen/history_file_title_size"/>
+
+        <TextView
+            android:id="@+id/history_file_selected_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/base_title_gold"
+            android:textSize="@dimen/history_file_title_size"
+            android:paddingLeft="@dimen/base_10"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/history_file_empty_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_no_file_tips"
+            android:contentDescription="@null"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base_6"
+            android:gravity="center"
+            android:text="@string/history_file_empty"
+            android:textColor="@color/history_file_text_color"
+            android:textSize="@dimen/history_file_empty_hint_size" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/history_file_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <ExpandableListView
+        android:id="@+id/lv_chat_file_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/layout_file_select"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/history_file_bottom_height"
+        android:background="@color/history_file_item_bg"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/btn_history_file_download_layout"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/btn_history_file_download"
+                android:layout_width="@dimen/history_file_bottom_btn_width"
+                android:layout_height="@dimen/history_file_bottom_btn_width"
+                android:layout_marginTop="@dimen/base_4"
+                android:layout_marginLeft="@dimen/base_28"
+                android:layout_marginRight="@dimen/base_28"
+                android:src="@drawable/btn_history_download_selector"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/base_6"
+                android:text="@string/chat_file_history_list_download"
+                android:textColor="@color/history_file_text_color"
+                android:textSize="@dimen/history_file_text_size"
+                android:gravity="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/btn_history_file_resend_layout"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/btn_history_file_resend"
+                android:layout_width="@dimen/history_file_bottom_btn_width"
+                android:layout_height="@dimen/history_file_bottom_btn_width"
+                android:layout_marginTop="@dimen/base_4"
+                android:layout_marginLeft="@dimen/base_28"
+                android:layout_marginRight="@dimen/base_28"
+                android:src="@drawable/btn_history_transmit_selector"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/base_6"
+                android:text="@string/chat_file_history_list_resend"
+                android:textColor="@color/history_file_text_color"
+                android:textSize="@dimen/history_file_text_size"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/btn_history_file_remove_layout"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:id="@+id/btn_history_file_remove"
+                android:layout_width="@dimen/history_file_bottom_btn_width"
+                android:layout_height="@dimen/history_file_bottom_btn_width"
+                android:layout_marginTop="@dimen/base_4"
+                android:layout_marginLeft="@dimen/base_28"
+                android:layout_marginRight="@dimen/base_28"
+                android:src="@drawable/btn_history_delete_selector"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/base_6"
+                android:text="@string/chat_file_history_list_remove"
+                android:textColor="@color/history_file_text_color"
+                android:textSize="@dimen/history_file_text_size"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

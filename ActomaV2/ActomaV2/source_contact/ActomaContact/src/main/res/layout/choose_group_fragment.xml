@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/search_layout"
+        layout="@layout/contact_search_layout" />
+    <!-- Task 2632, create by ycm for share and forward function choose a group at 20161101. -->
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/base_gray_f4" />
+
+    <RelativeLayout
+        android:id="@+id/choose_group_list_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ListView
+            android:id="@+id/group_contact_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:divider="#d9d9d9"
+            android:dividerHeight="1px"
+            />
+        
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/empty_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+            <ImageView
+                android:id="@+id/emptyListViewImage"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/img_group_empty_view"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/emptyListViewMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="@string/no_group"
+                android:textSize="@dimen/head_16"
+                android:textColor="@color/base_black_30"
+                android:layout_below="@id/emptyListViewImage"/>
+    </RelativeLayout>
+
+</LinearLayout>

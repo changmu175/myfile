@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:padding="17dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:singleLine="true"
+                android:text="@string/permission_tip"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/login_txt_20"/>
+
+            <TextView
+                android:id="@+id/tips_textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="start"
+                android:lineSpacingExtra="2dp"
+                android:text="@string/permission_message"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/body1_14"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ok"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:text="@string/agree"
+                    android:textAllCaps="false"
+                    android:textColor="@color/base_bottom_gold"
+                    android:textSize="@dimen/body1_14"/>
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@id/ok"
+                    android:background="@null"
+                    android:singleLine="true"
+                    android:text="@string/close"
+                    android:textAllCaps="false"
+                    android:textColor="@color/base_bottom_gold"
+                    android:textSize="@dimen/body1_14"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

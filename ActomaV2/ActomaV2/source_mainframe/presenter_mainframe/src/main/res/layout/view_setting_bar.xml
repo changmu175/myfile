@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="Overdraw"
+    android:background="@color/blade_white_100">
+
+    <View
+        android:layout_alignParentTop="true"
+        android:id="@+id/view_setting_top_divider"
+        style="@style/view_line_style"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_marginStart="@dimen/activity_horizontal_margin_16"
+        android:id="@+id/tv_setting_bar_first_text"
+        style="@style/normal_text"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/bigger_text_size_16" />
+
+    <LinearLayout
+        android:id="@+id/setting_bar"
+        android:layout_toEndOf="@id/tv_setting_bar_first_text"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_setting_bar_second_text"
+            style="@style/normal_text"
+            android:singleLine="true"
+            android:layout_marginEnd="@dimen/base_16"
+            android:textColor="@color/blade_black_65" />
+
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/view_setting_right_image"
+            android:layout_width="@dimen/base_6"
+            android:layout_height="@dimen/base_12"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin_16"
+            android:src="@mipmap/bg_img_arrow" />
+    </LinearLayout>
+
+    <View
+        style="@style/view_line_style"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom" />
+</RelativeLayout>

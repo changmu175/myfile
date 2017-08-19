@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_content_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@id/layout_timeLine"
+        >
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/header"
+            style="@style/talkdetail_senderImage"
+            android:layout_alignParentEnd="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/header"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/chatlist_item_pao_right_margin_r">
+
+                <RelativeLayout
+                    android:id="@+id/content_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    style="@style/talkdetail_sendContentLayout"
+                    >
+                    <TextView
+                        android:id="@+id/web_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="20dp"
+                        android:maxWidth="207dp"
+                        android:textColor="@color/common_ninety_five_percent_black"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginStart="12dp"
+                        android:maxLines="2"
+                        android:ellipsize="end"
+                        android:textSize="@dimen/chatlist_item_txt_size" />
+                    <LinearLayout
+                        android:layout_below="@id/web_title"
+                        android:id="@+id/description_ll"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginStart="12dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/web_des"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="5dp"
+                            android:maxWidth="138dp"
+                            android:textColor="@color/base_black_30"
+                            android:maxLines="3"
+                            android:ellipsize="end"
+                            android:textSize="14sp" />
+                        <ImageView
+                            android:id="@+id/web_thumb"
+                            android:adjustViewBounds="true"
+                            android:layout_width="65dp"
+                            android:layout_height="60dp"
+                            android:layout_marginEnd="12dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/ic_jpg"
+                            android:contentDescription="@null"/>
+                    </LinearLayout>
+                </RelativeLayout>
+                <!--发送状态-->
+                <ImageButton
+                    android:id="@+id/reSend"
+                    style="@style/talkdetail_sendState"
+                    android:layout_toStartOf="@id/content_layout"
+                    android:contentDescription="@null"/>
+
+                <ProgressBar
+                    android:id="@+id/sendProgress"
+                    android:layout_width="@dimen/chat_detail_progress_w"
+                    android:layout_height="@dimen/chat_detail_progress_h"
+                    android:layout_centerVertical="true"
+                    android:indeterminateBehavior="repeat"
+                    android:indeterminateOnly="true"
+                    android:layout_marginEnd="3dp"
+                    android:indeterminateDrawable="@drawable/chat_loading_message_resource"
+                    android:layout_toStartOf="@id/reSend" />
+            </RelativeLayout>
+            <!--消息接收状态-->
+            <TextView
+                android:id="@+id/sendState"
+                style="@style/talkdetail_receiveState"
+                android:layout_marginEnd="17dp"
+                android:layout_marginTop="3dp"
+                android:text="@string/send_success"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

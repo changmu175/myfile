@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">data_imp</string>
+    <string name="im_encrpto_data_fail">加密数据失败</string>
+    <string name="im_file_encrpto_fail">文件加密失败</string>
+    <string name="im_encrpto_fail">加密失败</string>
+    <string name="im_picture_no_exist">图片不存在</string>
+    <string name="im_decrpto_error">IM解析出错</string>
+    <string name="im_record_time_short">录音时间过短</string>
+    <string name="im_unknow_http_error">未知的HTTP错误</string>
+    <string name="im_error_retry">出错了，重试吧!</string>
+    <string name="im_time_differ_remind">当前时间与北京时间不一致，当前操作存在风险</string>
+    <string name="im_head_no_ticket_resource">请求头无ticket资源</string>
+    <string name="im_request_no_id_data">请求无账号卡ID数据</string>
+    <string name="im_request_field_null">请求字段为空</string>
+    <string name="im_ticket_validate_not_go">ticket验证不通过</string>
+    <string name="im_server_call_error">server调用错误</string>
+    <string name="im_request_field_error">请求字段解析异常</string>
+    <string name="im_account_null_nodisturb_setting_fail">账户为空，勿扰模式设置失败</string>
+    <string name="im_card_null_nodisturb_setting_fail">卡ID为空，勿扰模式设置失败</string>
+    <string name="im_account_null_nodisturb_save_fail">账户为空，勿扰模式保存失败</string>
+    <string name="im_card_null_nodisturb_save_fail">卡ID为空，勿扰模式保存失败</string>
+    <string name="im_account_null_nodisturb_delete_fail">账号为空，勿扰模式删除失败</string>
+    <string name="im_card_null_nodisturb_delete_fail">卡ID为空，勿扰模式删除失败</string>
+    <string name="im_account_null_top_setting_fail">账户为空，置顶模式设置失败</string>
+    <string name="im_card_null_top_setting_fail">卡ID为空，置顶模式设置失败</string>
+    <string name="im_account_null_top_save_fail">账户为空，置顶模式保存失败</string>
+    <string name="im_card_null_top_save_fail">卡ID为空，置顶模式保存失败</string>
+    <string name="im_account_null_top_delete_fail">账号为空，置顶模式删除失败</string>
+    <string name="im_card_null_top_delete_fail">卡ID为空，置顶模式删除失败</string>
+    <string name="im_account_null_roam_setting_fail">账户为空，漫游设置失败</string>
+    <string name="im_card_null_roam_setting_fail">卡ID为空，漫游设置失败</string>
+    <string name="im_save_roam_data_null">待保存漫游信息为空</string>
+    <string name="im_conversation_data_error">传入会话信息有误!</string>
+    <string name="im_query_key_null">待查询的键值为空</string>
+    <string name="im_cache_data_null">待缓存数据为空</string>
+    <string name="unsupport_message_type">[不支持的消息类型]</string>
+</resources>

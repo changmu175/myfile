@@ -1,0 +1,81 @@
+apply plugin: 'com.android.library'
+
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/NOTICE'
+    }
+
+    allprojects {
+        gradle.projectsEvaluated {
+            tasks.withType(JavaCompile) {
+                options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+            }
+        }
+    }
+	
+	lintOptions {
+        abortOnError false
+        disable("InvalidPackage",  //引用第三方jar都有此警告，忽略
+                "InflateParams",   //填充布局缺少参数，常用手法，忽略
+                "IconMissingDensityFolder",  //缺少部分屏幕密度对应文件夹，资源自适应能力
+                "IconColors",
+                "DefaultLocale",    //字符串编码指定语言类型，因bug引入，主要在土耳其语言是会出错。常规不出现
+                "Overdraw",         //几个问题需要继续跟进，暂时忽略
+                "RtlHardcoded",
+                "RtlSymmetry")
+    }
+    buildToolsVersion '25.0.2'
+}
+dependencies {
+    //引用主框架
+    compile project(':data_mainframe')
+    compile project(':presenter')
+    compile project(':comm_mainframe')
+
+    def voipDependencies = rootProject.ext.voipDependencies
+
+    compile voipDependencies.appcompat
+    compile voipDependencies.okHttp
+    compile voipDependencies.okhttpUrlconn
+    compile voipDependencies.okio
+    compile voipDependencies.gson
+
+    compile project(path: ':ActomaCommen')
+    compile project(path: ':ActomaContactCommon')
+    compile project(path: ':ActomaContactProxy')
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+    <CheckBox
+        android:id="@+id/cb_receiver_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/blade_16"
+        android:text="@string/rev_msg_call"
+        android:textColor="@color/blade_black_95"
+        android:checked="true"
+        android:textSize="@dimen/smaller_text_size_12"/>
+
+</LinearLayout>

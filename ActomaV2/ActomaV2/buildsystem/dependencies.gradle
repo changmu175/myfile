@@ -1,0 +1,179 @@
+ext {
+    //Android
+    androidBuildToolsVersion = "23.0.2"
+    androidMinSdkVersion = 21
+    androidTargetSdkVersion = 23
+    androidCompileSdkVersion = 23
+    androidApplicationId = 'com.xdja.actoma'
+    //Version
+    versionCode = 2103170216
+    versionName = 'P2.1.3.20170216'
+    //TestRunner
+    testInstrumentationRunner = 'android.support.test.runner.AndroidJUnitRunner'
+
+    //Libraries
+    daggerVersion = '2.1'
+    javaxInjectVersion = '1'
+    javaXInjectVersion = '1'
+    butterKnifeVersion = '7.0.1'
+//    butterKnifeVersionV2 = '6.1.0'
+
+//    rxJavaVersion = '1.0.14'
+    rxJavaVersion = '1.1.1'
+    rxAndroidVersion = '1.0.1'
+
+    supportAnnotationsVersion = '23.0.1'
+    javaxAnnotationVersion = '10.0-b28'
+
+    gsonVersion = '2.3'
+    okioVersion = '1.4.0'
+    okHttp3Version = '3.2.0'
+    retrofit2Version = '2.0.1'
+    ottoVersion = '1.3.8'
+    loggerVersion = '1.11'
+    glideVersion = '3.7.0'
+    glideOkHttpVersion = '1.4.0'
+    fastjsonVersion = '1.2.11'
+    zxingVersion = '3.2.1'
+
+
+
+    appcompatVersion = '23.0.1'
+
+    //Testing
+    robolectricVersion = '3.0'
+    jUnitVersion = '4.12'
+    mockitoVersion = '2.0.31-beta'
+    dexmakerVersion = '1.0'
+    espressoVersion = '2.2'
+    testingSupportLibVersion = '0.4'
+
+    comDependencies = [
+            logger           : "com.orhanobut:logger:${loggerVersion}",
+            javaxInject      : "javax.inject:javax.inject:${javaXInjectVersion}",
+            supportAnnotation: "com.android.support:support-annotations:${supportAnnotationsVersion}",
+            otto             : "com.squareup:otto:${ottoVersion}",
+            rxJava           : "io.reactivex:rxjava:${rxJavaVersion}",
+    ]
+
+
+    presentationDependencies = [
+            daggerCompiler   : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger           : "com.google.dagger:dagger:${daggerVersion}",
+            //daggerProducers  : "com.google.dagger:dagger-producers:${daggerVersion}",
+            butterKnife      : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            rxJava           : "io.reactivex:rxjava:${rxJavaVersion}",
+            otto             : "com.squareup:otto:${ottoVersion}",
+            //javaxAnnotation  : "org.glassfish:javax.annotation:${javaxAnnotationVersion}",
+            supportAnnotation: "com.android.support:support-annotations:${supportAnnotationsVersion}",
+            appcompat        : "com.android.support:appcompat-v7:${appcompatVersion}",
+            glide            : "com.github.bumptech.glide:glide:${glideVersion}",
+            zxing            : "com.google.zxing:core:${zxingVersion}",
+
+    ]
+
+    presentationTestDependencies = [
+            junit          : "junit:junit:${jUnitVersion}",
+            mockito        : "org.mockito:mockito-core:${mockitoVersion}",
+            robolectric    : "org.robolectric:robolectric:${robolectricVersion}",
+            espresso       : "com.android.support.test.espresso:espresso-core:${espressoVersion}",
+            testRunner     : "com.android.support.test:runner:${testingSupportLibVersion}",
+            testRule       : "com.android.support.test:rules:${testingSupportLibVersion}",
+
+            dexmaker       : "com.google.dexmaker:dexmaker:${dexmakerVersion}",
+            dexmakerMockito: "com.google.dexmaker:dexmaker-mockito:${dexmakerVersion}",
+    ]
+
+    domainDependencies = [
+            daggerCompiler   : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger           : "com.google.dagger:dagger:${daggerVersion}",
+            javaxAnnotation  : "org.glassfish:javax.annotation:${javaxAnnotationVersion}",
+            rxJava           : "io.reactivex:rxjava:${rxJavaVersion}",
+            supportAnnotation: "com.android.support:support-annotations:${supportAnnotationsVersion}",
+
+    ]
+
+    domainTestDependencies = [
+            junit      : "junit:junit:${jUnitVersion}",
+            mockito    : "org.mockito:mockito-core:${mockitoVersion}",
+            robolectric: "org.robolectric:robolectric:${robolectricVersion}",
+    ]
+
+    dataDependencies = [
+            appcompat             : "com.android.support:appcompat-v7:${appcompatVersion}",
+            daggerCompiler        : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger                : "com.google.dagger:dagger:${daggerVersion}",
+            okHttp                : "com.squareup.okhttp3:okhttp:${okHttp3Version}",
+            okHttpLog             : "com.squareup.okhttp3:logging-interceptor:${okHttp3Version}",
+            otto                  : "com.squareup:otto:${ottoVersion}",
+            gson                  : "com.google.code.gson:gson:${gsonVersion}",
+            rxJava                : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid             : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            //javaxAnnotation  : "org.glassfish:javax.annotation:${javaxAnnotationVersion}",
+            supportAnnotation     : "com.android.support:support-annotations:${supportAnnotationsVersion}",
+            retrofit2             : "com.squareup.retrofit2:retrofit:${retrofit2Version}",
+            retrofit2GsonConvertor: "com.squareup.retrofit2:converter-gson:${retrofit2Version}",
+            retrofit2RxJavaAdapter: "com.squareup.retrofit2:adapter-rxjava:${retrofit2Version}",
+    ]
+
+    dataTestDependencies = [
+            junit      : "junit:junit:${jUnitVersion}",
+            mockito    : "org.mockito:mockito-core:${mockitoVersion}",
+            robolectric: "org.robolectric:robolectric:${robolectricVersion}",
+    ]
+
+    contactDependencies = [
+            recyclerview: "com.android.support:recyclerview-v7:${appcompatVersion}",
+            fastjson    : "com.alibaba:fastjson:${fastjsonVersion}",
+    ]
+
+    commonDependencies = [
+            glide            : "com.github.bumptech.glide:glide:${glideVersion}",
+            glideOkhttp      : "com.github.bumptech.glide:okhttp3-integration:1.4.0@aar",
+            appcompat        : "com.android.support:appcompat-v7:${appcompatVersion}",
+            supportAnnotation: "com.android.support:support-annotations:${supportAnnotationsVersion}",
+            butterKnife      : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            otto             : "com.squareup:otto:${ottoVersion}",
+            gson             : "com.google.code.gson:gson:${gsonVersion}",
+            javaxInject      : "javax.inject:javax.inject:${javaxInjectVersion}",
+            okHttp           : "com.squareup.okhttp3:okhttp:${okHttp3Version}",
+            okhttpUrlconn    : "com.squareup.okhttp3:okhttp-urlconnection:${okHttp3Version}",
+            okio             : "com.squareup.okio:okio:${okioVersion}",
+            zxing            : "com.google.zxing:core:${zxingVersion}",
+            javaxInject      : "javax.inject:javax.inject:${javaxInjectVersion}",
+    ]
+    safeauthDependencies = [
+            okHttp: "com.squareup.okhttp3:okhttp:${okHttp3Version}",
+            gson  : "com.google.code.gson:gson:${gsonVersion}",
+    ]
+
+    voipDependencies = [
+            appcompat        : "com.android.support:appcompat-v7:${appcompatVersion}",
+            okHttp          : "com.squareup.okhttp3:okhttp:${okHttp3Version}",
+            okHttpLog       : "com.squareup.okhttp3:logging-interceptor:${okHttp3Version}",
+            okhttpUrlconn    : "com.squareup.okhttp3:okhttp-urlconnection:${okHttp3Version}",
+            okio             : "com.squareup.okio:okio:${okioVersion}",
+            gson             : "com.google.code.gson:gson:${gsonVersion}"
+    ]
+
+    imDependencies = [
+            appcompat        : "com.android.support:appcompat-v7:${appcompatVersion}",
+            butterKnife      : "com.jakewharton:butterknife:${butterKnifeVersion}",
+            daggerCompiler   : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger           : "com.google.dagger:dagger:${daggerVersion}",
+            otto             : "com.squareup:otto:${ottoVersion}",
+            supportAnnotation: "com.android.support:support-annotations:${supportAnnotationsVersion}",
+            javaxAnnotation  : "org.glassfish:javax.annotation:${javaxAnnotationVersion}",
+            retrofit2             : "com.squareup.retrofit2:retrofit:${retrofit2Version}",
+            retrofit2GsonConvertor: "com.squareup.retrofit2:converter-gson:${retrofit2Version}",
+            retrofit2RxJavaAdapter: "com.squareup.retrofit2:adapter-rxjava:${retrofit2Version}",
+            rxJava                : "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid             : "io.reactivex:rxandroid:${rxAndroidVersion}",
+            okHttp3          : "com.squareup.okhttp3:okhttp:${okHttp3Version}",
+            okHttpLog             : "com.squareup.okhttp3:logging-interceptor:${okHttp3Version}",
+            okhttpUrlconn    : "com.squareup.okhttp3:okhttp-urlconnection:${okHttp3Version}",
+            okio             : "com.squareup.okio:okio:${okioVersion}",
+            gson             : "com.google.code.gson:gson:${gsonVersion}"
+    ]
+
+}

@@ -1,0 +1,178 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+
+        versionCode globalConfiguration.getAt("versionCode")
+        versionName globalConfiguration.getAt("versionName")
+        testInstrumentationRunner globalConfiguration.getAt("testInstrumentationRunner")
+        applicationId globalConfiguration.getAt("androidApplicationId")
+
+        //Enable multidex support
+        multiDexEnabled true
+    }
+
+    signingConfigs {
+        release {
+            storeFile file("androidsign.jks")
+            storePassword "60621210"
+            keyAlias "androidsign.keystore"
+            keyPassword "60621210"
+        }
+        debug {
+            storeFile file("androidsign.jks")
+            storePassword "60621210"
+            keyAlias "androidsign.keystore"
+            keyPassword "60621210"
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField "boolean", "LOGABLE", "false"
+            // [S] add by LiXiaolong<mailto://lxl@xdja.com> on 20160905. fix bug 3668.
+            buildConfigField "boolean", "SECRET_CODE", "false"
+            // [E] add by LiXiaolong<mailto://lxl@xdja.com> on 20160905. fix bug 3668.
+            //tangsha@xdja.com 2016-08-03 add. for config open or close ckms flow . review by self. Start
+            buildConfigField "boolean", "OPEN_CKMS", "true"
+            //tangsha@xdja.com 2016-08-03 add. for config open or close ckms flow . review by self. End
+            versionNameSuffix ""
+            signingConfig signingConfigs.release
+            defaultPublishConfig "release"
+            debuggable true
+        }
+        debug {
+            buildConfigField "boolean", "LOGABLE", "true"
+            // [S] add by LiXiaolong<mailto://lxl@xdja.com> on 20160905. fix bug 3668.
+            buildConfigField "boolean", "SECRET_CODE", "true"
+            // [E] add by LiXiaolong<mailto://lxl@xdja.com> on 20160905. fix bug 3668.
+            //tangsha@xdja.com 2016-08-03 add. for config open or close ckms flow . review by self. Start
+            buildConfigField "boolean", "OPEN_CKMS", "true"
+            //tangsha@xdja.com 2016-08-03 add. for config open or close ckms flow . review by self. End
+            signingConfig signingConfigs.debug
+            defaultPublishConfig "debug"
+            debuggable true
+        }
+    }
+
+
+    productFlavors {
+        common {
+            versionCode 2105170329
+            versionName "P2.1.5.20170329"
+        }
+
+        inter {
+            versionCode 1001170307
+            versionName "1.0.1.20170307"
+
+            applicationIdSuffix ".inter"
+        }
+
+        telcom {
+            versionCode 1001170401
+            versionName "1.0.1.20170401"
+
+            applicationIdSuffix ".telcom"
+        }
+    }
+
+    dexOptions {
+        jumboMode = true
+        javaMaxHeapSize "4g"
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include('armeabi')
+        }
+    }
+
+	lintOptions {
+        abortOnError false
+        disable("InvalidPackage",  //引用第三方jar都有此警告，忽略
+                "InflateParams",   //填充布局缺少参数，常用手法，忽略
+                "DefaultLocale",   //字符串编码指定语言类型，因bug引入，主要在土耳其语言是会出错。常规不出现
+                "IconDensities",
+                "IconMissingDensityFolder",
+                "IconDuplicatesConfig",
+                "SimpleDateFormat", //解决方案和原方法无差异，建议不处理。
+                "BadHostnameVerifier",
+                "IconDipSize"
+        )
+    }
+
+    packagingOptions {
+        exclude('lib/arm64-v8a/librealm-jni.so')
+
+        exclude 'META-INF/DEPENDENCIES.txt'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+
+        exclude 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.xml'
+        exclude 'META-INF/maven/org.apache.httpcomponents/httpcore/pom.properties'
+        exclude 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.xml'
+        exclude 'META-INF/maven/org.apache.httpcomponents/httpclient/pom.properties'
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+    //引用主框架
+    compile project(':data_mainframe')
+    compile project(':presenter')
+    compile project(':comm_mainframe')
+    //引用联系人模块
+    compile project(':ActomaContactCommon')
+    //引入voip模块
+    compile project(':SecureVoipCommon')
+    compile project(':ActomaCommen')
+    compile project(':ImpPresenter')
+    // compile files('libs/safeauth.jar')
+    def presentationDependencies = rootProject.ext.presentationDependencies
+    def presentationTestDependencies = rootProject.ext.presentationTestDependencies
+    compile presentationDependencies.appcompat
+    //butterknife
+    compile presentationDependencies.butterKnife
+    //dagger2
+    compile presentationDependencies.dagger
+    apt presentationDependencies.daggerCompiler
+    //provided presentationDependencies.javaxAnnotation
+    compile presentationDependencies.supportAnnotation
+    compile presentationDependencies.otto
+    compile presentationDependencies.rxJava
+    compile presentationDependencies.glide
+    compile presentationDependencies.zxing
+    compile 'com.android.support:multidex:1.0.1'
+    //JUNIT TEST DEPENDENCE
+    testCompile presentationTestDependencies.junit
+    testCompile presentationTestDependencies.mockito
+    testCompile presentationTestDependencies.robolectric
+    //INSTRUMENTATION TEST DEPENDENCE
+    androidTestCompile presentationTestDependencies.mockito
+    androidTestCompile presentationTestDependencies.junit
+    androidTestCompile presentationTestDependencies.espresso
+    androidTestCompile presentationTestDependencies.testRunner
+    androidTestCompile presentationTestDependencies.testRule
+    compile project(path: ':ActomaContact')
+    compile project(path: ':ActomaContactCommon')
+    compile project(path: ':ActomaCommen')
+    compile project(path: ':SecureVoipCommon')
+    compile project(path: ':ImpPresenter')
+    compile project(path: ':safeauthlib')
+}

@@ -1,0 +1,52 @@
+include ':domain',
+        ':data',
+        ':presenter',
+        ':comdependence',
+
+        ':domain_mainframe',
+        ':data_mainframe',
+        ':presenter_mainframe',
+        ':comm_mainframe',
+
+        ':ActomaContact',
+        ':ActomaContactCommon',
+        ':ActomaContactProxy',
+
+        ':ActomaCommen',
+
+        ':safeauthlib',
+
+        ':VoIPSDK',
+        ':SecureVoipCommon',
+
+	':ImSdk',
+        ':ImpData',
+        ':ImpDomain',
+        ':ImpPresenter'
+
+
+
+
+
+project(':domain').projectDir = new File('source/domain')
+project(':data').projectDir = new File('source/data')
+project(':presenter').projectDir = new File('source/presenter')
+project(':comdependence').projectDir = new File('source/comdependence')
+
+project(':domain_mainframe').projectDir = new File('source_mainframe/domain_mainframe')
+project(':data_mainframe').projectDir = new File('source_mainframe/data_mainframe')
+project(':presenter_mainframe').projectDir = new File('source_mainframe/presenter_mainframe')
+project(':comm_mainframe').projectDir = new File('source_mainframe/comm_mainframe')
+
+project(':ActomaContact').projectDir = new File('source_contact/ActomaContact')
+project(':ActomaContactCommon').projectDir = new File('source_contact/ActomaContactCommon')
+
+project(':VoIPSDK').projectDir = new File('source_voip/VoIPSDK')
+project(':SecureVoipCommon').projectDir = new File('source_voip/SecureVoipCommon')
+
+project(':ImSdk').projectDir = new File('source_im/ImSdk')
+project(':ImpData').projectDir = new File('source_im/ImpData')
+project(':ImpDomain').projectDir = new File('source_im/ImpDomain')
+project(':ImpPresenter').projectDir = new File('source_im/ImpPresenter')
+
+project(':ActomaContactProxy').projectDir = new File('source_contact/ActomaContactProxy')

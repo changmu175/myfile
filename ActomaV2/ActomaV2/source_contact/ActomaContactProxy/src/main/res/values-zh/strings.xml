@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ContactOPProxy</string>
+    <!--群组变更消息显示的节点名称-->
+    <string name="groupUpdate_show_self">你</string>
+    <string name="groupUpdate_add">&#160;加入了群组</string>
+    <string name="groupUpdate_invite">邀请&#160;</string>
+    <string name="groupUpdate_updateName">修改群组名称为</string>
+    <string name="groupUpdate_initiative_delete">已将&#160;</string>
+    <string name="groupUpdate_move">&#160;移出群组</string>
+    <string name="groupUpdate_dissolve">已经解散群组</string>
+    <string name="groupUpdate_separate">、</string>
+    <string name="groupUpdate_doubleQuote_before">“</string>
+    <string name="groupUpdate_doubleQuote_end">”</string>
+    <string name="groupUpdate_groupMember_quit">已经退出群组</string>
+
+
+    <string name="accept_message">我们已是好友，开始聊天吧</string>
+    <!-- add by wal@xdja.com-->
+    <string name="group_member_out_range_fail_add">&#160;群组数量已达上限，未能加入群组</string>
+    <string name="group_member_no_sec_fail_add">&#160;所用版本过低，不能加入群聊</string>
+    <string name="group_member_in_group_fail_add">&#160;已是群成员</string>
+    <string name="group_member_not_account_fail_add">&#160;帐号无效，未能加入群组</string>
+    <string name="friend_accept_request_first_message">你已添加了&#160;</string>
+    <string name="friend_accept_request_second_message">，开始聊天吧</string>
+    <!-- add by wal@xdja.com-->
+</resources>

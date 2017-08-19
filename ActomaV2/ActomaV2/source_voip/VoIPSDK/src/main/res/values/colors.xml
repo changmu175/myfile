@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--黑95%-->
+    <color name="deep_black_2">#F3000000</color>
+    <!--深黑65%-->
+    <color name="deep_black">#A6000000</color>
+    <!--浅黑24%-->
+    <color name="light_black">#3D000000</color>
+
+    <color name="white_bg_detail_name">#FFDFCFAC</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <!--分割线颜色-->
+    <color name="divider">#d9d9d9</color>
+    <!--水波效果颜色-->
+    <color name="rippelColor">#cccccccc</color>
+
+    <color name="golden_title">#FFCCB481</color>
+
+    <!--通话界面 IncallActivity-->
+
+    <!--分割线颜色-->
+    <color name="diver_color">#FFBEBEBE</color>
+    <color name="item_color">#FFFFFFFF</color>
+
+    <!-- color  -->
+    <color name="account_inactive">#FFFF0000</color>
+    <color name="account_unregistered">#FFFF0000</color>
+    <color name="account_valid">#FF84E300</color>
+    <color name="account_error">#FFFF0000</color>
+
+    <color name="call_detail_title_color">#FFA38F64</color>
+    <color name="sperator_line_color">#CCCCCC</color>
+
+
+    <color name="write">#ffffff</color>
+    <color name="detail_bg_color">#F3FFFFFF</color>
+    <color name="calllog_detail_diver_color">#FFEEEEEE</color>
+    <color name="call_endbtn_unable_color">#78655d</color>
+
+    <color name="toolbar_color">#E5D9C1</color>
+
+    <!-- 标题金-->
+    <color name="base_title_gold">#CCB481</color>
+    <!-- 按钮金-->
+    <color name="base_bottom_gold">#AE9153</color>
+
+    <color name="base_black_95">#F3000000</color>
+    <color name="base_black_65">#A6000000</color>
+    <color name="base_white_95">#F3FFFFFF</color>
+
+    <!--列表背景色 有分组标题栏和无分组标题栏-->
+    <color name="listview_item_bg">#FFFFFF</color>
+    <!--列表标题栏颜色-->
+    <color name="listview_group_bg">#EEEEEE</color>
+
+
+</resources>

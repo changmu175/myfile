@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainFrame"
+    android:background="@drawable/img_voip_call"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/inCallContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.securevoip.ui.incall.InCallCard
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:id="@+id/activeInCallCard"
+            android:layout_gravity="center_horizontal"
+            />
+        <com.securevoip.ui.incall.InCallControls
+            android:id="@+id/inCallControls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+        <FrameLayout
+            android:id="@+id/fun_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/incall_endbutton_marginBottom"
+            >
+            <Button
+                android:id="@+id/endButton"
+                android:layout_width="@dimen/incall_endbutton_width"
+                android:layout_height="@dimen/incall_endbutton_height"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:contentDescription="@string/done"
+                android:textSize="@dimen/voip_common_txsize_16_19"
+                android:text="@string/hung_up"
+                android:textColor = "@drawable/endcall_text_selector"
+                android:textAllCaps="false"
+                android:background="@drawable/endcall_background_wht"/>
+            <LinearLayout
+                android:id="@+id/delay_fun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="gone">
+                <Button
+                    android:id="@+id/recall"
+                    android:layout_width="@dimen/incall_recall_width"
+                    android:layout_height="@dimen/incall_recall_height"
+                    android:textSize="@dimen/voip_common_txsize_16_19"
+                    android:text="@string/recall"
+                    android:textColor = "#FFFFF6E4"
+                    android:textAllCaps="false"
+                    android:background="@drawable/funbutton_background_wht"/>
+                <View
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"/>
+                <Button
+                    android:id="@+id/sendIM"
+                    android:layout_width="@dimen/incall_recall_width"
+                    android:layout_height="@dimen/incall_recall_height"
+                    android:textSize="@dimen/voip_common_txsize_16_19"
+                    android:text="@string/sendIM"
+                    android:textColor = "#FFFFF6E4"
+                    android:textAllCaps="false"
+                    android:background="@drawable/funbutton_background_wht"/>
+            </LinearLayout>
+            <!-- Answer slider/buttons -->
+        </FrameLayout>
+
+        <!-- 20161201-mengbo-start: 增加 marginBottom 解决分辨率低手机下边距窄，如首云,去除 paddingTop，没有实质作用 -->
+        <!--android:paddingTop="@dimen/answer_controls_paddingtop"-->
+        <!-- 20161201-mengbo-end -->
+        <com.securevoip.ui.incall.locker.InCallAnswerControls
+            android:id="@+id/inCallAnswerControls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="0.61"
+            android:layout_marginBottom="@dimen/incall_answer_controls_marginbottom"/>
+        <RelativeLayout
+            android:id="@+id/answer_refuse_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/reject_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="@dimen/left_call_button_marginleft"
+                android:background="@drawable/ic_refuse"
+                android:contentDescription="@null"/>
+
+            <ImageView
+                android:id="@+id/answer_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/right_call_button_marginright"
+                android:background="@drawable/ic_answer"
+                android:contentDescription="@null"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.securevoip.ui.incall.locker.ScreenLocker
+        android:id="@+id/lockerOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" >
+    </com.securevoip.ui.incall.locker.ScreenLocker>
+
+</RelativeLayout>

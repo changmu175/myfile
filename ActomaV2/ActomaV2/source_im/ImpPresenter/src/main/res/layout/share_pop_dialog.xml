@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    >
+    <!--Task 2632, create by ycm for share and forward function-->
+    <!--分享或转发标题-->
+    <!--20161201微调界面-->
+    <LinearLayout
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_16"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/titleContent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/talk_list_dialog_text_left"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="@string/send_to"
+            android:textColor="@color/talk_list_dialog_text_color"
+            android:textSize="@dimen/common_txsize_16_19" />
+    </LinearLayout>
+
+    <!--给多人转发分享时的头像展示-->
+    <LinearLayout
+        android:id="@+id/avatar_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/base_16"
+        android:layout_marginTop="@dimen/base_13"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a0"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a1"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a2"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a3"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a4"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a5"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a6"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a7"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/a8"
+                style="@style/talkdetail_senderImage"
+                android:layout_marginRight="4dp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--普通转发和分享的头像昵称展示-->
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/base_16"
+        android:layout_marginRight="@dimen/base_16"
+        android:layout_marginTop="@dimen/base_16"
+        android:background="@drawable/selector_talk_list_item"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/avatar_image"
+            style="@style/talkdetail_senderImage" />
+
+        <TextView
+            android:id="@+id/nick_txt"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/base_8"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="@string/nick"
+            android:textColor="@color/share_pop_nick"
+            android:singleLine="true"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!--分割线-->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/talk_list_dialog_text_left"
+        android:layout_marginRight="@dimen/talk_list_dialog_text_left"
+        android:orientation="vertical">
+        <View
+            android:id="@+id/divider_iv"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="@dimen/share_pop_divider_margin"
+            android:layout_height="@dimen/list_divider_height"
+            android:background="@color/base_horizontal_line" />
+        <ImageView
+            android:id="@+id/divider_iv2"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/base_12"
+            android:background="@color/white"
+            android:visibility="gone"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+
+    <!--普通转发和分享内容展示-->
+    <FrameLayout
+        android:id="@+id/contentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/talk_list_dialog_text_left"
+        android:layout_marginRight="@dimen/talk_list_dialog_text_left"
+        android:background="@drawable/selector_talk_list_item"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/imageContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/base_10"
+            android:layout_marginTop="@dimen/base_12"
+            android:adjustViewBounds="true"
+            android:maxHeight="100dp"
+            android:maxWidth="360dp"
+            android:visibility="gone"
+            android:contentDescription="@null"/>
+
+        <!--modified for bug 5620-->
+        <TextView
+            android:id="@+id/textContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/base_20"
+            android:layout_marginBottom="@dimen/base_16"
+            android:textSize="@dimen/common_txsize_12_15"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:visibility="gone" />
+
+        <!--<ProgressBar-->
+            <!--android:id="@+id/loadProgress"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:indeterminateBehavior="repeat"-->
+            <!--android:indeterminateDrawable="@drawable/progressbar"-->
+            <!--android:indeterminateOnly="true"-->
+            <!--android:visibility="gone" />-->
+    </FrameLayout>
+    <!--普通转发和分享的留言展示-->
+    <!--modified for bug 5619-->
+    <LinearLayout
+        android:id="@+id/delLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/talk_list_dialog_text_left"
+        android:layout_marginRight="@dimen/talk_list_dialog_text_left"
+        android:background="@drawable/selector_talk_list_item"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical">
+        <!--modified by ycm for bug 8935-->
+        <com.xdja.simcui.view.PastListenerEditText
+            android:id="@+id/messageContent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:hint="@string/leave_message"
+            android:lineSpacingMultiplier="1.25"
+            android:textColor="@color/common_ninety_five_percent_black"
+            android:textColorHint="#4D000000"
+            android:textSize="@dimen/body1_14"
+            android:maxLines="2"/>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/bg_edittext"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+    <!--普通转发和分享发送和取消按钮-->
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_talk_list_item"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="33dp"
+            android:clickable="true"
+            android:text="@string/share_forward_cancel"
+            android:textColor="@color/base_bottom_gold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/send_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:text="@string/share_forward_send"
+            android:textColor="@color/base_bottom_gold"
+            android:textSize="16sp" />
+    </LinearLayout>
+</LinearLayout>

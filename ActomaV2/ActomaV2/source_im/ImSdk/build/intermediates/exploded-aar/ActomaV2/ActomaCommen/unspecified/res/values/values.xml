@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="base_black_30">#4D000000</color>
+    <color name="base_black_50">#80000000</color>
+    <color name="base_black_65">#A6000000</color>
+    <color name="base_black_95">#F3000000</color>
+    <color name="base_bottom_gold">#AE9153</color>
+    <color name="base_gray_ed">#ededed</color>
+    <color name="base_gray_ee">#eeeeee</color>
+    <color name="base_gray_f4">#f4f4f4</color>
+    <color name="base_gray_f7">#f7f7f7</color>
+    <color name="base_horizontal_line">#CCCCCC</color>
+    <color name="base_red">#ED2201</color>
+    <color name="base_title_gold">#CCB481</color>
+    <color name="base_title_popup_gold">#E5D9C1</color>
+    <color name="base_white_100">#FFFFFFFF</color>
+    <color name="base_white_95">#F3FFFFFF</color>
+    <color name="encrypt_title_black">#FF333333</color>
+    <color name="listview_bg_withgroup">#FFFFFF</color>
+    <color name="listview_group_bg">#EEEEEE</color>
+    <color name="listview_item_bg">#FFFFFF</color>
+    <color name="progressbar_bg">#ffebe2d4</color>
+    <color name="progressbar_font_bg">#ffcbb381</color>
+    <color name="toast_bg">#BF000000</color>
+    <color name="transparent">#00000000</color>
+    <declare-styleable name="CircleImageView"><attr format="dimension" name="border_width"/><attr format="color" name="border_color"/><attr format="boolean" name="border_overlay"/></declare-styleable>
+    <dimen name="base_1">1dp</dimen>
+    <dimen name="base_10">10dp</dimen>
+    <dimen name="base_12">12dp</dimen>
+    <dimen name="base_13">13dp</dimen>
+    <dimen name="base_14">14dp</dimen>
+    <dimen name="base_16">16dp</dimen>
+    <dimen name="base_18">18dp</dimen>
+    <dimen name="base_20">20dp</dimen>
+    <dimen name="base_24">24dp</dimen>
+    <dimen name="base_28">28dp</dimen>
+    <dimen name="base_3">3dp</dimen>
+    <dimen name="base_32">32dp</dimen>
+    <dimen name="base_36">36dp</dimen>
+    <dimen name="base_4">4dp</dimen>
+    <dimen name="base_40">40dp</dimen>
+    <dimen name="base_48">48dp</dimen>
+    <dimen name="base_5">5dp</dimen>
+    <dimen name="base_56">56dp</dimen>
+    <dimen name="base_6">6dp</dimen>
+    <dimen name="base_8">8dp</dimen>
+    <dimen name="big_24">24sp</dimen>
+    <dimen name="body1_14">14sp</dimen>
+    <dimen name="body2_12">12sp</dimen>
+    <dimen name="button_14">14sp</dimen>
+    <dimen name="custom_commen_dialog_message_height">56dp</dimen>
+    <dimen name="head_16">16sp</dimen>
+    <dimen name="hint_10">10sp</dimen>
+    <dimen name="hint_16">16sp</dimen>
+    <dimen name="list_divider_height">0.3dp</dimen>
+    <dimen name="menu_14">14sp</dimen>
+    <dimen name="progressbar_height">24dp</dimen>
+    <dimen name="progressbar_width">24dp</dimen>
+    <dimen name="title_18">18sp</dimen>
+    <dimen name="zxing_height">200dp</dimen>
+    <dimen name="zxing_padding_left_right">36dp</dimen>
+    <dimen name="zxing_tip_bottom">28dp</dimen>
+    <dimen name="zxing_width">200dp</dimen>
+    <string name="My_QRCode">My QR code</string>
+    <string name="app_name">ActomaCommen</string>
+    <string name="assert_log">Assert log</string>
+    <string name="auto_scan_QRCode">Put the QR code in framework, will scan automatically</string>
+    <string name="business_fail_and_again">Business execution fail, try again please</string>
+    <string name="business_fail_and_restart">Business execution fail, retry after restart the phone please</string>
+    <string name="business_fail_and_retry_or_download_new_version">Business execution fail, please retry or download and install newer version</string>
+    <string name="camera">Read SD card</string>
+    <string name="camera_error">Please enable the permission in mobile phone\'s permission manager to allow Actom+ access your camera</string>
+    <string name="camera_prompt">Camera is disable</string>
+    <string name="completed_text">Done</string>
+    <string name="debug_log">Debug log</string>
+    <string name="default_type">Default type</string>
+    <string name="device_no_support_current_business">Device is not support current business</string>
+    <string name="dingding">DingDing</string>
+    <string name="error_and_restart_mobile">Error, restart your phone please</string>
+    <string name="error_and_restart_process">Error, restart the current application please</string>
+    <string name="error_log">Error log</string>
+    <string name="exception_crash">Exception crash</string>
+    <string name="fetion">Fetion</string>
+    <string name="get_account">Get the account</string>
+    <string name="hello_friend">Hello, friend</string>
+    <string name="hint_log">Warning log</string>
+    <string name="hint_text">Prompt</string>
+    <string name="invalid_QRCode">Invalid QR code</string>
+    <string name="know">Known</string>
+    <string name="lengthy_log">Redundant log</string>
+    <string name="momo">MoMo</string>
+    <string name="net_error_and_retry">Network connect unavailable, check your network setting please</string>
+    <string name="net_exception">Net exception, check network setting please</string>
+    <string name="no_detect_secure_chip">No security chip detected, try again, or check if device is open</string>
+    <string name="ok_and_setting">OK, set right now</string>
+    <string name="read_SDCard">Read SD card</string>
+    <string name="read_contact">Read contact</string>
+    <string name="record">Record</string>
+    <string name="save_picture_success">Picture saved</string>
+    <string name="scan">Scan</string>
+    <string name="scan_QRCode_and_add_friend">Scan the QR code above,add me as friend</string>
+    <string name="security_password_layout_cancel">Cancel</string>
+    <string name="security_password_layout_confim">OK</string>
+    <string name="security_password_layout_message1">Enter security password of the current device to identify authentication</string>
+    <string name="security_password_layout_message2">Notice: continuous 10 times error input will cause to dead lock the security chip, and all applications built on the security chip will not be able to use</string>
+    <string name="security_password_layout_never_show">No authenticate any more</string>
+    <string name="security_password_layout_title">Security password authentication</string>
+    <string name="server_empty">Server return empty or no respond</string>
+    <string name="setting_time">Setting time</string>
+    <string name="short_message">SMS</string>
+    <string name="telephone">Read SD card</string>
+    <string name="time_error">Current time is inconsistent with Beijing time,current operation has risk</string>
+    <string name="title_app_name">Actoma+</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="unknown_error_and_retry">Unknown error, try again please</string>
+    <string name="update_version">Version too low, please check and upgrade your version</string>
+    <string name="version_inconsistency_and_update">Version is inconsistency,  need to update the application version</string>
+    <string name="warning_log">Warning log</string>
+    <string name="we_chat">WeChat</string>
+    <string name="we_chat_commun">WeChat contacts</string>
+    <string name="write_SDCard">Write SD card</string>
+    <string name="write_contact">Write contact</string>
+    <style mce_bogus="1" name="Animation.Activity.Translucent.Style" parent="@android:style/Animation.Activity">
+        <!--当从 A1 启动 A2 时，A2 出现在屏幕上，这个动画叫做 android:activityOpenEnterAnimation-->
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <!--当从 A2 退出回到 A1 时，A2 从屏幕上消失，这个叫做 android:activityCloseExitAnimation-->
+        <item name="android:activityCloseExitAnimation">@anim/left_out</item>
+    </style>
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/base_title_gold</item>
+        <item name="colorControlActivated">@color/base_title_gold</item>
+        <item name="colorControlHighlight">@color/base_title_gold</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Translucent.Style</item>
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/base_black_95</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+    </style>
+    <style name="CustomTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/base_title_gold</item>
+        <item name="android:textSize">@dimen/base_18</item>
+    </style>
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/CustomTitleTextAppearance</item>
+    </style>
+    <style name="ToolBarPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/base_title_popup_gold</item>
+    </style>
+    <style name="style_common_setting_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/bg_img_arrow</item>
+    </style>
+    <style name="style_common_setting_item_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/base_black_95</item>
+        <item name="android:textSize">@dimen/head_16</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginRight">@dimen/base_8</item>
+    </style>
+    <style name="style_common_setting_item_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/listview_item_bg</item>
+    </style>
+    <style name="style_common_setting_item_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/base_16</item>
+        <item name="android:textColor">@color/base_black_65</item>
+        <item name="android:textSize">@dimen/body1_14</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="view_line_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/base_horizontal_line</item>
+    </style>
+</resources>

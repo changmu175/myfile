@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/more_info_lay"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_56"
+        android:visibility="gone"
+        android:background="@color/base_white_100">
+
+        <LinearLayout
+            android:id="@+id/avatar_layout"
+            android:layout_width="52dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_search"
+                android:contentDescription="@null"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/more_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/avatar_layout"
+            android:gravity="center_vertical"
+            android:textColor="@color/base_black_95"
+            android:textSize="@dimen/body1_14"
+            tools:ignore="RelativeOverlap" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base_12"
+            android:src="@drawable/bg_img_arrow"
+            android:contentDescription="@null"/>
+        <View
+            android:id="@+id/item_divider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_divider_height"
+            android:layout_alignParentBottom="true"
+            android:background="@color/base_horizontal_line"
+            android:contentDescription="@null"/>
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/search_devider_name"
+        android:layout_below="@id/more_info_lay"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingLeft="@dimen/base_12"
+        android:background="@color/base_gray_f4"
+        android:gravity="center_vertical"
+        android:textColor="@color/base_black_65"
+        android:visibility="gone"
+        android:textSize="@dimen/body1_14" />
+</RelativeLayout>

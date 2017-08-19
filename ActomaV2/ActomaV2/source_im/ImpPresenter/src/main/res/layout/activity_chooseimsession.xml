@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--Task 2632, create by ycm for share and forward function-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <include
+        android:id="@+id/search_layout_et"
+        layout="@layout/contact_search_ll"
+        />
+    <!--发送者头像-->
+    <com.xdja.comm.circleimageview.CircleImageView
+        android:id="@+id/self"
+        style="@style/talkdetail_senderImage"
+        android:visibility="gone"/>
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/listview_bg_nogroup">
+        <ListView
+            android:id="@+id/chatList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="@dimen/common_dividing_line_height"
+            />
+        <!--for bug 5684 显示无搜索结果提示-->
+        <TextView
+            android:id="@+id/search_no_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/no_result"
+            android:layout_marginTop="@dimen/base_40"
+            android:gravity="center"
+            android:textColor="@color/base_black_50"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

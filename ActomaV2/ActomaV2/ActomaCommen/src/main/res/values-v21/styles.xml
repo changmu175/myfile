@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppThem" parent="AppTheme.Base">
+        <!-- 底部导航栏颜色 -->
+        <item name="android:navigationBarColor">@color/base_black_95</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Translucent.Style</item>
+    </style>
+
+    <!--<style name="Animation.Activity.Translucent.Style" mce_bogus="1" parent="@android:style/Animation.Translucent">-->
+    <!--<item name="android:windowEnterAnimation">@anim/right_in</item>-->
+    <!--<item name="android:windowExitAnimation">@anim/left_out</item>-->
+
+    <style name="Animation.Activity.Translucent.Style" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <!--当从 A1 启动 A2 时，A2 出现在屏幕上，这个动画叫做 android:activityOpenEnterAnimation-->
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <!--当从 A2 退出回到 A1 时，A2 从屏幕上消失，这个叫做 android:activityCloseExitAnimation-->
+        <item name="android:activityCloseExitAnimation">@anim/left_out</item>
+    </style>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Domain_MainFrame</string>
+    <string name="dawn">凌晨</string>
+    <string name="am">上午</string>
+    <string name="noon">中午</string>
+    <string name="pm">下午</string>
+    <string name="night">晚上</string>
+</resources>

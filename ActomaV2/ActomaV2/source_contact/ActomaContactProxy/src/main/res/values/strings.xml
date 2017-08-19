@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ContactOPProxy</string>
+    <!--群组变更消息显示的节点名称-->
+    <string name="groupUpdate_show_self">You</string>
+    <string name="groupUpdate_add">&#160;Joined in group</string>
+    <string name="groupUpdate_invite">Invite&#160;</string>
+    <string name="groupUpdate_updateName">update group name as</string>
+    <string name="groupUpdate_initiative_delete">Have&#160;</string>
+    <string name="groupUpdate_move">&#160;Remove from group</string>
+    <string name="groupUpdate_dissolve">Group has been dismissed</string>
+    <string name="groupUpdate_separate">、</string>
+    <string name="groupUpdate_doubleQuote_before">“</string>
+    <string name="groupUpdate_doubleQuote_end">”</string>
+    <string name="groupUpdate_groupMember_quit">M exited the group</string>
+
+
+    <string name="accept_message">We are friends, start chatting</string>
+    <!-- add by wal@xdja.com-->
+    <string name="group_member_out_range_fail_add">&#160;The number of group members reach top limit,join in group failed</string>
+    <string name="group_member_no_sec_fail_add">&#160;Version too low, join in group chat failed</string>
+    <string name="group_member_in_group_fail_add">&#160;Be group member already</string>
+    <string name="group_member_not_account_fail_add">&#160;Invalid account, join in group failed</string>
+    <string name="friend_accept_request_first_message">Added&#160;</string>
+    <string name="friend_accept_request_second_message">,start chatting</string>
+</resources>

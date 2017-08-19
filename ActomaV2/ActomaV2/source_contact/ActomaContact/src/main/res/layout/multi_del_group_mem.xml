@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/multi_del_member_toolbar"
+            layout="@layout/view_toolbar"/>
+
+        <TextView
+            android:id="@+id/action_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base_28"
+            android:textSize="@dimen/button_14"
+            android:text="@string/delete_btn_text"
+            android:textColor="@color/base_title_gold"
+            android:layout_marginTop="@dimen/base_14"
+            android:background="@drawable/bg_common_toolbar_btn_seletor"
+            android:gravity="center"
+            android:paddingLeft="@dimen/base_6"
+            android:paddingRight="@dimen/base_6"
+            android:layout_marginRight="@dimen/base_16"
+            android:layout_alignRight="@+id/multi_del_member_toolbar"
+             />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/del_member_search"
+        layout="@layout/contact_search_layout"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/del_member_listview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="none"
+            android:divider="#d9d9d9"
+            android:dividerHeight="1px"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

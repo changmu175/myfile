@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/productintroduce_root">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <com.xdja.presenter_mainframe.widget.FlipPoint
+            android:id="@+id/flippoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/guide_flip_margin_bottom"
+            app:index="0"
+            app:pointMargin="@dimen/guide_flip_point_margin"
+            app:pointNoneSelected="@mipmap/ic_circle_checkoff"
+            app:pointOffSize="@dimen/guide_flip_point_offsize"
+            app:pointOnSize="@dimen/guide_flip_point_onsize"
+            app:pointSelcted="@mipmap/ic_circle_checkon"
+            app:total="4" />
+
+        <TextView
+            android:id="@+id/welcome_start_step_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/flippoint"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/base_42"
+            android:alpha="0"
+            android:clickable="true" />
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+</FrameLayout>

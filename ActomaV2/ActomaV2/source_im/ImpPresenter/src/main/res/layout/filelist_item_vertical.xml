@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fileitem_child_height"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/base_white_100">
+
+    <!-- file image -->
+    <ImageView
+        android:id="@+id/img_file_icon"
+        android:layout_width="@dimen/fileitem_iconSize"
+        android:layout_height="@dimen/fileitem_iconSize"
+        android:layout_marginLeft="@dimen/fileitem_marginLeft_16"
+        android:layout_marginTop="@dimen/fileitem_marginTop"
+        android:layout_marginBottom="@dimen/fileitem_marginBottom"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_picture"
+        android:contentDescription="@null"/>
+
+
+    <!-- file extra info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/fileitem_marginLeft_8"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_file_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="middle"
+            android:textSize="@dimen/fileitem_title_size"
+            android:textColor="#F3000000" />
+
+        <TextView
+            android:id="@+id/tv_file_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fileitem_marginTop"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/fileitem_content_size"
+            android:textColor="#A6000000" />
+
+        <TextView
+            android:id="@+id/tv_file_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/fileitem_marginTop"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textSize="@dimen/fileitem_content_size"
+            android:textColor="#A6000000" />
+    </LinearLayout>
+
+    <!-- file select -->
+    <CheckBox
+        android:id="@+id/chx_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/fileitem_marginRight"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:button="@drawable/icon_select"
+        android:background="@null"/>
+</LinearLayout>

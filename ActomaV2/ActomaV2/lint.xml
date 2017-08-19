@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+	<!-- ignore the warning file in this project -->
+	<issue id="AndroidDomInspection" severity="ignore"/><!--忽略对自定义类型class名称的warning-->
+	<issue id="AndroidElementNotAllowed" severity="ignore"/><!--忽略对xml文件名中的组件warning-->
+	<issue id="JniMissingFunction" severity="ignore"/><!--忽略对JNI文件的warning-->
+	<issue id="AndroidLintContentDescription" severity="ignore"/><!--忽略对Image组件中未使用ContentDescription属性-->
+	<issue id="AndroidLintDefaultLocale" severity="ignore"/><!--忽略对缺少Local文件字符串格式化的处理-->
+	<issue id="AndroidLintRtlSymmetry" severity="ignore"/><!--忽略对布局文件使用right或left替换paddingleft-->
+	<issue id="AndroidLintInflateParams" severity="ignore"/><!--忽略对使用inflate时父类加载布局文件使用null-->
+	<issue id="AndroidLintRtlHardcoded" severity="ignore"/><!--忽略对布局文件中left和right替换问题-->
+	<issue id="AndroidLintRecycle" severity="ignore"/><!--暂时忽略对文件中Recycle的warning追踪代码查看关闭时机-->
+	<issue id="AndroidLintUseCompoundDrawables" severity="ignore"/><!--忽略对文件中嵌套布局的组件使用-->
+	<issue id="AndroidLintUselessParent" severity="ignore"/><!--忽略对文件中不合理嵌套布局的warning-->
+	<issue id="AndroidLintSmallSp" severity="ignore"/><!--忽略对使用文字过小warning-->
+	<issue id="AndroidLintTypographyEllipsis" severity="ignore"/><!--忽略对...非特定字符warning-->
+	<issue id="GroovyAssignabilityCheck" severity="ignore"/><!--忽略对文件中配置文件的warning-->
+	<issue id="FieldCanBeLocal" severity="ignore"/><!--忽略对成员变量的warning-->
+	<issue id="FinalStaticMethod" severity="ignore"/><!--忽略对文件中Final修饰static产生的warning-->
+	<issue id="Deprecation" severity="ignore"/><!--忽略对文件中使用到过时方法的warning-->
+	<issue id="UnnecessaryEnumModifier" severity="ignore"/><!--忽略对文件中接口方法使用无用的修饰符-->
+	<issue id="UnnecessaryInterfaceModifier" severity="ignore"/><!--忽略接口多余修饰符的warning-->
+	<issue id="UnnecessaryLocalVariable" severity="ignore"/><!--忽略对文件中无用变量的warning-->
+	<issue id="SameParameterValue" severity="ignore"/><!--忽略对默认参数经常无修改warning-->
+	<issue id="WeakerAccess" severity="ignore"/><!--忽略对软引用文件权限修饰符的warning-->
+	<issue id="CanBeFinal" severity="ignore"/><!--忽略对成员变量替换为final常亮的warning-->
+	<issue id="EmptyMethod" severity="ignore"/><!--忽略对父类中重写抽象方法为空的warning-->
+	<issue id="UnusedReturnValue" severity="ignore"/><!--忽略对函数返回值未使用到的warning-->
+	<issue id="SameReturnValue" severity="ignore"/><!--忽略对函数返回固定值得warning-->
+	<issue id="RedundantThrows" severity="ignore"/><!--忽略对于文件中抛出多余异常warning-->
+	<issue id="unused" severity="ignore"/><!--忽略对文件中无用声明的warning-->
+	<issue id="UnusedParameters" severity="ignore"/><!--忽略对方法中无用参数的warning-->
+	<issue id="EmptyCatchBlock" severity="ignore"/><!--忽略try...catch中方法体为空的warning-->
+	<issue id="FinalizeCallsSuperFinalize" severity="ignore"/><!--忽略对finalize方法中未集成父类的方法-->
+	<issue id="DefaultFileTemplate" severity="ignore"/><!--忽略对文件中使用文件注释的warning-->
+	<issue id="Convert2Diamond" severity="ignore"/><!--忽略对泛型使用对象类型warning-->
+	<issue id="TryWithIdenticalCatches" severity="ignore"/><!--对于文件中catch多个分支异常简化的warning-->
+	<issue id="JavaDoc" severity="ignore"/><!--忽略对JavaDoc中对于文档描述存在问题部分warning-->
+	<issue id="JavadocReference" severity="ignore"/><!--忽略对JavaDoc中对于文档描述存在问题部分warning-->
+	<issue id="ConstantConditions" severity="ignore"/><!--忽略对文件中潜在bug的warning后期处理-->
+	<issue id="NullableProblems" severity="ignore"/><!--忽略对文件中NOTNULL问题的处理-->
+	<issue id="EmptyStatementBody" severity="ignore"/><!--忽略对方法体为空的warning-->
+	<issue id="UnusedAssignment" severity="ignore"/><!--忽略对文件中UnusedAssignment的warning-->
+	<issue id="SpellCheckingInspection" severity="ignore"></issue><!--忽略所有文件资源中自定义拼写的warning-->
+	<issue id="RedundantCast" severity="ignore"/><!--忽略强制类型装换中类型与返回值类型相同的warning-->
+	<issue id="XmlHighlighting" severity="ignore"/><!--忽略对Highlights XML报出warning-->
+</lint>

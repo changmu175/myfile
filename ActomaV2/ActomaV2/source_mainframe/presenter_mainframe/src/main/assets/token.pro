@@ -1,0 +1,9 @@
+{
+  "token_data":
+ 	{
+		"appId":"9e5b5a04ee424a1a9e52cf84727440f1",
+		"packageName":"com.xdja.actoma"
+	},
+   "signature_alg":"sm2WithSm3",
+   "signature":"z4wwqLbzKSdjPMhEdo0QylQeGsnp1sXnPPRj2G0aiP7qzEKlOuAIuTO9RF0YulwVkedi08gHP/UlGIoYc0rAig=="
+}

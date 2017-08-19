@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/source_contact/ActomaContact/src/main/java/com/xdja/contact/presenter/adapter/ChooseGroupAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_contact/ActomaContact/src/main/java/com/xdja/contact/ui/def/IChooseFriendsVu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_contact/ActomaContact/src/main/java/com/xdja/contact/ui/view/ChooseFriendVu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_contact/ActomaContact/src/main/java/com/xdja/contact/ui/view/ChooseGroupVu.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_contact/ActomaContact/src/main/java/com/xdja/contact/util/cache/ContactSearchUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_im/ImpData/build.gradle" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_im/ImpDomain/src/main/java/com/xdja/imp/domain/interactor/im/ShareFileMsgListUseCase.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/source_im/ImpPresenter/src/main/java/com/xdja/imp/ui/ViewShareGrouoItem.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

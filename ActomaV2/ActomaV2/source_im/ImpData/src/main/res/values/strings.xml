@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">data_imp</string>
+    <string name="im_encrpto_data_fail">Data encryption failed</string>
+    <string name="im_file_encrpto_fail">File encryption failed</string>
+    <string name="im_encrpto_fail">Encryption failed</string>
+    <string name="im_picture_no_exist">Image not exist</string>
+    <string name="im_decrpto_error">IM parsing error</string>
+    <string name="im_record_time_short">Recording time too short</string>
+    <string name="im_unknow_http_error">Unknown HTTP error</string>
+    <string name="im_error_retry">Error,please try again!</string>
+    <string name="im_time_differ_remind">The current time is inconsistent with the Beijing time, current operation is in the risk</string>
+    <string name="im_head_no_ticket_resource">The request header has no ticket resources</string>
+    <string name="im_request_no_id_data">The request has no account card ID data</string>
+    <string name="im_request_field_null">The request field is empty</string>
+    <string name="im_ticket_validate_not_go">Ticket validation failed</string>
+    <string name="im_server_call_error">Server call error</string>
+
+    <string name="im_request_field_error">Request field analytical anomalies</string>
+    <string name="im_account_null_nodisturb_setting_fail">Account is empty, do not disturb mode set failed</string>
+    <string name="im_card_null_nodisturb_setting_fail">Card ID is empty, do not disturb mode set failed</string>
+    <string name="im_account_null_nodisturb_save_fail">Account is empty, do not disturb mode saved failed</string>
+    <string name="im_card_null_nodisturb_save_fail">Card ID is empty, do not disturb mode saved failed</string>
+    <string name="im_account_null_nodisturb_delete_fail">Account is empty, do not disturb mode deleted failed</string>
+    <string name="im_card_null_nodisturb_delete_fail">Card ID is empty, do not disturb mode deleted failed</string>
+    <string name="im_account_null_top_setting_fail">Account is empty, top mode set failed</string>
+    <string name="im_card_null_top_setting_fail">Card ID is empty, top mode set failed</string>
+    <string name="im_account_null_top_save_fail">Account is empty, top mode saved failed</string>
+    <string name="im_card_null_top_save_fail">Card ID is empty, top mode saved failed</string>
+    <string name="im_account_null_top_delete_fail">Account is empty, top mode deleted failed</string>
+    <string name="im_card_null_top_delete_fail">Card ID is empty, top mode deleted failed</string>
+    <string name="im_account_null_roam_setting_fail">Account is empty, roaming settings set failed</string>
+    <string name="im_card_null_roam_setting_fail">Card ID is empty, roaming settings set failed</string>
+    <string name="im_save_roam_data_null">The roaming information to be saved is empty</string>
+    <string name="im_conversation_data_error">Incoming session information is incorrect!</string>
+    <string name="im_query_key_null">The key value to be queried is empty</string>
+    <string name="im_cache_data_null">The data to be cached is empty</string>
+    <string name="unsupport_message_type">[Unsupport Type]</string>
+</resources>

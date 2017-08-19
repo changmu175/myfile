@@ -1,0 +1,69 @@
+apply plugin: 'com.android.library'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    buildToolsVersion '25.0.2'
+}
+
+//定义一个函数，target是生成jar包的文件名，classDir是class文件所在的文件夹
+def makeJar(String target, String classDir) {
+    exec {
+        executable "jar"   //调用jar
+        args "cvf", target
+        args "-C", classDir
+        args "", "."
+    }
+}
+
+//新建一个task,名为buildLib,依赖build(build是一个自带的task)
+task buildLib(dependsOn: ['build']) << {
+    makeJar("safeauth.jar", "build\\intermediates\\classes\\release")
+}
+
+
+dependencies {
+
+    def safeauthDependencies = rootProject.ext.safeauthDependencies
+
+    compile safeauthDependencies.okHttp
+//    compile safeauthDependencies.okio
+//    compile safeauthDependencies.gson
+
+//    compile files('libs/xdjasafekeyjar.jar')
+    compile project(':data')
+    compile project(path: ':ActomaCommen')
+}

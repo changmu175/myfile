@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'realm-android'
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+	
+	lintOptions {
+        abortOnError false
+        disable("InvalidPackage",
+                "DefaultLocale",
+                "UnusedResources")
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+
+    def dataDependencies = rootProject.ext.dataDependencies
+    def dataTestDependencies = rootProject.ext.dataTestDependencies
+
+    compile dataDependencies.supportAnnotation
+    compile dataDependencies.appcompat
+    compile dataDependencies.rxAndroid
+    compile dataDependencies.okHttp
+    compile dataDependencies.okHttpLog
+    //    compile dataDependencies.retrofit
+    compile dataDependencies.otto
+    compile dataDependencies.gson
+    compile dataDependencies.retrofit2
+    compile dataDependencies.retrofit2GsonConvertor
+    compile dataDependencies.retrofit2RxJavaAdapter
+    compile domainDependencies.dagger
+    apt domainDependencies.daggerCompiler
+    //provided domainDependencies.javaxAnnotation
+    //JUNIT TEST DEPENDENCE
+    testCompile dataTestDependencies.junit
+    testCompile dataTestDependencies.mockito
+    testCompile dataTestDependencies.robolectric
+
+    compile project(':domain_mainframe')
+    compile project(':data')
+
+    compile project(':ActomaCommen')
+}

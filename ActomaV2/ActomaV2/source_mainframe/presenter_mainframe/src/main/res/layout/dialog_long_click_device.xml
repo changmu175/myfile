@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/blade_white_100"
+    tools:ignore="Overdraw"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_long_click_device_modify"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_48"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin_16"
+        android:paddingRight="@dimen/activity_horizontal_margin_16"
+       	android:text="@string/modify_device_name"
+        android:textColor="@color/blade_black_95"
+        android:textSize="@dimen/hint_16" />
+
+    <View style="@style/view_line_style" />
+
+    <RelativeLayout
+        android:id="@+id/ll_long_click_device_delete"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_48"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin_16"
+        android:paddingRight="@dimen/activity_horizontal_margin_16">
+
+        <TextView
+            android:id="@+id/delete_auth_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/hint_10"
+            android:textColor="@color/blade_black_65"
+            android:layout_marginBottom="@dimen/base_8"
+ 	        android:text="@string/delete_need_auth"/>
+	   
+        <TextView
+            android:id="@+id/delete_auth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/delete_auth_info"
+            android:text="@string/delete_device"
+            android:textColor="@color/blade_black_95"
+            android:layout_marginTop="@dimen/base_8"
+            android:textSize="@dimen/hint_16" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

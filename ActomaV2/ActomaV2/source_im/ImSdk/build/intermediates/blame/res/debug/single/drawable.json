@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_remove_user_btn_selector.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_remove_user_btn_selector.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\af_ic_toast_fail.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\af_ic_toast_fail.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\round_corner_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\round_corner_layout.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\toast_custom_bg.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\toast_custom_bg.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_delete_btn_selector.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_delete_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\af_ic_toast_success.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\af_ic_toast_success.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_custom_dialog_btn_seletor.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_custom_dialog_btn_seletor.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_btn_seletor.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_common_btn_seletor.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_toolbar_btn_seletor.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_common_toolbar_btn_seletor.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_progressbar.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\circle_progressbar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\toast_custom_bg.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\toast_custom_bg.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\af_bg_toast.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\af_bg_toast.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_add_user_btn_selector.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_add_user_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_progressbar.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\circle_progressbar.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_remove_user_btn_selector.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_remove_user_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\af_ic_toast_success.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\af_ic_toast_success.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_custom_dialog_btn_seletor.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_custom_dialog_btn_seletor.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\af_bg_toast.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\af_bg_toast.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_dialog_bg.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\custom_dialog_bg.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\round_corner_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\round_corner_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\progressbar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_btn_seletor.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_common_btn_seletor.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_add_user_btn_selector.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_add_user_btn_selector.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_checkbox_base_selector.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_checkbox_base_selector.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_delete_btn_selector.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_delete_btn_selector.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_checkbox_base_selector.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_checkbox_base_selector.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_common_toolbar_btn_seletor.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\bg_common_toolbar_btn_seletor.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\af_ic_toast_fail.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\drawable\\af_ic_toast_fail.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_dialog_bg.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable\\custom_dialog_bg.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+    }
+]

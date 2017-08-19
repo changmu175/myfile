@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/talk_list_item_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/talk_list_item_height"
+    android:background="@drawable/selector_talk_list_item"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <!--头像和未读数量-->
+    <include layout="@layout/chatlist_ownerid_header" />
+
+    <!--姓名和消息内容-->
+    <RelativeLayout
+        android:id="@+id/talk_list_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userName"
+            android:layout_width="@dimen/talk_list_item_title_width"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/common_ninety_five_percent_black"
+            android:textSize="@dimen/common_txsize_16_19" />
+
+        <ImageView
+            android:id="@+id/message_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userName"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/ic_message_fail"
+            android:visibility="gone"
+            android:contentDescription="@null"/>
+
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:layout_toRightOf="@id/message_state"
+            android:layout_marginTop="5dp"
+            android:maxWidth="240dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="@dimen/common_txsize_12_15"
+            android:textColor="@color/common_sixty_five_percent_black"/>
+    </RelativeLayout>
+
+    <!--时间和是否提醒-->
+    <include layout="@layout/chatlist_time_notify" />
+
+</LinearLayout>

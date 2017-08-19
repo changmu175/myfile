@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xdja.presenter_mainframe.ui.ViewAboutActoma">
+    <!--android:background="@color/listview_bg_withgroup"-->
+    <!--tools:ignore="Overdraw"-->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="30dp"
+        android:paddingTop="31dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="@dimen/base_80"
+            android:layout_height="@dimen/base_80"
+            android:contentDescription="@null"
+            android:src="@drawable/af_setting_img_logo" />
+
+        <TextView
+            android:id="@+id/aboutcatoma_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:textColor="@color/base_black_65"
+            android:textSize="@dimen/body1_14" />
+    </LinearLayout>
+
+    <View style="@style/view_line_style" />
+    <!--欢迎页-->
+    <RelativeLayout
+        android:id="@+id/aboutactoma_welcomepagelayout"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/aboutactoma_welcomepage"
+            android:textColor="@android:color/black" />
+
+        <ImageView
+            style="@style/style_setting_arrow"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/base_16" />
+
+    </RelativeLayout>
+    <!--欢迎页-->
+    <View style="@style/view_line_style" />
+    <!--功能介绍-->
+    <RelativeLayout
+        android:id="@+id/aboutactoma_functionintroductionlayout"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/aboutactoma_functionintroduction" />
+
+        <ImageView
+            style="@style/style_setting_arrow"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/base_16" />
+    </RelativeLayout>
+    <!--功能介绍-->
+    <View android:id="@+id/help_feedback_line" style="@style/view_line_style" />
+    <!--常见问题-->
+    <RelativeLayout
+        android:id="@+id/aboutactoma_commonproblemslayout"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/aboutactoma_commonproblems" />
+
+        <ImageView
+            style="@style/style_setting_arrow"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/base_16" />
+
+    </RelativeLayout>
+    <!--常见问题-->
+    <View style="@style/view_line_style" />
+    <!--版本更新-->
+    <RelativeLayout
+        android:id="@+id/aboutactoma_versionupdatelayout"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/aboutactoma_versionupdate" />
+
+        <TextView
+            android:id="@+id/aboutactoma_updateprompt"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/base_20"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/right_arrow1"
+            android:background="@drawable/af_setting_bg_new"
+            android:gravity="center"
+            android:text="@string/text_new"
+            android:textColor="@color/white"
+            android:textSize="@dimen/body2_12"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/right_arrow1"
+            style="@style/style_setting_arrow"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/base_16" />
+    </RelativeLayout>
+    <!--版本更新-->
+    <View style="@style/view_line_style" />
+    <!--使用条款和隐私政策-->
+    <RelativeLayout
+        android:id="@+id/aboutactoma_termsandpolicylayout"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:text="@string/aboutactoma_termsandpolicy" />
+
+        <ImageView
+            style="@style/style_setting_arrow"
+            android:contentDescription="@null"
+            android:layout_marginStart="@dimen/base_16" />
+    </RelativeLayout>
+    <!--使用条款和隐私政策-->
+    <View android:visibility="gone"
+          style="@style/view_line_style" />
+
+    <View
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_8"
+        android:background="@color/listview_bg_nogroup" />
+
+    <View style="@style/view_line_style" />
+    <!--退出-->
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/aboutactoma_exitlayout"
+        style="@style/style_setting_item_layout">
+
+        <TextView
+            style="@style/style_setting_item_label"
+            android:layout_alignParentStart="true"
+            android:text="@string/aboutactoma_exit" />
+
+    </RelativeLayout>
+    <!--退出-->
+    <View
+        style="@style/view_line_style"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/listview_bg_nogroup" />
+</LinearLayout>

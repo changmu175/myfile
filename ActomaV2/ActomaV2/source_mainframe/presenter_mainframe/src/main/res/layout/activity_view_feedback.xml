@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/base_gray_ee"
+    tools:ignore="Overdraw"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <ScrollView
+        android:id="@+id/feedback_layout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="80dp"
+            android:paddingLeft="@dimen/base_16"
+            android:paddingRight="@dimen/base_16"
+            android:paddingTop="@dimen/base_18">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/base_8"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/base_6"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:text="@string/feedback_opinion"
+                    android:textColor="@color/base_black_95"
+                    android:textSize="@dimen/hint_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/feedback_max_size"
+                    android:textColor="@color/base_black_65"
+                    android:textSize="@dimen/body2_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/base_18"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/feedback_opinion_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_feedback_input"
+                    android:gravity="top"
+                    android:hint="@string/feedback_opinion_describe"
+                    android:inputType="textMultiLine"
+                    android:minLines="6"
+                    android:padding="@dimen/base_6"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/base_black_65"
+                    android:textColorHint="#cacaca"
+                    android:textSize="@dimen/body1_14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/base_8"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/base_6"
+                    android:text="@string/feedback_screenshot"
+                    android:textColor="@color/base_black_95"
+                    android:textSize="@dimen/hint_16" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/feedback_max_upload_images"
+                    android:textColor="@color/base_black_65"
+                    android:textSize="@dimen/body2_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/base_18"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <GridView
+                    android:id="@+id/feedback_upload_image_gridview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="80dp"
+                    android:background="@drawable/bg_feedback_input"
+                    android:gravity="center_vertical"
+                    android:listSelector="@color/transparent"
+                    android:numColumns="3"
+                    android:paddingBottom="12dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="6dp"
+                    android:paddingTop="12dp"
+                    tools:ignore="NestedScrolling"
+                    android:scrollbars="none">
+
+                </GridView>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/base_8">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/feedback_contact_phone_number"
+                    android:textColor="@color/base_black_95"
+                    android:textSize="@dimen/hint_16" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="@dimen/base_20"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/feedback_contact_phone_edittext"
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/bg_feedback_input"
+                    android:gravity="center_vertical"
+                    android:hint="@string/feedback_contact_phone_number_describe"
+                    android:inputType="phone"
+                    android:paddingLeft="@dimen/base_6"
+                    android:paddingRight="@dimen/base_6"
+                    android:textColor="@color/base_black_95"
+                    android:textColorHint="#cacaca"
+                    android:textSize="@dimen/body1_14" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/feedback_submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_gold_selector"
+                android:enabled="false"
+                android:text="@string/feedback_submit"
+                android:textAllCaps="false"
+                android:textColor="@drawable/text_selector" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/feedback_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:ignore="ObsoleteLayoutParam">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/tips_success" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feedback_success"
+            android:textSize="@dimen/big_24"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:id="@+id/feedback_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/body1_14"
+            android:singleLine="false"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"/>
+
+    </LinearLayout>
+</LinearLayout>

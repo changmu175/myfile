@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="action_name">
+        <item>@string/copy</item>
+        <item>@string/chat_resend</item>
+        <item>@string/delete</item>
+        <item>@string/re_receive</item>
+        <item>@string/use_earphone_model</item>
+        <item>@string/use_speaker_model</item>
+        <item>@string/pause</item>
+        <item>@string/continue_send</item>
+        <item>@string/continue_receiver</item>
+        <item>@string/dial_call</item>
+        <item>@string/forward</item> //Task 2632, add by ycm
+        <item>@string/open_file</item>
+    </string-array>
+
+    <!--Task 2632, add by ycm for hyperlink click event 2016/11/03[start]-->
+    <string-array name="hyperlink_action">
+        <item>@string/call_out</item>
+        <item>@string/add_to_contact</item>
+        <item>@string/create_new_contact</item>
+        <item>@string/add_to_exist_contact</item>
+    </string-array>
+    <!--Task 2632, add by ycm for hyperlink click event 2016/11/03[end]-->
+</resources>

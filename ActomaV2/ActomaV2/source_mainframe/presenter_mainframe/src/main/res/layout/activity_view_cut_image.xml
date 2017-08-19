@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/cur_image_root">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+
+        <Button
+            android:id="@+id/cutimage_use"
+            android:layout_width="@dimen/base_46"
+            android:layout_height="@dimen/base_28"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/base_12"
+            android:background="@drawable/sel_bg_gold"
+            android:enabled="false"
+            android:text="@string/view_use"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/button_14" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/black"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/cutimg_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:focusable="true"
+            android:layerType="software"
+            android:focusableInTouchMode="true"
+            android:scaleType="matrix" />
+
+        <com.xdja.presenter_mainframe.chooseImg.ClipView
+            android:id="@+id/clipview"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            app:width="300dp" />
+        <!--app:margin="30dip"-->
+    </RelativeLayout>
+</LinearLayout>

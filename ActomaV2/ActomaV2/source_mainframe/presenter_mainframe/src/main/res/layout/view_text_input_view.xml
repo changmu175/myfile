@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    tools:ignore="Overdraw"
+    android:background="@color/blade_white_100">
+
+    <!--modify by xnn@xdja.com to fix bug: 1131 2016-07-12 start (rummager : anlihuang)-->
+    <EditText
+        android:id="@+id/edtTxt_input"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:labelFor="@id/edtTxt_input"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:paddingStart="@dimen/input_padding_left"
+        android:paddingEnd="@dimen/input_padding_right"
+        android:singleLine="true"
+        android:textColorHint="@color/blade_black_30"
+        android:textSize="@dimen/bigger_text_size_16" />
+    <!--modify by xnn@xdja.com to fix bug: 1131 2016-07-12 end (rummager : anlihuang)-->
+    <TextView
+        android:id="@+id/first_view"
+        style="@style/normal_text"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="@dimen/base_16"
+        android:text="@string/phone_number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:gravity="end|center_vertical"
+        android:paddingEnd="@dimen/base_16"
+        android:paddingStart="@dimen/base_8"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_input_clear"
+            android:layout_width="@dimen/base_24"
+            android:layout_height="@dimen/base_24"
+            android:background="@mipmap/ic_text_input_clear" />
+
+        <FrameLayout
+            android:id="@+id/assist_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/base_8"
+            >
+
+            <Button
+                android:id="@+id/btn_assist_view"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/base_28"
+                android:background="@drawable/sel_bg_gold"
+                android:enabled="true"
+                android:singleLine="true"
+                android:paddingLeft="3dp"
+                android:gravity="center"
+                android:paddingRight="3dp"
+                android:textAllCaps="false"
+                android:textColor="@color/text_selector"
+                android:text="@string/input_get_verify_code"
+                android:textSize="@dimen/button_14" />
+
+            <CheckBox
+                android:id="@+id/chk_assist_view"
+                android:layout_width="@dimen/base_24"
+                android:layout_height="@dimen/base_24"
+                android:layout_marginEnd="@dimen/base_4"
+                android:layout_gravity="center_vertical|end"
+                android:background="@drawable/ic_eye_selector"
+                android:button="@null"
+                android:checked="false"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_dimen"
+        android:contentDescription="@null"
+        android:layout_gravity="bottom"
+        android:background="@color/divider_grey_color" />
+
+</FrameLayout>

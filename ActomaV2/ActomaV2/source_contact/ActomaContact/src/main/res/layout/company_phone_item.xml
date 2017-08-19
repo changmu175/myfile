@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:descendantFocusability="blocksDescendants"
+    android:clickable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_48"
+        android:background="@drawable/bg_list_item"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/address_book_phone_number_colon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/base_16"
+            android:text="@string/contact_layout_phone"
+            android:singleLine="true"
+            android:textColor="@color/base_black_65"
+            android:textSize="@dimen/menu_14"
+            android:visibility="invisible"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/phone_number_text"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textColor="@color/base_black_95"
+            android:textSize="@dimen/head_16"
+            android:gravity="center_vertical|left"
+            />
+
+        <ImageButton
+            android:id="@+id/common_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/base_16"
+            android:background="@null"
+            android:layout_weight="1"
+            android:src="@drawable/btn_call_selector"
+            android:contentDescription="@null"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_divider_height"
+        android:background="@color/base_horizontal_line" />
+</LinearLayout>

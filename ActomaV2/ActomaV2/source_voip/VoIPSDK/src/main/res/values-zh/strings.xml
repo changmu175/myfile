@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+ 	   xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" 
+	   xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">加密电话</string>
+
+    <string name="inputPhone">请输入正确的密信号</string>
+
+    <string name="empty_description" tools:ignore="CheckTagEmptyBody"></string>
+
+    <!-- VOip -->
+    <string name="getUserIdErr">传入用户Id错误！</string>
+
+
+    <string name="use_pstn">使用手机</string>
+    <string name="missed_call">未接来电</string>
+    <string name="ok">确定</string>
+    <string name="another_application_use_sip_port">另一程序正在使用SIP端口!无法启动!</string>
+    <!-- <string name="voice_mail_number">VM number</string> -->
+    <string name="not_configured_multiple_calls">不允许进行多个呼叫</string>
+    <string name="loading">加载中</string>
+
+    <string name="acct_inactive">离线</string>
+    <string name="acct_unregistered">离线</string>
+    <string name="acct_registering">离线</string>
+    <string name="acct_registered">在线</string>
+    <string name="acct_regerror">离线</string>
+    <string name="acct_regfailed">离线</string>
+    <!-- End:SUNYUNLEI 修改状态通知 -->
+
+
+    <!-- API 字符串 -->
+    <string name="permlab_useSip">Use sip</string>
+    <string name="permdesc_useSip">Place SIP calls, send SIP messages</string>
+    <string name="permlab_configureSip">Full access to SIP Accounts/Calls/Messages</string>
+    <string name="permdesc_configureSip">Configure SIP accounts and settings, access to SIP contents
+        (call logs, messages…), extends and hook SIP flow
+    </string>
+
+    <!-- 呼叫记录字符串 -->
+    <string name="unknown">未知</string>
+    <string name="type_incoming">呼入</string>
+    <string name="type_outgoing">呼出</string>
+    <string name="type_missed">未接</string>
+
+    <!-- 短信息字符串 -->
+    <string name="done">完成</string>
+    <!-- 配置字符串 -->
+    <string name="all">All</string>
+
+    <!-- Media -->
+    <string name="echo_cancellation">消除回音</string>
+    <!-- xliff_strings -->
+    <!--  <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> 分 <xliff:g id="seconds" example="28">%s</xliff:g> 秒</string> -->
+    <string name="description_call">Call
+        <xliff:g id="name">%1$s</xliff:g>
+    </string>
+
+    <bool name="use_dual_panes">false</bool>
+
+
+    <!-- filters Strings -->
+    <string name="starts_with">起始</string>
+    <string name="ends_with">结束</string>
+    <string name="contains">包含</string>
+    <string name="has_exactly_n_digits">有N个数字</string>
+    <string name="has_more_than_n_digits">大于N个数字</string>
+    <string name="is_exactly">全等于</string>
+    <string name="custom_regexp">自定义正则表达式</string>
+    <string name="prefix_by">前缀</string>
+    <string name="suffix_with">后缀</string>
+    <string name="replace_match_by">替换</string>
+    <string name="replace_all_by">替换所有</string>
+    <string name="call_info_header">Has Call-Info for immediate answer</string>
+
+
+    <!-- inCall String -->
+    <string name="take_call">回复</string>
+    <string name="ignore_call">忽略</string>
+    <string name="clear_call">终止</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="speaker">扬声器</string>
+    <string name="mute">静音</string>
+    <string name="call_state_calling">正在呼叫…</string>
+    <!--20150826 挂断改为正在挂断-->
+    <string name="unlock">解锁</string>
+    <string name="record">录音</string>
+    <string name="slidtoright">向右滑动接听</string>
+    <string name="slidtoleft">向左滑动挂断</string>
+
+    <string name="description_direction_right">Right</string>
+    <string name="description_direction_left">Left</string>
+    <string name="description_direction_up">Up</string>
+
+    <!-- other -->
+    <string name="sd_card_path">/sdcard/</string>
+    <string name="call_count">99+</string>
+
+    <!--通话界面-->
+    <string name="empty_document">暂无通话记录</string>
+    <string name="invite_friend">和好友一起使用免费的加密通话</string>
+
+    <string name="delete_from_list">删除该通话记录</string>
+
+    <!--通话记录详情界面-->
+    <string name="call_detail_title">通话详情</string>
+    <string name="call_duration_string_hour">时</string>
+    <string name="call_duration_string_minute">分</string>
+    <string name="call_duration_string_second">秒</string>
+
+    <string name="call_detail_make_call">打加密电话</string>
+    <string name="call_detail_send_sms">发加密消息</string>
+
+    <!-- SipCallSession-->
+    <string name="BAD_REQUEST_COMMENT">非法的请求格式</string>
+    <string name="UNAUTHORIZED_COMMENT">用户需要认证</string>
+    <string name="PAYMENT_REQUIRED_COMMENT">会话需要付费</string>
+    <string name="FORBIDDEN_COMMENT">不提供的服务</string>
+    <string name="NOT_FOUND_COMMENT">对方不在线</string>
+    <string name="METHOD_NOT_ALLOWED_COMMENT">请求中指定的方法不可用</string>
+    <string name="NOT_ACCEPTABLE_COMMENT">代理请求不被接受要认证</string>
+    <string name="PROXY_AUTHENTICATION_REQUIRED_COMMENT">代理需要认证</string>
+    <string name="REQUEST_TIMEOUT_COMMENT">无人接听</string>
+    <string name="GONE_COMMENT">资源不可用</string>
+    <string name="REQUEST_ENTITY_TOO_LARGE_COMMENT">请求处理太大</string>
+    <string name="REQUEST_URI_TOO_LARGE_COMMENT">请求URI太长</string>
+    <string name="UNSUPPORTED_MEDIA_TYPE_COMMENT">不支持的媒体类型</string>
+    <string name="UNSUPPORTED_URI_SCHEME_COMMENT">不支持的URI主题</string>
+    <string name="BAD_EXTENSION_COMMENT">用户不存在</string>
+    <string name="EXTENSION_REQUIRED_COMMENT">请求需要扩展</string>
+    <string name="SESSION_TIMER_TOO_SMALL_COMMENT">会话计时器时间过短</string>
+    <string name="INTERVAL_TOO_BRIEF_COMMENT">会话间隔时间过短</string>
+    <string name="TEMPORARILY_UNAVAILABLE_COMMENT">临时无效的会话</string>
+    <string name="CALL_TRANSACTION_DONOT_EXIST_COMMENT">服务器忽略请求</string>
+    <string name="LOOP_DETECTED_COMMENT">收到了包含自己路径的请求</string>
+    <string name="TOO_MANY_HOPS_COMMENT">hop数过大</string>
+    <string name="ADDRESS_INCOMPLETED_COMMENT">服务收到的地址不完整</string>
+    <string name="AMBIGIOUS_COMMENT">地址不明确</string>
+    <string name="BUSY_HERE_COMMENT">对方正在通话中,请稍后再拨</string>
+    <string name="REQUEST_TERMINATED_COMMENT">电话终止</string>
+    <string name="NOT_ACCEPTED_HERE_COMMENT">资源不可用</string>
+    <string name="BAD_EVENT_COMMENT">事件错误</string>
+    <string name="REQUEST_UPDATED_COMMENT">请求已更新</string>
+    <string name="REQUEST_PENDDING_COMMENT">请求已挂起</string>
+    <string name="UNDECIPHERABLE_COMMENT">不可被解密</string>
+
+    <string name="INTERNAL_SERVER_ERROR_COMMENT">服务器错误</string>
+    <string name="NOT_IMPLEMENTED_COMMENT">未装载</string>
+    <string name="BAD_GATEWAY_COMMENT">网关错误</string>
+    <string name="SERVICE_UNAVAILABLE_COMMENT">对方无法接通,请稍后重试</string>
+    <string name="SERVER_TIMEOUT_COMMENT">服务超时</string>
+    <string name="VERSION_NOT_SUPPORTED_COMMENT">该版本不被支持</string>
+    <string name="MESSAGE_TOO_LARGE_COMMENT">消息过长</string>
+    <string name="PRECONDITION_FAILURE_COMMENT">前提条件太长</string>
+
+    <string name="BUSY_EVERYWHERE_COMMENT">对方正在通话中</string>
+    <string name="DECLINE_COMMENT">不加入call</string>
+    <string name="NOT_EXIST_ANYWHERE_COMMENT">被叫者不在网络中</string>
+    <string name="NOT_ACCPTED_COMMENT">会话的某些描述不被接受</string>
+
+    <string name="NO_RESPONSE_FROM_SERVER_COMMENT">目的服务器无响应</string>
+    <string name="UNABLE_RESOLVE_SERVER_COMMENT">目的服务器不能处理</string>
+    <string name="ERROR_SENDING_MSG_SERVER_COMMENT">向目的服务器发送消息错误</string>
+
+    <!-- Begin:add by xjq 增加自定义SIP状态描述字符 20140819 -->
+    <string name="NETWORK_DISCONNECT_COMMENT">网络异常</string>
+    <string name="START_RECONNECT_COMMENT">正在重新连接</string>
+    <string name="RECONNECT_SUCCESS_COMMENT"> </string> <!-- Must not empty, use space.Add by xjq, 2015/3/11 -->
+    <string name="NETWORK_DELAY_COMMENT">网络质量差</string>
+    <string name="UAC_REMOTE_BUSY_COMMENT">对方正在通话中,请稍后再拨</string>
+    <!--  End:add by xjq 增加自定义SIP状态描述字符 20140819 -->
+
+    <!-- Begin:sunyunlei 添加VOIP 对方密信号不存在或者未开通 错误码 20150302 -->
+    <string name="ACCOUNT_NOT_FOUND_COMMENT">账号无效，请检查联系人信息是否正确</string>
+    <!-- End:sunyunlei 添加VOIP 对方密信号不存在或者未开通 错误码 20150302 -->
+
+    <!--Send failed comment. Add by xjq, 2015/3/11-->
+    <string name="SEND_FAILED_COMMENT">对方不在线</string><!-- 提示暂时和404统一 -->
+
+    <!--  zjc 20150820 这个由正在挂断改为挂断
+    zjc 20150856 挂断改回正在挂断-->
+    <string name="HANGUP_DOING">正在挂断…</string>
+    <string name="HANGUP_END">通话结束</string>
+
+    <!-- UAStateReceiver -->
+    <string name="HEADSET_BROADCAST">收到了耳机广播</string>
+    <string name="HEADSET_BROADCAST_OUT">耳机广播，耳机拔出了</string>
+    <string name="HEADSET_BROADCAST_IN">耳机广播，耳机插入了</string>
+
+   <!-- MediaManager-->
+    <string name="MODE_NORMAL">正常模式</string>
+    <string name="MODE_RINGTONE">响铃模式</string>
+    <string name="MODE_IN_CALL">电话模式</string>
+    <string name="MODE_IN_COMMUNICATION">Voip模式</string>
+    <string name="MODE_OTHER">几种模式都不符合，当前模式是</string>
+
+    <string name="ISSPEAKERON">当前扬声器开</string>
+    <string name="ISSPEAKEROFF">当前扬声器关</string>
+
+    <string name="BLUETOOTH_ON">声音将通过蓝牙播放</string>
+    <string name="SPEAKER_ON">声音将通过听筒播放</string>
+
+    <!--SipNotifications-->
+    <string name="ON_CALL_COMMING">来电</string>
+    <string name="CONFIRMED">正在通话</string>
+    <string name="MISSED_CALL">条未接来电</string>
+
+    <!--CallDetailsAdapter-->
+    <string name="CALLEE_BUSY_OUT">未接通</string>
+    <string name="CALLEE_OFFLINE">未接通</string>
+    <string name="CALLEE_REJECT_OUT">对方已拒绝</string>
+    <string name="CALLEE_TIMEOUT_OUT">无人接听</string>
+    <string name="CALLER_TIMEOUT_OUT">无人接听</string>
+    <string name="CALLER_CANCEL_OUT">已取消</string>
+    <string name="CALLER_ERROR_INITIAL">已取消</string>
+    <string name="CALLER_ERROR_CALLING">已取消</string>
+    <string name="CALLEE_BUSY_IN">已取消</string>
+    <string name="CALLEE_REJECT_IN">已拒绝</string>
+    <string name="CALLEE_TIMEOUT_IN">未接听</string>
+    <string name="CALLEE_TIMEOUT_IN_2">未接听</string>
+    <string name="CALLER_TIMEOUT_IN">未接听</string>
+    <string name="CALLER_CANCEL_IN">未接听</string>
+    <string name="CALLER_DEFAULT_CODE">已取消</string>
+    <string name="CALLEE_DEFAULT_CODE">未接听</string>
+    <string name="CALL_UNKNOW">未知</string>
+
+    <!--InCallCard-->
+    <string name="CONFIRMED_TIME">%s</string>
+    <string name="ON_CALL_COMMING_IN">来电…</string>
+
+    <!--InCallPresenter-->
+    <string name="STOP_PERMISSION">麦克风被禁用</string>
+    <string name="GET_PERMISSION">请在手机权限管理中开启安通+的麦克风权限</string>
+    <string name="HANGUP_PERMISSION">挂断</string>
+    <string name="SET_PERMISSION">设置</string>
+    
+    <!--ViewCallDetailActivity-->
+    <string name="IFORNOT_DELETE_CALL_LOG">确定删除通话记录？</string>
+    <string name="YES_DELETE_CALL_LOG">确认</string>
+    <string name="NO_DELETE_CALL_LOG">取消</string>
+
+    <!--ChatSourceHelper-->
+    <string name="YESTERDAY">昨天</string>
+    <string name="TODAY">今天</string>
+    <string name="DATE_FORMAT_0">yyyy年MM月dd日</string>
+    <string name="DATE_FORMAT_2">MM月dd日</string>
+    <string name="DATE_FORMAT_3">HH:mm</string>
+    <string name="DATE_FORMAT_4">yyyyMMdd</string>
+
+   <!-- ViewInCall-->
+    <string name="CALLING">正在呼叫…</string>
+    <string name="INCOMING">来电</string>
+    <string name="DISCONNECTED">通话结束</string>
+    <string name="MISSED">对方未接听</string>
+    <string name="DISCONNECTING">正在挂断…</string>
+    <string name="WAIT_CONFIRMED">等待对方接听</string>
+    <string name="CONECTTING">正在连接…</string>
+    <string name="NOBODY">无人接听</string>
+
+    <!--StatusCode-->
+    <string name="CODE_CALLEE_BUSY">对方正在通话中,请稍后再拨</string>
+    <string name="CODE_NETWORK_DISCONNECTED">网络异常,正在重新连接…</string>
+    <string name="CODE_CALLEE_TIMEOUT">无人接听</string>
+    <string name="CODE_CALLER_ERROR_INITIAL">初始化呼叫失败</string>
+    <string name="CODE_CALLER_ERROR_CALLING">发送呼叫请求失败</string>
+    <string name="CODE_ERROR_REJECT">发送挂断请求失败</string>
+    <string name="CODE_NETWORK_CONNECT">恢复网络连接</string>
+    <string name="CODE_REMOTE_NETWORK_DELAY">对方网络状况不佳</string>
+    <string name="CODE_LOCAL_NETWORK_DELAY">网络状况不佳</string>
+    <string name="CODE_CHANGE_LOW_BAND">网络较差，正在切换至低音质</string>
+    <string name="CODE_VOIP_SEVER_ERROR">服务器异常</string>
+    <!-- 20161230-mengbo-start: 正在挂断界面等待提示语 -->
+    <string name="WAIT_DISCONNECTING_CALLBACK">网络状况不佳，请等待…</string>
+    <!-- 20161230-mengbo-end -->
+
+    <!--VOIPManager-->
+    <string name="DECRYPT_FAILED">来电解密失败</string>
+    <string name="PLEASE_CALLBACK">给你发起加密电话，如需回拨，请结束当前电话</string>
+    <string name="IN_CALL_REFUSE_CALL">当前正在通话中，拒接新的来电</string>
+    <string name="DISCONNECTING_REFUSE_CALL">当前正在挂断中，拒接新的来电</string>
+
+    <string name="LOCAL_NAME_CONFLICT">主叫用户名不一致！</string>
+    <string name="LOCAL_IN_CALL">不允许进行多个呼叫！</string>
+    <string name="NETWORK_ERROR">网络连接不可用，请检查网络设置</string>
+    <string name="PHONE_IN_CALL">你正在电话中，请结束电话后再试</string>
+    <string name="NOT_FRIENDS">对方不是你的好友，请先添加</string>
+
+    <string name="NOT_FRIENDS_CANNOT_CALL">非好友关系不能通话！</string>
+    <string name="MX_SEVER_ERROR">服务器异常无法拨打电话！</string>
+    <string name="CALL_FAILED">呼叫失败</string>
+
+    <!-- UAStateReceiver-->
+    <string name="RECORD_DEVICE_INUSE">录音设备未被授权或被占用，请先授权或释放录音设备</string>
+    <string name="RECEIVE">接收</string>
+    <string name="SEND">发送</string>
+
+    <!--PjSipService-->
+    <string name="CANNOT_SEND_TIPS">无法播放语音提示！</string>
+    <string name="ENCRYPT_CALL_STOP">加密电话已停止</string>
+    <string name="CANNOT_CONNECT_SERVER">无法连接服务器，请稍后重试</string>
+    <string name="DONOT_MORE_CALL">不允许进行多个呼叫</string>
+
+    <!--XML文件中-->
+
+    <string name="clear_notification">清除通知</string>
+    <string name="people_count">随机生成通话记录的人数</string>
+    <string name="count_per_people">每人生成通话记录的数量</string>
+    <string name="generate_call_log">生成通话记录</string>
+
+
+    <string name="recall">呼叫</string>
+    <string name="sendIM">发消息</string>
+
+    <string name="toast_context">你好啊朋友</string>
+    <string name="dialog_title">确定要删除此条记录吗？</string>
+    <string name="dialog_message">确定要删除此条记录吗？</string>
+    <string name="dialog_cancel_normal">取消</string>
+    <string name="dialog_ok">确定</string>
+
+
+    <!--menu-->
+    <string name="action_overflow">删除通话记录</string>
+    <string name="hung_up">挂断</string>
+</resources>

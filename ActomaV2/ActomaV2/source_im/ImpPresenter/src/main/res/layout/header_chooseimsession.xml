@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--Task 2632, create by ycm for share and forward function-->
+    <LinearLayout
+        android:id="@+id/create_session"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:clickable="true">
+        <RelativeLayout
+            android:id="@+id/create_session_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/talk_list_dialog_item_height"
+            android:paddingLeft="@dimen/talk_list_dialog_text_left"
+            android:paddingRight="@dimen/talk_list_dialog_text_left"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/create_new_session"
+                android:textSize="@dimen/common_txsize_16_19"
+                android:textColor="@color/base_black_95"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                tools:ignore="RelativeOverlap" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/more"
+                android:contentDescription="@null"/>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dividing_line_height"
+            android:background="@color/base_horizontal_line" />
+        <RelativeLayout
+            android:id="@+id/more_contact_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/talk_list_dialog_item_height"
+            android:paddingLeft="@dimen/talk_list_dialog_text_left"
+            android:paddingRight="@dimen/talk_list_dialog_text_left">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/more_contact"
+                android:textSize="@dimen/common_txsize_16_19"
+                android:textColor="@color/base_black_95"
+                android:ellipsize="end"
+                android:maxEms="7"
+                android:singleLine="true"
+                tools:ignore="RelativeOverlap" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/more"
+                android:contentDescription="@null"/>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_dividing_line_height"
+            android:background="@color/base_horizontal_line" />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:orientation="vertical"
+            android:clickable="false"
+            android:background="@color/base_gray_ee">
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/base_24"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/base_black_65"
+                    android:text="@string/recent_session"
+                    android:textSize="@dimen/menu_14"/>
+        </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/common_dividing_line_height"
+        android:background="@color/base_horizontal_line" />
+</LinearLayout>

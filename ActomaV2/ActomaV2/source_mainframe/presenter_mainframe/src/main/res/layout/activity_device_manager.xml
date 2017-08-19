@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    tools:context="com.xdja.presenter_mainframe.presenter.activity.setting.DeviceManagerPresenter">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:background="@mipmap/img_equipment_banner"
+        />
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:layout_marginTop="@dimen/base_8"
+        android:id="@+id/sb_device_manager_auth"
+        style="@style/setting_item"
+        android:text="@string/auth_other_device_login" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_36"
+        android:gravity="center_vertical"
+        android:textColor="@color/blade_black_65"
+        android:textSize="@dimen/smaller_text_size_12"
+        android:paddingStart="@dimen/base_16"
+        android:text="@string/authorized_device"
+        tools:ignore="RtlSymmetry" />
+    <ListView
+        android:divider="@color/base_horizontal_line"
+        android:dividerHeight="1px"
+        android:id="@+id/lv_device_manager_devices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

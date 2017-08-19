@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/notification_operation_tool_bar"
+        layout="@layout/view_toolbar" />
+
+    <RelativeLayout
+        android:id="@+id/error_loading_ly"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/error_loading_ly_bg_color"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:contentDescription="@null"
+            tools:ignore="UseCompoundDrawables,UselessParent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/network_load_refresh"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/network_load_refresh_str"
+                android:textColor="@color/network_load_refresh_color"
+                android:textSize="@dimen/common_head_text_size" />
+        </LinearLayout>
+    </RelativeLayout>
+    <!--=================modify by gy 2015-10-27 start=======================-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/notification_progressBar_loading"
+            style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100" />
+
+        <WebView
+            android:id="@+id/notification_operation_webView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <!--=================modify by gy 2015-10-27 end=======================-->
+
+</LinearLayout>

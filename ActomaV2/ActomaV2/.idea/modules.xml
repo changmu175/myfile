@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ActomaCommen/ActomaCommen.iml" filepath="$PROJECT_DIR$/ActomaCommen/ActomaCommen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_contact/ActomaContact/ActomaContact.iml" filepath="$PROJECT_DIR$/source_contact/ActomaContact/ActomaContact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_contact/ActomaContactCommon/ActomaContactCommon.iml" filepath="$PROJECT_DIR$/source_contact/ActomaContactCommon/ActomaContactCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_contact/ActomaContactProxy/ActomaContactProxy.iml" filepath="$PROJECT_DIR$/source_contact/ActomaContactProxy/ActomaContactProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActomaV2.iml" filepath="$PROJECT_DIR$/ActomaV2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_im/ImSdk/ImSdk.iml" filepath="$PROJECT_DIR$/source_im/ImSdk/ImSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_im/ImpData/ImpData.iml" filepath="$PROJECT_DIR$/source_im/ImpData/ImpData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_im/ImpDomain/ImpDomain.iml" filepath="$PROJECT_DIR$/source_im/ImpDomain/ImpDomain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_im/ImpPresenter/ImpPresenter.iml" filepath="$PROJECT_DIR$/source_im/ImpPresenter/ImpPresenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_voip/SecureVoipCommon/SecureVoipCommon.iml" filepath="$PROJECT_DIR$/source_voip/SecureVoipCommon/SecureVoipCommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_voip/VoIPSDK/VoIPSDK.iml" filepath="$PROJECT_DIR$/source_voip/VoIPSDK/VoIPSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source/comdependence/comdependence.iml" filepath="$PROJECT_DIR$/source/comdependence/comdependence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_mainframe/comm_mainframe/comm_mainframe.iml" filepath="$PROJECT_DIR$/source_mainframe/comm_mainframe/comm_mainframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source/data/data.iml" filepath="$PROJECT_DIR$/source/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_mainframe/data_mainframe/data_mainframe.iml" filepath="$PROJECT_DIR$/source_mainframe/data_mainframe/data_mainframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source/domain/domain.iml" filepath="$PROJECT_DIR$/source/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_mainframe/domain_mainframe/domain_mainframe.iml" filepath="$PROJECT_DIR$/source_mainframe/domain_mainframe/domain_mainframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source/presenter/presenter.iml" filepath="$PROJECT_DIR$/source/presenter/presenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/source_mainframe/presenter_mainframe/presenter_mainframe.iml" filepath="$PROJECT_DIR$/source_mainframe/presenter_mainframe/presenter_mainframe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/safeauthlib/safeauthlib.iml" filepath="$PROJECT_DIR$/safeauthlib/safeauthlib.iml" />
+    </modules>
+  </component>
+</project>

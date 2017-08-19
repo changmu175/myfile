@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/encrypt_guide_root">
+
+        <!--第一次张背景及布局-->
+        <ImageView
+            android:id="@+id/main_guide_layout1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="23dp"
+            android:layout_marginTop="152dp"/>
+
+        <ImageView
+            android:id="@+id/encrypt_guide_1_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="87dp"
+            android:layout_marginTop="386dp"/>
+
+        <ImageView
+            android:id="@+id/encrypt_guide_1_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="35dp"
+            android:layout_marginTop="157dp"/>
+
+        <!--第二次张背景及布局-->
+        <ImageView
+            android:id="@+id/main_guide_layout2_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="33dp"
+            android:layout_marginTop="86dp"/>
+
+        <ImageView
+            android:id="@+id/encrypt_guide_2_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="433dp"/>
+
+        <ImageView
+            android:id="@+id/encrypt_guide_2_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="42dp"
+            android:layout_marginTop="88dp"/>
+
+
+        <!--第三次张背景及布局-->
+        <ImageView
+            android:id="@+id/main_guide_layout3_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="65dp" />
+
+        <ImageView
+            android:id="@+id/encrypt_guide_3_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/tip_1_3" />
+
+        <ImageView
+            android:id="@+id/encrypt_guide_3_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="18dp"
+            android:layout_marginTop="54dp" />
+
+        <!--第四次张背景及布局-->
+        <ImageView
+            android:id="@+id/main_guide_layout4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="164dp" />
+
+        <ImageView
+            android:id="@+id/encrypt_guide_4_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="380dp" />
+
+        <ImageView
+            android:id="@+id/encrypt_guide_4_over"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="50dp"
+            android:layout_marginTop="380dp" />
+</RelativeLayout>

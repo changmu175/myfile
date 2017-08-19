@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+            android:id="@+id/layout_timeLine"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center_horizontal">
+
+        <TextView
+                android:id="@+id/timeLine"
+                style="@style/talkdetail_timeLine"
+                android:visibility="visible"/>
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:layout_below="@id/layout_timeLine">
+
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+                android:id="@+id/header"
+                style="@style/talkdetail_senderImage"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/header"
+                android:orientation="vertical">
+
+            <!--发送者姓名-->
+            <TextView
+                    android:id="@+id/txt_chat_senderName"
+                    style="@style/talkdetail_senderName"/>
+
+            <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <!--接收到的消息内容布局-->
+                <LinearLayout
+                        android:id="@+id/content_layout"
+                        style="@style/talkdetail_recContentLayout"
+                        android:orientation="vertical">
+                    <TextView
+                            android:id="@+id/web_title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="12dp"
+                            android:maxWidth="207dp"
+                            android:textColor="@color/common_ninety_five_percent_black"
+                            android:layout_marginTop="9dp"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginStart="20dp"
+                            android:maxLines="2"
+                            android:ellipsize="end"
+                            android:textSize="@dimen/chatlist_item_txt_size"/>
+                    <LinearLayout
+                            android:id="@+id/description_ll"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="9dp"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal">
+                        <TextView
+                                android:id="@+id/web_des"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="5dp"
+                                android:maxWidth="138dp"
+                                android:textColor="@color/base_black_30"
+                                android:maxLines="3"
+                                android:ellipsize="end"
+                                android:textSize="14sp"/>
+                        <ImageView
+                                android:id="@+id/web_thumb"
+                                android:layout_width="65dp"
+                                android:layout_height="60dp"
+                                android:adjustViewBounds="true"
+                                android:scaleType="centerInside"
+                                android:layout_marginEnd="12dp"
+                                android:layout_marginTop="3dp"
+                                android:contentDescription="@null"
+                        />
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:id="@+id/source_ll"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginStart="20dp"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+                        <ImageView
+                                android:id="@+id/source_logo"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:contentDescription="@null"
+                                android:visibility="gone"/>
+                        <TextView
+                                android:id="@+id/source"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/body1_14"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

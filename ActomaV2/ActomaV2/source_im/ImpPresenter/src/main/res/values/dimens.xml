@@ -1,0 +1,242 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+
+    <!-- 聊天列表气泡最大宽度 -->
+    <dimen name="chatlist_item_pao_max_w">242dp</dimen>
+    <!-- 首页相关 -->
+    <dimen name="chat_operate_divider_height">1px</dimen>
+
+    <!-- 登录相关 -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- 日历 -->
+    <dimen name="common_txsize_12_15">12sp</dimen>
+    <dimen name="common_txsize_14_17">14dp</dimen>
+    <dimen name="common_txsize_16_19">16sp</dimen>
+    <dimen name="common_txsize_20_23">20sp</dimen>
+
+    <!-- 会话列表相关 -->
+
+    <dimen name="talk_list_dialog_text_left">16dp</dimen>
+    <dimen name="talk_list_dialog_text_size">17sp</dimen>
+    <dimen name="talk_list_dialog_text_height">97dp</dimen>
+    <dimen name="talk_list_dialog_item_height">48dp</dimen>
+
+
+    <dimen name="talk_list_item_height">64dp</dimen>
+    <dimen name="talk_list_item_num_text_size">11sp</dimen>
+
+    <!-- 聊天列表相关 -->
+
+    <!-- 群组系统消息文字大小 -->
+    <dimen name="group_system_txt_size">12sp</dimen>
+    <!-- 群组系统消息内容跟边框距离 -->
+    <dimen name="group_system_padding">10dp</dimen>
+    <!-- 群组系统消息内容行间距 -->
+    <dimen name="group_system_content_line_space">4dp</dimen>
+
+    <!-- 消息详情时间线上下margin -->
+    <dimen name="chatdetail_timeline_margin_t">6dp</dimen>
+    <dimen name="chatdetail_timeline_margin_b">14dp</dimen>
+
+    <!-- 人员头像大小 -->
+    <dimen name="chatlist_item_icon_size">40dp</dimen>
+    <!-- 消息发送者名字大小（群聊天时用到） -->
+    <dimen name="chatlist_item_sender_name_size">12sp</dimen>
+    <!-- 消息发送者名字左边距 -->
+    <dimen name="chatlist_item_sender_name_magin_l">10dp</dimen>
+    <!-- 消息发送者名字下边距 -->
+    <dimen name="chatlist_item_sender_name_magin_b">3dp</dimen>
+    <!-- 发送消息的状态字体大小 -->
+    <dimen name="chatlist_item_sendstate_txt_size">12sp</dimen>
+    <!-- 接收到新消息提示的尺寸 -->
+    <dimen name="chatlist_item_recnew_size">6sp</dimen>
+    <!-- 文本消息文字大小 -->
+    <dimen name="chatlist_item_txt_size">16sp</dimen>
+
+    <!-- 气泡边距（外部边距） -->
+    <dimen name="chatlist_item_pao_left_margin_l">3dp</dimen>
+    <dimen name="chatlist_item_pao_right_margin_r">3dp</dimen>
+    <!-- 气泡边距（内部边距） -->
+    <dimen name="chatlist_item_pao_right_padding_l">12dp</dimen>
+    <dimen name="chatlist_item_pao_right_padding_r">22dp</dimen>
+    <dimen name="chatlist_item_pao_right_padding_b">9dp</dimen>
+    <dimen name="chatlist_item_pao_right_padding_t">9dp</dimen>
+    <dimen name="chatlist_item_pao_img_left_padding_r">4dp</dimen>
+    <!-- 语音图片大小 -->
+    <dimen name="chatlist_item_voic_img_size">22dp</dimen>
+    <dimen name="chatlist_item_voic_img_margin_right">22dp</dimen>
+    <dimen name="chatlist_item_voic_img_margin_left">22dp</dimen>
+    <!-- 闪信炸弹图片大小 -->
+    <dimen name="chatlist_item_boom_size">35dp</dimen>
+    <!-- 聊天列表内边距 -->
+    <dimen name="chatlist_padding_l">10dp</dimen>
+    <!-- 聊天列表分割线高度 -->
+    <dimen name="chatlist_divider_h">16dp</dimen>
+    <!-- 聊天界面底部操作栏内边距 -->
+    <dimen name="chat_action_layout_padding_l">6dp</dimen>
+    <dimen name="chat_action_editText_paddingTop">11dp</dimen>
+    <dimen name="chat_action_editText_paddingBottom">11dp</dimen>
+    <!-- 聊天界面底部操作栏按钮大小 -->
+    <dimen name="chat_action_btn_size">30dp</dimen>
+    <dimen name="chat_action_btn_send_w">44dp</dimen>
+    <dimen name="chat_action_btn_send_h">28dp</dimen>
+    <dimen name="chat_action_btn_left_margin">12dp</dimen>
+    <dimen name="chat_action_btn_right_margin">12dp</dimen>
+
+    <!-- 发送文字按钮字体大小 -->
+    <dimen name="chat_action_sendtxt_txt_size">14sp</dimen>
+    <!-- 文字输入框文字大小 -->
+    <dimen name="chat_inputtxt_txt_size">16sp</dimen>
+
+    <!-- 聊天界面底部操作菜单相关 -->
+    <dimen name="chat_actionmenu_item_img_size">60dp</dimen>
+    <dimen name="chat_actionmenu_item_txt_size">12sp</dimen>
+    <dimen name="chat_actionpanel_h">210dp</dimen>
+    <dimen name="chatlist_item_voiclength_txt_margin_l">8dp</dimen>
+    <dimen name="chatlist_item_pao_min_w">48dp</dimen>
+    <dimen name="chat_detail_progress_w">18dp</dimen>
+    <dimen name="chat_detail_progress_h">18dp</dimen>
+
+    <dimen name="chatlist_file_logo_size">50dip</dimen>
+
+
+    <dimen name="base_8">8dp</dimen>
+    <dimen name="base_16">16dp</dimen>
+    <dimen name="base_20">20dp</dimen>
+    <dimen name="base_32">32dp</dimen>
+    <dimen name="base_2">2dp</dimen>
+    <dimen name="button_14">14sp</dimen>
+    <dimen name="head_16">16sp</dimen>
+    <dimen name="body1_14">14sp</dimen>
+    <dimen name="long_dialog_line">1px</dimen>
+
+
+    <dimen name="talk_list_item_title_width">192dp</dimen>
+    <!--fix bug 6456 by zya 20161130-->
+    <dimen name="talk_list_item_content_width">240dp</dimen>
+    <!--end by zya-->
+    <dimen name="custom_commen_dialog_message_height">56dp</dimen>
+    <dimen name="tips_number_right">10dp</dimen>
+    <dimen name="tips_number_bottome">4dp</dimen>
+
+    <dimen name="recording_control_bg_recorder_voice_X_value">220dp</dimen>
+    <dimen name="recording_control_bg_recorder_voice_Y_value">220dp</dimen>
+    <dimen name="recording_control_time_label_marginTop">20dp</dimen>
+    <dimen name="recording_control_time_label_marginBottom">20dp</dimen>
+    <dimen name="recording_control_middle_ly_marginBottom">18dp</dimen>
+    <dimen name="recording_control_middle_ly_marginLeft">40dp</dimen>
+    <dimen name="recording_control_middle_ly_marginRight">40dp</dimen>
+    <dimen name="recorder_time_label_textsize">18sp</dimen>
+    <dimen name="recording_control_dialog_width">70dp</dimen>
+    <dimen name="recording_control_dialog_height">100dp</dimen>
+    <dimen name="recording_control_voice_level_width">70dp</dimen>
+    <dimen name="recording_control_voice_level_height">100dp</dimen>
+    <dimen name="recording_control_recorder_bottom_tv_marginBottom">22dp</dimen>
+    <dimen name="recording_control_recorder_bottom_tv_textSize">12sp</dimen>
+
+
+    <!-- 表情面板相关 -->
+    <dimen name="faceitem_size">32dp</dimen>
+    <dimen name="faceitem_margin">11dp</dimen>
+    <!-- 动作菜单相关 -->
+    <dimen name="action_menu_margin_t">15dp</dimen>
+    <dimen name="action_menu_margin_b">5dp</dimen>
+    <dimen name="action_menu_text_margin_b">5dp</dimen>
+
+    <dimen name="menu_action_height">48dp</dimen>
+    <dimen name="menu_action_margin_l">20dp</dimen>
+
+    <!--single chat settings dimen values cxp add 2015-7-27-->
+    <dimen name="single_chat_settings_person_avatar_width">64dp</dimen>
+    <dimen name="single_chat_settings_person_avatar_height">64dp</dimen>
+    <dimen name="single_chat_settings_person_name_tv_marginTop">6dp</dimen>
+    <dimen name="single_chat_settings_person_avatar_layout_marginRight">16dp</dimen>
+    <dimen name="single_chat_settings_person_avatar_layout_marginTop">12dp</dimen>
+    <dimen name="single_chat_settings_person_avatar_layout_marginBottom">12dp</dimen>
+    <dimen name="single_chat_settings_add_user_btn_marginLeft">20dp</dimen>
+    <dimen name="single_chat_settings_add_user_btn_marginTop">12dp</dimen>
+    <dimen name="single_chat_settings_add_user_btn_height">64dp</dimen>
+    <dimen name="single_chat_settings_add_user_btn_width">64dp</dimen>
+    <dimen name="single_chat_settings_item_common_height">48dp</dimen>
+    <dimen name="single_chat_settings_part_two_layout_marginTop">8dp</dimen>
+    <dimen name="single_chat_settings_item_common_marginLeft">16dp</dimen>
+    <dimen name="single_chat_settings_item_common_marginRight">16dp</dimen>
+    <!--single chat settings dimen values end-->
+
+
+    <!--group chat settings dimen values cxp add 2015-7-27-->
+    <dimen name="group_chat_settings_item_common_height">48dp</dimen>
+    <dimen name="group_chat_settings_item_one_layout_marginTop">8dp</dimen>
+    <dimen name="group_chat_settings_item_common_marginLeft">16dp</dimen>
+    <dimen name="group_chat_settings_item_common_marginRight">12dp</dimen>
+    <dimen name="group_chat_settings_dissolve_group_btn_height">40dp</dimen>
+    <dimen name="group_chat_settings_dissolve_group_btn_marginTop">20dp</dimen>
+    <dimen name="group_chat_settings_dissolve_group_btn_marginLeft">18dp</dimen>
+    <dimen name="group_chat_settings_dissolve_group_btn_marginRight">18dp</dimen>
+    <dimen name="group_chat_settings_dissolve_group_btn_marginBottom">20dp</dimen>
+    <dimen name="group_chat_settings_part_four_layout_marginTop">8dp</dimen>
+    <!--group chat settings dimen values end-->
+
+
+    <dimen name="common_dividing_line_height">1px</dimen>
+    <dimen name="common_body_large_text_size">14sp</dimen>
+    <dimen name="common_head_text_size">16sp</dimen>
+
+
+
+    <dimen name="base_3">3dp</dimen>
+    <dimen name="body2_12">12sp</dimen>
+    <dimen name="setting_item_height">48dp</dimen>
+    <!--消息提醒-->
+    <dimen name="news_remind_check_width">36dp</dimen>
+    <dimen name="news_remind_check_height">24dp</dimen>
+
+    <!-- 等待提示框-->
+    <dimen name="progressbar_width">24dp</dimen>
+    <dimen name="progressbar_height">24dp</dimen>
+    
+    <!-- 文件选择预览界面 -->
+    <dimen name="fileitem_group_height">36dp</dimen>
+    <dimen name="fileitem_child_height">72dp</dimen>
+    <dimen name="fileitem_marginLeft_24">24dp</dimen>
+    <dimen name="fileitem_marginLeft_16">16dp</dimen>
+    <dimen name="fileitem_marginLeft_8">8dp</dimen>
+    <dimen name="fileitem_marginRight">16dp</dimen>
+    <dimen name="fileitem_marginTop">8dp</dimen>
+    <dimen name="fileitem_marginBottom">8dp</dimen>
+    <dimen name="fileitem_iconSize">48dp</dimen>
+    <dimen name="fileitem_title_size">14sp</dimen>
+    <dimen name="fileitem_content_size">12sp</dimen>
+
+    <!--历史文件-->
+    <dimen name="history_file_icon_margin">16dp</dimen>
+    <dimen name="history_file_text_margin">9dp</dimen>
+    <dimen name="history_file_text_date_margin">10dp</dimen>
+    <dimen name="history_file_progress_maxlength">150dp</dimen>
+    <dimen name="history_file_progress_height">4dp</dimen>
+    <dimen name="history_file_text_size">12sp</dimen>
+    <dimen name="history_file_title_size">14sp</dimen>
+    <dimen name="history_file_download_btn_height">28dp</dimen>
+    <dimen name="history_file_content_height">72dp</dimen>
+    <dimen name="history_file_empty_hint_size">16sp</dimen>
+    <dimen name="history_file_bottom_height">52dp</dimen>
+    <dimen name="history_file_bottom_btn_width">24dp</dimen>
+    <dimen name="history_file_title_maxlength">200dp</dimen>
+    <!--查看文件-->
+    <dimen name="check_file_top_margin">40dp</dimen>
+    <dimen name="check_file_progressbar_width">280dp</dimen>
+    <dimen name="check_file_btn_width">323dp</dimen>
+    <dimen name="check_file_btn_height">40dp</dimen>
+    <dimen name="file_item_logo">50dp</dimen>
+    <dimen name="file_item_name_width">129dp</dimen>
+    <dimen name="file_item_progress_width">192dp</dimen>
+    <dimen name="file_item_state_margin">50dp</dimen>
+    <dimen name="file_item_height">80dp</dimen>
+    <dimen name="share_pop_divider_margin">6dp</dimen>
+    <dimen name="edittext_line_width">500dp</dimen>
+</resources>

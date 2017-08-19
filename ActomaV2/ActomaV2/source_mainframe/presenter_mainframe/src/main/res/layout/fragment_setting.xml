@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+            <!--个人信息-->
+            <RelativeLayout
+                android:id="@+id/user_detail"
+                style="@style/style_setting_item_layout"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/setting_person_item_height">
+
+                <com.xdja.comm.circleimageview.CircleImageView
+                    android:id="@+id/user_img"
+                    android:layout_width="@dimen/base_56"
+                    android:layout_height="@dimen/base_56"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/circle_head_deafult_56" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/base_8"
+                    android:layout_marginRight="@dimen/base_8"
+                    android:layout_toStartOf="@+id/user_zxing"
+                    android:layout_toEndOf="@id/user_img"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/user_nickname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="@string/nickName"
+                        android:textColor="@color/blade_black_95"
+                        android:textSize="@dimen/head_16" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/user_account_string"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/blade_black_65"
+                            android:textSize="@dimen/body2_12" />
+
+                        <TextView
+                            android:id="@+id/user_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom"
+                            android:textColor="@color/blade_black_65"
+                            android:textSize="@dimen/body2_12" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/user_arrow"
+                    style="@style/style_setting_arrow" />
+                <!--二维码-->
+                <LinearLayout
+                    android:id="@+id/user_zxing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/base_16"
+                    android:layout_toStartOf="@id/user_arrow">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:contentDescription="@null"
+                        android:padding="@dimen/base_8"
+                        android:src="@mipmap/af_setting_ic_ma" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View style="@style/view_line_style" />
+
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_account_safe"
+                style="@style/setting_item"
+                android:layout_marginTop="@dimen/base_8"
+                android:text="@string/setting_account_safe"
+                app:isShowTopLine="true" />
+
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_news_remind"
+                style="@style/setting_item"
+                android:layout_marginTop="@dimen/base_8"
+                android:text="@string/setting_news_remind"
+                app:isShowTopLine="true" />
+
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_nodistrub"
+                style="@style/setting_item"
+                android:text="@string/nodistrub_top_message" />
+
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_message_and_call"
+                style="@style/setting_item"
+                android:text="@string/message_call" />
+
+            <!-- [Strart] Modify by LiXiaolong<mailto: lxl@xdja.com> on 2016-08-16. remove encrypt switch text. Review By Wangchao1.-->
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_encrypt_layout"
+                style="@style/setting_item"
+                android:text="@string/setting_thirdpart" />
+            <!-- [End] Modify by LiXiaolong<mailto: lxl@xdja.com> on 2016-08-16. remove encrypt switch text. Review By Wangchao1.-->
+
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_language"
+                style="@style/setting_item"
+                android:text="@string/multi_language" />
+
+            <com.xdja.presenter_mainframe.widget.SettingBarView
+                android:id="@+id/sb_setting_about_chip"
+                style="@style/setting_item"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/base_8"
+                android:text="@string/setting_about_chip" />
+            <!-- [Strart] Modify by LiXiaolong<mailto: lxl@xdja.com> on 2016-08-09. add update prompt. Review By Wangchao1.-->
+            <View
+                style="@style/view_line_style"
+                android:layout_marginTop="@dimen/base_8"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/base_48">
+
+                <com.xdja.presenter_mainframe.widget.SettingBarView
+                    android:id="@+id/sb_setting_about_actoma"
+                    style="@style/setting_item"
+                    android:text="@string/setting_about_soft" />
+
+                <TextView
+                    android:id="@+id/sb_setting_updateprompt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/base_20"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="@dimen/base_36"
+                    android:background="@drawable/af_setting_bg_new"
+                    android:gravity="center"
+                    android:text="@string/text_new"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/body2_12"
+                    android:visibility="gone" />
+            </RelativeLayout>
+            <!-- [End] Modify by LiXiaolong<mailto: lxl@xdja.com> on 2016-08-09. add update prompt. Review By Wangchao1.-->
+            <Button
+                android:id="@+id/exit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/base_40"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+                android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+                android:layout_marginTop="@dimen/base_20"
+                android:background="@drawable/sel_bg_red"
+                android:text="@string/exit_login"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin_16"
+                android:textAllCaps="false"
+                android:textColor="@color/blade_white_95"
+                android:textSize="@dimen/bigger_bigger_text_size_18" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

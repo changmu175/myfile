@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_dialog_bg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/base_16"
+    android:paddingRight="@dimen/base_16">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:text="@string/setting_time"
+        android:textColor="@color/base_black_95"
+        android:textSize="@dimen/title_18" />
+
+    <TimePicker
+        android:id="@+id/timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:focusableInTouchMode="true"
+        android:theme="@style/Theme.AppCompat.Light"
+        android:timePickerMode="spinner"
+        android:focusable="true"
+        android:touchscreenBlocksFocus="false"
+        tools:targetApi="lollipop" />
+
+    <TextView
+        android:id="@+id/dialog_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="18dip"
+        android:padding="8dp"
+        android:text="@string/completed_text"
+        android:textColor="@color/base_bottom_gold"
+        android:textSize="@dimen/button_14" />
+</LinearLayout>

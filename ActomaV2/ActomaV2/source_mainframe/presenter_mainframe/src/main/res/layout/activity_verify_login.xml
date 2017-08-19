@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <TextView
+        android:layout_marginTop="@dimen/base_12"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        style="@style/normal_text"
+        android:lineSpacingExtra="@dimen/base_6"
+        android:text="@string/verify_login_top_text" />
+
+    <Button
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:textAllCaps="false"
+        android:id="@+id/btn_verify_login_verify"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_40"
+        android:layout_marginTop="@dimen/base_32"
+        android:background="@drawable/sel_bg_gold"
+        android:text="@string/verify_login_verify_code" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.xdja.presenter_mainframe.widget.PartClickTextView
+            android:id="@+id/pctv_verify_login_not_mobile"
+            style="@style/normal_text"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="@dimen/base_20"
+            android:layout_marginBottom="@dimen/base_24"
+            android:textColorLink="@color/underline_text_gold_color"
+            app:underlineText="@string/leave_phone" />
+    </FrameLayout>
+</LinearLayout>

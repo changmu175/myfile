@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".presenter.activity.login.EmpowerDeviceLoginPresenter">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"  
+            android:paddingLeft="@dimen/activity_horizontal_margin_8"
+            android:paddingRight="@dimen/activity_horizontal_margin_8"
+            android:paddingTop="@dimen/base_12"
+            tools:ignore="ScrollViewSize">
+
+        <com.xdja.presenter_mainframe.widget.PartClickTextView
+            style="@style/normal_text"
+            android:lineSpacingExtra="@dimen/base_6"
+            android:text="@string/empower_device_login_top_text" />
+
+        <FrameLayout
+            android:layout_width="208dp"
+            android:layout_height="208dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/base_6">
+
+            <com.xdja.presenter_mainframe.widget.QRImageView
+                android:id="@+id/iv_empower_device_login_qr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blade_black_95" />
+
+            <com.xdja.comm.circleimageview.CircleImageView
+                android:layout_gravity="center"
+                android:layout_width="@dimen/base_48"
+                android:layout_height="@dimen/base_48"
+                android:src="@mipmap/circle_head_deafult_56"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base_14"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/normal_text"
+                android:text="@string/empower_device_login_auth_code" />
+
+            <TextView
+                android:id="@+id/tv_empower_device_login_auth_code"
+                style="@style/normal_text"
+                android:textSize="@dimen/bigger_bigger_text_size_18"
+                android:textColor="@color/underline_text_gold_color" />
+
+        </LinearLayout>
+
+        <com.xdja.presenter_mainframe.widget.PartClickTextView
+            android:id="@+id/pctv_empower_generate_again"
+            style="@style/normal_text"
+            android:layout_marginTop="@dimen/base_24"
+            android:lineSpacingExtra="@dimen/base_6"
+            android:textColorLink="@color/underline_text_gold_color"
+            android:text="@string/empower_device_login_center_text" />
+
+        <com.xdja.presenter_mainframe.widget.PartClickTextView
+            android:id="@+id/pctv_empower_cannot_empower"
+            style="@style/normal_text"
+            android:layout_gravity="end"
+            android:textColorLink="@color/underline_text_gold_color"
+            app:underlineText="@string/empower_device_login_bottom_text" />
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

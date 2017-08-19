@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_recording_control_circle_shape"
+        android:contentDescription="@null"/>
+
+    <Chronometer
+        android:id="@+id/id_recorder_Chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/recording_control_time_label_marginBottom"
+        android:layout_marginTop="@dimen/recording_control_time_label_marginTop"
+        android:textColor="@color/recording_control_text_color_recorder_time_label"
+        android:textSize="@dimen/recorder_time_label_textsize" />
+
+    <LinearLayout
+        android:id="@+id/middle_ly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_recorder_Chronometer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/recording_control_middle_ly_marginBottom"
+        android:layout_marginLeft="@dimen/recording_control_middle_ly_marginLeft"
+        android:layout_marginRight="@dimen/recording_control_middle_ly_marginRight"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/id_recorder_dialog_icon"
+            android:layout_width="@dimen/recording_control_dialog_width"
+            android:layout_height="@dimen/recording_control_dialog_height"
+            android:layout_weight="1"
+            android:src="@drawable/ic_message_vioce"
+            android:visibility="visible"
+            android:contentDescription="@null"/>
+
+        <ImageView
+            android:id="@+id/id_recorder_dialog_voice"
+            android:layout_width="@dimen/recording_control_voice_level_width"
+            android:layout_height="@dimen/recording_control_voice_level_height"
+            android:layout_weight="1"
+            android:src="@drawable/v1"
+            android:visibility="visible"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_recorder_dialog_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/middle_ly"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/recording_control_recorder_bottom_tv_marginBottom"
+        android:text="@string/recording_control_str_recorder_slide_up_cancel"
+        android:textColor="@color/recording_control_text_color_recorder_bottom_tv"
+        android:textSize="@dimen/recording_control_recorder_bottom_tv_textSize"
+        android:visibility="visible" />
+
+</RelativeLayout>

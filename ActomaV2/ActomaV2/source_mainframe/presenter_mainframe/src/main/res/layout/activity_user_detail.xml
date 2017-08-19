@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context="com.xdja.presenter_mainframe.presenter.activity.setting.UserDetailPresenter">
+    <!--overdraw-->
+    <!--android:background="@color/activity_background_color"-->
+    <!--tools:ignore="Overdraw"-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_user_detail_avater"
+        android:layout_height="@dimen/base_80"
+        android:src="@mipmap/circle_head_deafult_56"
+        app:imageWidth="@dimen/base_56"
+        app:imageHeight="@dimen/base_56"
+        style="@style/setting_item"
+        android:text="@string/avater" />
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_user_detail_nickname"
+        style="@style/setting_item"
+        android:text="@string/nickName" />
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_user_detail_account"
+        style="@style/setting_item"
+        android:text="@string/at_account" />
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_user_detail_qr_card"
+        style="@style/setting_item"
+        android:text="@string/qr_card" />
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_user_detail_phone_number"
+        style="@style/setting_item"
+        android:text="@string/phone_number" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/listview_bg_nogroup" />
+</LinearLayout>

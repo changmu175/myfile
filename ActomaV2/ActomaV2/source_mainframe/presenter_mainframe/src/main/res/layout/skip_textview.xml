@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/register_skip"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="@string/skip"
+    android:textColor="@color/base_title_gold"
+    android:layout_marginTop="@dimen/base_14"
+    android:paddingStart="8dp"
+    android:paddingEnd="16dp"
+    android:gravity="center_horizontal|center"
+    android:textSize="16sp"
+    android:textAllCaps="false"
+    android:clickable="true"
+    />

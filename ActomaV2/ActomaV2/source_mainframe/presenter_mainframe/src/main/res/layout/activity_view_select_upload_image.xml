@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="@color/base_black_95"
+    tools:ignore="Overdraw"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+
+        <Button
+            android:id="@+id/select_upload_image_button"
+            android:layout_width="@dimen/base_46"
+            android:layout_height="@dimen/base_28"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/base_12"
+            android:background="@drawable/btn_gold_selector"
+            android:enabled="false"
+            android:text="@string/certain"
+            android:textAllCaps="false"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/caption_12"
+            />
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/select_upload_image_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="9dp"
+        android:layout_marginRight="9dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dp" />
+</LinearLayout>

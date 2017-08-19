@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@id/layout_timeLine">
+
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/header"
+            style="@style/talkdetail_senderImage" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/header"
+            android:orientation="vertical">
+
+            <!--发送者姓名-->
+            <TextView
+                android:id="@+id/txt_chat_senderName"
+                style="@style/talkdetail_senderName" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--接收到的消息内容布局-->
+                <LinearLayout
+                    android:id="@+id/content_layout"
+                    style="@style/talkdetail_recContentLayout">
+
+                    <TextView
+                        android:id="@+id/txt_chat_sendcontent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="9dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginTop="9dp"
+                        android:gravity="center|left"
+                        android:maxWidth="207dp"
+                        android:textColor="@color/chatlist_item_txt_color"
+                        android:textSize="@dimen/chatlist_item_txt_size" />
+                </LinearLayout>
+
+                <!--闪信炸弹动画-->
+                <ImageView
+                    android:id="@+id/bomb_anim"
+                    style="@style/talkdetail_flashMessageBomb"
+                    android:contentDescription="@null"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

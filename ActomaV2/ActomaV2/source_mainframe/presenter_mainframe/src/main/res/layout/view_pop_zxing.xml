@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:paddingLeft="@dimen/zxing_padding_left_right"
+    android:paddingRight="@dimen/zxing_padding_left_right">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blade_white_95"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/zxing_top_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/base_20"
+            android:layout_marginStart="@dimen/base_16"
+            android:layout_marginTop="@dimen/base_20"
+            android:text="@string/my_zxing"
+            android:textColor="@color/blade_black_95"
+            android:textSize="@dimen/head_16" />
+
+        <ImageView
+            android:id="@+id/zxing_image"
+            android:layout_width="@dimen/zxing_width"
+            android:layout_height="@dimen/zxing_height"
+            android:contentDescription="@null"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/zxing_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/zxing_tip_bottom"
+            android:layout_marginTop="@dimen/base_20"
+            android:text="@string/zxing_add_friend"
+            android:textColor="@color/blade_black_65"
+            android:textSize="@dimen/menu_14" />
+    </LinearLayout>
+
+</LinearLayout>

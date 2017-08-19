@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ActomaCommen</string>
+    <string name="title_app_name">Actoma+</string>
+    <!--安全口令验证-->
+    <string name="security_password_layout_title">Security password authentication</string>
+    <string name="security_password_layout_message1">Enter security password of the current device to identify authentication</string>
+    <string name="security_password_layout_message2">Notice: continuous 10 times error input will cause to dead lock the security chip, and all applications built on the security chip will not be able to use</string>
+    <string name="security_password_layout_cancel">Cancel</string>
+    <string name="security_password_layout_never_show">No authenticate any more</string>
+    <string name="security_password_layout_confim">OK</string>
+    <string name="camera_prompt">Camera is disable</string>
+    <string name="camera_error">Please enable the permission in mobile phone\'s permission manager to allow Actom+ access your camera</string>
+
+    <string name="setting_time">Setting time</string>
+    <string name="My_QRCode">My QR code</string>
+    <string name="auto_scan_QRCode">Put the QR code in framework, will scan automatically</string>
+    <string name="hello_friend">Hello, friend</string>
+    <string name="completed_text">Done</string>
+    <string name="scan_QRCode_and_add_friend">Scan the QR code above,add me as friend</string>
+
+    <string name="we_chat">WeChat</string>
+    <string name="dingding">DingDing</string>
+    <string name="momo">MoMo</string>
+    <string name="short_message">SMS</string>
+    <string name="fetion">Fetion</string>
+    <string name="we_chat_commun">WeChat contacts</string>
+    <string name="scan">Scan</string>
+    <string name="invalid_QRCode">Invalid QR code</string>
+    <string name="ok_and_setting">OK, set right now</string>
+    <string name="no_detect_secure_chip">No security chip detected, try again, or check if device is open</string>
+    <string name="error_and_restart_mobile">Error, restart your phone please</string>
+    <string name="update_version">Version too low, please check and upgrade your version</string>
+    <string name="error_and_restart_process">Error, restart the current application please</string>
+    <string name="business_fail_and_restart">Business execution fail, retry after restart the phone please</string>
+    <string name="business_fail_and_again">Business execution fail, try again please</string>
+    <string name="business_fail_and_retry_or_download_new_version">Business execution fail, please retry or download and install newer version</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="unknown_error_and_retry">Unknown error, try again please</string>
+    <string name="version_inconsistency_and_update">Version is inconsistency,  need to update the application version</string>
+    <string name="save_picture_success">Picture saved</string>
+    <string name="net_exception">Net exception, check network setting please</string>
+    <string name="hint_text">Prompt</string>
+    <string name="know">Known</string>
+    <string name="write_contact">Write contact</string>
+    <string name="get_account">Get the account</string>
+    <string name="read_contact">Read contact</string>
+    <string name="telephone">Read SD card</string>
+    <string name="camera">Read SD card</string>
+    <string name="read_SDCard">Read SD card</string>
+    <string name="write_SDCard">Write SD card</string>
+    <string name="record">Record</string>
+    <string name="device_no_support_current_business">Device is not support current business</string>
+    <string name="default_type">Default type</string>
+    <string name="lengthy_log">Redundant log</string>
+    <string name="debug_log">Debug log</string>
+    <string name="hint_log">Warning log</string>
+    <string name="warning_log">Warning log</string>
+    <string name="error_log">Error log</string>
+    <string name="assert_log">Assert log</string>
+    <string name="exception_crash">Exception crash</string>
+
+    <!--<string name="net_error">Network exception</string>-->
+    <string name="server_empty">Server return empty or no respond</string>
+    <string name="time_error">Current time is inconsistent with Beijing time,current operation has risk</string>
+    <string name="net_error_and_retry">Network connect unavailable, check your network setting please</string>
+
+</resources>

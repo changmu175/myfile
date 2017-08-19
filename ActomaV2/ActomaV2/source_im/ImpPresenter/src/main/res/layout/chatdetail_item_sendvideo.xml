@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cpb="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="12dp"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginBottom="7dp">
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/header"
+            style="@style/talkdetail_senderImage"
+            android:layout_alignParentRight="true" />
+
+        <LinearLayout
+            android:id="@+id/layout_sendImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_toLeftOf="@id/header">
+
+            <!--重发按钮-->
+            <ImageButton
+                android:id="@+id/reSend"
+                style="@style/talkdetail_sendState"
+                android:layout_gravity="center_vertical"
+                android:contentDescription="@null" />
+
+            <RelativeLayout
+                android:id="@+id/content_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/bg_pao_right_selector"
+                android:clickable="true">
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        tools:ignore="UselessParent">
+                        <com.xdja.simcui.view.ChatImageView
+                            android:id="@+id/sendVideo_photo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:adjustViewBounds="true"
+                            android:background="@drawable/bg_pao_pic_send"
+                            android:maxHeight="140dp"
+                            android:maxWidth="140dp"
+                            android:scaleType="centerInside"
+                            android:src="@drawable/pic_failed" />
+
+                        <com.xdja.imp.widget.CircleProgressBar
+                            android:id="@+id/video_upload_cpb"
+                            android:layout_width="36dp"
+                            android:layout_height="36dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/bg_circle_progressbar"
+                            cpb:progress_color="#73ffffff"
+                            cpb:radius="15.5dp" />
+
+                        <ImageView
+                            android:id="@+id/video_upload_player"
+                            android:layout_width="46dp"
+                            android:layout_height="46dp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/btn_player"
+                            android:contentDescription="@null"
+                            android:visibility="gone" />
+
+
+                    <TextView
+                        android:id="@+id/video_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right|bottom"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="6dp"
+                        android:textColor="@color/base_white_100"
+                        android:textSize="10sp"
+                        android:visibility="gone"
+                        android:shadowColor="@color/video_param_color"
+                        android:shadowDx="0"
+                        android:shadowDy="1"
+                        android:shadowRadius="1"
+                        tools:ignore="SmallSp" />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <!--消息接收状态-->
+        <TextView
+            android:id="@+id/sendState"
+            style="@style/talkdetail_receiveState"
+            android:layout_alignRight="@id/layout_sendImg"
+            android:layout_below="@id/layout_sendImg"
+            android:layout_gravity="end"
+            android:layout_marginRight="17dp"
+            android:layout_marginTop="3dp"
+            android:text="@string/send_success" />
+    </RelativeLayout>
+</LinearLayout>

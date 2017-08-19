@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:tools="http://schemas.android.com/tools"
+          package="com.xdja.voipsdk"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- COMMENT THIS if you plan to use in library mode -->
+    <!--
+    20150815 为解决冲突，两个自定义权限修改
+    原先分别是android.permission.USE_XDJA_SIP和CONFIGURE_XDJA_SIP
+    SipManager做出相应修改
+    -->
+
+    <permission
+        android:name="android.permission.ACTOMA_USE_SIP"
+        android:description="@string/permdesc_useSip"
+        android:label="@string/permlab_useSip"
+        android:permissionGroup="android.permission-group.COST_MONEY"
+        android:protectionLevel="normal"/>
+    <permission
+        android:name="android.permission.ACTOMA_CONFIGURE_SIP"
+        android:description="@string/permdesc_configureSip"
+        android:label="@string/permlab_configureSip"
+        android:permissionGroup="android.permission-group.COST_MONEY"
+        android:protectionLevel="normal"/>
+    <permission android:name="android.permission.SEND_APPLICATION_EXITS"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- Begin:sunyunlei 添加wifi改变状态权限 ，解决java.lang.SecurityException: WifiService:
+    Neither user 10085 nor current process has android.permission.CHANGE_WIFI_STATE. -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <!-- End:sunyunlei 添加wifi改变状态权限 ，解决java.lang.SecurityException: WifiService:
+    Neither user 10085 nor current process has android.permission.CHANGE_WIFI_STATE. -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACTOMA_USE_SIP"/>
+    <uses-permission android:name="android.permission.ACTOMA_CONFIGURE_SIP"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.SEND_APPLICATION_EXITS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.GET_TASKS"
+                     tools:ignore="DeprecatedClassUsageInspection"/>
+
+    <application
+        android:allowBackup="false"
+        android:label="@string/app_name">
+
+        <!--20160616-mengbo-start:修复账号A在会话详情界面来电后未接听，关闭应用进程，重新打开应用，进入聊天界面无法加载任何历史消息-->
+        <!--将InCallPresenter里android:launchMode="singleInstance"改为"singleTask"-->
+        <!--20160616-mengbo-end-->
+
+        <!--20161104-mengbo-start:去除taskAffinity，需要同属于一个task，解决安通+在前台时，海信万维侧键挂断，通话界面退出但安通+不退到后台问题-->
+        <!--20160831-mengbo-start:解决锁屏时收到来电，先闪出安通+的界面问题，在不同Task启动activity-->
+        <!--在InCallPresenter加入android:taskAffinity="com.xdja.voipsdk.InCallPresenter"-->
+        <!--20160831-mengbo-end-->
+        <!--20161104-mengbo-end-->
+
+        <!--20160902-mengbo-start:其他应用普遍不出现在任务列表，出现会显示两个安通+任务-->
+        <!--在InCallPresenter加入android:excludeFromRecents="true"-->
+        <!--20160902-mengbo-end-->
+        <activity
+            android:name=".InCallPresenter"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme_no_bg"/>
+        <activity
+            android:name="com.securevoip.presenter.activity.CallDetailActivityPresenter"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.xdja.action.Main"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name="com.csipsimple.service.SipService"
+            android:exported="true"
+            android:permission="android.permission.ACTOMA_CONFIGURE_SIP">
+            <intent-filter>
+                <action android:name="com.csipsimple.service.SipService"/>
+                <action android:name="com.csipsimple.service.SipConfiguration"/>
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.csipsimple.service.DeviceStateReceiver"
+            android:permission="android.permission.ACTOMA_CONFIGURE_SIP">
+
+            <!-- Here filter for protected-broadcasts -->
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xdja.voip.accounts.activate"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xdja.voip.ACTION_SIP_ACTOMA_CALLING"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.csipsimple.service.HeadsetButtonReceiver"/>
+
+        <!--wxf@xdja.com 2016-08-10 add. fix bug 1447 . review by mengbo gbc. Start-->
+        <receiver android:name="com.securevoip.receiver.PhoneStatReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"/>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+        <!-- wxf@xdja.com 2016-08-10 add. fix bug 1447 . review by mengbo gbc. End-->
+
+        <!-- 20170222-mengbo-start: 修改authorities，解决同一手机安装不同版本客户端 -->
+        <provider
+            android:name="com.csipsimple.service.PreferenceProvider"
+            android:authorities="${applicationId}.preferenceprovider"
+            android:permission="android.permission.ACTOMA_CONFIGURE_SIP"/>
+
+        <provider
+            android:name="com.csipsimple.db.DBProvider"
+            android:authorities="${applicationId}.dbprovider"
+            android:exported="true"
+            android:multiprocess="false"
+            android:permission="android.permission.ACTOMA_CONFIGURE_SIP"/>
+        <!-- 20170222-mengbo-end -->
+
+        <!-- Begin:xjq  添加加密电话编解码器注册 20140717 -->
+        <!-- SILK -->
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverSILK"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_silk_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_silk_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+        <!-- G726 -->
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverG726"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_g726_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_g726_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Codec2 -->
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverCodec2"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_codec2_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_codec2_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- Opus -->
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverOpus"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_opus_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_opus_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- G7221 -->
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverG7221"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_g7221_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_g7221_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- AAC -->
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverAAC"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_aac_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_aac_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.csipsimple.plugins.codecs.ReceiverG729"
+            android:exported="false">
+            <meta-data
+                android:name="lib_name"
+                android:value="libpj_g729_codec.so"/>
+            <meta-data
+                android:name="init_factory"
+                android:value="pjmedia_codec_g729_init"/>
+
+            <intent-filter>
+                <action android:name="com.xdja.voip.codecs.action.REGISTER_CODEC"/>
+            </intent-filter>
+        </receiver>
+        <!-- End:xjq  添加加密电话编解码器注册 20140717 -->
+
+
+        <!-- 联系人更新广播接收器 -->
+        <receiver
+            android:name="com.csipsimple.service.ContactReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.xdja.actom.contact.update"/>
+                <action android:name="com.xdja.actom.contact.update.remark"/>
+                <action android:name="com.xdja.actom.contact.delete"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- 用于暗码启动拨号activity -->
+        <!--
+        <receiver android:name="com.securevoip.receiver.BackDoorReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE"/>
+
+                <data
+                    android:host="1111"
+                    android:scheme="android_secret_code"/>
+            </intent-filter>
+        </receiver>
+        -->
+
+        <!-- 开机启动vice的广播 -->
+        <receiver android:name="com.securevoip.voip.BootBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.securevoip.voip.NotificationCancelService"/>
+
+        <!-- 自定义通知清除广播 -->
+        <receiver android:name="com.securevoip.voip.ClearReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.voip.cancel_missed_call_notification"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- PN相关组件 -->
+        <service
+            android:name="com.xdja.pushsdk.npc.service.MqttService"
+            android:process="com.xdja.npcs"
+            tools:ignore="ExportedService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.xdja.MqttService"/>
+
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+
+        <!-- 用于保障推送服务的正常运行 -->
+        <receiver android:name="com.xdja.pushsdk.npc.npcs.util.NPCUtilReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+
+                <!-- 用于推送服务内部消息 -->
+                <action android:name="com.xdja.npcs.INVITESUB"/>
+                <!-- 用于接收系统消息,确保推送远程服务的存在 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.BATTERY_CHANGED"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- 用于监控网络变化 -->
+        <receiver
+            android:name="com.xdja.pushsdk.npc.service.MqttServiceReceiver"
+            android:process="com.xdja.npcs">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <!-- 守护服务,守护远程推送服务 -->
+        <service
+            android:name="com.xdja.pushsdk.npc.aidl.GuardService"
+            android:process=":guard"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.xdja.service.aidl"/>
+            </intent-filter>
+        </service>
+
+        <receiver android:name="webrelay.receiver.MsgReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.apushsdk"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name="com.securevoip.receiver.HaiXinDeviceReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.actoma.key.down"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="webrelay.voice.PlayVoiceService"/>
+    </application>
+
+</manifest>

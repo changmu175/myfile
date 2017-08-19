@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:background="@color/detail_bg_color"
+        android:paddingBottom="@dimen/call_detail_item_title_bottompadding"
+        android:paddingLeft="@dimen/call_detail_item_title_leftpadding"
+        android:paddingTop="@dimen/call_detail_item_title_toppadding"
+        android:text="@string/TODAY"
+        android:textColor="@color/call_detail_title_color"
+        android:textSize="@dimen/call_detail_item_header_fontsize"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/detail_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/write"
+        android:clickable="false"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/call_begin_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingBottom="@dimen/call_detail_item_detail_bottompadding"
+            android:paddingLeft="@dimen/call_detail_item_title_leftpadding"
+            android:paddingRight="@dimen/call_detail_item_title_leftpadding"
+            android:paddingTop="@dimen/call_detail_item_detail_toppadding"
+            android:textColor="@color/deep_black_2"
+            android:textSize="@dimen/common_txsize_14_17"/>
+
+        <view
+            android:id="@+id/call_type_icons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            class="com.securevoip.presenter.adapter.calllog.CallTypeIconsView"/>
+
+        <TextView
+            android:id="@+id/type_desp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingBottom="@dimen/call_detail_item_detail_bottompadding"
+            android:paddingLeft="@dimen/call_detail_item_detail_leftpadding"
+            android:paddingRight="@dimen/call_detail_item_detail_rightpadding"
+            android:paddingTop="@dimen/call_detail_item_detail_toppadding"
+            android:textColor="@color/deep_black_2"
+            android:textSize="@dimen/common_txsize_14_17"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:id="@+id/duration_desp"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="12dp"
+            android:textColor="@color/deep_black"
+            android:textSize="@dimen/common_txsize_12_15"/>
+
+    </LinearLayout>
+
+    <!--显示隔天时间段底层分段-->
+    <LinearLayout
+        android:id="@+id/tail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/diver_color"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@color/calllog_detail_diver_color"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/diver_color"/>
+    </LinearLayout>
+
+</LinearLayout>

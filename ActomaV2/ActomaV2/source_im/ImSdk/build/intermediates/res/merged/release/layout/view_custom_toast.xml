@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/af_bg_toast"
+        android:paddingBottom="@dimen/base_13"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical"
+        android:paddingTop="@dimen/base_13"
+        >
+        <ImageView
+            android:layout_width="@dimen/base_16"
+            android:layout_height="@dimen/base_16"
+            android:src="@drawable/af_ic_toast"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="@dimen/base_16"
+            android:contentDescription="@null"/>
+        <TextView
+            android:id="@+id/toast_context"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@color/listview_item_bg"
+            android:textSize="@dimen/body1_14"
+            android:includeFontPadding="false"
+            android:layout_marginStart="@dimen/base_8"
+            android:layout_marginEnd="@dimen/base_16"
+            android:text="@string/hello_friend"/>
+    </LinearLayout>
+</LinearLayout>

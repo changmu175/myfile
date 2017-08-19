@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fun="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.xdja.imp.widget.VideoPlayView
+        android:id="@+id/video_play_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:id="@+id/video_first_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"/>
+    <ImageView
+        android:id="@+id/img_ff_state"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:contentDescription="@null"/>
+    <TextView
+        android:id="@+id/btn_play"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/btn_pre_player"/>
+
+    <TextView
+        android:id="@+id/bottombar_back_player"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black" />
+
+    <RelativeLayout
+        android:id="@+id/layout_player_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:visibility="gone"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/btn_close_player"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_close" />
+
+        <TextView
+            android:id="@+id/btn_files_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="27dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            android:background="@drawable/btn_view_normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_player_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_above="@+id/bottombar_back_player"
+        android:layout_marginBottom="46dp">
+
+        <CheckBox
+            android:id="@+id/btn_start_video"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="14dp"
+            android:checked="false"
+            android:button="@null"
+            android:background="@drawable/video_player_selector" />
+
+        <TextView
+            android:id="@+id/video_play_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/btn_start_video"
+            android:text="@string/video_play_starttime" />
+
+        <com.xdja.imp.widget.HorizontalProgressBarPlayer
+            android:id="@+id/pgb_play"
+            android:layout_width="197dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/video_play_time"
+            fun:progress_circle_color="#ffffffff"
+            fun:progress_reached_bar_height="2.7dp"
+            fun:progress_reached_color="#FFFFFFFF"
+            fun:progress_unreached_bar_height="2.7dp"
+            fun:progress_unreached_color="#4DFFFFFF"/>
+
+        <TextView
+            android:id="@+id/video_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/pgb_play"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

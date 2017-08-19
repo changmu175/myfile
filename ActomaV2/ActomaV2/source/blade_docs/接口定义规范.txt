@@ -1,0 +1,39 @@
+接口定义规范说明
+根据接口需要提供的功能，接口的定义需要完成相应的功能定义和实现，实现原则主要遵循：接口定义的完备性（包括所有正常流和异常流的识别和定义）和规范性，接口功能的单一性（原子化）。
+对接口定义和实现的规范有以下几点要求：
+	对接口实现的功能进行相对合理的粒度划分，保证接口的原子性；
+	对正常流程进行完善合理的处理；
+	对可能造成异常和错误的细节进行全面的识别；
+	对所有异常流程的定义和调用方处理方案必须清晰完善；
+同步接口定义举例：
+/**
+ * 同步方法
+ *
+ * @param arg1 参数1（不能为空）
+ * @param arg2 参数2（可以为空）
+ * @return 返回值（可能为空）
+ * @throws CheckException  数据校验异常
+ * @throws ClientException 客户端本地操作异常
+ */
+@Nullable
+public String syncFunction(@NonNull String arg1, @Nullable File arg2) throws CheckException, ClientException
+
+异步接口的定义举例：
+/**
+ * 异步方法
+ *
+ * @param arg1     参数1（不可以为空）
+ * @param arg2     参数2（可以为空）
+ * @param callBack 回调句柄（可以为空）
+ * @return 返回值（要具体到每一个返回值代表什么样的意义的程度；
+ * <p/>
+ * 如：
+ * <li>0--成功</li>
+ * <li>-1--失败</li>
+ * <li>其他--其他错误</li>
+ * </P>
+ */
+public int asyncFunction(@NonNull final String arg1,
+                              @Nullable final File arg2,
+                    @Nullable final CallBack<String> callBack
+) throws CheckException, ClientException

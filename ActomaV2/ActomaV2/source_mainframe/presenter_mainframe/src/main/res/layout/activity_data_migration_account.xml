@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar"/>
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:contentDescription="@null"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:src="@mipmap/circle_head_deafult_57"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_48"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white">
+
+        <TextView
+            android:id="@+id/at_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:singleLine="true"
+            android:text="@string/at_account"
+            android:textColor="@color/deep_black_2"
+            android:textSize="@dimen/blade_font_14"/>
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/at_account"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:singleLine="true"
+            android:textColor="@color/deep_black_2"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/warn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/old_account_prompt"
+        android:layout_marginTop="8dp"
+        android:textColor="#FF0000"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/sel_bg_gold"
+        android:singleLine="true"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/text_selector"
+        android:textSize="14sp"/>
+</LinearLayout>

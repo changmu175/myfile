@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--一些基础数值-->
+    <dimen name="blade_3">3dp</dimen>
+    <dimen name="blade_4">4dp</dimen>
+    <dimen name="blade_6">6dp</dimen>
+    <dimen name="blade_8">8dp</dimen>
+    <dimen name="blade_10">10dp</dimen>
+    <dimen name="blade_11">11dp</dimen>
+    <dimen name="blade_12">12dp</dimen>
+    <dimen name="blade_13">13dp</dimen>
+    <dimen name="blade_14">14dp</dimen>
+    <dimen name="blade_16">16dp</dimen>
+    <dimen name="blade_18">18dp</dimen>
+    <dimen name="blade_20">20dp</dimen>
+    <dimen name="blade_24">24dp</dimen>
+    <dimen name="blade_26">26dp</dimen>
+    <dimen name="blade_28">28dp</dimen>
+    <dimen name="blade_32">32dp</dimen>
+    <dimen name="blade_36">36dp</dimen>
+    <dimen name="blade_40">40dp</dimen>
+    <dimen name="blade_42">42dp</dimen>
+    <dimen name="blade_46">46dp</dimen>
+    <dimen name="blade_48">48dp</dimen>
+    <dimen name="blade_53">53dp</dimen>
+    <dimen name="blade_56">56dp</dimen>
+    <dimen name="blade_64">64dp</dimen>
+    <dimen name="blade_72">72dp</dimen>
+    <dimen name="blade_80">80dp</dimen>
+    <dimen name="blade_84">84dp</dimen>
+    <dimen name="blade_328">328dp</dimen>
+
+    <!-- 基础字体大小 -->
+    <dimen name="blade_font_18">18sp</dimen>
+    <dimen name="blade_font_16">16sp</dimen>
+    <dimen name="blade_font_14">14sp</dimen>
+    <dimen name="blade_font_12">12sp</dimen>
+    <dimen name="blade_font_11">11sp</dimen>
+    <dimen name="blade_font_20">20sp</dimen>
+
+    <!-- 对话框message高度-->
+    <dimen name="blade_dialog_message_height">56dp</dimen>
+    <!-- 进度条提示框-->
+    <dimen name="blade_progressbar_width">24dp</dimen>
+    <dimen name="blade_progressbar_height">24dp</dimen>
+
+</resources>

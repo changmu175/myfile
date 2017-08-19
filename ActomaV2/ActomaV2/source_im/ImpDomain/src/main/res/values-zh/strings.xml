@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Imp_Domain</string>
+    <string name="im_setting_nodisturb_talker_null">设置勿扰模式talkerId为空</string>
+    <string name="im_setting_nodisturb_type_error">设置勿扰模式会话类型错误</string>
+    <string name="im_delete_nodisturb_talker_null">删除勿扰模式talkerId为空</string>
+    <string name="im_delete_nodisturb_type_error">删除勿扰模式会话类型错误</string>
+    <string name="im_talker_id_null">talkerId为空</string>
+    <string name="im_get_roam_configure_null">获取到的漫游配置为空</string>
+    <string name="im_local_save_roam_data_fail">本地保存漫游信息失败</string>
+    <string name="im_conversation_data_save_fail">会话状态数据保存失败</string>
+    <string name="im_parameter_illegal_mismatch_conversation_setting">传输参数不合法，无法匹配会话设置</string>
+    <string name="im_default_status">默认状态</string>
+    <string name="im_send_fail">发送失败</string>
+    <string name="im_sending">发送中</string>
+    <string name="im_send_success">已发送</string>
+    <string name="im_status_arrive">已送达</string>
+    <string name="im_status_readed">已阅读</string>
+    <string name="im_status_destroy">已销毁</string>
+    <string name="im_type_default">默认类型</string>
+    <string name="im_single_chat">单人聊天</string>
+    <string name="im_group_chat">群组聊天</string>
+    <string name="im_group_send_chat">群发聊天</string>
+    <string name="im_at_team">AT+团队</string>
+    <string name="im_picture_select">图片选择</string>
+    <string name="im_picture_preview">图片预览</string>
+    <string name="im_custom_message">自定义消息</string>
+</resources>

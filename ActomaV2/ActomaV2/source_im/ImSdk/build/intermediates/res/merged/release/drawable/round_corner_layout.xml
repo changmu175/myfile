@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 圆角白底边框  -->
+    <solid android:color="@color/listview_group_bg" />
+    <!-- 圆角边框  -->
+    <corners
+        android:bottomLeftRadius="@dimen/base_3"
+        android:bottomRightRadius="@dimen/base_3"
+        android:topLeftRadius="@dimen/base_3"
+        android:topRightRadius="@dimen/base_3" />
+
+</shape>

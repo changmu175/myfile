@@ -1,0 +1,614 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Actoma+</string>
+    <string name="process_name">com.xdja.actoma</string>
+
+    <!--********************************************新账号相关*********************************-->
+    <string name="login">Login</string>
+    <string name="load">Loading</string>
+    <string name="being">is &#160;</string>
+    <string name="register">Register</string>
+    <string name="next">Next</string>
+    <string name="verify">Verification</string>
+    <string name="complete">Done</string>
+    <string name="certain">OK</string>
+    <string name="skip">Skip</string>
+    <string name="handle">Handle</string>
+    <string name="setHeaderAvater">Set Head Portrait</string>
+    <string name="modify_password">Modify Password</string>
+    <string name="avater">Head Portrait</string>
+    <string name="nickName">Nickname</string>
+    <string name="qr_card">My QR Code </string>
+    <string name="scan">Scan</string>
+    <string name="cancel">Cancel</string>
+    <string name="more"><u>More</u></string>
+    <string name="forgetPassword">Forget Password</string>
+    <string name="netNotWork">Network unavailable, please check your network settings</string>
+    <string name="prompt">Tip</string>
+    <string name="this_the">I\'ll take this one</string>
+    <string name="safe_card_error">The security card or certificate is abnormal</string>
+    <string name="gateway_error">Application internal error</string>
+    <string name="server_error">Server internal error</string>
+    <string name="device_not_activate">The device is not activated, please contact customer service activation (error code:%1$s, card number:%2$s)</string>
+    <string name="no_detect_secure_chip_1">Device don\'t detect security chip or don\'t open the launcher of chip housekeeper</string>
+    <string name="account_transfer_fail">Account not migration</string>
+    <string name="safe_card_lock_prompt">The device security chip has been locked</string>
+    <string name="safe_card_lock">Unlock it before using the Actoma+. Click below to unlock, go to the Chip Manager application to begin.</string>
+    <string name="unlock">Activate Now</string>
+
+
+    <string name="inner_authCode_invalid">Verification code is error</string>
+    <string name="auth_code_error">Verification code error</string>
+    <string name="login_pwd">The Login Password</string>
+    <string name="old_account_fix_pwd_prompt">Actoma+ has been upgraded, in order to ensure the safety of security password, please set the password, after the success of the set, you can use this password to log in.</string>
+    <string name="old_account_prompt">Actoma+ has been upgraded, please remember Actoma account.</string>
+    <string name="device_removed">The device %1$s has been removed from the account of trusted device list, this account will logout.</string>
+    <string name="account_will_quit">This account will log out</string>
+    <string name="account_unbind">The account is unbundled on this device</string>
+    <string name="forced_offline">Your account login in other mobile device, this device will be logged out. If not your operation, please enter the Settings->Account &amp; Security->Login Device Management process.</string>
+    <string name="forced_offline_title">Your account has been logged on to other mobile devices.</string>
+    <string name="is_delete_image">Confirm delete this picture?</string>
+    <string name="open_encryption_channel">Open the third encryption channel</string>
+    <string name="image_big">Please select below 30M images</string>
+    <string name="scan_failed">Scan failed, please scan again</string>
+    <string name="register_count">The number of registered accounts exceeds the maximum limit of the day:</string>
+    <string name="register_count_month">The number of registered accounts exceeds the maximum limit of the month:</string>
+    <string name="register_count_year">The number of registered accounts exceeds the maximum limit of the year:</string>
+    <string name="count">times</string>
+    <string name="return_map_not_empty">The returned Map can not be empty</string>
+    <string name="return_parameter_error">Return parameter error</string>
+    <string name="create">Generate</string>
+    <string name="set_succeed">Set success</string>
+    <string name="submit_failed">Failed to submit, please enter again</string>
+    <string name="phone_or_pwd_error">Phone number or password is incorrect, please enter again</string>
+    <string name="account_or_pwd_error">Actoma+ account or password is incorrect, please enter again</string>
+    <string name="phone_or_verifycode_error">Phone number or verification code is incorrect, please enter again</string>
+    <string name="unknow_reason_404">Unknown cause, operation failed (404)</string>
+    <string name="unknow_reason_406">Unknown cause, operation failed (406)</string>
+    <string name="login_count_limit_title">Login attempt has reached the maximum number of times</string>
+    <string name="login_count_limit_content" tools:ignore="PluralsCandidate">The number of login attempts has reached the daily limit(%1$dtimes/day), please try again another day, if you forget the password, please reset it.</string>
+    <string name="roger">Got it</string>
+    <string name="account_already_bind_mobile">Account already bind mobile</string>
+    <string name="remaining_selected_opportunities" tools:ignore="PluralsCandidate">There are %1$d opportunities to select</string>
+    <string name="no_selected_opportunities">Ten selected opportunities have been used up, if you don\'t like this account, can be set for yourself.</string>
+    <string name="get_account">Get the account</string>
+    <string name="change_account">Change the account</string>
+    <string name="verify_code_error">Verification code is incorrect, please enter again</string>
+    <string name="force_bind">Force binding</string>
+    <string name="bind">Binding</string>
+    <string name="unbind">Unbundling</string>
+    <string name="submit">Submit</string>
+    <string name="account_error">Actoma+ account is made up of 6~20 begin with a letter of letters, Numbers, underline and minus sign.</string>
+    <string name="upload">Upload</string>
+    <string name="get_verify_code_prompt">Please get the verification code first</string>
+    <string name="sure_you_want_to_logout">Are you sure you want to log out?</string>
+    <string name="logout_content_prompt">Exit will not delete any historical data, the next login can still view.</string>
+    <string name="pwd_error">The password is incorrect, please try again</string>
+    <string name="pwd_error_retry_input">The password is incorrect, please enter again</string>
+    <string name="timeout">Network request timeout</string>
+    <string name="empower">Authorization</string>
+    <string name="bind_phone_number_succeed">Bind phone number successfully</string>
+    <string name="change_phone_number_succeed">Change phone number successfully</string>
+    <string name="phone_number_bind_succeed">Bind phone number successfully</string>
+
+    <string name="change">Change</string>
+    <string name="local">Local</string>
+    <string name="has_login">Has logged</string>
+    <string name="load_device_list">Loading device list</string>
+    <string name="delete">Delete</string>
+    <string name="modify">Modify</string>
+    <string name="set_account_succeed">Actoma+ account set up successfully</string>
+    <string name="set_nickname_succeed">Nickname set Success</string>
+    <string name="apostrophe">&#8230;</string>
+    <string name="parameter_illegality">Illegal parameter</string>
+    <string name="account_cannot_be_empty">Account cannot be empty</string>
+    <string name="pwd_cannot_be_empty">Password can not be empty</string>
+    <string name="request_params_error">Request parameter is empty</string>
+    <string name="account_format_illegal">Account format for illegal</string>
+    <string name="mobile_format_illegal">Phone number format is illegal</string>
+    <string name="customize_account_format_illegal">Illegal custom account format</string>
+    <string name="old_account_format_illegal">The old account format illegally</string>
+    <string name="new_account_format_illegal">The new account format illegally</string>
+    <string name="friends_mobile_number_illegal">Friends mobile number is illegal</string>
+    <string name="friends_mobile_format_illegal">Illegal friends phone number format</string>
+    <string name="friends_mobile_repeat">Friends phone number repeat</string>
+    <string name="client_type_illegal">No longer within the scope of the client type</string>
+    <string name="login_type_illegal">Is not within the scope of the login type</string>
+    <string name="os_name_illegal">The operating system is not within the scope</string>
+    <string name="dst_account_format_illegal">The other illegal account format</string>
+    <string name="identify_format_illegal">Update the logo of illegal</string>
+    <string name="ticket_invalid">Ticket invalid</string>
+    <string name="request_method_not_match">Request method error</string>
+    <string name="device_id_no_exist">Device id is empty</string>
+    <string name="device_id_no_corresponding">The corresponding personnel information not query to the device</string>
+    <string name="service_not_open">Service is not open or beyond life</string>
+    <string name="get_account_failed">Failed to get the account please try again later</string>
+    <string name="client_error">Client error</string>
+    <string name="network_connect_failed">Network connection failed, please check whether the network is on</string>
+    <string name="server_busy">The server is busy</string>
+    <string name="account_closure">This account has been closed, please apply for to unlock</string>
+    <string name="account_frozen">This account has been frozen, please thaw</string>
+    <string name="account_cancelled">This account has been cancelled</string>
+    <string name="mobile_phone_number_is_not_registered">The phone number is not registered, please register</string>
+    <string name="verify_code_max_count">Get verification code number has reached its limit today, please try again another day</string>
+    <string name="mms_send_failed">SMS sending failed, please try again later</string>
+    <string name="verification_is_not_through">Not verified by, please check whether the mobile phone number is correct </string>
+    <string name="device_not_credit">The device is not licensed</string>
+    <string name="more_than_operation_time_limit">Operation time limit exceeded. Please re-operate.</string>
+    <string name="set_custom_account_error">This account has been set up a custom account, you can only set once</string>
+    <string name="account_exist">This account has been found, please enter a different account</string>
+    <string name="initialize_net_failed">Initialization failed, please check the network settings</string>
+    <string name="encryption_initialize_failed">Encryption module failed to initialize, Please try again later</string>
+    <string name="authorization_failed">Authorization failed</string>
+    <string name="version_not_matched">Please check whether the security chip and Actoma+ version match</string>
+    <string name="error_and_not_prompt">Error but no message, please submit the error log.</string>
+    <string name="send_verify_code_mms">Send verification code SMS</string>
+    <string name="send">Send</string>
+    <string name="resend">Resend(%1$d)</string>
+    <string name="resend1">Resend</string>
+    <string name="authorization_login">You will be authorized %1$s to log in to the device %2$s.</string>
+    <string name="authorization_login_content">%1$sAfter login, the account will automatically log out from the device.</string>
+    <string name="is_delete_device">Are you sure you want to delete this device?</string>
+    <string name="is_delete_device_content">After deleting the device, to log in to the device again, you need to authorize the trusted device for the account. If you do not have any trusted devices after deletion, this account may not be able to log on.</string>
+    <string name="modify_device_name">Modify Device Name</string>
+    <string name="input_device_name">Please enter the device name</string>
+    <string name="device_name_length_error">The device name can not be greater than 32 characters</string>
+    <string name="confirm_device_loss">	Confirm the original equipment is lost?</string>
+    <string name="confirm_device_loss_content1">The original device is not in the side, do not perform this operation.</string>
+    <string name="confirm_device_loss_content2">After logging in as an authenticated account, the account is bound to the new device, and all authorized devices can not log in to the account.</string>
+    <string name="new_pwd">Password</string>
+    <string name="account_or_pwd_cannot_empty">Account or password can not be empty</string>
+    <string name="bind_phone_number_prompt">The mobile phone has been bound to other Actoma+ account.</string>
+    <string name="bind_phone_number_error_content">The phone has been bound to other Actoma+ account, if bound to this account, the original account will be released binding relationship.</string>
+    <string name="bind_account">Bind this account</string>
+    <string name="authentication_failed">Authentication failed</string>
+    <string name="your_nick_name">Nickname</string>
+    <string name="such_as_xiaoming">Such as: Xiao Ming</string>
+    <string name="pwd">Password</string>
+    <string name="pwd_format">6~20 characters </string>
+    <string name="start_install_app">Start installing applications</string>
+    <string name="install_app_failed">Application installation failed</string>
+    <string name="oom">Out of memory</string>
+    <string name="check_sd_card">Please check the SD card</string>
+    <string name="exe_dowload">Perform download operation</string>
+    <string name="exe_pause_dowload">Perform pause download operation</string>
+    <string name="exe_install">Perform the installation</string>
+    <string name="download_and_update">Download the update</string>
+    <string name="unknown_oper">Unknown operation</string>
+    <string name="unknown_download_oper">Perform download operation</string>
+    <string name="app_exist">There is an application corresponding to the package name</string>
+    <string name="app_no_exist">There is no application corresponding to the package name</string>
+    <string name="download_stoped">Download has stopped</string>
+    <string name="set_tabview_error">When you set up a ViewViewer for a TableView, set the ViewPager\'s PagerAdapter first</string>
+    <string name="fillinmessage_error">Two consecutive textviews are not supported</string>
+    <string name="fillinmessage_error1">Unsupported type</string>
+
+    <!--progressDialog显示文字-->
+    <string name="submiting">Submitting&#8230;</string>
+    <string name="exiting">Exiting &#8230;</string>
+    <string name="open_web">Open web page&#8230;</string>
+
+    <string name="delete_chat_history">Deleting chat history &#8230;</string>
+    <string name="delete_call_history">Deleting call history &#8230;</string>
+    <string name="delete_call_history_succeed">The call history deleted!</string>
+
+
+    <!--title-->
+    <!--modify by alh@xdja.com to fix bug: 2088 2016-08-01 start(rummager:anlihuang)-->
+    <string name="title_setting_about_soft">About Actoma</string>
+    <!--modify by alh@xdja.com to fix bug: 2088 2016-08-01 end(rummager:anlihuang)-->
+    <string name="title_message_verify_code_login">SMS Verification Code Login</string>
+    <string name="title_empower_device_login">Authorize this device to log in</string>
+    <string name="title_verify_login">Verify Login</string>
+    <string name="title_verify_phone_number">Verify Phone Number</string>
+    <string name="title_verify_friend_phone">Verify Friends Phone Number</string>
+    <string name="title_write_registration_info">Fill Registration Information</string>
+    <string name="title_choose_account">Select Actom+ Account</string>
+    <string name="title_reset_password">Reset Password</string>
+    <string name="title_input_new_password">Enter a New Password</string>
+    <string name="title_setting">Settings</string>
+    <string name="title_account_safe">Account &amp; Security</string>
+    <string name="title_device_manager">Device Management</string>
+    <string name="title_user_detail">Personal Information</string>
+    <string name="title_bind_phone_number">Bind Phone Number</string>
+    <string name="title_modify_phone_number">Modify Phone Number</string>
+    <string name="title_auth_device_login">Authorize other devices to log on</string>
+    <string name="title_set_account">Set the Actoma+ Account</string>
+    <string name="title_set_nickname">Set Nickname</string>
+    <string name="title_mainFrame">Actoma+</string>
+    <string name="title_auth_account_Login">Authorized account login </string>
+    <string name="title_set_login_pwd">Set Login Password</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_message_verify_login"><u>SMS Login</u></string>
+    <string name="input_get_verify_code">Get code</string>
+    <string name="login_past_due">Login has expired, please login again</string>
+    <string name="relogin">Re login</string>
+
+    <string name="verify_friend_phone_write_friend">Please fill in the phone number from your three Actoma+ friend</string>
+    <string name="verify_friend_phone_write_friend_1">2. Please fill in the phone number from your three Actoma+ friend</string>
+
+    <string name="empower_device_login_top_text">You have never logged in the device, in order to guarantee the security of your account, please use the original device (log in this account of device) authorized by scanning the Qr code below to log in.</string>
+    <string name="empower_device_login_auth_code">Authorized serial number: </string>
+    <string name="empower_device_login_center_text">If you can not scan, use the original device. Enter the above serial number authorization in the "Settings" - "Account &amp; security" - "Login Device Management" - "Authorize other devices to log in" (serial number 10 minutes), if expired please</string>
+    <string name="empower_device_login_bottom_text">Lost the original equipment, cannot be authorized?</string>
+    <string name="empower_device_login_generate_again">Re generation.</string>
+
+    <string name="verify_login_top_text">You can verify the identity by following the login. However, due to the failure to withstand the letter of authorization, key data may not be able to restore the original device, and offline messages will not be able to decrypt.</string>
+    <string name="verify_login_binded_phone">Account has been bound to the phone number</string>
+    <string name="verify_login_no_bind_phone">Account is not bound phone number</string>
+    <string name="verify_login_verify_code">Verify by phone verification code</string>
+    <string name="verify_login_verify_friend_phone">Verify with your friend\'s phone number</string>
+    <string name="verify_login_bottom_text">This function can only be done on a credit facility (logged on to this account).</string>
+    <string name="reset_password_top_text">To reset the password need to verify identity, you can choose the following ways:</string>
+
+    <string name="write_registration_info_terms1">Touch "next" button, it means that you read and agreed to</string>
+    <string name="write_registration_info_terms2">《Actoma+ Terms of Service》</string>
+
+    <string name="choose_account_top_text">Congratulations, your Actoma+ account is:</string>
+    <string name="choose_account_mid_text1">Don\'t like it, click the"</string>
+    <string name="choose_account_mid_text2">Another</string>
+    <string name="choose_account_mid_text3">", also can</string>
+    <string name="choose_account_mid_text4">Set your own account.</string>
+
+    <string name="register_verify_phone_number_top_text">After verifying the phone number, you can login via SMS verification code, and also help for you to find the password.</string>
+
+    <string name="certain_password">Confirm</string>
+    <string name="password_format">Password must be 6~20 characters (case sensitive) </string>
+    <string name="password_hint">Enter Password</string>
+    <string name="certain_password_hint">Confirm Password</string>
+    <string name="different_two_password">Two password input is not consistent</string>
+    <string name="password_modify_success">Password changed successfully</string>
+
+
+    <string name="verify_code">Code</string>
+    <string name="phone_number">Mobile</string>
+    <string name="verify_code_hint">Enter Code</string>
+    <string name="phone_number_hint">Enter Phone Number</string>
+
+    <string name="please_write_at_account">Enter Account</string>
+    <string name="please_write_at_account_1">1.Please enter your account</string>
+    <string name="at_account">Account</string>
+
+    <string name="friend1">Friend 1</string>
+    <string name="friend2">Friend 2</string>
+    <string name="friend3">Friend 3</string>
+    <string name="friend_hint" tools:ignore="PluralsCandidate">Please enter your friend %1$d phone number</string>
+    <string name="friend1_hint">Enter Phone Number</string>
+    <string name="friend2_hint">Enter Phone Number</string>
+    <string name="friend3_hint">Enter Phone Number</string>
+
+    <!--账号与安全界面-->
+    <string name="login_device_manager">Login Device Management</string>
+
+    <!--设备管理界面-->
+    <string name="auth_other_device_login">Authorize other devices to log in</string>
+    <string name="authorized_device">Authorized Device</string>
+
+    <string name="bind_phone_number_top_text">After the phone number is bound, the next login or retrieve password can be used for this phone number.</string>
+    <string name="bind_phone_number_error_title">This phone number has been bound to the other Actoma+  account</string>
+    <string name="bind_phone_number_error">This phone number has been bound to the other Actoma+  account, if you bind this account, the original account will be released binding relationship.</string>
+    <string name="bind_phone_number">Bind this account</string>
+    <!--更换手机号部分-->
+    <string name="binded_phone_number">Bound Phone Number:</string>
+    <string name="modify_phone_number">Change the Phone Number</string>
+    <string name="modify_phone_number_result">After the replacement of the phone number, the next login or retrieve the password can be used a new phone number, the original phone number will be tied.</string>
+    <string name="unbind_phone_number">Phone Number Unbundling</string>
+    <string name="unbind_phone_tips_title">Determine unbundled phone number?？</string>
+    <string name="unbind_phone_tips_message">Unbind phone number, you will not be able to login by phone verification code.</string>
+W
+    <!--授权其他设备登录部分-->
+    <string name="auth_device_login_top_text">Authorize other devices to log on to the account (for the first time).</string>
+    <string name="auth_device_login_way1">Mode 1: Enter the serial number generated when other devices log in for the first time</string>
+    <string name="auth_device_login_way2">Mode 2: Scan the QR code generated by the first login of other devices</string>
+    <string name="serial_number">Serial</string>
+    <!--modify by alh@xdja.com to fix bug: 2084 2016-07-28 (rummager:hujun)-->
+    <string name="serial_number_input_hint">Enter Serial Number</string>
+    <!--modify by alh@xdja.com to fix bug: 2084 2016-07-28 (rummager:hujun)-->
+    <string name="auth_info_invalid">The authorization information is invalid</string>
+    <string name="account_device_not_relation">Account and the device has no corresponding relation</string>
+    <string name="auth_success">Authorized Success!</string>
+    <string name="have_trust">Devices have trust！</string>
+    <string name="unknown_reason_401">Unknown cause, operation failed (401)</string>
+    <string name="device_format">Do not support the expression input</string>
+    <string name="invalid_qrcode">Invalid QR Code</string>
+    <!--设定安通+帐号-->
+    <string name="set_account_top_text">Actoma+ account can only be set once, after setting the original Actoma account will be invalid.</string>
+    <string name="set_account_bottom_text">Actoma+ account is composed of 6~20 letters beginning with the letters, numbers, underline and minus sign.</string>
+
+    <!--设置昵称-->
+    <string name="nickname_rule">1~16 characters</string>
+    <string name="nickname_format" tools:ignore="TypographyDashes">Nicknames only support 1–16 characters</string>
+    <string name="nickname_top_text">Take a name for your own personality~</string>
+
+    <string name="exit_login">Log Out</string>
+
+    <!--选择图像部分-->
+    <string name="title_activity_view_set_head_portrait">Update Avatar</string>
+    <string name="title_activity_view_cut_image">Update the Image</string>
+    <string name="title_activity_view_select_upload_images">Select Picture</string>
+    <string name="reselect_image">Please reselect the image to clip</string>
+    <string name="send_the_image_to_cutbox">Please drag the picture to the clipping box</string>
+    <string name="image_cut_failed">Image cropping failed, please try again later</string>
+    <string name="image_load_failed">Image loading failure，images may have been damaged</string>
+
+    <!-- *******************************************设置相关******************************************* -->
+    <string name="setting_account_safe">Account &amp; Security</string>
+    <string name="setting_thirdpart">Third Encryption Services</string>
+    <string name="setting_about_soft">About Actoma+</string>
+    <string name="setting_about_chip">About Chip</string>
+    <string name="message_call">Chat &amp; Call</string>
+    <string name="setting_news_remind">Notifications</string>
+    <string name="nodistrub_top_message">Do Not Disturb</string>
+    <string name="setting_exit_tip1">Log Out</string>
+    <string name="setting_exit_message1">Logging out without delete historical data.</string>
+    <string name="setting_exit_tip2">Close Actoma+</string>
+    <string name="setting_exit_message2">Close the application and not exit the current account.</string>
+    <string name="setting_close">Close</string>
+    <string name="actoma_account">Account:&#160;</string>
+
+    <!--验证密码-->
+    <string name="check_password_tip">Please Enter the Password</string>
+
+    <!--更改密码-->
+    <string name="setting_check_password_tips_title">Please Enter the Original Password</string>
+    <string name="setting_check_password_tips_message">To protect your data, please enter the original password before changing the password</string>
+
+
+    <!-- *******************************************主界面相关******************************************* -->
+    <string name="lable_tab_msg">Message</string>
+    <string name="lable_tab_phone">Call</string>
+    <string name="lable_tab_contact">Contacts</string>
+    <string name="lable_tab_more">More</string>
+
+    <string name="action_search">Search</string>
+    <string name="action_start_group_chat">Group Chat</string>
+    <string name="action_add_friend">Add Friends</string>
+    <string name="action_scan">Scan QR Code</string>
+    <string name="action_setting">Settings</string>
+
+
+    <string name="permission_tip">Special Note</string>
+    <string name="permission_message">Welcome to use Actoma+ client software, Actoma+ is a social applications that developed, owned, and operated by Zhengzhou XDJA technology Ltd..Actoma+ client will generate traffic fees during use, traffic fee please consult the local operators;To protect user privacy is a basic policy of Actoma;
+        Actoma client will collect the user\'s SMS,photo album and other basic information during use.\n Actoma+ client will need the following permissions during use: read the phone status and identity, directly call the phone number, read your message (SMS or MMS), receive messages (SMS),take photos and video, audio, read your USB storage device,
+        modify, and delete the content of your USB storage device, disable lock screen, check the content of the network connection, check the WLAN connection,connecting WLAN network and disconnection, full network access, paired with a bluetooth device, shut down other applications, retrieval of the running application, startup, on other
+        applications to display content, prevent cell phone dormancy, vibration control,modify your audio settings, send persistent broadcasts, and modify system settings.</string>
+    <string name="agree">Agree</string>
+    <string name="close">Close</string>
+    <string name="password_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <!--modify by alh@xdja.com to fix bug: 473 2016-06-23 start (rummager : liuwangle)-->
+    <string name="account_digits">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_</string>
+    <!--modify by alh@xdja.com to fix bug: 473 2016-06-23 end (rummager : liuwangle)-->
+
+
+    <string name="title_activity_view_terms_policy">Terms and Privacy</string>
+
+    <string name="download_app_mobile_net_tip">Tip</string>
+    <string name="download_app_mobile_net_message">Currently used is a data network, continue to upgrade will use 2G/3G/4G traffic, whether to continue?</string>
+    <string name="download_app_mobile_net_continue">Continue to download</string>
+    <string name="download_app_mobile_net_cancel">Cancel</string>
+
+
+    <!-- 关于安通+ -->
+    <string name="aboutactoma_welcomepage">Welcome Page</string>
+    <string name="aboutactoma_functionintroduction">Function Introduction</string>
+    <string name="aboutactoma_commonproblems">Help &amp; Feedback</string>
+    <string name="aboutactoma_versionupdate">Check for Updates</string>
+    <string name="aboutactoma_termsandpolicy">Terms and Privacy</string>
+    <string name="aboutactoma_exit">Exit and Close</string>
+
+    <!--问题反馈-->
+    <string name="feedback_opinion">Problems and Opinions</string>
+    <string name="feedback_opinion_describe">Please briefly describe your questions and comments</string>
+    <string name="feedback_screenshot">Upload Image</string>
+    <string name="feedback_contact_phone_number">Contact Number</string>
+    <string name="feedback_contact_phone_number_describe">Optional, for us to contact you</string>
+    <string name="feedback_max_size">(Max Characters:800)</string>
+    <string name="feedback_max_upload_images">(Only upload up to 3 images)</string>
+    <string name="feedback_submit">Submit</string>
+    <string name="feedback_opinion_toast">Problem description can not exceed 800 characters</string>
+    <string name="feedback_phone_number_toast">Contact number can not be more than 11</string>
+    <string name="feedback_network_error">Network error, please check the network settings</string>
+    <string name="title_activity_view_feed_back">Feedback</string>
+
+
+
+    <!-- 【李晓龙[2016.06.22] - BUG#570】注册页面上传头像成功后无toast提示 -->
+    <string name="upload_user_avatar_success">Avatar Uploaded Successfully</string>
+    <string name="upload_user_avatar">Upload avatar</string>
+
+    <!-- 聊天通话-->
+    <string name="open_receiver_mode">Turn off Speaker</string>
+    <string name="message_call_tip">Chat &amp; Call History</string>
+    <string name="drop_all_message">Delete Chat History</string>
+    <string name="drop_all_message_tip">The chat history for all contacts and groups will be deleted</string>
+    <string name="clear_all_callLog">Delete Call History</string>
+    <string name="clear_all_callLog_tip">The call history for all contacts and groups will be deleted</string>
+    <string name="drop_all_message_dialog">Are you sure you want to delete all chat history?</string>
+    <string name="clear_all_callLog_dialog">Are you sure you want to delete all call history?</string>
+    <string name="title_activity_view_drop_all_message_call">Chat &amp; call</string>
+
+    <!-- 第三方加密 -->
+    <!--通知栏-->
+    <string name="notification_msg1">Actoma+ Service is On</string>
+    <string name="notification_msg2">Touch here to select a friend to start secure communication</string>
+    <!--开启加密失败提示信息及标题   -->
+    <string name="open_encrypt_sever_error_title">Tip</string>
+    <string name="open_encrypt_sever_error_message">Third-party encryption module updates, please restart your phone to continue to use</string>
+    <string name="open_encrypt_error_message">Failed to open third-party encryption channel, please try again later</string>
+
+    <!--2016-11-22-wangzhen-start 新增字符串 -->
+    <string name="open_encrypt_error_message_2">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;The current versoin of&#160;</string>
+    <string name="open_encrypt_error_message_3">&#160;can\'t run the features，Please loading the Certified version from More module.</string>
+    <!-- 2016-11-22-wangzhen-end -->
+
+    <string name="no_encrypt_menu_can_show">No encrypted applications are be detected</string>
+    <string name="text_ok">Save</string>
+    <string name="text_ok_2">Got it</string>
+
+    <!--第三方应用加密-->
+    <string name="other_app_encrypt_msg1">Supported third-party applications</string>
+    <string name="other_app_encrypt_msg8">The third-party application encryption service is one of the important functions of Actoma+. Through the service, can the WeChat, nailing, Momo chat process of third party applications such as encryption, to protect the user&#8217;s information security.</string>
+
+    <!-- [S]add by tangsha@20160630 for ckms-->
+    <string name="ckms_init_fail">Encryption module initialization failed</string>
+    <!-- [E]add by tangsha@20160630 for ckms-->
+
+    <!-- 勿扰模式-->
+    <string name="nodistrub_top_tip">If enabled,you won\'t be notified about  new messages during the hours set.</string>
+    <string name="nodistrub_begin_time_message">Start </string>
+    <string name="nodistrub_end_time_message">End </string>
+
+    <!-- 升级通知栏-->
+    <string name="update_notification_title">Actoma+ Update</string>
+    <string name="update_notification_msg">There is a new version of Actoma+, click here to upgrade</string>
+    <!-- 升级-->
+    <string name="update_force_version_diffrent">The current version is too low to view the message, please upgrade your version</string>
+    <string name="update_force_message">The current version of Actoma+ is too low to be used anymore, please upgrade your version</string>
+    <string name="update_already_a_new_version">Currently is the latest version</string>
+    <string name="update_connect_failured">Failed to detect version information, Please try again later!</string>
+    <string name="update_progress_message">Checking For New Version&#8230;</string>
+    <!-- 升级对话框-->
+    <string name="update_dialog_title">Version Update</string>
+    <string name="update_dialog_msg_start">New Version Detected:</string>
+    <string name="update_dialog_msg_end">, whether to download the update?</string>
+    <string name="update_dialog_msg_net_type">Currently used is a data network, continue to upgrade will use 2G/3G/4G traffic, whether to continue?</string>
+    <string name="update_dialog_btn_update">Upgrade</string>
+    <string name="update_dialog_btn_continue">Continue</string>
+    <string name="update_dialog_btn_cancel">Cancel</string>
+    <string name="update_dialog_btn_ok">OK</string>
+    <string name="update_dialog_downloading">Downloading installation package, please be patient&#8230;</string>
+    <string name="update_dialog_title_tip">Tip</string>
+    <string name="update_dialog_msg_download_fail">File download failed, Please try again later!</string>
+    <string name="update_dialog_msg_init_fail">Version information initialization failed!</string>
+
+
+    <!--下载进度框-->
+    <string name="none_sdcard_permission_hint">Please allow Actoma+ access to your SD card in the phone rights management</string>
+    <string name="none_sdcard_permission">SD card is disabled</string>
+    <string name="none_camera_permission">The camera is disabled</string>
+    <string name="none_camera_permission_hint">Please allow Actoma+ access to your camera in the phone rights management</string>
+
+    <string name="no_setting">Not Set</string>
+    <!--[S]add by tangsha@20160825 for 2432&3355, review by self-->
+    <string name="verify_fail_times" tools:ignore="PluralsCandidate">Please check whether the Tel NO is correct,you still have %d time to verify.</string>
+    <string name="verify_fail_over" tools:ignore="PluralsCandidate">"Today\'s verification has been finished（%d time/day），please try again another day."</string>
+    <!--[E]add by tangsha@20160825 for 2432&3355, review by self-->
+    
+    <string name="ckms_download_prompt">\t\t\t\tChip Manager provides Actoma+ a service that based on hardware-level encryption and decryption, now go to install it~~</string>
+    <string name="ckms_install_fail">Chip Manager installation failed, please try <again/></string>
+    <string name="ckms_install_btn_ok">I got it</string>
+
+    <string name="download_chip_tip">\tChip Manager provides Actoma+ a service that based on hardware-level encryption and decryption, now go to install it~~</string>
+    <string name="download_chip_tip_login_state">\tChip Manager has been uninstalled, Actoma+ can not be used normally, please install Chip Manager and restart Actoma+</string>
+    <string name="i_know">I got it</string>
+    <string name="download_chip_later">Install Later</string>
+    <string name="download_chip_now">Now Go to Install</string>
+    <string name="url_invalid">Invalid address</string>
+
+    <string name="version_low_and_quit">The current Actoma+ version is too low, cannot continue to use, after 5 seconds will automatically exit</string>
+    <string name="secure_communicating">In the secure communication&#8230;</string>
+    <string name="and">With</string>
+    <string name="no_show_app">Application not shown</string>
+    <string name="no_distrub_start_time">PM 11:00</string>
+    <string name="no_distrub_end_time">AM 08:00</string>
+    <string name="leave_phone">Phone is not around？</string>
+    <string name="bind_phone_prompt">The binding phone number is:</string>
+    <string name="view_use">Use</string>
+    <string name="touch_to_load">Touch the screen to reload</string>
+    <string name="send_msg_to_phone">Send verification code to the phone number:</string>
+    <string name="note_rev_msg">Please remember to check。</string>
+    <string name="rev_msg_call">Receive message notifications and call notifications</string>
+    <string name="delete_device">Remove Authorized Device</string>
+    <string name="delete_need_auth">Once removed, login again requires authorization \n from other devices</string>
+    <string name="to_camera">Take a Picture</string>
+    <string name="my_zxing" tools:ignore="UnusedResources">My QR Code</string>
+    <string name="zxing_add_friend" tools:ignore="UnusedResources">Scan the QR code to add me as friend</string>
+
+    <string name="get_chip_id_failed">Failed to get the Chip ID</string>
+
+
+    <!--关于安全锁-->
+    <string name="title_activity_view_safe_lock">Safe Lock</string>
+    <string name="title_activity_set_gesture_lock">Set Gesture Password</string>
+    <string name="safe_no_setting">Not Set</string>
+    <string name="safe_open">Open</string>
+    <string name="safe_off">Close</string>
+    <string name="lockpattern_recording_incorrect_too_short">Connect at least 4 points. please try again</string>
+    <string name="safe_setting_success">Set Success</string>
+    <string name="safe_second_unlock_wrong">The two draw is not the same</string>
+    <string name="safe_hint_message">Hint</string>
+    <string name="safe_login_close_gesture">Close colleagues Actoma+ re login, password gesture</string>
+    <string name="safe_confirm">Confirm</string>
+    <string name="safe_cancel">Cancel</string>
+    <string name="safe_input_error_five_re_login">Has lost the wrong 5 times, re login to Actoma+</string>
+    <string name="safe_re_login">Re Login</string>
+    <string name="safe_open_safe_other_borrow">You can open the Safety Lock,so others in using your mobile phone.</string>
+    <string name="safe_no_way_open">will not be able to open the Actoma+</string>
+    <string name="safe_login_safe">Open the Safety Lock</string>
+    <string name="safe_lock_setting">Safe Lock</string>
+    <string name="safe_please_choice_wap">Please select the trigger mode:</string>
+    <string name="safe_lock_screen">Lock Screen</string>
+    <string name="safe_phone_lock_actoma">Mobile phone lock screen automatic lock Actoma+</string>
+    <string name="safe_lock_background">Lock Background</string>
+    <string name="safe_lock_background_lock_actoma">When Actoma+ is switched to the background running,automatic lock Actoma+</string>
+    <string name="safe_modified_gesture">Modify Gesture Pattern</string>
+    <string name="safe_please_input_gesture">Enter a gesture password</string>
+    <string name="safe_pwd_error_retry">Password error, you can try again</string>
+    <string name="safe_input_original_pwd">Enter the original password</string>
+    <string name="safe_five_error_reinput">After the 5 failure,need to re login</string>
+    <string name="safe_forget_pwd">Forget Password</string>
+    <string name="safe_access_pattern">Please draw the unlock pattern</string>
+    <string name="safe_need_to_confirm">Please draw the unlock pattern again</string>
+    <string name="safe_pwd_error">Password error, you can try&#160;</string>
+    <string name="safe_number">&#160;again</string>
+    <string name="safe_lock">Safe Lock</string>
+    <string name="setting_gesture_password">Set Gesture Password</string>
+
+    <string name="lockscreen_access_pattern_start">Start drawing pattern</string>
+    <string name="lockscreen_access_pattern_cleared">Pattern has been cleared</string>
+    <string name="lockscreen_access_pattern_cell_added">Added cell</string>
+    <string name="lockscreen_access_pattern_detected">Pattern drawing finish</string>
+    <string name="lockscreen_old_clear_reset">The old locks have been removed, whether reset</string>
+    <string name="lockscreen_reset">Reset</string>
+
+
+
+
+    <string name="simple_chinese">简体中文</string>
+    <string name="english">English</string>
+    <string name="with_system">Auto</string>
+    <string name="multi_language">Language</string>
+    <string name="initialize_time_failed">Initialization failed, please check the current time</string>
+
+    <string name="feedback_success">Feedback Success</string>
+    <string name="feedback_success_info">
+        Thanks for your attention and support
+        \n  of the Actoma+,we will seriously deal with
+        \n your feedback,as soon as possible to repair
+        \n and improve the relevant functions</string>
+    <string name="authorizeld_invalid">authorizeld Invalid</string>
+    <string name="third_encrypt_version_low">Selected user use version too low to use third-party encryption. </string>
+    <string name="third_encrypt_push_error">Selected user no authorized device, cannot use third-party encryption.</string>
+
+    <string name="back_inner_verify_is_null">The internal verification code returned is empty</string>
+    <string name="no_search_info_about_inner_verify">No information about the internal authentication code has been queried</string>
+    <string name="no_detect_chip_drive">No chip driver detected</string>
+    <string name="no_detect_secure_chip">Device don\'t detect security chip or don\'t open the launcher of chip housekeeper</string>
+    <string name="secure_chip_active_failed">Security chip activation failed</string>
+    <string name="get_save_configure_info_failed">Get / save the configuration information failed</string>
+
+    <string name="plus">+</string>
+    <string name="text_new">NEW</string>
+    <string name="prompt_same_mobile">The phone number same as the phone number had bound</string>
+
+    <string name="yes">OK</string>
+    <string name="no">Cancel</string>
+
+    <string name="device_no_permission">The security application need to open, please contact the operators\n(Device IMEI:%1$s)</string>
+    <string name="no_permission_title">Permission Limited</string>
+    <string name="none_read_phone_permission">Read phone state is disabled</string>
+    <string name="none_read_phone_permission_hint">Please allow Actoma+ and Chip Manager access to your phone state rights management</string>
+    <string name="ckms_upload_failed">Encryption module failed to initialize</string>
+    <string name="ckms_upload_card_exception">The security card or TF is abnormal, please contact the manager.</string>
+    <string name="ckms_upload_time_exception">Current time is inconsistent with Beijing time,current operation has risk</string>
+</resources>

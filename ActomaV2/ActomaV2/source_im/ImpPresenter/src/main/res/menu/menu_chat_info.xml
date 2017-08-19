@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_item_voip"
+        android:icon="@drawable/call_by_voip"
+        android:title="@string/encrypt_call"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_item_chat_info"
+        android:icon="@drawable/abs_ic_user"
+        android:title="@string/chat_message"
+        app:showAsAction="ifRoom" />
+
+</menu>

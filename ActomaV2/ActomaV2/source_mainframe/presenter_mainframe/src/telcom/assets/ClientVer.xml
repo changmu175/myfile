@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+    <!--私有化环境-->
+    <ServerIP>120.194.4.144</ServerIP>
+    <ServerPort>2005</ServerPort>
+
+  <Factory>浙江电信</Factory>
+  <OS>Android5</OS>
+  <Mod>telcom</Mod>
+  <Soft>ActomaV2</Soft>
+  <UserName>admin</UserName>
+  <Ver>
+    <Version>1.0.1.20170401</Version>
+    <Date>2017-04-01</Date>
+    <Note>西安测试升级</Note>
+  </Ver>
+</Root>

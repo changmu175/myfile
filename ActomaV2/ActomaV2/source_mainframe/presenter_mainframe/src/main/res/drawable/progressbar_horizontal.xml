@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<!--背景条轨道的背景-->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dip" />
+            <gradient
+                android:startColor="#ffebe2d4"
+                android:centerColor="#ffebe2d4"
+                android:centerY="0.75"
+                android:endColor="#ffebe2d4"
+                android:angle="270"
+                />
+        </shape>
+    </item>
+<!--已加载部分的背景-->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dip" />
+                <gradient
+                    android:startColor="#ffcbb381"
+                    android:centerColor="#ffcbb381"
+                    android:centerY="0.75"
+                    android:endColor="#ffcbb381"
+                    android:angle="270"
+                    />
+            </shape>
+        </clip>
+    </item>
+</layer-list>
+

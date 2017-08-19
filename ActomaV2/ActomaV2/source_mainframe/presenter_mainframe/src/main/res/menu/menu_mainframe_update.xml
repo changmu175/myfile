@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/af_abs_ic_search"
+        android:title="@string/action_search"
+        app:showAsAction="always"
+        tools:ignore="AlwaysShowAction" />
+    <item
+        android:id="@+id/action_add"
+        android:icon="@mipmap/af_abs_ic_add"
+        android:title="@string/plus"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_chat"
+                android:icon="@mipmap/spinner_ic_im"
+                android:title="@string/action_start_group_chat"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/action_adduser"
+                android:icon="@mipmap/spinner_ic_adduser"
+                android:title="@string/action_add_friend"
+                app:showAsAction="always" />
+            <item
+                android:id="@+id/action_scan"
+                android:icon="@mipmap/spinner_ic_scan"
+                android:title="@string/action_scan"
+                app:showAsAction="always" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@mipmap/af_abs_ic_setting_new"
+        android:title="@string/action_setting"
+        app:showAsAction="always" />
+</menu>

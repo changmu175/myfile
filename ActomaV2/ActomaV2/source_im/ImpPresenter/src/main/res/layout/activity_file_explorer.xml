@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- toolbar-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <!-- tab title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_last_files"
+            style="@style/fragment_tab_style"
+            android:clickable="true"
+            android:onClick="onLastFileTabClick"
+            android:text="@string/last_file_list" />
+
+        <TextView
+            android:id="@+id/tv_local_files"
+            style="@style/fragment_tab_style"
+            android:clickable="true"
+            android:onClick="onLocalFileTabClick"
+            android:text="@string/local_file_list" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_cursor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CDB481"
+            android:contentDescription="@null"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/sperator_line_color"
+            android:contentDescription="@null"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <!-- file list -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager_file_explorer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="1dp" />
+
+        <ProgressBar
+            android:id="@+id/pbar_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/sperator_line_color" />
+
+    <!-- bottom action -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="1dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_file_select_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:text="@string/file_select_size"
+            android:textColor="#F3000000"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/btn_common_selector"
+            android:textAllCaps="false"
+            android:onClick="onSendBtnClick"
+            android:clickable="false"
+            android:text="@string/send"
+            android:textColor="#77000000"
+            android:textSize="14sp" />
+    </LinearLayout>
+</LinearLayout>

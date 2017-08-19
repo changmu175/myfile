@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:shape="oval"
+
+    android:useLevel="false">
+
+    <solid android:color="@color/recording_control_bg_color"/>
+
+    <stroke
+
+        android:color="@color/recording_control_bg_color"/>
+
+    <size android:width="@dimen/recording_control_bg_recorder_voice_X_value"
+
+          android:height="@dimen/recording_control_bg_recorder_voice_Y_value"/>
+
+</shape>
+
+

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--overdraw-->
+    <!--android:background="@color/listview_bg_withgroup"-->
+    <!--tools:ignore="Overdraw"-->
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <!--勿扰模式-->
+    <RelativeLayout
+        android:id="@+id/nodistrub_total"
+        style="@style/style_setting_item_layout"
+        android:clickable="false"
+        android:layout_height="@dimen/nodistrub_two_line_height">
+
+        <LinearLayout
+            android:paddingEnd="@dimen/no_distrub_padding_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginEnd="2dp"
+            tools:ignore="RtlSymmetry">
+            <TextView
+                style="@style/style_setting_item_label"
+                android:text="@string/nodistrub_top_message" />
+            <TextView
+                style="@style/style_setting_item_label"
+                android:textSize="@dimen/body2_12"
+                android:textColor="@color/base_black_65"
+                android:text="@string/nodistrub_top_tip"
+                android:singleLine="false"/>
+        </LinearLayout>
+
+
+        <CheckBox
+            android:id="@+id/no_distrub_checkbox"
+            style="@style/style_item_swich"
+            android:checked="false"
+            />
+    </RelativeLayout>
+
+    <View style="@style/view_line_style" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_8"
+        android:background="@color/listview_bg_nogroup" />
+
+
+    <LinearLayout
+        android:id="@+id/nodistrub_time_layout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View style="@style/view_line_style" />
+        <!--开始时间-->
+        <RelativeLayout
+            android:id="@+id/nodistrub_begin_container"
+            style="@style/style_setting_item_layout">
+
+            <TextView
+                style="@style/style_setting_item_label"
+                android:text="@string/nodistrub_begin_time_message" />
+
+            <TextView
+                android:id="@+id/nodistrub_begin_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_distrub_start_time"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_16"
+                android:textColor="@color/base_black_65"
+                tools:ignore="RelativeOverlap"
+                 />
+        </RelativeLayout>
+
+        <View style="@style/view_line_style" />
+        <!--结束时间-->
+        <RelativeLayout
+            android:id="@+id/nodistrub_end_container"
+            style="@style/style_setting_item_layout">
+
+            <TextView
+                style="@style/style_setting_item_label"
+                android:text="@string/nodistrub_end_time_message" />
+
+            <TextView
+                android:id="@+id/nodistrub_end_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no_distrub_end_time"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/base_16"
+                android:textColor="@color/base_black_65"
+                tools:ignore="RelativeOverlap"/>
+        </RelativeLayout>
+
+        <View style="@style/view_line_style" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/listview_bg_nogroup" />
+</LinearLayout>

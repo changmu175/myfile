@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- toolbar-->
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+    <ImageView
+        android:id="@+id/file_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/check_file_top_margin"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/base_16"
+        android:gravity="center"
+        android:textColor="#F3000000"
+        android:textSize="16sp" />
+
+    <ProgressBar
+        android:id="@+id/download_rate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/rec_filebar_bg"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="@dimen/check_file_progressbar_width"
+        android:layout_height="@dimen/base_6"
+        android:layout_marginTop="@dimen/base_20" />
+
+    <TextView
+        android:id="@+id/download_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/base_16"
+        android:gravity="center"
+        android:textColor="#A6000000"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/ctrl_btn"
+        android:layout_width="@dimen/check_file_btn_width"
+        android:layout_height="@dimen/check_file_btn_height"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/base_32"
+        android:background="#dfcda7"
+        android:textColor="#F3000000"
+        android:textSize="16sp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_16"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/actoma_cannot_open"
+        android:visibility="gone"
+        />
+</LinearLayout>

@@ -1,0 +1,72 @@
+apply plugin: 'com.android.library'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+	
+    lintOptions {
+        abortOnError false
+        disable("InvalidPackage",  //引用第三方jar都有此警告，忽略
+                "InflateParams",   //填充布局缺少参数，常用手法，忽略
+                "UnusedResources", //该模块为公共模块，很多资源被其他模块引用，这里检查必然无引用，不处理
+                "IconMissingDensityFolder",  //缺少部分屏幕密度对应文件夹，资源自适应能力
+                "DefaultLocale",    //字符串编码指定语言类型，因bug引入，主要在土耳其语言是会出错。常规不出现
+                "BadHostnameVerifier"
+        )
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+
+    def commonDependencies = rootProject.ext.commonDependencies
+    compile commonDependencies.glide
+    compile commonDependencies.glideOkhttp
+    compile commonDependencies.appcompat
+    compile commonDependencies.supportAnnotation
+    compile commonDependencies.butterKnife
+    compile commonDependencies.otto
+    compile commonDependencies.gson
+    compile commonDependencies.okHttp
+    compile commonDependencies.okhttpUrlconn
+    compile commonDependencies.glideOkhttp
+    compile commonDependencies.okio
+    compile commonDependencies.zxing
+    compile commonDependencies.javaxInject
+    compile 'com.github.bumptech.glide:okhttp3-integration:1.4.0@aar'
+
+    compile files('libs/XdjaPushSdk.v1.0.18.39c403.log.jar')
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile project(':comdependence')
+    compile project(':presenter')
+    compile 'com.alibaba:fastjson:1.2.11'
+}

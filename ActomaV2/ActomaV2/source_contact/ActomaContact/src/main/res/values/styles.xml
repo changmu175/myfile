@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><resources>    <!-- 搜索输入框 -->    <style name="search_edittext">        <item name="android:textSize">16sp</item>        <item name="android:scrollHorizontally">true</item>        <item name="android:singleLine">true</item>    </style></resources>

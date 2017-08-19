@@ -1,0 +1,109 @@
+<resources>
+
+    <style name="MyPopMenu" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:dropDownVerticalOffset">20dip</item>
+    </style>
+    <style name="MyTitleStyle" parent="Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColorPrimary">@color/golden_title</item>
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <!-- 背景透明 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 模糊 -->
+    </style>
+
+    <!--<style name="QuickActionAboveAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickaction_above_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_above_exit</item>
+    </style>
+
+    <style name="QuickActionBelowAnimation">
+        <item name="android:windowEnterAnimation">@anim/quickaction_below_enter</item>
+        <item name="android:windowExitAnimation">@anim/quickaction_below_exit</item>
+    </style>-->
+
+    <style name="ButtonBar" parent="@android:style/ButtonBar" />
+
+    <style name="ButtonBarButton" parent="@android:style/Widget.Button" />
+
+    <style name="ButtonBar.AlertDialog" parent="@android:style/ButtonBar" />
+
+    <style name="PopupMenu" parent="ThemeOverlay.AppCompat.Light" >
+        <item name="android:colorBackground">@color/toolbar_color</item>
+        <item name="android:textColor">@color/deep_black_2</item>
+    </style>
+
+
+    <style name="in_call_menu_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:clickable">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="in_call_menu_item_img">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:clickable">false</item>
+        <item name="android:showAsAction">ifRoom</item>
+    </style>
+
+    <style name="in_call_menu_item_tv">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <declare-styleable name="StatusView">
+        <attr name="progressMarinRight" format="dimension"/>
+        <attr name="progressDrawable" format="reference"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color|reference"/>
+        <attr name="text" format="string|reference"/>
+        <attr name="progressBarWidth" format="dimension"/>
+        <attr name="progressBarHeight" format="dimension"/>
+        <attr name="progressVisibility">
+            <flag name="visible" value="0"/>
+            <flag name="gone" value="8"/>
+            <flag name="invisible" value="4"/>
+        </attr>
+        <attr name="textVisibility">
+            <flag name="visible" value="0"/>
+            <flag name="gone" value="8"/>
+            <flag name="invisible" value="4"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- 20161011-mengbo-start: 加入Activity动画效果 -->
+    <!--去掉通话界面启动时白屏问题-->
+    <style name="AppTheme_no_bg" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/ActivityAnimation</item>
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <!-- 20161011-mengbo-end -->
+
+    <!-- 20161011-mengbo-start: Activity动画效果,从右进入，从左退出 -->
+    <style name="ActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/left_out</item>
+    </style>
+    <!-- 20161011-mengbo-end -->
+
+</resources>

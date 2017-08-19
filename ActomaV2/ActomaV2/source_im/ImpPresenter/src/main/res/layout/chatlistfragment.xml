@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--发送者头像-->
+    <com.xdja.comm.circleimageview.CircleImageView
+        android:id="@+id/self"
+        style="@style/talkdetail_senderImage"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/network_unuseable"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#fcd5c0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="12dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_network_error"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/networkstate_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="@string/network_disabled"
+                android:textColor="#f3000000"
+                android:textSize="14sp">
+
+            </TextView>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#dd9e7c"/>
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/chatList_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/common_dividing_line_height"/>
+</LinearLayout>

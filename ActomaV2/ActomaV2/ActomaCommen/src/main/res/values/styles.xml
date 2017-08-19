@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<style name="customstyle">-->
+        <!--&lt;!&ndash;<item name="@android:windowEnterAnimation">@anim/civ_preview_dialog_in</item>-->
+        <!--<item name="@android:windowExitAnimation">@anim/civ_preview_dialog_out</item>-->
+    <!--&ndash;&gt;</style>-->
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
+        <!--<item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>-->
+        <!-- 状态栏颜色 -->
+        <item name="colorPrimaryDark">@color/base_black_95</item>
+        <!-- 窗口的背景颜色 -->
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/CustomTitleTextAppearance</item>
+    </style>
+
+    <style name="CustomTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textColor">@color/base_title_gold</item>
+        <item name="android:textSize">@dimen/base_18</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+        <item name="colorControlNormal">@color/base_title_gold</item>
+        <item name="colorControlActivated">@color/base_title_gold</item>
+        <item name="colorControlHighlight">@color/base_title_gold</item>
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+        <item name="android:windowAnimationStyle">@style/Animation.Activity.Translucent.Style</item>
+    </style>
+
+    <!--<style name="Animation.Activity.Translucent.Style" mce_bogus="1" parent="@android:style/Animation.Translucent">-->
+    <!--<item name="android:windowEnterAnimation">@anim/right_in</item>-->
+    <!--<item name="android:windowExitAnimation">@anim/left_out</item>-->
+
+    <style name="Animation.Activity.Translucent.Style" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <!--当从 A1 启动 A2 时，A2 出现在屏幕上，这个动画叫做 android:activityOpenEnterAnimation-->
+        <item name="android:activityOpenEnterAnimation">@anim/right_in</item>
+        <!--当从 A2 退出回到 A1 时，A2 从屏幕上消失，这个叫做 android:activityCloseExitAnimation-->
+        <item name="android:activityCloseExitAnimation">@anim/left_out</item>
+    </style>
+
+
+    <style name="ToolBarPopupStyle" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">@color/base_title_popup_gold</item>
+    </style>
+
+    <!-- 横线 -->
+    <style name="view_line_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/base_horizontal_line</item>
+    </style>
+
+    <!--设置界面item的style-->
+    <style name="style_common_setting_item_layout">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@color/listview_item_bg</item>
+    </style>
+
+    <!--设置界面item左边label-->
+    <style name="style_common_setting_item_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textColor">@color/base_black_95</item>
+        <item name="android:textSize">@dimen/head_16</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginRight">@dimen/base_8</item>
+    </style>
+
+    <!--设置界面item右边label-->
+    <style name="style_common_setting_item_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/base_16</item>
+        <item name="android:textColor">@color/base_black_65</item>
+        <item name="android:textSize">@dimen/body1_14</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <!--设置界面item右边箭头-->
+    <style name="style_common_setting_arrow">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/bg_img_arrow</item>
+    </style>
+</resources>

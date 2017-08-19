@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <!--Task 2632, create by ycm for share and forward function-->
+        <!--调整头像的位置居中-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/avatar"
+            android:layout_width="@dimen/list_item_avatar_size"
+            android:layout_height="@dimen/list_item_avatar_size"
+            android:layout_marginLeft="@dimen/list_item_avatar_magin_lr"
+            android:layout_marginRight="@dimen/list_item_avatar_magin_lr"
+            android:layout_centerVertical="true"
+            android:src="@drawable/group_avatar_40" />
+
+        <CheckBox
+            android:id="@+id/contact_item_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/base_20"
+            android:paddingLeft="@dimen/base_40"
+            android:paddingTop="@dimen/base_40"
+            android:paddingBottom="@dimen/base_40"
+            android:paddingRight="@dimen/base_16"
+            android:button="@null"
+            android:drawableLeft="@drawable/bg_checkbox_base_selector"
+            android:checked="false" />
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/list_item_height"
+            android:layout_centerVertical="true"
+            android:textColor="@color/base_black_95"
+            android:layout_toLeftOf="@id/contact_item_checkbox"
+            android:layout_toRightOf="@id/avatar"
+            android:text=""
+            android:textSize="@dimen/list_item_name_size"
+	        android:gravity="center_vertical"
+            android:singleLine="true"/>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_background">#EEEEEE</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">@color/blade_black_95</color>
+    <color name="colorAccent">#CCB481</color>
+
+    <color name="divider_gold_color">#f7e8c9</color>
+    <color name="divider_grey_color">#cccccc</color>
+    <color name="input_gold_collor">#e9e3d7</color>
+    <color name="activity_background_color">#eeeeee</color>
+    <color name="underline_text_gold_color">#c83c1e</color>
+    <color name="green_background">#bbdbb5</color>
+    <color name="green_text">#6c9a67</color>
+
+    <color name="transparent">#00000000</color>
+    <!-- 半透明activity使用背景色-->
+    <color name="transparent_background">#50000000</color>
+
+    <color name="launcher_text_color">#ffdf9c</color>
+
+    <!-- 标题金-->
+    <color name="base_title_gold">#CCB481</color>
+    <!-- 按钮金-->
+    <color name="base_bottom_gold">#AE9153</color>
+    <!-- ToolBar 弹出菜单背景色-->
+    <color name="base_title_popup_gold">#E5D9C1</color>
+
+    <!--button不可点击的状态下-->
+    <color name="btn_false_text_color">#929292</color>
+    <color name="tab_text_normal_color">#817C77</color>
+    <color name="tab_text_normal_select">#AE9153</color>
+
+    <!--登录页面登录按钮不可点击的状态下文字色值-->
+    <color name="btn_login_text_color_disable">#4d000000</color>
+
+
+    <color name="listview_bg_nogroup">#EEEEEE</color>
+
+    <!--group chat settings resource cxp add 2015-7-27-->
+    <color name="activity_group_chat_settings_bg_color">#eeeeee</color>
+    <color name="group_chat_settings_item_bg_color">#ffffff</color>
+
+
+
+    <color name="grsture_pint_line_normal">#d2ba89</color>
+    <color name="grsture_pint_line_wrong">#f86545</color>
+
+    <color name="scrim">#A6000000</color>
+</resources>

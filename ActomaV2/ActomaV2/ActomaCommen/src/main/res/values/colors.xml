@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    //基础色值
+    <!-- 标题金-->
+    <color name="base_title_gold">#CCB481</color>
+    <!-- 按钮金-->
+    <color name="base_bottom_gold">#AE9153</color>
+    <!-- ToolBar 弹出菜单背景色-->
+    <color name="base_title_popup_gold">#E5D9C1</color>
+
+    <color name="base_black_95">#F3000000</color>
+    <color name="base_black_65">#A6000000</color>
+    <color name="base_black_50">#80000000</color>
+    <color name="base_black_30">#4D000000</color>
+    <color name="base_white_100">#FFFFFFFF</color>
+    <color name="base_white_95">#F3FFFFFF</color>
+
+    <color name="base_gray_ed">#ededed</color>
+    <color name="base_gray_ee">#eeeeee</color>
+    <color name="base_gray_f7">#f7f7f7</color>
+    <color name="base_gray_f4">#f4f4f4</color>
+    <color name="base_red">#ED2201</color>
+
+
+    <!--横线颜色-->
+    <color name="base_horizontal_line">#CCCCCC</color>
+
+    <color name="listview_bg_withgroup">#FFFFFF</color>
+    <color name="listview_item_bg">#FFFFFF</color>
+    <!--列表标题栏颜色-->
+    <color name="listview_group_bg">#EEEEEE</color>
+
+    <!--toast背景色-->
+    <color name="toast_bg">#BF000000</color>
+    <!--默认提示文字-->
+    <!--button不可点击的状态下-->
+    <!--立即登陆不可点击的状态下色值-->
+
+
+    <!-- 进度条 -->
+    <color name="progressbar_bg">#ffebe2d4</color>
+    <color name="progressbar_font_bg">#ffcbb381</color>
+
+    <!--第三方加密title黑-->
+    <color name="encrypt_title_black">#FF333333</color>
+</resources>

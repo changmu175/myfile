@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/history_file_content_height"
+    android:background="@color/history_file_item_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:id="@+id/history_file_content_layout">
+
+    <!-- file image -->
+    <ImageView
+        android:id="@+id/img_file_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/history_file_icon_margin"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_picture"
+        android:contentDescription="@null"/>
+
+    <!-- unused -->
+    <ImageView
+        android:id="@+id/img_file_flag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/icon_picture"
+        android:visibility="gone"
+        android:contentDescription="@null"/>
+
+
+    <!-- file extra info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/history_file_text_margin"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_file_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:maxWidth="@dimen/history_file_title_maxlength"
+            android:textSize="@dimen/history_file_title_size"
+            android:textColor="@color/history_file_toolbar_select_color" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base_3"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_file_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="@dimen/history_file_text_size"
+                android:textColor="@color/history_file_text_color" />
+
+            <TextView
+                android:id="@+id/tv_file_out_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="@dimen/history_file_text_size"
+                android:layout_marginLeft="@dimen/history_file_text_date_margin"
+                android:textColor="@color/history_file_text_color" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_14"
+            android:layout_marginTop="@dimen/history_file_text_margin">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/layout_history_date_from">
+                <TextView
+                    android:id="@+id/tv_file_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="@dimen/history_file_text_size"
+                    android:textColor="@color/history_file_text_color" />
+
+                <TextView
+                    android:id="@+id/tv_file_from"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/history_file_text_date_margin"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textSize="@dimen/history_file_text_size"
+                    android:textColor="@color/history_file_text_color" />
+            </LinearLayout>
+
+            <ProgressBar
+                android:id="@+id/pb_file_download"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:progressDrawable="@drawable/send_filebar_bg"
+                android:layout_gravity="start"
+                android:layout_width="@dimen/history_file_progress_maxlength"
+                android:layout_height="@dimen/history_file_progress_height"
+                android:max="100"
+                android:progress="0"/>
+        </FrameLayout>
+    </LinearLayout>
+
+    <!-- file select -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/history_file_icon_margin"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/history_file_op"
+            android:layout_width="@dimen/history_file_download_btn_height"
+            android:layout_height="@dimen/history_file_download_btn_height"
+            android:textSize="@dimen/history_file_title_size"
+            android:textAllCaps="false"
+            android:textColor="@color/history_file_toolbar_select_color"
+            android:background="@drawable/history_download"
+            android:gravity="center"
+            android:paddingLeft="@dimen/base_8"
+            android:paddingRight="@dimen/base_8"
+            android:clickable="true"
+            android:layout_gravity="center"/>
+
+        <CheckBox
+            android:id="@+id/history_file_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:layout_marginLeft="@dimen/base_2"
+            android:layout_marginTop="@dimen/base_2"
+            android:drawableLeft="@drawable/bg_checkbox_base_selector"
+            android:checked="false" />
+    </FrameLayout>
+</LinearLayout>

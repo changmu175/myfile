@@ -1,0 +1,306 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ImpPresenter</string>
+    <string name="action_emoj">表情</string>
+    <string name="action_picture">图片</string>
+    <string name="action_photo">拍照</string>
+    <string name="action_video">短视频</string>
+    <string name="action_file">文件</string>
+
+
+    <string name="anTongStr">"安通+"</string>
+    <string name="antongname">"at_bg"</string>
+    <string name="antong_team_name">安通+团队</string>
+    <string name="antong_title">antong_title</string>
+    <string name="antong_text_content">$安通+是什么?</string>
+
+    <!--长按弹出框-->
+    <string name="talk_dalog_del_Content">删除该聊天</string>
+    <string name="talk_dalog_top_Content">置顶聊天</string>
+    <string name="talk_dalog_cancel_top_Content">取消置顶</string>
+    <string name="input_length_warnning">输入内容超长，请分条发送…</string>
+
+    <string name="recording_control_str_recorder_normal">按住说话</string>
+    <string name="recording_control_str_recorder_recording">松开结束</string>
+    <string name="recording_control_str_recorder_voice_too_short">录音时间过短</string>
+    <string name="recording_control_str_get_audioDevice_err">获取录音设备失败</string>
+    <string name="recording_control_str_get_audioPermission_err">获取录音权限失败</string>
+    <string name="recording_control_str_recorder_want_cancel">松开手指 取消发送</string>
+    <string name="recording_control_str_recorder_slide_up_cancel">手指上滑 取消发送</string>
+
+    <string name="check_network_setting">请检查网络设置</string>
+
+    <!-- 聊天界面 -->
+    <string name="send">发送</string>
+    <string name="send_indicator">发送(%1$d)</string>
+    <string name="send_success">已发送</string>
+    <string name="sending">发送中</string>
+    <string name="btn_warning_txt1">按住说话</string>
+    <string name="picture_select">选择图片</string>
+    <string name="picture_preview">预览图片</string>
+    <string name="preview">预览</string>
+    <string name="view_original_image">查看原图</string>
+    <string name="original_image">原图</string>
+    <string name="original_image2">原图(%s)</string>
+    <string name="select_pic_hint">你最多可选%d张图片</string>
+    <string name="picture_select_indicator2">%1$d/%2$d</string>
+    <string name="picture_send_indicator">发送(%1$d/%2$d)</string>
+    <string name="send_image_failed">图片发送失败，请重试</string>
+    <string name="empty_pic_detail_text">拍点照片和朋友们分享吧</string>
+    <string name="empty_pic_text">无图片视频</string>
+    <string name="all_pictures">图片视频</string>
+    <string name="save_picture">保存图片到手机</string>
+    <string name="del_picture">删除图片</string>
+    <string name="save_picture_failed">图片保存失败</string>>
+    <string name="momery_not_enough">存储空间不足，保存失败</string>>
+    <string name="save_picture_success">图片保存成功</string>>
+    <string name="save_picture_to_path">图片已保存至%s文件夹</string>>
+
+    <string name="pic_inexist_text">图片不存在</string>>
+
+    <string name="delete_chat_list">删除会话</string>
+
+    <string name="all_callback_destroy">所有回调句柄注销</string>
+    <string name="sdk_release">SDK释放</string>
+    <string name="work_callback_init">业务回调初始化</string>
+    <string name="init_im_sdk">初始化IMSDK</string>
+
+    <string name="send_content_not_null">发送内容不能为空</string>
+    <string name="not_group_member">不是群组成员</string>
+    <string name="not_friend">不是好友</string>
+    <string name="boom_message">[闪信]</string>
+    <string name="voice_message">[语音]</string>
+    <string name="video_message">[视频]</string>
+    <string name="photo_message">[图片]</string>
+    <string name="file_message">[文件]</string>
+    <string name="web_message">[链接]</string>
+    <string name="year_month_day">y年M月d日</string>
+    <string name="month_day">M月d日</string>
+    <string name="draft">[草稿]</string>
+    <string name="default_type">默认类型</string>
+    <string name="playing">正在播放</string>
+    <string name="pause_play">暂停播放</string>
+    <string name="stop_play">停止播放</string>
+    <string name="play_complete">播放完成</string>
+    <string name="also_have">还有</string>
+    <string name="second">秒</string>
+    <string name="sender_name">小明</string>
+    <string name="no_photo">无图片</string>
+    <string name="copy">复制</string>
+    <string name="chat_resend">重发</string>
+    <string name="delete">删除</string>
+    <string name="re_receive">重新接收</string>
+    <string name="use_earphone_model">使用听筒模式</string>
+    <string name="use_speaker_model">使用扬声器模式</string>
+    <string name="pause">暂停</string>
+    <string name="continue_send">继续发送</string>
+    <string name="continue_receiver">继续接收</string>
+    <string name="dial_call">拨打电话</string>
+
+
+
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+
+
+    <string name="textMessageIsDestoryed">文本已销毁</string>
+    <string name="voiceMessageIsDestoryed">语音已销毁</string>
+    <string name="encrypt_call">加密电话</string>
+    <string name="chat_message">聊天信息</string>
+    <string name="group_chat_message">群聊信息</string>
+
+
+    <!-- chat file list select -->
+    <string name="file_select">选择文件</string>
+    <string name="last_file_list">最近文件</string>
+    <string name="local_file_list">本地文件</string>
+    <string name="image">图片</string>
+    <string name="video">影音</string>
+    <string name="document">文档</string>
+    <string name="application">应用</string>
+    <string name="other">其他</string>
+    <string name="within_a_week">一周内</string>
+    <string name="within_a_month">一个月内</string>
+    <string name="a_month_ago">一个月前</string>
+    <string name="file_select_size">已选%s</string>
+    <string name="no_file">该分类没有文件</string>
+    <string name="file_is_too_larger">文件过大(仅支持发送小于30M的文件)</string>
+    <string name="select_file_hint">你最多可选%d个文件</string>
+    <string name="file_not_support">%s&#160;版本过低，不支持文件功能</string>
+
+    <!--  single chat settings values -->
+    <string name="single_chat_settings_top_chat_text">置顶聊天</string>
+    <string name="single_chat_settings_messages_no_disturb_text">消息免打扰</string>
+    <string name="single_chat_settings_clean_all_chat_messages_text">清空聊天记录</string>
+    <string name="chat_settings_clean_all_chat_messages_text_success">清空聊天记录成功</string>
+    <string name="common_clean_all_chat_messages_progress_text">正在清除聊天记录…</string>
+    <string name="confirm_clean_all_chat_messages">确定删除聊天记录吗?</string>
+    <string name="confirm_clean_this_chat_messages">确定要删除此条记录吗?</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确定</string>
+    <string name="delete_all_chat_message">删除所有聊天记录</string>
+    <string name="delete_all_chat_message_success">删除聊天记录成功!</string>
+    <string name="delete_all_chat_message_fail">删除聊天记录失败!</string>
+
+    <!--single chat settings values  end-->
+
+    <!--group chat settings values -->
+    <string name="group_chat_settings_top_chat_text">置顶聊天</string>
+    <string name="group_chat_settings_clean_all_chat_messages_text">清空聊天记录</string>
+    <string name="group_chat_settings_messages_no_disturb_text">消息免打扰</string>
+    <string name="group_chat_settings_show_group_nickname_text">显示群成员昵称</string>
+    <string name="group_chat_settings_dissolve_group_btn_text">退出并解散群组</string>
+    <string name="group_chat_settings_exit_group_btn_text">退出群组</string>
+    <!--group chat settings values end-->
+
+    <!--chat image browser string values end -->
+    <string name="exiting_group">正在解散群组…</string>
+    <string name="quit_group">正在退出群组…</string>
+    <string name="clearFail">清除失败</string>
+    <string name="exitGroupFail">退出群组失败</string>
+    <string name="exitGroupFail2">解散群组失败</string>
+    <string name="exitGroupSuccess">退出群组成功</string>
+    <string name="exitGroupSuccess2">解散群组成功</string>
+    <!--chat image browser string values end -->
+
+    <string name="network_unable">网络异常，请检查网络设置</string>
+    <string name="network_disabled">当前网络不可用,请检查网络设置</string>
+    <string name="network_no_server">无法连接服务器，请检查网络设置</string>
+
+    <!--群组变更消息显示的节点名称-->
+    <string name="groupUpdate_show_self">你</string>
+    <string name="groupUpdate_and">和</string>
+    <string name="groupUpdate_add">&#160;加入了群组</string>
+    <string name="groupUpdate_invite">邀请&#160;</string>
+    <string name="groupUpdate_updateName">修改群组名称为</string>
+    <string name="groupUpdate_initiative_delete">已将&#160;</string>
+    <string name="groupUpdate_passivity_delete">已被</string>
+    <string name="groupUpdate_move">&#160;移出群组</string>
+    <string name="groupUpdate_dissolve">已经解散群组</string>
+    <string name="groupUpdate_separate">、</string>
+    <string name="groupUpdate_doubleQuote_before">“</string>
+    <string name="groupUpdate_doubleQuote_end">”</string>
+    <string name="groupUpdate_groupMember_quit">已经退出群组</string>
+
+
+    <string name="del_confirm_content">确定删除聊天记录吗？</string>
+    <string name="exit_and_disband_group_confirm_content">退出并解散群组？</string>
+    <string name="exit_group_confirm_content">退出群组？</string>
+    <string name="exit_group_content_message">退出群组，将不再接受此群聊消息。</string>
+    <string name="exit_and_disband_group_content_message">解散群组，所有成员将无法收发聊天消息。</string>
+    <string name="network_load_refresh_str">轻触屏幕重新加载</string>
+
+
+    <string name="activity_group_chat_settings_presenter">群聊信息</string>
+    <string name="activity_notification_operation_presenter">安通+团队</string>
+
+    <string name="setting_news_remind">新消息提醒</string>
+    <string name="news_remind">接收新消息通知</string>
+    <string name="news_remind_shake">振动</string>
+    <string name="news_remind_ring">声音</string>
+    <string name="news_remind_msg">此选项依赖于手机系统设置，请先确认设置</string>
+
+    <string name="notify_prestr">给你发了</string>
+    <string name="notify_endstr">条消息</string>
+
+    <string name="group_name_default" >群聊</string>
+    <string name="setting">设置</string>
+
+    <string name="Phone_is_inCall">语音通话中，无法使用此功能</string>
+    <string name="receive_file_faile">文件下载失败，请重试</string>
+    <string name="file_no_exists">音频文件不存在，无法播放</string>
+    <string name="net_no_exists">网络未连接，无法播放语音</string>
+    <string name="tips_receiver">当前为听筒播放模式</string>
+    <string name="tips_loudspeaker">已由听筒切换为扬声器模式</string>
+    <!--麦克风权限提示-->
+    <string name="none_audio_permission">麦克风被禁用</string>
+    <string name="none_audio_permission_hint">请在手机权限管理中允许安通+访问你的麦克风</string>
+    <!--照相机权限提示-->
+    <!--sd卡权限提示-->
+    <string name="none_camera_permission">照相机被禁用</string>
+    <string name="none_camera_permission_hint">请在手机权限管理中允许安通+访问你的照相机</string>
+
+
+    <!-- Task 2632, modify for share and forward function by ycm at 20161101. [Begin] -->
+    <string name="select_session">选择</string>
+    <string name="share_to">分享给</string>
+    <string name="multi_share_to">分别分享给</string>
+    <string name="forward_to">转发给</string>
+    <string name="multi_forward_to">分别转发给</string>
+    <string name="create_new_session">创建新聊天</string>
+    <string name="more_contact">更多联系人</string>
+    <string name="recent_session">最近聊天</string>
+    <string name="send_to">发送给</string>
+    <string name="nick">昵称</string>
+    <string name="leave_message">留言</string>
+    <string name="share_succeed">分享成功！</string>
+    <string name="friend_and_member">好友、通讯录联系人</string>
+    <string name="group">群组</string>
+    <string name="account">帐号:</string>
+    <string name="phone">手机号:</string>
+    <string name="share_forward_send">确定</string>
+    <string name="share_forward_cancel">取消</string>
+    <string name="add_contact_error">添加联系人出错</string>
+    <string name="forward">转发</string>
+    <string name="open_file">打开</string>
+    <string name="call_out">呼叫</string>
+    <string name="add_to_contact">添加到手机通讯录</string>
+    <string name="create_new_contact">创建新的联系人</string>
+    <string name="add_to_exist_contact">添加到现有联系人</string>
+    <string name="get_image_error">获取图片错误</string>
+    <string name="stay">留在安通</string>
+    <string name="go_back">返回应用</string>
+    <string name="file_is_deleted">文件已被删除</string>
+    <string name="not_support_type">不支持的分享格式</string>
+    <string name="get_source_error">获取资源出错</string>
+    <string name="content_null_error">分享内容为空 </string>
+    <string name="share_limit">最多发送9张图片</string>
+    <string name="share_file_limit">最多发送9个文件</string>
+    <string name="forward_succeed">已成功转发</string>
+    <string name="file_name">[文件] %s</string>
+    <string name="web_name">[链接] %s</string>
+    <string name="open_with_other_app">其他应用打开</string>
+    <string name="resume_download">继续下载</string>
+    <string name="pause_download">暂停下载</string>
+    <string name="actoma_cannot_open">安通+暂时不能打开该文件,你可以使用其他应用打开</string>
+    <string name="chat_file_history_list">聊天文件</string>
+    <string name="chat_file_history_list_download">下载</string>
+    <string name="chat_file_history_list_resend">转发</string>
+    <string name="chat_file_history_list_remove">删除</string>
+    <string name="file_select_btn">选择</string>
+    <string name="single_setting_history_file">聊天文件</string>
+    <string name="chat_file_hisotry_select_cancel">取消</string>
+    <string name="file_show_time">yyy-MM-dd</string>
+    <string name="hisroty_file_delete">删除中，请稍后…</string>
+    <string name="history_file_empty">无历史文件</string>
+    <string name="history_file_select_hint">已选文件(%1$s)</string>
+
+    <string name="history_file_delete_hint">提示</string>
+    <string name="history_file_delete_message">确认并删除所选文件</string>
+    <string name="history_file_delete_confirm">确定</string>
+    <string name="history_file_come_from">来自%s</string>
+    <string name="history_file_come_to">发给%s</string>
+    <string name="history_file_outdate">%s过期</string>
+    <string name="history_select_all_overdue">文件已过期，不支持下载</string>
+    <string name="history_transmit_all_noexist">请将文件下载后，再转发</string>
+    <string name="history_send_file_not_exist">文件不存在，打开失败</string>
+    <string name="history_file_none_tool">未匹配到工具无法打开</string>
+    <string name="history_select_file_none">请选择文件后在操作</string>
+    <string name="history_file_downloaded">存在已经下载的文件</string>
+    <string name="download_file_title">文件下载</string>
+    <string name="download_file_net_type">当前使用的是数据网络，继续升级将消耗2G/3G/4G流量，是否要继续？</string>
+    <string name="download_file_btn_continue">确定</string>
+    <string name="download_file_btn_cancel">取消</string>
+    <string name="sender_name_separate" tools:ignore="MissingTranslation">： </string>
+    <string name="video_record_close">取消</string>
+    <string name="video_record_unit">秒</string>
+    <string name="save_video">保存视频到手机</string>
+    <string name="del_video">删除视频</string>
+    <string name="save_video_failed">视频保存失败</string>>
+    <string name="save_video_to_path">视频已保存至%s文件夹</string>>
+    <string name="video_play_starttime">00:00</string>>
+    <string name="video_record_timeshort">录制时间过短，请重新录制</string>
+    <string name="im_file_encrpto">文件加密中…</string>
+    <string name="history_file_category_week">七天之内</string>
+    <string name="history_file_year_month">y年M月</string>
+</resources>
+

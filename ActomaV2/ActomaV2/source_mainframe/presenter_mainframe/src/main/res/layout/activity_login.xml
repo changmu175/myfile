@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_login"
+    tools:ignore="Overdraw"
+    android:id="@+id/login_root">
+
+    <ImageView
+        android:id="@+id/iv_login_cloud"
+        android:layout_width="1137dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:layout_marginTop="120dp"
+        android:background="@mipmap/login_cloud"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="@dimen/login_vertical_margin"
+        tools:context=".presenter.activity.login.LoginPresenter">
+
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/iv_login_face"
+            android:layout_width="@dimen/biggest_img_96"
+            android:layout_height="@dimen/biggest_img_96"
+            android:src="@mipmap/circle_head_deafult_56"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:focusable="false"
+            android:layout_height="@dimen/login_input_height"
+            android:layout_marginTop="@dimen/base_20">
+
+            <View
+                android:id="@+id/icon1"
+                android:focusable="false"
+                android:layout_width="@dimen/small_icon_24"
+                android:layout_height="@dimen/small_icon_24"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/base_10"
+                android:background="@mipmap/ic_user"/>
+
+            <Button
+                android:id="@+id/btn_account_clear"
+                android:layout_width="@dimen/base_24"
+                android:layout_height="@dimen/base_24"
+                android:layout_alignParentEnd="true"
+                android:focusable="false"
+                android:layout_marginEnd="@dimen/base_18"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_searchbar_clear"/>
+            <View
+                android:layout_width="match_parent"
+                android:focusable="false"
+                android:layout_height="1px"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/divider_gold_color"/>
+            <EditText
+                android:id="@+id/iiv_login_account"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:inputType="text"
+                android:labelFor="@id/iiv_login_account"
+                android:layout_toStartOf="@id/btn_account_clear"
+                android:layout_toEndOf="@id/icon1"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/input_gold_collor"
+                android:textSize="@dimen/bigger_text_size_16"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:focusable="false"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/login_input_height">
+            <View
+                android:id="@+id/icon2"
+                android:focusable="false"
+                android:layout_width="@dimen/small_icon_24"
+                android:layout_height="@dimen/small_icon_24"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/base_10"
+                android:background="@mipmap/ic_password"/>
+
+            <CheckBox
+                android:id="@+id/assist_view"
+                android:layout_width="@dimen/base_24"
+                android:layout_height="@dimen/base_24"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/base_18"
+                android:background="@drawable/sel_login_form_ic_eye"
+                android:button="@null"
+                android:checked="false"/>
+            <Button
+                android:id="@+id/btn_pwd_clear"
+                android:focusable="false"
+                android:visibility="gone"
+                android:layout_marginEnd="@dimen/base_18"
+                android:layout_width="@dimen/base_24"
+                android:layout_height="@dimen/base_24"
+                android:layout_toStartOf="@id/assist_view"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_searchbar_clear"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:focusable="false"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/divider_gold_color"/>
+
+            <EditText
+                android:id="@+id/iiv_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:labelFor="@id/iiv_login_password"
+                android:background="@null"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@id/btn_pwd_clear"
+                android:layout_toEndOf="@id/icon2"
+                android:gravity="center_vertical"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingStart="10dp"
+                android:textColor="@color/input_gold_collor"
+                android:textSize="@dimen/bigger_text_size_16"
+                tools:ignore="RtlSymmetry" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/base_48"
+            android:layout_marginTop="@dimen/base_24"
+            android:background="@drawable/sel_bg_gold_round"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/login"
+            android:textColor="@color/btn_login_text_selector"
+            android:textSize="@dimen/login_login_text_size_20" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/base_8">
+
+            <TextView
+                android:id="@+id/pctv_login_message_login"
+                android:layout_width="wrap_content"
+                android:textColor="@color/blade_white_95"
+                android:layout_height="wrap_content"
+                android:textColorLink="@color/blade_white_95"
+                android:textSize="@dimen/normal_text_size_14"
+                android:clickable="true"
+                android:text="@string/login_message_verify_login"/>
+
+            <TextView
+                android:id="@+id/pctv_login_forget_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/blade_white_95"
+                android:layout_gravity="end"
+                android:textColorLink="@color/blade_white_95"
+                android:textSize="@dimen/normal_text_size_14"
+                android:clickable="true"
+                android:text="@string/more"/>
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</FrameLayout>
+

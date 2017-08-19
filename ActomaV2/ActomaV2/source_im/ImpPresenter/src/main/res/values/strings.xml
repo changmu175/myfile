@@ -1,0 +1,306 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">ImpPresenter</string>
+    <string name="action_emoj">Expression</string>
+    <string name="action_picture">Picture</string>
+    <string name="action_photo">Take a Picture</string>
+    <string name="action_video">Video</string>
+    <string name="action_file">File</string>
+
+
+    <string name="anTongStr">"Actoma+"</string>
+    <string name="antongname">"at_bg"</string>
+    <string name="antong_team_name">Actoma+ Team</string>
+    <string name="antong_title">antong_title</string>
+    <string name="antong_text_content">$What is Actoma+?</string>
+
+    <!--长按弹出框-->
+    <string name="talk_dalog_del_Content">Delete conversation</string>
+    <string name="talk_dalog_top_Content">Sticky on top</string>
+    <string name="talk_dalog_cancel_top_Content">Remove from Top</string>
+    <string name="input_length_warnning">Input is long, please send the sub-section …</string>
+
+    <string name="recording_control_str_recorder_normal">Press and Hold to Speak</string>
+    <string name="recording_control_str_recorder_recording">Release to the end</string>
+    <string name="recording_control_str_recorder_voice_too_short">The recording time too short</string>
+    <string name="recording_control_str_get_audioDevice_err">Get recording device failed</string>
+    <string name="recording_control_str_get_audioPermission_err">Get recording permission failed</string>
+    <string name="recording_control_str_recorder_want_cancel">Release to cancel</string>
+    <string name="recording_control_str_recorder_slide_up_cancel">Slide up to cancel</string>
+
+    <string name="check_network_setting">Please check the network settings</string>
+
+    <!-- 聊天界面 -->
+    <string name="send">Send</string>
+    <string name="send_indicator">Send(%1$d)</string>
+    <string name="send_success">Sent</string>
+    <string name="sending">Sending</string>
+    <string name="btn_warning_txt1">Hold to Talk</string>
+    <string name="picture_select">Select Picture</string>
+    <string name="picture_preview">Preview Picture</string>
+    <string name="preview">Preview</string>
+    <string name="view_original_image">Original</string>
+    <string name="original_image">Original</string>
+    <string name="original_image2">Original image(%s)</string>
+    <string name="select_pic_hint" tools:ignore="PluralsCandidate">You can only select %d pictures at most</string>
+    <string name="picture_select_indicator2">%1$d/%2$d</string>
+    <string name="picture_send_indicator">Send(%1$d/%2$d)</string>
+    <string name="send_image_failed">Picture sent failed, please try again</string>
+    <string name="empty_pic_detail_text">Take some photos to share with friends</string>
+    <string name="empty_pic_text">No Media</string>
+    <string name="all_pictures">Media</string>
+    <string name="save_picture">Save to Phone</string>
+    <string name="del_picture">Delete</string>
+    <string name="save_picture_failed">Pictures save failed</string>>
+    <string name="momery_not_enough">Storage space is insufficient, save failed</string>>
+    <string name="save_picture_success">Pictures saved</string>>
+    <string name="save_picture_to_path">The picture has been saved to a %s folder</string>>
+    <string name="pic_inexist_text">Picture not found</string>>
+
+    <string name="delete_chat_list">Delete the session</string>
+
+    <string name="all_callback_destroy">All callback handles are unregistered</string>
+    <string name="sdk_release">SDK release</string>
+    <string name="work_callback_init">Business callback initialization</string>
+    <string name="init_im_sdk">Initialize the IMSDK</string>
+
+    <string name="send_content_not_null">Send content cannot be empty</string>
+    <string name="not_group_member">Not a group member</string>
+    <string name="not_friend">Non-friends</string>
+    <string name="boom_message">[Boom]</string>
+    <string name="voice_message">[Voice]</string>
+    <string name="video_message">[Video]</string>
+    <string name="photo_message">[Photo]</string>
+    <string name="file_message">[File]</string>
+    <string name="web_message">[Link]</string>
+    <string name="year_month_day">M/d/y</string>
+    <string name="month_day">M/d</string>
+    <string name="draft">[Draft]</string>
+    <string name="default_type">Default type</string>
+    <string name="playing">Playing</string>
+    <string name="pause_play">Pause playback</string>
+    <string name="stop_play">Stop playing</string>
+    <string name="play_complete">Playback is complete</string>
+    <string name="also_have">Also have&#160;</string>
+    <string name="second">&#160;seconds</string>
+    <string name="sender_name">Xiao Ming</string>
+    <string name="no_photo">No Pictures</string>
+    <string name="copy">Copy</string>
+    <string name="chat_resend">Resend</string>
+    <string name="delete">Delete</string>
+    <string name="re_receive">Re reception</string>
+    <string name="use_earphone_model">Use the receiver mode</string>
+    <string name="use_speaker_model">Use the speaker mode</string>
+    <string name="pause">Pause</string>
+    <string name="continue_send">Continue to send</string>
+    <string name="continue_receiver">Continue to receive</string>
+    <string name="dial_call">Dial</string>
+
+
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <string name="textMessageIsDestoryed">The text has been destroyed</string>
+    <string name="voiceMessageIsDestoryed">Voice has been destroyed</string>
+    <string name="encrypt_call">Encrypted call</string>
+    <string name="chat_message">Chat message</string>
+    <string name="group_chat_message">Group chat information</string>
+
+    <!-- chat file list select -->
+    <string name="file_select">Select the file</string>
+    <string name="last_file_list">Recent File</string>
+    <string name="local_file_list">Local File</string>
+    <string name="image">Photos</string>
+    <string name="video">AV</string>
+    <string name="document">Docs</string>
+    <string name="application">Apps</string>
+    <string name="other">Others</string>
+    <string name="within_a_week">Within a week</string>
+    <string name="within_a_month">Within a month</string>
+    <string name="a_month_ago">A month ago</string>
+    <string name="file_select_size">Selected files:%s</string>
+    <string name="no_file">There is no file in this classification</string>
+    <string name="file_is_too_larger">you can only send file less than 30M</string>
+    <string name="select_file_hint" tools:ignore="PluralsCandidate">You can only select %d files at most</string>
+    <string name="file_not_support">%s \'s version too low, not support the file function.</string>
+
+    <!--  single chat settings values -->
+    <string name="single_chat_settings_top_chat_text">Sticky on Top</string>
+    <string name="single_chat_settings_messages_no_disturb_text">Mute Notifications</string>
+    <string name="single_chat_settings_clean_all_chat_messages_text">Clear Chat History</string>
+    <string name="chat_settings_clean_all_chat_messages_text_success">The chat history cleared</string>
+    <string name="common_clean_all_chat_messages_progress_text">Clearing the chat history…</string>
+    <string name="confirm_clean_all_chat_messages">Are you sure you to delete chat history?</string>
+    <string name="confirm_clean_this_chat_messages">Are you sure you to delete this message?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">OK</string>
+    <string name="delete_all_chat_message">Delete All chat history</string>
+    <string name="delete_all_chat_message_success">The chat history deleted!</string>
+    <string name="delete_all_chat_message_fail">Chat history delete failed!</string>
+
+    <!--single chat settings values  end-->
+
+    <!--group chat settings values -->
+    <string name="group_chat_settings_top_chat_text">Sticky on Top</string>
+    <string name="group_chat_settings_clean_all_chat_messages_text">Clear Chat History</string>
+    <string name="group_chat_settings_messages_no_disturb_text">Mute Notifications</string>
+    <string name="group_chat_settings_show_group_nickname_text">Displays the group member nickname</string>
+    <string name="group_chat_settings_dissolve_group_btn_text">Exit and Dissolve Group</string>
+    <string name="group_chat_settings_exit_group_btn_text">Exit the Group</string>
+    <!--group chat settings values end-->
+
+    <!--chat image browser string values end -->
+    <string name="exiting_group">Dissolving group …</string>
+    <string name="quit_group">Exiting group …</string>
+    <string name="clearFail">Clear the failed</string>
+    <string name="exitGroupFail">Failed to exit group</string>
+    <string name="exitGroupFail2">Failed to dissolve group</string>
+    <string name="exitGroupSuccess">Exited  from the group</string>
+    <string name="exitGroupSuccess2">The group dismissed</string>
+    <!--chat image browser string values end -->
+
+    <string name="network_unable">Network anomaly, check network settings</string>
+    <string name="network_disabled">Network unavailable</string>
+    <string name="network_no_server">Unable to access the server</string>
+
+    <!--群组变更消息显示的节点名称-->
+    <string name="groupUpdate_show_self">You</string>
+    <string name="groupUpdate_and">&#160;and&#160;</string>
+    <string name="groupUpdate_add">&#160;joined the group</string>
+    <string name="groupUpdate_invite">&#160;invited&#160;</string>
+    <string name="groupUpdate_updateName">&#160;change the group name to&#160;</string>
+    <string name="groupUpdate_initiative_delete">&#160;remove&#160;</string>
+    <string name="groupUpdate_passivity_delete">&#160;has been&#160;</string>
+    <string name="groupUpdate_move">&#160;from the group</string>
+    <string name="groupUpdate_dissolve">&#160;already dissolved group</string>
+    <string name="groupUpdate_separate">、</string>
+    <string name="groupUpdate_doubleQuote_before">“</string>
+    <string name="groupUpdate_doubleQuote_end">”</string>
+    <string name="groupUpdate_groupMember_quit">&#160;has exited the group</string>
+
+
+
+    <string name="del_confirm_content">Are you sure you to delete the chat history?</string>
+    <string name="exit_and_disband_group_confirm_content">Exit and dismiss group?</string>
+    <string name="exit_group_confirm_content">Exit the group?</string>
+    <string name="exit_group_content_message">Exit the group and no longer accept this group chat message.</string>
+    <string name="exit_and_disband_group_content_message">Dissolve group and all members will not be able to send and receive chat messages.</string>
+    <string name="network_load_refresh_str">Touch the screen to reload</string>
+
+
+    <string name="activity_group_chat_settings_presenter">Group chat message</string>
+    <string name="activity_notification_operation_presenter">Actoma+ Team</string>
+
+    <string name="setting_news_remind">Notifications</string>
+    <string name="news_remind">New Message Alerts</string>
+    <string name="news_remind_shake">Vibrate</string>
+    <string name="news_remind_ring">Sound</string>
+    <string name="news_remind_msg">depends on the phone system settings</string>
+
+    <string name="notify_prestr">Has sent to you&#160;</string>
+    <string name="notify_endstr">&#160;message</string>
+
+    <string name="group_name_default" >Group chat</string>
+    <string name="setting">Settings</string>
+
+    <string name="Phone_is_inCall">You can not use this feature during a voice call</string>
+    <string name="receive_file_faile">File download failed,please try again</string>
+    <string name="file_no_exists">The audio file does not exist and can not be played</string>
+    <string name="net_no_exists">The network is not connected and the voice can not be played</string>
+    <string name="tips_receiver">The receiver for playback mode</string>
+    <string name="tips_loudspeaker">By switching to a handset speakerphone mode</string>
+    <!--麦克风权限提示-->
+    <string name="none_audio_permission">The microphone is disabled</string>
+    <string name="none_audio_permission_hint">Please allow Actoma+ to access your microphone in the phone rights management</string>
+    <!--照相机权限提示-->
+    <!--sd卡权限提示-->
+    <string name="none_camera_permission">The camera is disabled</string>
+    <string name="none_camera_permission_hint">Please allow Actoma+ to access your camera in the phone rights management</string>
+
+    <!-- Task 2632, modify for share and forward function by ycm at 20161101. [Begin] -->
+    <string name="select_session">Select</string>
+    <string name="share_to">Share to</string>
+    <string name="multi_share_to">Multiple Share to</string>
+    <string name="forward_to">Forward to</string>
+    <string name="multi_forward_to">Multiple Forward to</string>
+    <string name="create_new_session">New Chat</string>
+    <string name="more_contact">Multiple</string>
+    <string name="recent_session">Latest Chats</string>
+    <string name="send_to">Send to</string>
+    <string name="nick">nick</string>
+    <string name="leave_message">Leave a message</string>
+    <string name="share_succeed">Successfully Shared！</string>
+    <string name="friend_and_member">Friends and Contacts</string>
+    <string name="group">Group Chats</string>
+    <string name="account">Account:</string>
+    <string name="phone">Phone:</string>
+    <string name="share_forward_send">Send</string>
+    <string name="share_forward_cancel">Cancel</string>
+    <string name="add_contact_error">Add to contact Error</string>
+    <string name="forward">Forward</string>
+    <string name="call_out">Call</string>
+    <string name="open_file">Open</string>
+    <string name="add_to_contact">Add to mobile address book</string>
+    <string name="create_new_contact">Add as contact</string>
+    <string name="add_to_exist_contact">Add to existing contact</string>
+    <string name="get_image_error">Get image error</string>
+    <string name="file_is_deleted">The file has been deleted</string>
+    <string name="stay">Stay in Actoma</string>
+    <string name="go_back">Back to App</string>
+    <string name="not_support_type">Unsupported file format </string>
+    <string name="get_source_error">Get source error</string>
+    <string name="content_null_error">Content is null </string>
+    <string name="share_limit">Most send 9 images</string>
+    <string name="share_file_limit">Most send 9 files</string>
+    <string name="forward_succeed">Successfully forwarded</string>
+    <string name="file_name">[File] %s</string>
+    <string name="web_name">[Web] %s</string>
+    <!-- Task 2632, modify for share and forward function by ycm at 20161101. [End] -->
+
+    <!--add by zya-->
+    <string name="file_select_btn">Select</string>
+    <string name="chat_file_history_list">Files</string>
+    <string name="chat_file_history_list_download">Download</string>
+    <string name="chat_file_history_list_resend">Transmit</string>
+    <string name="chat_file_history_list_remove">Delete</string>
+    <string name="single_setting_history_file">History File</string>
+    <string name="chat_file_hisotry_select_cancel">Cancel</string>
+    <string name="file_show_time">yyy-MM-dd</string>
+    <string name="hisroty_file_delete">Deleting…</string>
+    <string name="history_file_empty">No History Files</string>
+    <string name="history_file_select_hint">Selected(%1$s)</string>
+
+    <string name="history_file_delete_hint">Prompt</string>
+    <string name="history_file_delete_message">Confirm and delete the selected file.</string>
+    <string name="history_file_delete_confirm">Confirm</string>
+    <string name="history_file_come_from">From %s</string>
+    <string name="history_file_come_to">To %s</string>
+    <string name="history_file_outdate">%s Overdue</string>
+    <string name="history_select_all_overdue">File is out of date and does not support download.</string>
+    <string name="history_transmit_all_noexist">Please download the file,and then forward.</string>
+    <string name="history_send_file_not_exist">File not exist</string>
+    <string name="open_with_other_app">Other app to open</string>
+    <string name="resume_download">Resume</string>
+    <string name="pause_download">Pause</string>
+    <string name="actoma_cannot_open">Actoma+ can not open the file , Please select other app</string>
+    <string name="history_file_none_tool">Does not match to the tool cannot open</string>
+    <string name="history_select_file_none">After you select the file operations</string>
+    <string name="history_file_downloaded">There are already downloaded files.</string>
+    
+    <string name="sender_name_separate" tools:ignore="MissingTranslation">： </string>
+    <string name="video_record_close">Cancel</string>
+    <string name="video_record_unit">S</string>
+    <string name="save_video">Save to Phone</string>
+    <string name="del_video">Delete</string>
+    <string name="save_video_failed">Video save failed</string>>
+    <string name="save_video_to_path">The video has been saved to a %s folder</string>>
+    <string name="video_play_starttime">00:00</string>>
+    <string name="video_record_timeshort">Message too short</string>
+    <string name="im_file_encrpto">File encrypting</string>
+    <string name="history_file_category_week">One week</string>
+    <string name="history_file_year_month">y/M</string>
+    <string name="download_file_title">File Download</string>
+    <string name="download_file_net_type">Currently used is a data network, continue to upgrade will use 2G/3G/4G traffic, whether to continue?</string>
+    <string name="download_file_btn_continue">Continue</string>
+    <string name="download_file_btn_cancel">Cancel</string>
+</resources>

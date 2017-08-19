@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="base_title_gold">#CCB481</color>
+    <color name="common_fifty_percent_black">#80000000</color>
+    <color name="talk_list_item_click_color">#e3e3e3</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="base_black_95">#F3000000</color>
+    <color name="base_black_37">#60000000</color>
+    <color name="talk_list_item_user_name_color">#F3000000</color>
+    <color name="common_ninety_five_percent_black">#f3000000</color>
+    <color name="common_sixty_five_percent_black">#a6000000</color>
+    <color name="talk_list_item_content_color">#A6000000</color>
+
+    <color name="common_ninety_five_percent_white">#f3ffffff</color>
+
+
+    <color name="base_bottom_gold">#AE9153</color>
+    <color name="listview_group_bg">#EEEEEE</color>
+    <color name="base_black_65">#A6000000</color>
+    <color name="long_dialog_line">#bebebe</color>
+    <color name="talk_list_dialog_text_color">#3f3f3f</color>
+    <color name="talk_list_item_top_backcolor">#fffaef</color>
+
+    <!-- ToolBar 弹出菜单背景色-->
+    <color name="base_title_popup_gold">#E5D9C1</color>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="chat_action_separate">#999999</color>
+    <color name="chat_actionmenu_item_txt_color">#333333</color>
+    <color name="chat_actionmenu_item_txt_disable_color">#80000000</color>
+
+
+
+    <color name="recording_control_bg_color">#a6000000</color>
+    <color name="recording_control_text_color_recorder_time_label">#fff4dc</color>
+    <color name="recording_control_text_color_recorder_bottom_tv">#fff1d4</color>
+
+    <!-- 文本消息文字颜色 -->
+    <color name="chatlist_item_txt_color">#222222</color>
+    <color name="chatlist_item_sender_name_color">#888888</color>
+    <color name="chatlist_item_sendstate_txt_color">#80000000</color>
+    <color name="time_line_background">#FFF4F4F4</color>
+
+    <color name="chat_operate_divider_color">#999999</color>
+    <color name="chat_operate_divider_color_bottom">#cccccc</color>
+
+    <color name="action_menu_more_press">#cccccc</color>
+    <color name="action_menu_more_normal">#ffffff</color>
+    <color name="black">#000000</color>
+
+
+    <!--single chat settings resource cxp add 2015-7-27-->
+    <color name="activity_single_chat_settings_bg_color">#f7f7f7</color>
+    <color name="single_chat_settings_item_bg_color">#ffffff</color>
+    <color name="common_dividing_line_bg_color">#cccccc</color>
+    <!--single chat settings resource end-->
+    <!--group chat settings resource cxp add 2015-7-27-->
+    <color name="activity_group_chat_settings_bg_color">#eeeeee</color>
+    <color name="group_chat_settings_item_bg_color">#ffffff</color>
+    <!--group chat settings resource end-->
+
+    <color name="listview_bg_withgroup">#FFFFFF</color>
+    <color name="listview_bg_nogroup">#EEEEEE</color>
+    <color name="listview_item_bg">#FFFFFF</color>
+    <color name="base_horizontal_line">#CCCCCC</color>
+
+    <color name="error_loading_ly_bg_color">#EEEEEE</color>
+    <color name="network_load_refresh_color">#80000000</color>
+    <!--add by ycm for Linkcolor-->
+    <color name="link_color">#6F91FF</color>
+    <color name="share_pop_nick">#A6000000</color>
+    <!--add by zya-->
+    <color name="history_file_item_bg">#FFFFFF</color>
+    <color name="progress_bar_bg">#e5d9c1</color>
+    <color name="progress_bar">#504c43</color>
+    <color name="rec_progress_bar_bg">#f8f8f8</color>
+    <color name="rec_progress_bar">#575757</color>
+    <color name="history_file_toolbar_select_color">#F3000000</color>
+    <color name="history_file_text_color">#A6000000</color>
+    
+    <!--minvideo-->
+    <color name="btn_bg">#e9e9e9</color>
+    <color name="transparent_progress_recorder">#00ffffff</color>
+    <color name="input_edittext_line_color">#999999</color>
+    <color name="input_edittext_line_default_color">#CCCCCC</color>
+    <color name="video_param_color">#7f000000</color>
+</resources>

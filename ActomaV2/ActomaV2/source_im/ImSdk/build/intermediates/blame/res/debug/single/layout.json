@@ -1,0 +1,426 @@
+[
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_ok_toast.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_ok_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_circle_progress_dialog.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_circle_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_tool_bar.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_tool_bar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_wrong_toast.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_wrong_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_toast.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_progress_dialog.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_circle_progress_notext_dialog.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_circle_progress_notext_dialog.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_right_toast.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_right_toast.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_pop_zxing.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_pop_zxing.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture_common.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\activity_capture_common.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_progress_dialog.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_accurate_progress_dialog.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_accurate_progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_normal_dialog.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_normal_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_title.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_title.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_wrong_toast.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_wrong_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_fuzzy_progress_dialog.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_fuzzy_progress_dialog.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_timepicker.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_timepicker.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\circle_head_iamge.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\circle_head_iamge.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_fuzzy_progress_dialog.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_fuzzy_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_toolbar.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_toolbar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\activity_capture_common.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\activity_capture_common.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_pop_zxing.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_pop_zxing.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_toolbar.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_toolbar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_circle_progress_dialog.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_circle_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_accurate_progress_dialog.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_accurate_progress_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_circle_progress_notext_dialog.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_circle_progress_notext_dialog.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_tool_bar.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_tool_bar.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_normal_dialog.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_normal_dialog.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_ok_toast.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_ok_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\circle_head_iamge.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\circle_head_iamge.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_right_toast.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\presenter\\unspecified\\res\\layout\\view_right_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_toast.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_toast.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_timepicker.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_timepicker.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\view_custom_title.xml",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\layout\\view_custom_title.xml"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_media_action.xml"
+    }
+]

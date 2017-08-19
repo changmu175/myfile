@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Data_MainFrame</string>
+    <string name="unknow_server_ex">"未知的服务异常"</string>
+</resources>

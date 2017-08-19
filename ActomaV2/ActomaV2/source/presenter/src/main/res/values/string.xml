@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="delete_record">Sure to delete this record?</string>
+    <string name="ok_text">OK</string>
+    <string name="cancel_text">Cancel</string>
+    <string name="net_time_wrong_ex">Current time is inconsistent with Beijing time,current operation has risk</string>
+    <string name="net_timeout_and_retry">Network request time over, check your network setting and retry please</string>
+    <string name="net_disable">Network unavailable, check your network setting please </string>
+    <string name="update_dialog_title_tip">Tip</string>
+    <string name="url_invalid">invalid address</string>
+    <string name="download_app_mobile_net_tip">Tip</string>
+    <string name="download_chip_tip">\tChip Manager provides Actoma+ a service that based on hardware-level encryption and decryption, now go to install it~~</string>
+    <string name="i_know">I got it</string>
+    <string name="download_chip_tip_login_state">\tChip Manager has been uninstalled, Actoma+ can not be used normally, please install Chip Manager and restart Actoma+</string>
+    <string name="download_chip_now">Now go to install</string>
+    <string name="download_chip_later">Install later</string>
+    <string name="no_chip">Not detect safe device, check please.</string>
+</resources>

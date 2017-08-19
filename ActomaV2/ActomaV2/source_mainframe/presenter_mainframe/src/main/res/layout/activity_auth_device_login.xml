@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    android:orientation="vertical"
+    tools:context="com.xdja.presenter_mainframe.presenter.activity.setting.AuthDeviceLoginPresenter">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <TextView
+        style="@style/normal_text"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:layout_marginTop="@dimen/base_18"
+        android:text="@string/auth_device_login_top_text" />
+
+    <TextView
+        style="@style/normal_text"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:layout_marginTop="@dimen/base_30"
+        android:text="@string/auth_device_login_way1"
+        android:textSize="@dimen/smaller_text_size_12" />
+
+    <com.xdja.presenter_mainframe.widget.inputView.ButtonTextInputView
+        android:id="@+id/inputView_auth_device_login_serial_number"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_48"
+        android:layout_marginTop="@dimen/base_14"
+        app:firstText="@string/serial_number"
+        app:inputHint="@string/serial_number_input_hint"
+        app:isShowAssistView="false" />
+
+    <Button
+        android:id="@+id/btn_auth_device_login_certain"
+        style="@style/gold_big_button"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:textAllCaps="false"
+        android:layout_marginTop="@dimen/base_14"
+        android:text="@string/certain" />
+
+    <TextView
+        style="@style/normal_text"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:layout_marginTop="@dimen/base_30"
+        android:text="@string/auth_device_login_way2"
+        android:textSize="@dimen/smaller_text_size_12" />
+
+    <Button
+        android:id="@+id/btn_auth_device_login_scan"
+        style="@style/gold_big_button"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:layout_marginTop="@dimen/base_14"
+        android:textAllCaps="false"
+        android:background="@drawable/sel_bg_green"
+        android:text="@string/scan" />
+</LinearLayout>

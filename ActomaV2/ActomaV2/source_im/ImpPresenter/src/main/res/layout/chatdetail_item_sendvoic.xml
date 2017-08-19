@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants">
+
+    <!--时间线-->
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/send_content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_below="@id/layout_timeLine">
+
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/header"
+            style="@style/talkdetail_senderImage"
+            android:layout_alignParentRight="true" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/header"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/chatlist_item_pao_right_margin_r">
+                <RelativeLayout
+                    android:id="@+id/content_layout"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    style="@style/talkdetail_sendContentLayout"
+                    android:clickable="true">
+
+                    <TextView
+                        android:id="@+id/voicelength"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="12dp"
+                        android:textColor="@color/chatlist_item_txt_color"
+                        android:textIsSelectable="false"
+                        android:textSize="@dimen/chatlist_item_txt_size"
+                        tools:ignore="RelativeOverlap" />
+
+                    <ImageView
+                        android:id="@+id/img_anim_voic_me"
+                        android:layout_width="@dimen/chatlist_item_voic_img_size"
+                        android:layout_height="@dimen/chatlist_item_voic_img_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/chatlist_item_voic_img_margin_right"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginBottom="9dp"
+                        android:contentDescription="@null"/>
+                </RelativeLayout>
+
+                <!--发送状态-->
+                <ImageButton
+                    android:id="@+id/reSend"
+                    style="@style/talkdetail_sendState"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@id/content_layout"
+                    android:contentDescription="@null"/>
+
+                <ProgressBar
+                    android:id="@+id/sendProgress"
+                    style="?android:attr/progressBarStyleSmall"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_centerVertical="true"
+                    android:indeterminateBehavior="repeat"
+                    android:indeterminateOnly="true"
+                    android:layout_marginRight="3dp"
+                    android:indeterminateDrawable="@drawable/chat_loading_message_resource"
+                    android:layout_toLeftOf="@id/reSend"/>
+            </RelativeLayout>
+
+            <!--消息接收状态-->
+            <TextView
+                android:id="@+id/sendState"
+                style="@style/talkdetail_receiveState"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="17dp"
+                android:text="@string/send_success"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

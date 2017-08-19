@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/abs_ic_more"
+        android:title="@string/action_more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_submit"
+                android:icon="@drawable/bottom_ic_transmit_normal"
+                android:title="@string/forward"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="InputView">
+        <attr name="firstText" format="string" />
+        <attr name="firstIcon" format="reference"/>
+        <attr name="inputHint" format="string" />
+        <attr name="inputPaddingRight" format="dimension" />
+        <attr name="isShowAssistView" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="PartClickTextView">
+        <attr name="underlineText" format="string" />
+        <attr name="underlineTextColor" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="ClipView">
+        <attr name="margin" format="dimension|reference" />
+        <attr name="width" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SettingBarView">
+        <attr name="android:text" />
+        <attr name="android:src"/>
+        <attr name="imageWidth" format="dimension"/>
+        <attr name="imageHeight" format="dimension"/>
+        <attr name="secondText" format="string" />
+        <attr name="isShowArrow" format="boolean"/>
+        <attr name="isShowTopLine" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabView">
+        <attr name="tab_text_size" format="dimension" />
+        <attr name="tab_text_select_color" format="color" />
+        <attr name="tab_text_normal_color" format="color" />
+        <attr name="tab_item_padding" format="dimension" />
+        <attr name="tab_main_position" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="FlipPoint">
+        <attr name="index" format="integer" />
+        <attr name="total" format="integer" />
+        <attr name="pointOnSize" format="dimension|reference" />
+        <attr name="pointOffSize" format="dimension|reference" />
+        <attr name="pointMargin" format="dimension|reference" />
+        <attr name="pointSelcted" format="reference" />
+        <attr name="pointNoneSelected" format="reference" />
+    </declare-styleable>
+
+
+
+    <!-- LockPatternView class attributes -->
+    <declare-styleable name="LockPatternView">
+        <attr name="aspect">
+            <enum name="square" value="0" />
+            <enum name="lockWidth" value="1" />
+            <enum name="lockHeight" value="2" />
+        </attr>
+        <attr name="line" format="color" />
+        <attr name="btnNormal" format="reference" />
+        <attr name="btnTouched" format="reference" />
+        <attr name="circleNormal" format="reference" />
+        <attr name="circleGreen" format="reference" />
+        <attr name="circleRed" format="reference" />
+        <attr name="arrowGreenUp" format="reference" />
+        <attr name="arrowRedUp" format="reference" />
+    </declare-styleable>
+
+</resources>

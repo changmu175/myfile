@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_select_upload_image_camera"
+    android:layout_width="84dp"
+    android:layout_height="84.66dp"
+    android:background="@color/base_black_95"
+    tools:ignore="Overdraw">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="84.66dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+
+        <ImageView
+            android:layout_width="64dip"
+            android:layout_height="60dip"
+            android:contentDescription="@null"
+            android:clickable="false"
+            android:src="@drawable/img_camera_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:clickable="false"
+            android:text="@string/to_camera"
+            android:textColor="@color/base_white_95"
+            android:textSize="@dimen/body2_12"/>
+    </LinearLayout>
+</FrameLayout>

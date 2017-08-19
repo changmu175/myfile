@@ -1,0 +1,73 @@
+apply plugin: 'com.android.library'
+
+android {
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+        disable("InvalidPackage",
+                "TrustAllX509TrustManager",  //第三方jar包中，无法修改，只有忽略
+                "DefaultLocale")
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+    compile project(':ImpDomain')
+    compile files('libs/xutilsdbplugin.jar')
+    //compile files('libs/XdjaImSdk_V1.1.8_0106_D.jar')
+
+    def imDependencies = rootProject.ext.imDependencies
+    def dataTestDependencies = rootProject.ext.dataTestDependencies
+
+    compile imDependencies.supportAnnotation
+    compile imDependencies.appcompat
+    compile imDependencies.rxAndroid
+    compile imDependencies.okHttp3
+    compile imDependencies.okhttpUrlconn
+    compile imDependencies.okHttpLog
+    compile imDependencies.otto
+    compile imDependencies.retrofit2
+    compile imDependencies.dagger
+    //JUNIT TEST DEPENDENCE
+    testCompile dataTestDependencies.junit
+    testCompile dataTestDependencies.mockito
+    testCompile dataTestDependencies.robolectric
+    testCompile "org.mockito:mockito-core:${mockitoVersion}"
+    compile project(path: ':ImSdk')
+    compile project(path: ':ActomaCommen')
+    compile project(path: ':comdependence')
+    compile project(path: ':ActomaContact')
+}

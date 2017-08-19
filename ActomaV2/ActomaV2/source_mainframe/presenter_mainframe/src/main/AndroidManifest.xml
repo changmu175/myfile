@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xdja.presenter_mainframe">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <!-- modify by lixiaolong on 20160905. fix bug 3678. change allowBackup to false. -->
+    <application
+        android:name=".ActomaApplication"
+        android:allowBackup="false"
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AtTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".presenter.activity.ProductIntroductionAnimPresenter"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.login.LoginPresenter"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/AtTheme.Transparent" />
+        <activity
+            android:name=".presenter.activity.login.DataMigrationAccountPresenter"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:label="@string/login"
+            android:theme="@style/AtTheme.Transparent" />
+        <activity
+            android:name=".presenter.activity.login.DataMigrationFixPwdPresenter"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:label="@string/title_set_login_pwd"
+            android:theme="@style/AtTheme.Transparent" />
+        <activity
+            android:name=".presenter.activity.login.MessageVerifyLoginPresenter"
+            android:label="@string/title_message_verify_code_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.login.EmpowerDeviceLoginPresenter"
+            android:label="@string/title_empower_device_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.login.VerifyLoginPresenter"
+            android:label="@string/title_verify_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.login.VerifyPhoneNumberPresenter"
+            android:label="@string/title_verify_phone_number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.login.VerifyFriendPhonePresenter"
+            android:label="@string/title_verify_friend_phone"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.register.WriteRegistrationInfoPresenter"
+            android:label="@string/title_write_registration_info"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait" />
+        <!-- //modify by alh@xdja.com to fix bug: 455 2016-06-23 start (rummager : liuwangle) -->
+        <activity
+            android:name=".presenter.activity.LauncherPresenter"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true"
+            android:taskAffinity="${applicationId}.launcher"
+            android:theme="@style/updateTransparent">
+            <!-- //modify by alh@xdja.com to fix bug: 455 2016-06-23 end (rummager : liuwangle) -->
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xdja.actoma.DEFAULT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".presenter.activity.SplashPresenter"
+            android:theme="@style/Theme.Shut"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".presenter.activity.register.ChooseAccountPresenter"
+            android:label="@string/title_choose_account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.register.RegisterVerifyPhoneNumberPresenter"
+            android:label="@string/title_verify_phone_number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.resetPassword.ResetPasswordVerifyPhonePresenter"
+            android:label="@string/title_verify_phone_number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.resetPassword.ResetPasswordPresenter"
+            android:label="@string/title_reset_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.resetPassword.ResetPwdInputNewPasswordPresenter"
+            android:label="@string/title_input_new_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.SettingInputNewPasswordPresenter"
+            android:label="@string/title_input_new_password"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.SelectUploadImagePresenter"
+            android:label="@string/title_activity_view_select_upload_images"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.FeedBackPresenter"
+            android:label="@string/title_activity_view_feed_back"
+            android:screenOrientation="portrait" />
+
+        <!-- 选择图像部分 -->
+        <activity
+            android:name=".chooseImg.SetHeadPortraitPresenter"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_view_set_head_portrait"
+            android:theme="@style/AtTheme.Transparent"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.xdja.actoma.ACTION_SET_AVATAR" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.xdja.intent.category.SET_AVATAR" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chooseImg.CutImagePresenter"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AtTheme.Transparent"
+            android:label="@string/title_activity_view_cut_image"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.resetPassword.ResetPasswordVerifyFriendPhonePresenter"
+            android:label="@string/title_verify_friend_phone"
+            android:screenOrientation="portrait" />
+
+        <!-- 设置相关内容 -->
+        <activity
+            android:name=".presenter.activity.setting.SettingActivityPresenter"
+            android:label="@string/title_setting"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+         />
+        <activity
+            android:name=".presenter.activity.setting.AccountSafePresenter"
+            android:label="@string/title_account_safe"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+            />
+        <activity
+            android:name=".presenter.activity.setting.DeviceManagerPresenter"
+            android:label="@string/title_device_manager"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.UserDetailPresenter"
+            android:label="@string/title_user_detail"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.BindPhoneNumberPresenter"
+            android:label="@string/title_bind_phone_number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.ModifyPhoneNumberPresenter"
+            android:label="@string/title_modify_phone_number"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.AuthDeviceLoginPresenter"
+            android:label="@string/title_auth_device_login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.SetAccountPresenter"
+            android:label="@string/title_set_account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.register.SetPreAccountPresenter"
+            android:label="@string/title_set_account"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.SetNicknamePresenter"
+            android:label="@string/title_set_nickname"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.AuthAccountLoginPresenter"
+            android:label="@string/title_auth_account_Login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".presenter.activity.NewEncryptPresenter"
+            android:label="@string/setting_thirdpart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.EncryptGuidePresenter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.AboutActomaPresenter"
+            android:label="@string/title_setting_about_soft"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.setting.UpdateTransparentPresenter"
+            android:label="@string/aboutactoma_versionupdate"
+            android:theme="@style/updateTransparent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presenter.activity.WebViewPresenter"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_view_terms_policy" />
+        <activity
+            android:name=".presenter.activity.MainFramePresenter"
+            android:label="@string/title_mainFrame"
+            android:screenOrientation="portrait" />
+        <activity android:name=".presenter.activity.setting.NewsRemindPresenter"
+                  android:screenOrientation="portrait"
+                  android:label="@string/setting_news_remind"/>
+
+        <activity android:name=".presenter.activity.setting.NoDisturbPresenter"
+            android:screenOrientation="portrait"
+            android:label="@string/nodistrub_top_message"/>
+
+        <activity
+            android:name=".presenter.activity.setting.DropMessagePresenter"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_view_drop_all_message_call"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".presenter.activity.setting.SettingSafeLockPresenter"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_view_safe_lock"/>
+        <activity
+            android:name=".presenter.activity.setting.OpenSafeLockPresenter"
+            android:label="@string/title_activity_view_safe_lock"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".presenter.activity.setting.SettingGesturePresenter"
+            android:label="@string/title_activity_set_gesture_lock"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".presenter.activity.setting.OpenGesturePresenter"
+            android:label="@string/title_activity_set_gesture_lock"
+            android:windowSoftInputMode="stateHidden"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"/>
+
+        <activity
+            android:name=".presenter.activity.setting.ChoiceLanguagePresenter"
+            android:label="@string/multi_language"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".enc3rd.service.EncryptService"
+            android:stopWithTask="false" />
+        <!--用于处理联系人加解密相关操作的receiver-->
+        <receiver android:name=".receiver.ContactModulEncryptReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.contact.close_frame_transfer" />
+                <action android:name="com.xdja.contact.open_frame_transfer" />
+                <action android:name="com.xdja.contact.change_nick_name" />
+                <action android:name="com.xdja.contact.delete_friend_or_departmember" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.UpdateReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.actoma.update" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.PushReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.apushsdk" />
+            </intent-filter>
+        </receiver>
+	
+			<receiver
+            android:name=".receiver.SilentLoginReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.action.silentlogin"/>
+            </intent-filter>
+        </receiver>
+        <!-- 安通+定时检测升级服务 -->
+        <service
+            android:name=".service.UpdateService"
+            android:enabled="true" />
+
+        <!--    PushSdk 配置信息。开始               -->
+        <receiver android:name="com.xdja.pushsdk.npc.npcs.util.NPCUtilReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.service.alarm" />
+                <action android:name="com.xdja.npcs.INVITESUB" />
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.intent.action.SCREEN_OFF" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.xdja.pushsdk.npc.service.MqttService"
+            android:process="com.xdja.npcs"
+            tools:ignore="ExportedService">
+            <intent-filter android:priority="1000">
+                <action android:name="com.xdja.MqttService" />
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.xdja.pushsdk.npc.service.MqttServiceReceiver"
+            android:process="com.xdja.npcs">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.xdja.pushsdk.npc.aidl.GuardService"
+            android:process=":guard"
+            tools:ignore="ExportedService">
+            <intent-filter>
+                <action android:name="com.xdja.service.aidl" />
+            </intent-filter>
+        </service>
+        <!--          PushSdk 配置信息。结束             -->
+        <!--tangsha@xdja.com 2016-08-09 add. for open third transfer. review by self. start-->
+        <service android:name=".service.CkmsService"
+            android:exported="true"
+            android:enabled="true"
+            tools:ignore="ExportedService"
+            >
+            <intent-filter>
+                <action android:name="com.xdja.comm.ckms.CkmsService" />
+            </intent-filter>
+        </service>
+        <!--tangsha@xdja.com 2016-08-09 add. for open third transfer. review by self. start-->
+        <receiver
+            android:name=".receiver.Application2FrontReceiver"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.application2front" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receiver.ApplicationExitReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.xdja.application.exit" />
+            </intent-filter>
+        </receiver>
+        <!-- 接收关机,开机,重启广播的Receiver -->
+        <receiver android:name=".receiver.ShutDownReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.REBOOT" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+        <!--接收安装卸载广播的Receiver-->
+        <receiver android:name=".receiver.InstallOrUnIstallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".receiver.ViewCallerReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.actoma.push.handler"/>
+            </intent-filter>
+        </receiver>
+        <!--tangsha@xdja.com 2016-08-09 add. for ckms refresh. review by self. start-->
+        <receiver android:name=".receiver.CkmsReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.xdja.actoma.ckms.handler"/>
+            </intent-filter>
+        </receiver>
+        <!--tangsha@xdja.com 2016-08-09 add. for ckms refresh. review by self. end-->
+
+	<!--licong@xdja.com 2016-10-18 add. for haixinwanwei. start-->
+        <receiver android:name=".receiver.KeyDownReceiver"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="com.android.intent.action.XDJA_END_CALL" />
+            </intent-filter>
+        </receiver>
+	<!--licong@xdja.com 2016-10-18 add. for haixinwanwei. end-->
+    </application>
+
+</manifest>

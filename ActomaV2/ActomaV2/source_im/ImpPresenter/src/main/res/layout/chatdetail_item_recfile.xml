@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layout_timeLine"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/base_6"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/timeLine"
+            style="@style/talkdetail_timeLine" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_timeLine"
+        android:layout_marginBottom="@dimen/base_8">
+
+        <!--发送者头像-->
+        <com.xdja.comm.circleimageview.CircleImageView
+            android:id="@+id/header"
+            style="@style/talkdetail_senderImage" />
+
+        <LinearLayout
+            android:id="@+id/content_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/file_item_height"
+            android:layout_toRightOf="@id/header"
+            android:background="@drawable/bg_pao_left_selector"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="@dimen/base_16"
+                android:layout_marginRight="@dimen/base_6"
+                android:layout_marginLeft="@dimen/base_16"
+                android:layout_marginBottom="@dimen/base_16">
+
+                <ImageView
+                    android:id="@+id/file_logo"
+                    android:layout_width="@dimen/file_item_logo"
+                    android:layout_height="@dimen/file_item_logo"
+                    android:layout_centerInParent="true"
+                    android:contentDescription="@null"/>
+
+                <ImageView
+                    android:id="@+id/state_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:alpha="40"
+                    android:scaleType="fitXY"
+                    android:contentDescription="@null"/>
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/base_8"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="@dimen/base_8">
+
+                <TextView
+                    android:id="@+id/file_name"
+                    android:layout_width="@dimen/file_item_name_width"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="middle"
+                    android:singleLine="true"
+                    android:textColor="#F3000000"
+                    android:textIsSelectable="false"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/file_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/base_8"
+                    android:singleLine="true"
+                    android:textColor="#F3000000"
+                    android:textIsSelectable="false"
+                    android:textSize="@dimen/chatlist_item_sendstate_txt_size" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/recprogress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:progressDrawable="@drawable/rec_filebar_bg"
+            android:layout_width="@dimen/file_item_progress_width"
+            android:layout_height="@dimen/base_4"
+            android:layout_alignBottom="@id/content_layout"
+            android:layout_marginBottom="@dimen/base_6"
+            android:layout_marginLeft="@dimen/base_56"
+            android:max="100"
+            android:indeterminate="false" />
+    </RelativeLayout>
+</RelativeLayout>

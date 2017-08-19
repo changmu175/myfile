@@ -1,0 +1,658 @@
+[
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_removeuser_pressed.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_removeuser_pressed.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\group_avatar_40.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\group_avatar_40.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_title.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_title.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_version_big.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_version_big.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_ic_toast_success.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_ic_toast_success.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_abs_ic_back.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_abs_ic_back.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_avater_40.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_avater_40.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_avater_64.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_avater_64.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_checkbox_checked.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_checkbox_checked.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_common_btn_pressed.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_common_btn_pressed.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_contact_search_icon.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_contact_search_icon.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_delete_normal.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_delete_normal.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\antong_login.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\antong_login.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_list.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_list.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_toolbar_btn_normal.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_toolbar_btn_normal.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_listitem_unexpand.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_listitem_unexpand.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_bg_toast.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_bg_toast.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_searchbar_search.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\ic_searchbar_search.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_ic_toast_success.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_ic_toast_success.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_toolbar_btn_pressed.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_toolbar_btn_pressed.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_delete_pressed.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_delete_pressed.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_adduser_normal.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_adduser_normal.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_adduser_normal.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_adduser_normal.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_notification_small.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_notification_small.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_delete_normal.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_delete_normal.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_list.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_list.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_searchbar_clear.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\ic_searchbar_clear.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_common_btn_normal.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_common_btn_normal.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_abs_bg_s.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_abs_bg_s.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_checkbox_gray_selected.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_checkbox_gray_selected.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_abs_bg_s.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_abs_bg_s.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_title.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_title.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_adduser_pressed.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_adduser_pressed.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_info.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_info.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_checkbox_gray_selected.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_checkbox_gray_selected.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_avater_100.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_avater_100.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_img_arrow.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\bg_img_arrow.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_avater_100.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_avater_100.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\edit_text_cursor.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\edit_text_cursor.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_common_btn_pressed.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_common_btn_pressed.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_listitem_unexpand.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_listitem_unexpand.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_toolbar_btn_pressed.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_toolbar_btn_pressed.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_toolbar_btn_normal.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_toolbar_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_toast.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_toast.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_searchbar_search.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\ic_searchbar_search.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_notification_small.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_notification_small.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_checkbox_checked.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_checkbox_checked.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qr_scan_line.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\qr_scan_line.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_info.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_info.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_version.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_version.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_version_big.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_version_big.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_listitem_expand.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_listitem_expand.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_abs_ic_back.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_abs_ic_back.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_bg_toast.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_bg_toast.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_listitem_expand.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_listitem_expand.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_searchbar_clear.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\ic_searchbar_clear.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\group_avatar_40.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\group_avatar_40.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_avater_64.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_avater_64.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_checkbox_normal.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_checkbox_normal.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_ic_toast.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_ic_toast.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_voip_call.jpg",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_voip_call.jpg"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\qr_scan_line.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\qr_scan_line.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_ic_toast.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_ic_toast.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_avater_40.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_avater_40.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_removeuser_normal.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_removeuser_normal.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_toast.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_toast.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_notification_big.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_notification_big.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\circle_head_deafult_56.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\circle_head_deafult_56.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\circle_head_deafult_56.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\circle_head_deafult_56.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_adduser_pressed.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_adduser_pressed.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\antong_login.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\antong_login.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_notification_big.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_notification_big.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_common_btn_normal.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_common_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_delete_pressed.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_delete_pressed.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\at_version.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\at_version.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\edit_text_cursor.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\edit_text_cursor.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_abs_ic_logo.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_abs_ic_logo.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_checkbox_normal.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_checkbox_normal.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_contact_search_icon.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_contact_search_icon.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_voip_call.jpg",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_voip_call.jpg"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_removeuser_pressed.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_removeuser_pressed.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\bg_img_arrow.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\bg_img_arrow.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_search.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\icon_search.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_clear_mtrl_alpha.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\img_btn_removeuser_normal.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\img_btn_removeuser_normal.png"
+    },
+    {
+        "merged": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\af_abs_ic_logo.png",
+        "source": "G:\\ActomaV2\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\af_abs_ic_logo.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon_search.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\ActomaV2\\ActomaCommen\\unspecified\\res\\drawable-xxhdpi-v4\\icon_search.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "F:\\as-workspace2\\AtV2-Client\\ActomaV2\\source_im\\ImSdk\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-xxhdpi\\abc_btn_rating_star_on_mtrl_alpha.png"
+    }
+]

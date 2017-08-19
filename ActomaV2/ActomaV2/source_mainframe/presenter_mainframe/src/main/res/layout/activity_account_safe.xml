@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    tools:context="com.xdja.presenter_mainframe.presenter.activity.setting.AccountSafePresenter">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_account_safe_account"
+        style="@style/setting_item"
+        android:text="@string/at_account" />
+
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:id="@+id/sb_account_safe_phone"
+        style="@style/setting_item"
+        android:text="@string/phone_number" />
+
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:layout_marginTop="8dp"
+        android:id="@+id/sb_account_safe_safety_lock"
+        app:isShowTopLine="true"
+        style="@style/setting_item"
+        android:text="@string/safe_lock" />
+
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:layout_marginTop="8dp"
+        android:id="@+id/sb_account_safe_modify_password"
+        app:isShowTopLine="true"
+        style="@style/setting_item"
+        android:text="@string/modify_password" />
+
+
+    <com.xdja.presenter_mainframe.widget.SettingBarView
+        android:layout_marginTop="8dp"
+        android:id="@+id/sb_account_safe_login_device_manager"
+        app:isShowTopLine="true"
+        style="@style/setting_item"
+        android:text="@string/login_device_manager" />
+</LinearLayout>

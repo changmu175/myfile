@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.neenbedankt.android-apt'
+
+android {
+
+    def globalConfiguration = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion globalConfiguration.getAt("androidCompileSdkVersion")
+    buildToolsVersion globalConfiguration.getAt("androidBuildToolsVersion")
+
+    defaultConfig {
+        minSdkVersion globalConfiguration.getAt("androidMinSdkVersion")
+        targetSdkVersion globalConfiguration.getAt("androidTargetSdkVersion")
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            debuggable false
+            defaultPublishConfig "release"
+            buildConfigField "boolean", "LOGABLE", "false"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            minifyEnabled false
+            debuggable true
+            defaultPublishConfig "debug"
+            buildConfigField "boolean", "LOGABLE", "true"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+	
+	lintOptions {
+        abortOnError false
+        disable("InvalidPackage")
+    }
+    buildToolsVersion '25.0.2'
+}
+
+dependencies {
+
+    compile project(':domain')
+    compile project(':comm_mainframe')
+
+    def domainDependencies = rootProject.ext.domainDependencies
+    def domainTestDependencies = rootProject.ext.domainTestDependencies
+
+    compile domainDependencies.supportAnnotation
+
+    //rxjava
+    compile domainDependencies.rxJava
+    //dagger2
+    compile domainDependencies.dagger
+    apt domainDependencies.daggerCompiler
+    //provided domainDependencies.javaxAnnotation
+
+    testCompile domainTestDependencies.junit
+    testCompile domainTestDependencies.mockito
+    compile project(path: ':ActomaCommen')
+    compile project(path: ':comdependence')
+    compile project(path: ':ActomaContactCommon')
+}

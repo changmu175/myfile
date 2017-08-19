@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".presenter.activity.register.WriteRegistrationInfoPresenter">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="@dimen/biggest_img_96"
+                android:layout_height="@dimen/biggest_img_96"
+                android:layout_marginTop="@dimen/base_16">
+
+                <com.xdja.comm.circleimageview.CircleImageView
+                    android:id="@+id/circleImg_write_registration_info"
+                    android:layout_width="@dimen/biggest_img_96"
+                    android:layout_height="@dimen/biggest_img_96"
+                    android:src="@drawable/sel_bg_register_avater" />
+                <TextView
+                    android:id="@+id/txt_lable_setphoto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:textSize="@dimen/smaller_text_size_12"
+                    android:textColor="@color/blade_white_100"/>
+            </FrameLayout>
+
+
+            <com.xdja.presenter_mainframe.widget.FillInMessage.FillInMessageView
+                android:id="@+id/fmv_write_registration_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/base_16" />
+
+            <TextView
+                style="@style/normal_text"
+                android:layout_marginTop="@dimen/base_20"
+                android:text="@string/write_registration_info_terms1"
+                android:textColor="@color/blade_black_65" />
+
+            <com.xdja.presenter_mainframe.widget.PartClickTextView
+                android:id="@+id/pctv_write_registration_info_terms"
+                style="@style/normal_text"
+                android:textColor="@color/blade_black_65"
+                android:textColorLink="@color/underline_text_gold_color"
+                app:underlineText="@string/write_registration_info_terms2"
+                app:underlineTextColor="1"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

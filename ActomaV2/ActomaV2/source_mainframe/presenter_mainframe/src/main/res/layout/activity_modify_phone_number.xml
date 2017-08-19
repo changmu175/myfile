@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/activity_background_color"
+    tools:ignore="Overdraw"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.xdja.presenter_mainframe.presenter.activity.setting.ModifyPhoneNumberPresenter">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/view_toolbar" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@null"
+        android:layout_marginTop="@dimen/base_24"
+        android:background="@mipmap/img_phone_success" />
+
+    <TextView
+        style="@style/normal_text"
+        android:layout_marginTop="@dimen/base_30"
+        android:text="@string/binded_phone_number"
+        android:textColor="@color/blade_black_65" />
+
+    <TextView
+        android:id="@+id/tv_modify_phone_number_phone"
+        style="@style/normal_text"
+        android:layout_marginTop="@dimen/base_16"
+        android:textSize="@dimen/text_size_24"
+         />
+
+    <Button
+        android:id="@+id/btn_modify_phone_number_modify"
+        style="@style/gold_big_button"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin_16"
+        android:layout_marginRight="@dimen/activity_horizontal_margin_16"
+        android:layout_marginTop="@dimen/base_40"
+        android:text="@string/modify_phone_number"
+        android:textAllCaps="false"/>
+
+    <TextView
+        style="@style/normal_text"
+        android:layout_marginLeft="@dimen/base_24"
+        android:layout_marginRight="@dimen/base_24"
+        android:layout_marginTop="@dimen/base_16"
+        android:text="@string/modify_phone_number_result"
+        android:textColor="@color/blade_black_65"
+        android:textSize="@dimen/smaller_text_size_12" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.xdja.presenter_mainframe.widget.PartClickTextView
+            android:id="@+id/pctv_modify_phone_number_unbind"
+            android:textSize="@dimen/bigger_text_size_16"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="@dimen/base_24"
+            android:layout_marginEnd="@dimen/base_22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/underline_text_gold_color"
+            app:underlineText="@string/unbind_phone_number"/>
+    </FrameLayout>
+</LinearLayout>
